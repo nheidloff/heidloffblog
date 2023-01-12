@@ -15,3 +15,14 @@ categories:
 ---
 
 *Observability is key for running and operating modern applications. IBM provides a great observability tool called Instana. This post describes how alerts can be used to inform users.*
+
+To get more context about Instana, read my previous posts:
+
+- [IBM’s Observability Tool Instana](http://heidloff.net/article/ibm-observability-tool-instana/)
+- [Observing Java Cloud Native Applications with Instana](http://heidloff.net/article/observing-java-cloud-native-applications-with-instana/)
+
+Let’s take a look at a simple sample alert to get email notifications for issues in the sample robot application running in my OpenShift cluster.
+
+First you need to create an alert channel.
+
+![](../../wp-content/uploads/2023/01/instana3-4.png)
