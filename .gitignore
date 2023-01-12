@@ -1,3 +1,8 @@
+# https://github.com/cotes2020/jekyll-theme-chirpy/issues/802
+# https://github.com/cotes2020/jekyll-theme-chirpy/issues/789
+Gemfile.lock
+
+
 # hidden files
 .*
 !.git*
