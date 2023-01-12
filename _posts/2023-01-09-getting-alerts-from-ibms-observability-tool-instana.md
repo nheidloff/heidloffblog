@@ -26,3 +26,31 @@ Let’s take a look at a simple sample alert to get email notifications for issu
 First you need to create an alert channel.
 
 ![image](/assets/img/2023/01/instana3-4.png)
+
+An alert channel is associated with the alert, for example to alert people via email.
+
+![image](/assets/img/2023/01/instana3-1.png)
+
+There are different types of triggers:
+
+- Event types, e.g. incidents, warnings, etc.
+- Individual events are specific events services like Tomcat provide, e.g. number of connections
+- Smart events are events for websites, e.g. JavaScript errors
+
+![image](/assets/img/2023/01/instana3-2.png)
+
+An event can be scoped for an application perspective which in my case refers to only my OpenShift cluster.
+
+By default, the message will include some global/generic payloads, e.g. application and namespace, but you can also add custom payloads.
+
+![image](/assets/img/2023/01/instana3-3.png)
+
+The sample robot application comes with a tool to generate load and issues so that the email alert will be triggered.
+
+![image](/assets/img/2023/01/instana3-5.png)
+
+In the email is a link to detailed descriptions. In this case the memory usage of a pod was too high.
+
+![image](/assets/img/2023/01/instana3-6.png)
+
+To learn more about Instana, check out the [Instana](https://www.ibm.com/products/instana) landing page.
