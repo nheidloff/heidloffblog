@@ -8,38 +8,9 @@
 
     {% assign paths = page.url | split: '/' %}
 
-    {% if paths.size == 0 or page.layout == 'home' %}
+    {% if paths.size >= 0 or page.layout == 'home' %}
       <!-- index page -->
       <span>{{ site.data.locales[site.lang].tabs.home | capitalize }}</span>
-
-    {% else %}
-
-      {% for item in paths %}
-
-        {% if forloop.first %}
-          <span>
-            <a href="{{ '/' | relative_url }}">
-              {{ site.data.locales[site.lang].tabs.home | capitalize }}
-            </a>
-          </span>
-
-        {% elsif forloop.last %}
-
-          {% if page.collection == 'tabs' %}
-            <span>{{ site.data.locales[site.lang].tabs[item] | default: page.title }}</span>
-          {% else %}
-            <span>{{ page.title }}</span>
-          {% endif %}
-
-        {% elsif page.layout == 'category' or page.layout == 'tag' %}
-          <span>
-            <a href="{{ item | relative_url }}">
-              {{ site.data.locales[site.lang].tabs[item] | default: page.title }}
-            </a>
-          </span>
-        {% endif %}
-
-      {% endfor %}
 
     {% endif %}
 
