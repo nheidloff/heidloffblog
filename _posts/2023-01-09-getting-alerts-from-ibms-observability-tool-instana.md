@@ -25,4 +25,4 @@ Let’s take a look at a simple sample alert to get email notifications for issu
 
 First you need to create an alert channel.
 
-![](../../wp-content/uploads/2023/01/instana3-4.png)
+![_config.yml]({{ site.baseurl }}/wp-content/uploads/2023/01/instana3-4.png)
