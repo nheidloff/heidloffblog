@@ -1,36 +1,55 @@
+# The Site Configuration
+
+# Import the theme
 theme: jekyll-theme-chirpy
 
-#baseurl: ''
-#baseurl: '/heidloffnet'
+# Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
+# and doesn't have a custom domain.
+baseurl: '/heidloffblog'
 
-#url: 'https://nheidloff.github.io/heidloffnet'
-url: ''
-
+# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
+# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
+# otherwise, the layout language will use the default value of 'en'.
 lang: en
-timezone: Europe/Berlin
+
+
+# Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
+timezone:
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
-title: Niklas Heidloff
 
-tagline: "<div>Welcome to my blog!</div><div style='padding-bottom: 10px;'></div><div>I'm an IT professional focussing on development, advocacy and artificial intelligence.</div><div style='padding-bottom: 10px;'></div><div>Recently I've worked on Kubernetes, Open Source, Java and DevOps at IBM.</div><div style='padding-bottom: 10px;'></div><div>I'm a proud father of five and love building things - software as well as outdoor areas.</div>"
+title: Chirpy                          # the main title
 
-description: >-   
-  I'm an IT professional focussing on development, advocacy and artificial intelligence. Recently I've worked on Kubernetes, Open Source, Java and DevOps at IBM.
+tagline: A text-focused Jekyll theme   # it will display as the sub-title
+
+description: >-                        # used by seo meta and the atom feed
+  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+
+# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
+url: ''
 
 github:
-  username: nheidloff
+  username: github_username             # change to your github username
+
 twitter:
-  username: nheidloff
+  username: twitter_username            # change to your twitter username
+
 social:
-  name: Niklas Heidloff
+  # Change to your full name.
+  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  name: your_full_name
+  email: example@domain.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://www.linkedin.com/in/niklasheidloff
-    - https://twitter.com/nheidloff      
-    - https://github.com/nheidloff        
+    - https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/username       # change to your github homepage
+    # Uncomment below to add more social links
+    # - https://www.facebook.com/username
+    # - https://www.linkedin.com/in/username
 
 google_site_verification:               # fill in to your verification string
+
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
@@ -59,11 +78,10 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-#img_cdn: 'https://chirpy-img.netlify.app'
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-#avatar: '/assets/img/IMG_1897.JPG'
-avatar: '/assets/img/4Y7B9422-4.jpeg'
+avatar:
 
 # boolean type, the global switch for ToC in posts.
 toc: true
@@ -125,7 +143,7 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: false    # Enable comments in posts.
+      comments: true    # Enable comments in posts.
       toc: true         # Display TOC column in posts.
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
