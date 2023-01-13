@@ -41,7 +41,7 @@ body {
 h1 {
   @extend %heading;
 
-  font-size: 1.9rem;
+  font-size: 1.8rem;
 }
 
 h2 {
@@ -79,10 +79,14 @@ h5 {
 a {
   @extend %link-color;
 }
-
+img {
+  border: 5px solid rgba(85, 85, 85, 0.085);
+}
 img {
   max-width: 100%;
   height: auto;
+
+  border: 1px solid #ddd;
 
   &[data-src] {
     &.lazyloaded {
@@ -726,8 +730,8 @@ $sidebar-display: "sidebar-display";
   #avatar {
     > a {
       display: block;
-      width: 6rem;
-      height: 6rem;
+      width: 10rem;
+      height: 10rem;
       border-radius: 50%;
       border: 2px solid rgba(222, 222, 222, 0.7);
       overflow: hidden;

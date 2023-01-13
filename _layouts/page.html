@@ -41,7 +41,7 @@ layout: default
   
     {% if page.layout != 'home' %}
       <div class="access">
-        {% include update-list.html %}
+        {% include disclaimer.html %}
         <!--{% include trending-tags.html %}-->
       </div>
 
@@ -52,7 +52,7 @@ layout: default
     {% endif %}
 
     {% if page.layout == 'home' %}
-      <div style="margin-top:40px">
+      <div style="margin-top:-18px">
         <a class="twitter-timeline" 
           data-border-color="#a80000" 
           data-chrome="noheader, nofooter, noborders, transparent, noscrollbar" 
