@@ -13,19 +13,20 @@ custom_permalink:
 categories:
     - Articles
 pin: true
+image: /assets/img/2022/03/Screenshot-2022-03-21-at-16.20.13.png
 ---
 
 *Kubernetes Operators provide incredible value since operations of software can be automated. This blog post describes operators on a high level and introduces a new reference architecture which my team has developed.*
 
-## 20 Years ago
+## Evolution: 20 Years ago
 
 When I started my career 20+ years ago, usually developers only wrote code, some even without writing tests because that was supposed to be done by separate teams.
 
-## 10 Years ago
+## Evolution: 10 Years ago
 
 10 years ago developers and technical leads realized that this was not sufficient. The concept of DevOps was born and over the last years most companies adopted it. Developers work now together with Ops engineers and are together responsible for the whole software development lifecycle including operations. For example DevOps teams write automation for deployments of software in different environments via CI/CD.
 
-## Today
+## Evolution: Today
 
 Now a new era of software development has started. Rather than ‘only’ automating the deployments of software, operation tasks are automated. This is usually referred to as day 2 tasks, while day 1 tasks are focussed on deployments.
 
@@ -41,10 +42,10 @@ I like the Software as a Service approach a lot, since it is the easiest way to 
 
 My team has created a reference architecture how to build Kubernetes Operators which goes above and beyond what the Operator SDK and Kubebuilder tutorials provide. Check it out!
 
-- [Operators Sample Architecture – Source Code](https://github.com/ibm/operator-sample-go)
-- [Operators Sample Architecture – Documentation](https://ibm.github.io/operator-sample-go-documentation/)
+- [Operators Reference Architecture – Source Code](https://github.com/ibm/operator-sample-go)
+- [Operators Reference Architecture – Documentation](https://ibm.github.io/operator-sample-go-documentation/)
 
-## Video
+## Overview Video
 
 We’ve created a 40 minutes [video](https://youtu.be/D6njEyXPieg) that describes the project on a high level.
 
