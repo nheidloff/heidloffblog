@@ -952,8 +952,9 @@ $sidebar-display: "sidebar-display";
 
 #topbar-wrapper-home {
   height: $topbar-height;
-  position: fixed;
-  left: $sidebar-width;
+  position: relative;
+  left: 260px;
+  width: calc(100% - $sidebar-width);
   right: 0;
   transition: top 0.2s ease-in-out;
   z-index: 50;
@@ -968,15 +969,17 @@ $sidebar-display: "sidebar-display";
 #topbar-niklas {
   /* background-image: url('../img/bar.jpeg'); */
   position:relative;
+  overflow:hidden;
   left:260px;
-  width:100%;
+  width: calc(100% - $sidebar-width);
   background-size:100% auto;
   max-height:400px;
   background-repeat:no-repeat;
 }
 
 #img-niklas {
-  max-width:100%;
+  overflow:hidden;
+  /*max-width:100%;*/
 }
 
 #topbar {
@@ -1365,6 +1368,7 @@ $sidebar-display: "sidebar-display";
 
   #topbar-niklas {
     left: 0;
+    width: 100%;
   }
 
   #img-niklas {
@@ -1373,6 +1377,7 @@ $sidebar-display: "sidebar-display";
 
   #topbar-wrapper-home {
     left: 0;
+    width: 100%;
   }
 
   [#{$sidebar-display}] {
@@ -1544,6 +1549,7 @@ $sidebar-display: "sidebar-display";
 
   #topbar-niklas {
     left: $sidebar-width-small;
+    width: calc(100% - $sidebar-width-small);
   }
 
   #topbar-wrapper {
@@ -1552,6 +1558,7 @@ $sidebar-display: "sidebar-display";
 
   #topbar-wrapper-home {
     left: $sidebar-width-small;
+    width: calc(100% - $sidebar-width-small);
   }
 
   #search-results > div {
