@@ -20,7 +20,7 @@ Serverless platforms like [Apache OpenWhisk](https://openwhisk.apache.org/) are 
 
 The challenge when building serverless applications is how to manage the data flows between the functions, especially if you want loosely coupled functions without dependencies between each other.
 
-In my previous article [Data Flows in Serverless Cloud-Native Applications](http://heidloff.net/article/serverless-data-flows) I explained a pattern how to manage the data flows between functions. In this article I will go one step further and describe how functions can define their input and output schemas and how transformations of JSON data can be done.
+In my previous article [Data Flows in Serverless Cloud-Native Applications]({{ "/article/serverless-data-flows" | relative_url }}) I explained a pattern how to manage the data flows between functions. In this article I will go one step further and describe how functions can define their input and output schemas and how transformations of JSON data can be done.
 
 [The complete code of this sample is on GitHub.](https://github.com/nheidloff/openwhisk-data-flows)
 
@@ -102,7 +102,7 @@ With jsonata(“Email\[type=’office’\].address\[0\]”) the first business e
 
 To summarize I think functions should define their input and output schemas so that, for example, they can be built by different developers and assembled easily in serverless applications. Functions with schemas can also easier be re-used in different applications. The transformations of the data that flows in serverless applications can be done in separate ‘transformation’ functions.
 
-A similar concept is used by [IBM App Connect](https://console.bluemix.net/catalog/services/app-connect) which can be used to integrate different applications without having to code anything. App Connect provides a JSON Parser node where you can enter a schema or sample JSON. Subsequent nodes can then access data from previous nodes declaratively. See my previous article [Integrating Applications without writing Code](http://heidloff.net/article/integrating-applications-without-code) for an example.
+A similar concept is used by [IBM App Connect](https://console.bluemix.net/catalog/services/app-connect) which can be used to integrate different applications without having to code anything. App Connect provides a JSON Parser node where you can enter a schema or sample JSON. Subsequent nodes can then access data from previous nodes declaratively. See my previous article [Integrating Applications without writing Code]({{ "/article/integrating-applications-without-code" | relative_url }}) for an example.
 
 I really like the App Connect user experience to select data in JSON. Recently App Connect won the [iF Design Award 2018](https://medium.com/design-ibm/ibm-cloud-continues-to-demonstrate-design-excellence-7a5150124136). I think it would be great to see that user experience added to OpenWhisk Composer. Here is a screenshot how the scenario from above could be done via App Connect.
 

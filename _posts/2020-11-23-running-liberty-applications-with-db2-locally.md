@@ -15,7 +15,7 @@ categories:
     - Java
 ---
 
-IBM provides a nice [workshop](http://heidloff.net/article/workshop-modernizing-ibm-websphere-applications/) that demonstrates how to modernize legacy WebSphere applications with Liberty. The workshop explains how to deploy applications on OpenShift. This article describes how to run Liberty applications locally.
+IBM provides a nice [workshop]({{ "/article/workshop-modernizing-ibm-websphere-applications/" | relative_url }}) that demonstrates how to modernize legacy WebSphere applications with Liberty. The workshop explains how to deploy applications on OpenShift. This article describes how to run Liberty applications locally.
 
 Application modernization is a process with multiple stages. After an analysis the first step is usually to put applications in containers. However to really benefit from cloud capabilities, applications need to be converted in cloud-native applications, for example with the help of modern frameworks like MicroProfile.
 

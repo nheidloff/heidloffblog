@@ -20,7 +20,7 @@ image: /assets/img/iascable-01.png
 
 ## ZechZone Deployer Introduction
 
-In my previous blog I explained the TechZone Deployer aka IBM's Toolkit: [Introducing IBM’s Toolkit to handle Everything as Code](http://heidloff.net/article/introducing-ibms-toolkit-to-handle-everything-as-code/). The toolkit leverages Terrafrom and GitOps and is based on best practices based on IBM’s deployment experiences from partner and client projects.
+In my previous blog I explained the TechZone Deployer aka IBM's Toolkit: [Introducing IBM’s Toolkit to handle Everything as Code]({{ "/article/introducing-ibms-toolkit-to-handle-everything-as-code/" | relative_url }}). The toolkit leverages Terrafrom and GitOps and is based on best practices based on IBM’s deployment experiences from partner and client projects.
 
 ## Module Catalog
 

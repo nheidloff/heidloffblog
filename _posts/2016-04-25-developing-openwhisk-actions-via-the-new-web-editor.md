@@ -16,7 +16,7 @@ categories:
 
 In addition to Cloud Foundry, Docker and Virtual Maschines [Bluemix](https://bluemix.net) provides a fourth compute option [OpenWhisk](https://developer.ibm.com/openwhisk/). OpenWhisk is an event-driven compute platform that executes code in response to events or direct invocations without having to maintain servers. The advantage is that you only have to pay for actual usage, not for peaked projections.
 
-As I blogged about earlier you can [write OpenWhisk actions in JavaScript and Swift](http://heidloff.net/article/how-to-write-javascript-actions-openwhisk). The actions can be deployed via CLI (command line interface) and now also with the [new web editor](https://developer.ibm.com/bluemix/2016/04/21/bluemix-openwhisk-web-editor/) which makes it easier for developers like me who cannot remember all commands of the various command line tools.
+As I blogged about earlier you can [write OpenWhisk actions in JavaScript and Swift]({{ "/article/how-to-write-javascript-actions-openwhisk" | relative_url }}). The actions can be deployed via CLI (command line interface) and now also with the [new web editor](https://developer.ibm.com/bluemix/2016/04/21/bluemix-openwhisk-web-editor/) which makes it easier for developers like me who cannot remember all commands of the various command line tools.
 
 The screenshot shows the same translation action from the previous blog. Logs show up in the console.
 

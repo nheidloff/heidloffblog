@@ -16,7 +16,7 @@ categories:
 
 [LoopBack](http://loopback.io/) is a great Node.js framework for building APIs. In the easiest case business objects can be defined declaratively and LoopBack generates REST APIs, the documentation of the APIs, the persistence as well as a client side JavaScript APIs automatically. To take it one step further I used the new [Bluemix](https://bluemix.net) service [API Connect](https://console.ng.bluemix.net/docs/services/apiconnect/index.html) to manage these APIs.
 
-As an example I used a simple sample application ‘Approval Requests’ built on the [CLEAN](http://heidloff.net/article/introducing-clean-stack-javascript-everywhere) stack. The sample is available as [open source](https://github.com/IBM-Bluemix/collaboration) and comes with several APIs. In this blog article I focus on two of these APIs: 1. Login users, 2. get a list of users which requires user authentication.
+As an example I used a simple sample application ‘Approval Requests’ built on the [CLEAN]({{ "/article/introducing-clean-stack-javascript-everywhere" | relative_url }}) stack. The sample is available as [open source](https://github.com/IBM-Bluemix/collaboration) and comes with several APIs. In this blog article I focus on two of these APIs: 1. Login users, 2. get a list of users which requires user authentication.
 
 The API Connect service basically adds a layer on top of the LoopBack API implementation. Rather than calling the LoopBack APIs directly the APIs of the API Connect service are invoked. This allows the service to track usage of the APIs. Developers can use developer portals, register their applications and subscribe to API plans.
 

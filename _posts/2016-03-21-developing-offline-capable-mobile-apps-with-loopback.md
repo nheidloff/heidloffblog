@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-Today I looked briefly into some experimental functionality of the [LoopBack](http://loopback.io/) framework to develop offline capable mobile apps. I’d like to add this functionality to my sample of the [CLEAN](http://heidloff.net/article/introducing-clean-stack-javascript-everywhere) stack (Cloudant, Express, LoopBack, AngularJS, Node) which comes with (hybrid) mobile apps built via [AngularJS, Ionic and Cordova](http://heidloff.net/article/how-to-write-mobile-apps-loopback).
+Today I looked briefly into some experimental functionality of the [LoopBack](http://loopback.io/) framework to develop offline capable mobile apps. I’d like to add this functionality to my sample of the [CLEAN]({{ "/article/introducing-clean-stack-javascript-everywhere" | relative_url }}) stack (Cloudant, Express, LoopBack, AngularJS, Node) which comes with (hybrid) mobile apps built via [AngularJS, Ionic and Cordova]({{ "/article/how-to-write-mobile-apps-loopback" | relative_url }}).
 
 There is a nice [video](https://www.youtube.com/watch?v=Yu6uh0ja5OM) describing this functionality. In a nutshell data is stored in HTML Local Storage in browsers. The data synchronization is done on the business logic level rather than database level. This allows synchronizing data from various LoopBack data sources, for example from and to Cloudant and MongoDB.
 

@@ -67,7 +67,7 @@ In order to use these annotations in Java code, I’ve defined the dependencies 
 </dependencies>
 ```
 
-In order to run the MicroProfile service on Kubernetes, you need a Docker [image](https://github.com/nheidloff/cloud-native-starter/blob/master/web-api-java-jee/Dockerfile). Check out my previous article how to [dockerize MicroProfile services](http://heidloff.net/article/dockerizing-container-java-microprofile).
+In order to run the MicroProfile service on Kubernetes, you need a Docker [image](https://github.com/nheidloff/cloud-native-starter/blob/master/web-api-java-jee/Dockerfile). Check out my previous article how to [dockerize MicroProfile services]({{ "/article/dockerizing-container-java-microprofile" | relative_url }}).
 
 Next in [server.xml](https://github.com/nheidloff/cloud-native-starter/blob/master/web-api-java-jee/liberty/server.xml) a couple of settings need to be done. You need to define the monitor feature and disable authentication. I have read in several articles that https is required, but for me http works as well. To keep it as simple as possible, I also disabled authentication. However, in a production application you’d use https and require authentication.
 

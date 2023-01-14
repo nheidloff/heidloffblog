@@ -18,7 +18,7 @@ categories:
 
 Eclipse [MicroProfile](http://microprofile.io/) is an open source project to optimize Enterprise Java for microservices architectures. MicroProfile based applications can be deployed to Kubernetes. This article describes how to deploy a sample application to [IBM Cloud private](https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/W1559b1be149d_43b0_881e_9783f38faaff).
 
-IBM Cloud private is a [Kubernetes based platform](http://heidloff.net/article/cloud-native-on-premises-ibm) to run cloud-native applications on-premises. It also comes with a Docker image registry. For developers there is a [community edition](https://www.ibm.com/support/knowledgecenter/en/SSBS6K_2.1.0/installing/install_containers_CE.html) available to run everything in one virtual machine.
+IBM Cloud private is a [Kubernetes based platform]({{ "/article/cloud-native-on-premises-ibm" | relative_url }}) to run cloud-native applications on-premises. It also comes with a Docker image registry. For developers there is a [community edition](https://www.ibm.com/support/knowledgecenter/en/SSBS6K_2.1.0/installing/install_containers_CE.html) available to run everything in one virtual machine.
 
 The example I’m using is a simple conference application originally provided by the [MicroProfile developers](https://github.com/eclipse/microprofile-conference) and slightly changed by the [IBM team](https://github.com/WASdev/sample.microservicebuilder.docs) to showcase IBM technologies like WebSphere Liberty which has been [open sourced](http://www.openliberty.io/) this week. My colleagues Animesh Singh and Ishan Gulhane have [documented](https://github.com/IBM/Java-MicroProfile-on-Kubernetes) how to deploy this sample to Kubernetes on Bluemix public.
 

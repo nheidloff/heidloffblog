@@ -26,7 +26,7 @@ Here is a picture from our team Miriam Oglesby, Holly Cummins, Fernando Cejas an
 
 ![image](/assets/img/2018/03/javaland18-2.png)
 
-At the booth we demonstrated Anki Overdrive cars which are connected to the [IBM Watson IoT](http://ibm.biz/nheidloff) platform and can be steered via [Kinect](http://heidloff.net/article/anki-overdrive-cars-kinect-bluemix). The next picture shows Fernando giving a demo.
+At the booth we demonstrated Anki Overdrive cars which are connected to the [IBM Watson IoT](http://ibm.biz/nheidloff) platform and can be steered via [Kinect]({{ "/article/anki-overdrive-cars-kinect-bluemix" | relative_url }}). The next picture shows Fernando giving a demo.
 
 ![image](/assets/img/2018/03/javaland18-3.jpg)
 

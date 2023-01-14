@@ -14,7 +14,7 @@ categories:
     - Articles
 ---
 
-There are many [reasons](http://heidloff.net/article/ten-reasons-why-enterprises-should-modernize-applications/) why you should consider to modernize applications. One reason is to provide better experiences for users to make them more productive.
+There are many [reasons]({{ "/article/ten-reasons-why-enterprises-should-modernize-applications/" | relative_url }}) why you should consider to modernize applications. One reason is to provide better experiences for users to make them more productive.
 
 This article is part of a series of articles that documents how to [modernize a sample Java EE application](https://github.com/nheidloff/application-modernization-javaee-quarkus#documentation) from 2010 with modern technologies.
 

@@ -16,9 +16,9 @@ categories:
 
 According to recent surveys, Kubernetes and microservices have become mainstream and most companies use these technologies in production today. That’s good, but when exactly should you use these technologies and how do you get started?
 
-As I wrote in my previous article [Don’t build distributed Monoliths](http://heidloff.net/article/do-not-build-distributed-monoliths/) you shouldn’t use microservices just because it’s a hype topic. Different technologies have pros and cons and as developer you need to make the right choices.
+As I wrote in my previous article [Don’t build distributed Monoliths]({{ "/article/do-not-build-distributed-monoliths/" | relative_url }}) you shouldn’t use microservices just because it’s a hype topic. Different technologies have pros and cons and as developer you need to make the right choices.
 
-When it comes to application modernization, there are [multiple reasons](http://heidloff.net/article/ten-reasons-why-enterprises-should-modernize-applications/) why you might want to consider, if certain applications should be modernized and how to get started.
+When it comes to application modernization, there are [multiple reasons]({{ "/article/ten-reasons-why-enterprises-should-modernize-applications/" | relative_url }}) why you might want to consider, if certain applications should be modernized and how to get started.
 
 **Strangler Fig Pattern**
 

@@ -26,7 +26,7 @@ Two years ago I used Angular (2 and 4) for a complex application. I know it’s 
 
 For Angular it took me 1-2 months until I really understood the framework, for Vue.js maybe a week or two. Again, I know it’s not a fair comparison, since a lot of what I have learned for Angular also counts for Vue.js. But I still think that even for people who haven’t used any modern web framework it would be much easier to learn Vue.js since Vue has been designed from day one to be easy to consume. Plus the documentation is pretty good.
 
-One of my [main issues with Angular](http://heidloff.net/article/angular-2-redux) was state management and updates of components. Since I first tried to use built-in Angular functionality to handle state, I lost several weeks since I had to replace my first code with Redux. Only after this the component updates worked reliably (more or less).
+One of my [main issues with Angular]({{ "/article/angular-2-redux" | relative_url }}) was state management and updates of components. Since I first tried to use built-in Angular functionality to handle state, I lost several weeks since I had to replace my first code with Redux. Only after this the component updates worked reliably (more or less).
 
 With Vue.js I didn’t have any component update issues. Part of the reason is that Vue.js has a [built-in optimization strategy](https://vuejs.org/v2/guide/comparison.html#Runtime-Performance). Another reason is probably that I used [Vuex](https://github.com/vuejs/vuex) from the beginning. It was very easy to learn and works perfectly. This is a screenshot of my app with the state being displayed in the developer console.
 

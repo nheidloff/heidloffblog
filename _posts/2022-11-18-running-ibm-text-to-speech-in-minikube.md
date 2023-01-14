@@ -24,7 +24,7 @@ To try it, a [trial](https://www.ibm.com/account/reg/us-en/signup?formid=urx-517
 
 **How to run TTS locally via Minikube**
 
-My post [Running IBM Watson Text to Speech in Containers](http://heidloff.net/article/running-ibm-watson-text-to-speech-in-containers/) explained how to run Watson TTS locally in Docker. The instructions below describe how to deploy Watson Text To Speech locally to Minikube via kubectl and yaml files.
+My post [Running IBM Watson Text to Speech in Containers]({{ "/article/running-ibm-watson-text-to-speech-in-containers/" | relative_url }}) explained how to run Watson TTS locally in Docker. The instructions below describe how to deploy Watson Text To Speech locally to Minikube via kubectl and yaml files.
 
 First you need to install Minikube, for example via brew on MacOS. Next Minikube needs to be started with more memory and disk size than the Minikube defaults. I’ve used the settings below which is more than required, but I wanted to leave space for other applications. Note that you also need to give your container runtime more resources. For example if you use Docker Desktop, navigate to Preferences-Resources to do this.
 
@@ -108,6 +108,6 @@ To find out more about Watson Text To Speech and Watson for Embed in general, ch
 - [Trial](https://www.ibm.com/account/reg/us-en/signup?formid=urx-51754)
 - [Entitlement key](https://www.ibm.com/account/reg/us-en/subscribe?formid=urx-51726)
 - [Automation for Watson NLP Deployments](https://github.com/IBM/watson-automation)
-- [Running IBM Watson NLP locally in Containers](http://heidloff.net/article/running-ibm-watson-nlp-locally-in-containers/)
-- [Running IBM Watson Speech to Text in Containers](http://heidloff.net/article/running-ibm-watson-speech-to-text-in-containers/)
-- [Running IBM Watson Text to Speech in Containers](http://heidloff.net/article/running-ibm-watson-text-to-speech-in-containers/)
+- [Running IBM Watson NLP locally in Containers]({{ "/article/running-ibm-watson-nlp-locally-in-containers/" | relative_url }})
+- [Running IBM Watson Speech to Text in Containers]({{ "/article/running-ibm-watson-speech-to-text-in-containers/" | relative_url }})
+- [Running IBM Watson Text to Speech in Containers]({{ "/article/running-ibm-watson-text-to-speech-in-containers/" | relative_url }})

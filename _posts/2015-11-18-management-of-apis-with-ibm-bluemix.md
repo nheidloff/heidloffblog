@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-In the previous blog entries I described how to [develop and document REST APIs with Spring Boot and Swagger](http://heidloff.net/article/usage-of-swagger-2-0-in-spring-boot-applications-to-document-apis/) and how to [deploy Spring Boot applications to Bluemix as Docker containers](http://heidloff.net/article/Deploying-Spring-Boot-Applications-to-Bluemix-as-Docker-Containers). Below I go one step further and explain how to manage and monitor APIs on IBM Bluemix via the [API Management](https://www.ng.bluemix.net/docs/services/APIManagement/index.html) service.
+In the previous blog entries I described how to [develop and document REST APIs with Spring Boot and Swagger]({{ "/article/usage-of-swagger-2-0-in-spring-boot-applications-to-document-apis/" | relative_url }}) and how to [deploy Spring Boot applications to Bluemix as Docker containers]({{ "/article/Deploying-Spring-Boot-Applications-to-Bluemix-as-Docker-Containers" | relative_url }}). Below I go one step further and explain how to manage and monitor APIs on IBM Bluemix via the [API Management](https://www.ng.bluemix.net/docs/services/APIManagement/index.html) service.
 
 With the API management service you can manage your APIs without having to write this functionality yourself and redundantly directly in the API implementations. For example you can define how to handle security and throttling and you can monitor which APIs are invoked how often at which times by which applications. Below I use the same simple [greeting REST API](https://spring.io/guides/gs/rest-service/) from the previous blog entries and show how to enforce a client id and secret for applications.
 

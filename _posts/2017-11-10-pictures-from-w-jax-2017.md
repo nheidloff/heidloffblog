@@ -28,6 +28,6 @@ I gave a [session](https://jax.de/digital-transformation-innovation/how-to-write
 
 ![image](/assets/img/2017/11/wjax17-4.jpg)
 
-One thing I really liked was a demo another company gave at their booth. They connected Anki Overdrive cars to an IoT platform to demonstrate how to prevent collisions. As it turned out they actually used my code which I [open sourced](http://heidloff.net/article/ibm-bluemix-anki-overdrive-cars) two years ago.
+One thing I really liked was a demo another company gave at their booth. They connected Anki Overdrive cars to an IoT platform to demonstrate how to prevent collisions. As it turned out they actually used my code which I [open sourced]({{ "/article/ibm-bluemix-anki-overdrive-cars" | relative_url }}) two years ago.
 
 ![image](/assets/img/2017/11/wjax17-3.png)

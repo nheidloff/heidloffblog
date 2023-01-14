@@ -18,7 +18,7 @@ categories:
 
 As IBM VP Angel Diaz [stated](http://searchcloudcomputing.techtarget.com/news/4500257255/IBM-tunes-up-API-Harmony-with-cognitive-technology-for-Bluemix) in an interview on SearchCloudComputing “[Swagger](http://swagger.io/) is the way most developers describe \[REST\] APIs”. With version 2.0 many important features like extensibility have been added, there is a big community and many developers are using it by now. Additionally there is work going on to create an open governance model around the Swagger specification under the Linux Foundation as part of the [Open API Initiative](http://swagger.io/introducing-the-open-api-initiative/).
 
-What I [like](http://heidloff.net/article/28.05.2014085106NHEA2Z.htm) most about Swagger is the ability to document APIs directly in the (Java) source code via annotations so that documentation and actual API implementations are not out of synch.
+What I [like]({{ "/article/28.05.2014085106NHEA2Z.htm" | relative_url }}) most about Swagger is the ability to document APIs directly in the (Java) source code via annotations so that documentation and actual API implementations are not out of synch.
 
 IBM uses Swagger for the API documentation of several products and services internally. Furthermore the [API management service](https://www.ng.bluemix.net/docs/services/APIManagement/index.html) in [IBM Bluemix](https://bluemix.net) can import Swagger 2.0 definitions to manage your APIs easily.
 

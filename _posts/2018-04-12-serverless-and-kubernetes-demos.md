@@ -16,9 +16,9 @@ categories:
     - Articles
 ---
 
-Over the next weeks I’ll repeat my session “[When to use Serverless? When to use Kubernetes?](http://heidloff.net/article/when-to-use-serverless-kubernetes)” several times. As backup and for people who won’t attend the sessions I’ve recorded the demos.
+Over the next weeks I’ll repeat my session “[When to use Serverless? When to use Kubernetes?]({{ "/article/when-to-use-serverless-kubernetes" | relative_url }})” several times. As backup and for people who won’t attend the sessions I’ve recorded the demos.
 
-Read the [summary](http://heidloff.net/article/when-to-use-serverless-kubernetes) of the session and get the [slides](https://www.slideshare.net/niklasheidloff/when-to-use-serverless-when-to-use-kubernetes).
+Read the [summary]({{ "/article/when-to-use-serverless-kubernetes" | relative_url }}) of the session and get the [slides](https://www.slideshare.net/niklasheidloff/when-to-use-serverless-when-to-use-kubernetes).
 
 Demo 1 – [0:33 min](https://www.youtube.com/watch?v=Wqy2AHvhDGs&t=33s)  
 **Developing and debugging OpenWhisk Node.js functions in Visual Studio Code**

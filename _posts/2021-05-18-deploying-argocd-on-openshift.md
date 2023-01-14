@@ -50,7 +50,7 @@ Installing ArgoCD is easy. However the configuration is a little more tricky. Th
 
 In my [application modernization project](https://github.com/IBM/application-modernization-javaee-quarkus) I use Tekton and ArgoCD to deploy the application. In order to check these prerequisites, I have implemented a [script](https://github.com/IBM/application-modernization-javaee-quarkus/blob/master/scripts-openshift-argocd/check-prerequisites.sh).
 
-In order to access GitHub projects on behalf of users, you need to set up keys. See my article [Accessing GitHub in Tekton Tasks on OpenShift](http://heidloff.net/article/accessing-github-in-tekton-tasks-on-openshift/) for details.
+In order to access GitHub projects on behalf of users, you need to set up keys. See my article [Accessing GitHub in Tekton Tasks on OpenShift]({{ "/article/accessing-github-in-tekton-tasks-on-openshift/" | relative_url }}) for details.
 
 For the communication between ArgoCD, Tekton and OpenShift an ArgoCD token is necessary. In your ArgoCD console open ‘/settings/accounts/tekton’, generate a new token and copy it to the clipboard.
 

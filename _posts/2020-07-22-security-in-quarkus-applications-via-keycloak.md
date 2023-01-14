@@ -22,7 +22,7 @@ My sample contains a web application which invokes an API microservice and that 
 
 ![image](/assets/img/2020/07/keycloak-diagram.png)
 
-The Keycloak [documentation](https://www.keycloak.org/getting-started/getting-started-operator-openshift) describes pretty well how to install Keycloak in OpenShift. The difficult part was the creation of the realm which I’ve documented in my previous article [Setting up Keycloak in OpenShift](http://heidloff.net/article/setting-up-keycloak-openshift/).
+The Keycloak [documentation](https://www.keycloak.org/getting-started/getting-started-operator-openshift) describes pretty well how to install Keycloak in OpenShift. The difficult part was the creation of the realm which I’ve documented in my previous article [Setting up Keycloak in OpenShift]({{ "/article/setting-up-keycloak-openshift/" | relative_url }}).
 
 Quarkus comes with two great quides that describe how to use Keycloak in web apps and services:
 

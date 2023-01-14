@@ -16,7 +16,7 @@ categories:
 
 *With the TechZone Accelerator Toolkit IBM software, open source projects and custom applications can easily be deployed to various clouds. This article explains how to set up environments to use the Toolkit CLI.*
 
-Check out my earlier blog that introduces the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code](http://heidloff.net/article/introducing-ibms-toolkit-to-handle-everything-as-code/). The toolkit leverages Terrafrom and GitOps and is based on best practices from IBM projects with partners and clients.
+Check out my earlier blog that introduces the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code]({{ "/article/introducing-ibms-toolkit-to-handle-everything-as-code/" | relative_url }}). The toolkit leverages Terrafrom and GitOps and is based on best practices from IBM projects with partners and clients.
 
 The Accelerator Toolkit comes with a CLI called [iascable](https://github.com/cloud-native-toolkit/iascable) which converts BOMs (bill of materials/custom solution definitions) into Terraform assets. To run Terraform, additional CLIs are needed in specific versions, for example kubectl, oc, jq, git, helm, etc.
 

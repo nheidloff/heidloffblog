@@ -14,7 +14,7 @@ categories:
     - Articles
 ---
 
-Recently I blogged about how to [develop reactive REST APIs with Quarkus](http://heidloff.net/article/developing-reactive-rest-apis-with-quarkus/). Developing the actual endpoints asynchronously is the first step. To leverage reactive capabilities maximally though, the complete code path should be asynchronous, especially long lasting operations like database accesses and REST API invocations. This article describes two options how to invoke REST APIs asynchronously with [Quarkus](https://quarkus.io/).
+Recently I blogged about how to [develop reactive REST APIs with Quarkus]({{ "/article/developing-reactive-rest-apis-with-quarkus/" | relative_url }}). Developing the actual endpoints asynchronously is the first step. To leverage reactive capabilities maximally though, the complete code path should be asynchronous, especially long lasting operations like database accesses and REST API invocations. This article describes two options how to invoke REST APIs asynchronously with [Quarkus](https://quarkus.io/).
 
 **Two Options to invoke REST APIs asynchronously**
 
@@ -77,7 +77,7 @@ public CompletableFuture<List<CoreArticle>> getArticlesReactiveVertxWebClient(in
 }
 ```
 
-The methods ‘get’ and ‘send’ invoke the HTTP request. I’ve explained in my previous [article](http://heidloff.net/article/developing-reactive-rest-apis-with-quarkus/) why ‘toCompletableFuture’ and ‘orTimeout’ or used.
+The methods ‘get’ and ‘send’ invoke the HTTP request. I’ve explained in my previous [article]({{ "/article/developing-reactive-rest-apis-with-quarkus/" | relative_url }}) why ‘toCompletableFuture’ and ‘orTimeout’ or used.
 
 Once the request has been completed, the HTTP status code has to be checked and converted into a Java exception. If the request has been successful, the response will be a io.vertx.core.json.JsonArray or io.vertx.core.json.JsonObject. These objects need to be converted manually into Java objects, in this example in a list of articles.
 
@@ -160,8 +160,8 @@ All samples of this article are included in the open source project [cloud-nativ
 This article is part of a series. Read the other articles of this series to learn about reactive programming:
 
 - [Development of Reactive Applications with Quarkus](http://heidloff.net/article-development-reactive-applications-quarkus/)
-- [Accessing Apache Kafka from Quarkus](http://heidloff.net/article/accessing-apache-kafka-from-quarkus/)
-- [Accessing PostgreSQL in Kubernetes from Quarkus](http://heidloff.net/article/accessing-postgresql-from-quarkus/)
-- [Reactive Messaging Examples for Quarkus](http://heidloff.net/article/reactive-messaging-examples-quarkus/)
-- [Developing reactive REST APIs with Quarkus](http://heidloff.net/article/developing-reactive-rest-apis-with-quarkus/)
-- [Comparing synchronous and asynchronous Access to Postgres](http://heidloff.net/article/comparing-synchronous-asynchronous-access-postgresql/)
+- [Accessing Apache Kafka from Quarkus]({{ "/article/accessing-apache-kafka-from-quarkus/" | relative_url }})
+- [Accessing PostgreSQL in Kubernetes from Quarkus]({{ "/article/accessing-postgresql-from-quarkus/" | relative_url }})
+- [Reactive Messaging Examples for Quarkus]({{ "/article/reactive-messaging-examples-quarkus/" | relative_url }})
+- [Developing reactive REST APIs with Quarkus]({{ "/article/developing-reactive-rest-apis-with-quarkus/" | relative_url }})
+- [Comparing synchronous and asynchronous Access to Postgres]({{ "/article/comparing-synchronous-asynchronous-access-postgresql/" | relative_url }})

@@ -68,7 +68,7 @@ docker tag angular-app registry.ng.bluemix.net/nheidloff/angular-app
 docker push registry.ng.bluemix.net/nheidloff/angular-app
 ```
 
-There are different ways to run the container on Bluemix. For example as [scalable container group](https://console.ng.bluemix.net/docs/containers/cs_classic.html) or in a [Kubernetes](http://heidloff.net/article/kubernetes-docker-bluemix) cluster. For testing purposes you can also run the container as single instance with a public IP address:
+There are different ways to run the container on Bluemix. For example as [scalable container group](https://console.ng.bluemix.net/docs/containers/cs_classic.html) or in a [Kubernetes]({{ "/article/kubernetes-docker-bluemix" | relative_url }}) cluster. For testing purposes you can also run the container as single instance with a public IP address:
 
 ```
 bx ic run --name angular-app -p 80 -m 128 registry.ng.bluemix.net/nheidloff/angular-app

@@ -18,7 +18,7 @@ categories:
 
 Many developers want to know whether they should use [Serverless](https://en.wikipedia.org/wiki/Serverless_computing) or [Kubernetes](https://kubernetes.io/) to build cloud-native applications. Both computing options have pros and cons and it depends on your needs which option you should choose.
 
-I blogged about [when to use Serverless and when to use Kubernetes](http://heidloff.net/article/when-to-use-serverless-kubernetes).
+I blogged about [when to use Serverless and when to use Kubernetes]({{ "/article/when-to-use-serverless-kubernetes" | relative_url }}).
 
 ![image](/assets/img/2018/02/kube-vs-serverless.png)
 

@@ -38,7 +38,7 @@ This is the architecture diagram from 2010.
 
 **Why should you modernize?**
 
-I’ve written another blog about [why you should consider modernizing applications](http://heidloff.net/article/ten-reasons-why-enterprises-should-modernize-applications/). One of the reasons is to improve operational efficiency.
+I’ve written another blog about [why you should consider modernizing applications]({{ "/article/ten-reasons-why-enterprises-should-modernize-applications/" | relative_url }}). One of the reasons is to improve operational efficiency.
 
 When all enterprise applications run on container platforms like Kubernetes or OpenShift, they can be managed consistently. Everything is a container, no matter what programming languages and application stacks are used. This makes operations easier since observability like logging and monitoring are handled in the same way.
 

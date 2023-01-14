@@ -16,7 +16,7 @@ categories:
 
 *With the TechZone Accelerator Toolkit IBM software, open source projects and custom applications can easily be deployed to various clouds. This article explains how to deploy resources on existing OpenShift clusters.*
 
-Check out my earlier blog that introduces the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code](http://heidloff.net/article/introducing-ibms-toolkit-to-handle-everything-as-code/). The toolkit leverages Terrafrom and GitOps and is based on best practices from IBM projects with partners and clients.
+Check out my earlier blog that introduces the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code]({{ "/article/introducing-ibms-toolkit-to-handle-everything-as-code/" | relative_url }}). The toolkit leverages Terrafrom and GitOps and is based on best practices from IBM projects with partners and clients.
 
 With the toolkit both infrastructure like Kubernetes clusters as well as resources within Kubernetes clusters can be deployed. Infrastructure resources are deployed via Terraform, resources within clusters via Argo CD.
 

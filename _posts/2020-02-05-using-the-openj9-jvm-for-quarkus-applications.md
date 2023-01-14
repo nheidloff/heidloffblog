@@ -18,7 +18,7 @@ As defined on the home page, [Quarkus](https://quarkus.io/) is “a Kubernetes N
 
 OpenJ9 is a Java JVM that was open sourced from IBM 2-3 years ago. It’s basically the same JVM that IBM uses in hundreds of products and offerings. The nice thing is that compared to Hotspot it not only provides a 42% faster startup time, but also a 66% smaller memory footprint. Check out the [documentation](https://www.eclipse.org/openj9/oj9_performance.html).
 
-I’ve used OpenJ9 from [AdoptOpenJDK](https://adoptopenjdk.net/) where you can choose between HotSpot and OpenJ9. Read my previous [blog](http://heidloff.net/article/recent-java-updates-from-ibm) to understand what other advantages AdoptOpenJDK provides.
+I’ve used OpenJ9 from [AdoptOpenJDK](https://adoptopenjdk.net/) where you can choose between HotSpot and OpenJ9. Read my previous [blog]({{ "/article/recent-java-updates-from-ibm" | relative_url }}) to understand what other advantages AdoptOpenJDK provides.
 
 **Memory Usage Results**
 

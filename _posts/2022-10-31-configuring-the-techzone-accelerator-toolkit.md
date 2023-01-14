@@ -16,7 +16,7 @@ categories:
 
 *With the TechZone Toolkit software like OpenShift can be set up in the cloud including custom applications by using automation via Terraform and Argo CD. This article describes how to configure the toolkit or more precisely the solution definitions.*
 
-In an earlier blog I explained the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code](http://heidloff.net/article/introducing-ibms-toolkit-to-handle-everything-as-code/). The toolkit leverages Terrafrom and GitOps and is based on best practices based on IBM experiences in partner and clients projects.
+In an earlier blog I explained the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code]({{ "/article/introducing-ibms-toolkit-to-handle-everything-as-code/" | relative_url }}). The toolkit leverages Terrafrom and GitOps and is based on best practices based on IBM experiences in partner and clients projects.
 
 The [toolkit module catalog](https://modules.cloudnativetoolkit.dev/) provides 200+ modules to install IBM Software and open source components which can be deployed on clouds like AWS, Azure and IBM Cloud. Solutions are defined in yaml files. The bill of materials contain lists of modules, in this [example](https://github.com/IBM/watson-automation/blob/e92c9cef8acb1bd5c57177dad3d91c42ff9c8aee/roks-new-nlp/bom.yaml#L27) OpenShift in the IBM Cloud, Argo CD including a GitOps repo, the Watson NLP (natural language processing) container and a custom application.
 

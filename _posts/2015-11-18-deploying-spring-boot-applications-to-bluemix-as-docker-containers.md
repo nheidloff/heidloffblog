@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-In the previous blog entry I described how to [document REST APIs in Spring Boot applications via Swagger](http://heidloff.net/article/usage-of-swagger-2-0-in-spring-boot-applications-to-document-apis/). Below I explain how to deploy these applications as Docker containers to [IBM Bluemix](https://bluemix.net). As example I use again the [Spring REST sample](https://spring.io/guides/gs/rest-service/).
+In the previous blog entry I described how to [document REST APIs in Spring Boot applications via Swagger]({{ "/article/usage-of-swagger-2-0-in-spring-boot-applications-to-document-apis/" | relative_url }}). Below I explain how to deploy these applications as Docker containers to [IBM Bluemix](https://bluemix.net). As example I use again the [Spring REST sample](https://spring.io/guides/gs/rest-service/).
 
 In the Dockerfile (in the project root directory) define how to build the Docker image.
 

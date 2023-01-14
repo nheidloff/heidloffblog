@@ -22,13 +22,13 @@ Here is the definition of [DevSecOps](https://cloud.ibm.com/docs/devsecops?topic
 
 This article is part of a mini series:
 
-- [DevSecOps for SaaS Reference Architecture on OpenShift](http://heidloff.net/article/devsecops-saas-reference-architecture-openshift/)
-- [Shift-Left Continuous Integration with DevSecOps Pipelines](http://heidloff.net/article/shift-left-continuous-integration-devsecops-pipelines/)
-- [Change, Evidence and Issue Management with DevSecOps](http://heidloff.net/article/change-evidence-issue-management-devsecops/)
-- This article: [Continuous Delivery with DevSecOps Reference Architecture](http://heidloff.net/article/continuous-delivery-ibm-devsecops-reference-architecture/)
-- [Tekton without Tekton in DevSecOps Pipelines](http://heidloff.net/article/tekton-without-tekton-devsecops-pipelines/)
+- [DevSecOps for SaaS Reference Architecture on OpenShift]({{ "/article/devsecops-saas-reference-architecture-openshift/" | relative_url }})
+- [Shift-Left Continuous Integration with DevSecOps Pipelines]({{ "/article/shift-left-continuous-integration-devsecops-pipelines/" | relative_url }})
+- [Change, Evidence and Issue Management with DevSecOps]({{ "/article/change-evidence-issue-management-devsecops/" | relative_url }})
+- This article: [Continuous Delivery with DevSecOps Reference Architecture]({{ "/article/continuous-delivery-ibm-devsecops-reference-architecture/" | relative_url }})
+- [Tekton without Tekton in DevSecOps Pipelines]({{ "/article/tekton-without-tekton-devsecops-pipelines/" | relative_url }})
 
-In my previous [blog](http://heidloff.net/article/change-evidence-issue-management-devsecops/) I explained the CI pipeline. The CI pipeline template that is part of IBM’s DevSecOps reference implementation builds and pushes images and runs various security and code tests. Only if all checks pass, the application can be deployed to production via the CD pipeline. This assures that new versions can be deployed at any time based on business (not technical) decisions.
+In my previous [blog]({{ "/article/change-evidence-issue-management-devsecops/" | relative_url }}) I explained the CI pipeline. The CI pipeline template that is part of IBM’s DevSecOps reference implementation builds and pushes images and runs various security and code tests. Only if all checks pass, the application can be deployed to production via the CD pipeline. This assures that new versions can be deployed at any time based on business (not technical) decisions.
 
 The CD (continuous delivery) pipeline generates all of the evidence and change request summary content. The pipeline deploys the build artifacts to a specific environment and collects, creates, and uploads all existing log files, evidence, and artifacts to the evidence locker. Here is an overview of the [functionality](https://cloud.ibm.com/docs/devsecops?topic=devsecops-cd-devsecops-cd-pipeline) provided by the CD pipeline:
 

@@ -26,7 +26,7 @@ Architecture:
 
 Here is the series of blog articles about this demo.
 
-- [Collision Prevention for Anki Overdrive Cars with Bluemix](http://heidloff.net/article/collision-prevention-anki-overdrive-cars-bluemix)
-- [Steering Anki Overdrive Cars via Speech Recognition on Bluemix](http://heidloff.net/article/steering-anki-overdrive-cars-speech-recognition-bluemix-watson)
-- [Steering Anki Overdrive Cars via Kinect and Bluemix](http://heidloff.net/article/anki-overdrive-cars-kinect-bluemix)
-- [Steering Anki Overdrive Cars via Leap Motion Gestures and Bluemix](http://heidloff.net/article/steering-anki-overdrive-cars-leap-motion-gestures-bluemix)
+- [Collision Prevention for Anki Overdrive Cars with Bluemix]({{ "/article/collision-prevention-anki-overdrive-cars-bluemix" | relative_url }})
+- [Steering Anki Overdrive Cars via Speech Recognition on Bluemix]({{ "/article/steering-anki-overdrive-cars-speech-recognition-bluemix-watson" | relative_url }})
+- [Steering Anki Overdrive Cars via Kinect and Bluemix]({{ "/article/anki-overdrive-cars-kinect-bluemix" | relative_url }})
+- [Steering Anki Overdrive Cars via Leap Motion Gestures and Bluemix]({{ "/article/steering-anki-overdrive-cars-leap-motion-gestures-bluemix" | relative_url }})

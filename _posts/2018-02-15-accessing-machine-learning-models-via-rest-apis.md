@@ -18,7 +18,7 @@ categories:
 
 [Watson Machine Learning](https://console.bluemix.net/catalog/services/machine-learning) can be used by data scientists to create models which can be managed and deployed on the IBM Cloud. Developers can access these models from applications, for example to run predictions.
 
-I blogged about a [sample scenario](http://heidloff.net/article/watson-machine-learning-sample) to predict whether people would have survived the Titanic accident based on their age, ticket class, sex and number of siblings and spouses on board the Titanic.
+I blogged about a [sample scenario]({{ "/article/watson-machine-learning-sample" | relative_url }}) to predict whether people would have survived the Titanic accident based on their age, ticket class, sex and number of siblings and spouses on board the Titanic.
 
 The screenshot shows the endpoint developers can use to access the deployed model via HTTP. In order to protect the endpoint, the credentials of the machine learning service are needed. With these credentials a bearer token is read that is needed for the actual [prediction endpoint invocation](https://watson-ml-api.mybluemix.net/#!/Deployments/post_v3_wml_instances_instance_id_published_models_published_model_id_deployments_deployment_id_online).
 

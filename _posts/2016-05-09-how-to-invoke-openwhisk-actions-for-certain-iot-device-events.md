@@ -29,7 +29,7 @@ function main(params) {
 }
 ```
 
-For testing purposes you can invoke events via [MQTT tools](http://heidloff.net/article/useful-mqtt-tools-ibm-watson-iot-bluemix).
+For testing purposes you can invoke events via [MQTT tools]({{ "/article/useful-mqtt-tools-ibm-watson-iot-bluemix" | relative_url }}).
 
 ![image](/assets/img/2016/05/openwhiskiot2.jpg)
 

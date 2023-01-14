@@ -32,7 +32,7 @@ Cognitive services are provided by most cloud providers these days. For example 
 
 Cognitive services like the Watson services cover common AI scenarios. For more specific scenarios developers can sometimes use existing models that have been open sourced. The [visual recognition models for mobile devices](https://ai.googleblog.com/2017/06/mobilenets-open-source-models-for.html) from Google are a good example. They can be customized via transfer learning without having to write code.
 
-Another example is the [IBM Model Asset Exchange](http://heidloff.net/article/model-asset-exchange-dl-kubernetes-tensorflow) which comes with two types of models: Models that can be re-used directly and models with instructions how to train and customize them. The models are put in Docker containers and can be invoked via REST APIs.
+Another example is the [IBM Model Asset Exchange]({{ "/article/model-asset-exchange-dl-kubernetes-tensorflow" | relative_url }}) which comes with two types of models: Models that can be re-used directly and models with instructions how to train and customize them. The models are put in Docker containers and can be invoked via REST APIs.
 
 **AutoML**
 
@@ -42,7 +42,7 @@ This is were AutoML comes in. Basically AutoML is a set of capabilities that all
 
 To learn more about AutoML I encourage you to watch the [TensorFlow Dev Summit 2018 keynote](https://youtu.be/kSa3UObNS6o?t=23m32s) and the [talk from Andreas Mueller](https://www.youtube.com/watch?v=Wy6EKjJT79M). I also like the recent series of [blog entries on fast.ai](http://www.fast.ai/2018/07/16/auto-ml2/).
 
-There are several different AutoML open source libraries and commercial offerings available which use different approaches to find the best model. For example IBM provides [Watson Machine Learning](http://heidloff.net/article/watson-machine-learning-sample) to identify the best algorithm. Additionally with [Watson Deep Learning](http://heidloff.net/article/hyperparameter-optimization-ibm-watson-studio) hyperparameters can be identified.
+There are several different AutoML open source libraries and commercial offerings available which use different approaches to find the best model. For example IBM provides [Watson Machine Learning]({{ "/article/watson-machine-learning-sample" | relative_url }}) to identify the best algorithm. Additionally with [Watson Deep Learning]({{ "/article/hyperparameter-optimization-ibm-watson-studio" | relative_url }}) hyperparameters can be identified.
 
 *auto-sklearn*
 

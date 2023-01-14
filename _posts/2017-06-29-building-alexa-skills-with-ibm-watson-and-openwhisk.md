@@ -27,7 +27,7 @@ Here is a sample conversation flow:
 - **User:** Alexa, ask my skill how is the weather
 - **Alexa/Watson:** Looking up weather information for Berlin …
 
-The sample has been implemented via the new [slots filling](http://heidloff.net/article/conversation-watson-slots) functionality in Watson Conversation. The screenshot shows how the entity (slot) ‘location’ is defined as mandatory and how the value is stored in a context variable.
+The sample has been implemented via the new [slots filling]({{ "/article/conversation-watson-slots" | relative_url }}) functionality in Watson Conversation. The screenshot shows how the entity (slot) ‘location’ is defined as mandatory and how the value is stored in a context variable.
 
 ![image](/assets/img/2017/06/alexa-watson-1.png)
 

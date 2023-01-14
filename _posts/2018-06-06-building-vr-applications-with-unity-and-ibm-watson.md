@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-I’ve continued to play with [Unity](https://unity3d.com/unity) and the [IBM Watson SDK](https://github.com/watson-developer-cloud/unity-sdk), which allows using cognitive services like speech recognition in Unity projects. With this technology you can not only build games, but also other exciting scenarios. I’ve changed my [Augmented Reality sample](http://heidloff.net/article/ar-applications-unity-ibm-watson) slightly to run it as a Virtual Reality app that can be experienced via [Google Cardboard](https://vr.google.com/cardboard/) and an iPhone.
+I’ve continued to play with [Unity](https://unity3d.com/unity) and the [IBM Watson SDK](https://github.com/watson-developer-cloud/unity-sdk), which allows using cognitive services like speech recognition in Unity projects. With this technology you can not only build games, but also other exciting scenarios. I’ve changed my [Augmented Reality sample]({{ "/article/ar-applications-unity-ibm-watson" | relative_url }}) slightly to run it as a Virtual Reality app that can be experienced via [Google Cardboard](https://vr.google.com/cardboard/) and an iPhone.
 
 The picture shows the two screens showing the 3D character. Users can move the player (themselves) via voice commands and can have conversations with the character, for example:
 

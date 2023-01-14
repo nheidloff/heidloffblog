@@ -32,6 +32,6 @@ Some more pictures from our booth.
 
 ![DBTo5mDXoAAnipD](http://heidloff.net/wp-content/uploads/2017/06/DBTo5mDXoAAnipD.jpg)
 
-I also brought my [Anki cars](http://heidloff.net/article/ibm-bluemix-anki-overdrive-cars) again.
+I also brought my [Anki cars]({{ "/article/ibm-bluemix-anki-overdrive-cars" | relative_url }}) again.
 
 ![IMG_1797](http://heidloff.net/wp-content/uploads/2017/06/IMG_1797.jpg)

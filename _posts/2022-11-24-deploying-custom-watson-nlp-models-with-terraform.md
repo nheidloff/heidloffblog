@@ -22,11 +22,11 @@ To set some context, check out the landing page [IBM Watson NLP Library for Embe
 
 *TechZone Deployer*
 
-With TechZone Deployer (also known as TechZone Accelerator Toolkit, TechZone Automation, Software Everywhere, Cloud Native Toolkit) IBM software, open source projects and custom applications can easily be deployed to various clouds. Check out my earlier blog that introduces the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code](http://heidloff.net/article/introducing-ibms-toolkit-to-handle-everything-as-code/). The toolkit leverages Terraform and GitOps and is based on best practices from IBM projects with partners and clients. With the toolkit both infrastructure like Kubernetes clusters as well as Kubernetes resources within clusters can be deployed. Infrastructure resources are deployed via Terraform, resources within clusters via Argo CD.
+With TechZone Deployer (also known as TechZone Accelerator Toolkit, TechZone Automation, Software Everywhere, Cloud Native Toolkit) IBM software, open source projects and custom applications can easily be deployed to various clouds. Check out my earlier blog that introduces the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code]({{ "/article/introducing-ibms-toolkit-to-handle-everything-as-code/" | relative_url }}). The toolkit leverages Terraform and GitOps and is based on best practices from IBM projects with partners and clients. With the toolkit both infrastructure like Kubernetes clusters as well as Kubernetes resources within clusters can be deployed. Infrastructure resources are deployed via Terraform, resources within clusters via Argo CD.
 
 **Automatic Deployments of the Watson NLP Runtime and Models**
 
-Based on TechZone Deployer my team has created an [asset to deploy 1. OpenShift clusters, 2. Watson NLP and 3. custom applications](https://github.com/IBM/watson-automation) in these clusters in [one hour](http://heidloff.net/article/setting-up-openshift-and-applications-in-one-hour/). Watch the short video [Automation for IBM Watson Deployments](https://www.youtube.com/watch?v=8lbVRAvJgy4) for an introduction.
+Based on TechZone Deployer my team has created an [asset to deploy 1. OpenShift clusters, 2. Watson NLP and 3. custom applications](https://github.com/IBM/watson-automation) in these clusters in [one hour]({{ "/article/setting-up-openshift-and-applications-in-one-hour/" | relative_url }}). Watch the short video [Automation for IBM Watson Deployments](https://www.youtube.com/watch?v=8lbVRAvJgy4) for an introduction.
 
 The usage of TechZone Deployer is very easy:
 

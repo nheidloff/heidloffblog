@@ -14,7 +14,7 @@ categories:
     - Articles
 ---
 
-In order to learn Deep Learning I’ve taken an [Udacity course](https://www.udacity.com/course/deep-learning--ud730) that I can highly recommend. One reason I took that course was because I also liked the [Udacity machine learning courses](http://heidloff.net/article/machine-learning-courses-developers). Another reason was because I wanted to learn [Tensorflow](https://www.tensorflow.org/) which to me looks like the most popular deep learning library right now.
+In order to learn Deep Learning I’ve taken an [Udacity course](https://www.udacity.com/course/deep-learning--ud730) that I can highly recommend. One reason I took that course was because I also liked the [Udacity machine learning courses]({{ "/article/machine-learning-courses-developers" | relative_url }}). Another reason was because I wanted to learn [Tensorflow](https://www.tensorflow.org/) which to me looks like the most popular deep learning library right now.
 
 Below is the [YouTube playlist](https://www.youtube.com/playlist?list=PLAwxTw4SYaPn_OWPFT9ulXLuQrImzHfOV) of the course. The [assignments](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/udacity) can be run locally via Docker.
 

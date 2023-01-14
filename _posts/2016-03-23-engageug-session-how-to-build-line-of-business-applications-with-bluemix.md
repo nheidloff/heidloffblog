@@ -22,7 +22,7 @@ There is a ton on innovative services, runtimes and capabilities in Bluemix. In 
 
 Line of Business requirements often lead to the development of new applications since standard software is not sufficient. Collaborative applications allow employees to work together synergistically to get their jobs done. Collaborative Line of Business applications often require the protection of intellectual property based on roles of employees. Samples scenarios are approval workflows, teamrooms or travel expenses.
 
-In my session I’ll demonstrate an open source project [ibm-bluemix/collaboration](https://github.com/IBM-Bluemix/collaboration) I’ve worked on that uses the [CLEAN](http://heidloff.net/article/introducing-clean-stack-javascript-everywhere) stack with services that are available on Bluemix today: Cloudant NoSQL database, LoopBack (REST API framework), AngularJS for web and mobile apps and Node.
+In my session I’ll demonstrate an open source project [ibm-bluemix/collaboration](https://github.com/IBM-Bluemix/collaboration) I’ve worked on that uses the [CLEAN]({{ "/article/introducing-clean-stack-javascript-everywhere" | relative_url }}) stack with services that are available on Bluemix today: Cloudant NoSQL database, LoopBack (REST API framework), AngularJS for web and mobile apps and Node.
 
 **Abstract**  
 In this session you will learn about IBM Bluemix, IBM’s cloud application platform. I’ll introduce some of the Bluemix services, especially services that can be used to build collaborative applications with the typical skills of Domino developers and line of business users who appreciate rapid application development.  

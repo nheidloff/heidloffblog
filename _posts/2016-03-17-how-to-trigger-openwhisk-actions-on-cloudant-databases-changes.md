@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-Yesterday I wrote about [how to write JavaScript Actions for OpenWhisk](http://heidloff.net/article/how-to-write-javascript-actions-openwhisk) on Bluemix. Actions can be triggered manually (as described in previous article) and when certain events occur. Below is a simple sample how to trigger [OpenWhisk](https://developer.ibm.com/openwhisk/) actions when documents in [Cloudant NoSQL databases](https://console.ng.bluemix.net/catalog/services/cloudant-nosql-db) are changed or added.
+Yesterday I wrote about [how to write JavaScript Actions for OpenWhisk]({{ "/article/how-to-write-javascript-actions-openwhisk" | relative_url }}) on Bluemix. Actions can be triggered manually (as described in previous article) and when certain events occur. Below is a simple sample how to trigger [OpenWhisk](https://developer.ibm.com/openwhisk/) actions when documents in [Cloudant NoSQL databases](https://console.ng.bluemix.net/catalog/services/cloudant-nosql-db) are changed or added.
 
 Let’s use the same scenario as previously. In a help desk application you want to translate tickets which have not been written in English to English so that support agents understand. Rather than doing this when tickets are stored or opened the OpenWhisk action is triggered when new documents are stored in a Cloudant NoSQL database.
 

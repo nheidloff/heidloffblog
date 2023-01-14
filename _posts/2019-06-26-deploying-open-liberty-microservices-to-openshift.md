@@ -18,7 +18,7 @@ categories:
 
 **Source to Image**
 
-Previously I [blogged](http://heidloff.net/article/source-to-image-builder-open-liberty-openshift/) about how to use Source-to-Image (S2I) to deploy local [Open Liberty](https://openliberty.io/) applications with two simple commands:
+Previously I [blogged]({{ "/article/source-to-image-builder-open-liberty-openshift/" | relative_url }}) about how to use Source-to-Image (S2I) to deploy local [Open Liberty](https://openliberty.io/) applications with two simple commands:
 
 ```
 $ oc new-app s2i-open-liberty:latest~/. --name=<service-name>
@@ -29,7 +29,7 @@ The nice thing about this approach is, that you don’t need to define and build
 
 **Options to deploy Microservices with Dockerfiles**
 
-The following three options show how to deploy Open Liberty microservices to Minishift. I’ve [open sourced](https://github.com/IBM/cloud-native-starter/tree/master/authors-java-jee) a very simple microservice which uses Java/[Jakarta EE](https://jakarta.ee/) and [MicroProfile](https://microprofile.io/). Read my previous blog [How to build and run a Hello World Java Microservice](http://heidloff.net/article/how-to-build-and-run-a-hello-world-java-microservice/) to find out more about the implementation and how to deploy the microservice to Minikube and the [IBM Cloud Kubernetes Service](https://www.ibm.com/cloud/container-service).
+The following three options show how to deploy Open Liberty microservices to Minishift. I’ve [open sourced](https://github.com/IBM/cloud-native-starter/tree/master/authors-java-jee) a very simple microservice which uses Java/[Jakarta EE](https://jakarta.ee/) and [MicroProfile](https://microprofile.io/). Read my previous blog [How to build and run a Hello World Java Microservice]({{ "/article/how-to-build-and-run-a-hello-world-java-microservice/" | relative_url }}) to find out more about the implementation and how to deploy the microservice to Minikube and the [IBM Cloud Kubernetes Service](https://www.ibm.com/cloud/container-service).
 
 [Get the code from GitHub.](https://github.com/IBM/cloud-native-starter/tree/master/authors-java-jee)
 

@@ -14,7 +14,7 @@ categories:
     - Articles
 ---
 
-[OpenWhisk](https://developer.ibm.com/openwhisk/) is an event-driven compute platform that executes code in response to events or direct invocations. The advantage is that you only have to pay for actual usage, not for peaked projections. Developers can implement actions via [JavaScript](http://heidloff.net/article/how-to-write-javascript-actions-openwhisk), Swift and, as described below, via Docker.
+[OpenWhisk](https://developer.ibm.com/openwhisk/) is an event-driven compute platform that executes code in response to events or direct invocations. The advantage is that you only have to pay for actual usage, not for peaked projections. Developers can implement actions via [JavaScript]({{ "/article/how-to-write-javascript-actions-openwhisk" | relative_url }}), Swift and, as described below, via Docker.
 
 Via Docker other programming languages than JavaScript and Swift can be used. Plus with Docker you can write JavaScript actions that require more [Node modules](https://new-console.ng.bluemix.net/docs/openwhisk/openwhisk_reference.html#openwhisk_ref_javascript) than currently supported by OpenWhisk JavaScript actions.
 

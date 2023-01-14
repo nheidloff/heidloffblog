@@ -16,11 +16,11 @@ categories:
     - Articles
 ---
 
-In my last blog entry I documented how to [deploy Angular 2+ apps to Bluemix](http://heidloff.net/article/angular-2-bluemix-docker-nginx) via the HTTP server nginx. All that server does it to host the static files. Below I describe how to use [OpenWhisk](https://developer.ibm.com/openwhisk/) actions for server-side business logic that can be invoked from Angular apps.
+In my last blog entry I documented how to [deploy Angular 2+ apps to Bluemix]({{ "/article/angular-2-bluemix-docker-nginx" | relative_url }}) via the HTTP server nginx. All that server does it to host the static files. Below I describe how to use [OpenWhisk](https://developer.ibm.com/openwhisk/) actions for server-side business logic that can be invoked from Angular apps.
 
 In order to avoid cross origin security errors proxy servers need to be used. Fortunately both the local web server that is installed via the Angular CLI and nginx can be configured as proxies.
 
-I’m using the same simple app again from my last [blog](http://heidloff.net/article/angular-2-bluemix-docker-nginx) entry with one new button that triggers an OpenWhisk action.
+I’m using the same simple app again from my last [blog]({{ "/article/angular-2-bluemix-docker-nginx" | relative_url }}) entry with one new button that triggers an OpenWhisk action.
 
 ![angular-ow2](http://heidloff.net/wp-content/uploads/2017/04/angular-ow2.png)
 
@@ -118,7 +118,7 @@ proxy.conf.json:
 }
 ```
 
-The configuration of the nginx proxy is already done in the previous [blog](http://heidloff.net/article/angular-2-bluemix-docker-nginx) entry in ‘nginx.conf’. You can deploy the app again via the following commands:
+The configuration of the nginx proxy is already done in the previous [blog]({{ "/article/angular-2-bluemix-docker-nginx" | relative_url }}) entry in ‘nginx.conf’. You can deploy the app again via the following commands:
 
 ```
 ng build --prod

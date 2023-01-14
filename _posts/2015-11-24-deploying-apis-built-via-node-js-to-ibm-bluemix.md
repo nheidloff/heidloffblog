@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-In my previous article I described how to use [Swagger to document APIs in Node.js applications](http://heidloff.net/article/usage-of-swagger-in-nodejs-applications-to-document-apis) via a simple hello world sample. Below I demonstrate how to deploy the same sample to [Bluemix](https://bluemix.net) via [Docker](https://www.docker.com/) and how to use the [API Management](https://www.ng.bluemix.net/docs/services/APIManagement/index.html) service to enforce client ids and secrets when invoking the APIs so that API owners can monitor the usage of their APIs.
+In my previous article I described how to use [Swagger to document APIs in Node.js applications]({{ "/article/usage-of-swagger-in-nodejs-applications-to-document-apis" | relative_url }}) via a simple hello world sample. Below I demonstrate how to deploy the same sample to [Bluemix](https://bluemix.net) via [Docker](https://www.docker.com/) and how to use the [API Management](https://www.ng.bluemix.net/docs/services/APIManagement/index.html) service to enforce client ids and secrets when invoking the APIs so that API owners can monitor the usage of their APIs.
 
 **Deploying Node.js Applications to IBM Bluemix as Docker Containers**
 

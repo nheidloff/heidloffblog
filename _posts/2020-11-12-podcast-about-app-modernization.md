@@ -16,7 +16,7 @@ categories:
 
 My colleague [Upkar Lidder](https://twitter.com/lidderupk) and I have discussed the topic Application Modernization in a [podcast](https://www.youtube.com/watch?v=juCjyc98J5M).
 
-The podcast is basically about my article [10 Reasons why Enterprises should modernize Applications](http://heidloff.net/article/ten-reasons-why-enterprises-should-modernize-applications/).
+The podcast is basically about my article [10 Reasons why Enterprises should modernize Applications]({{ "/article/ten-reasons-why-enterprises-should-modernize-applications/" | relative_url }}).
 
 <iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/juCjyc98J5M" width="853"></iframe>
 

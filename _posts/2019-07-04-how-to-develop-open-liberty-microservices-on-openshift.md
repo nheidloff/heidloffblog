@@ -99,6 +99,6 @@ After the deployment the application will show up in the OpenShift Web Console:
 
 ![image](/assets/img/2019/07/openshift-liberty2.png)
 
-Note that there are several other options to deploy applications to OpenShift/OKD. Check out my previous article [Deploying Open Liberty Microservices to OpenShift](http://heidloff.net/article/deploying-open-liberty-microservices-openshift/).
+Note that there are several other options to deploy applications to OpenShift/OKD. Check out my previous article [Deploying Open Liberty Microservices to OpenShift]({{ "/article/deploying-open-liberty-microservices-openshift/" | relative_url }}).
 
 This sample is part of the GitHub repo [cloud-native-starter](https://github.com/nheidloff/cloud-native-starter). Check it out to learn how to develop cloud-native applications with Java EE/Jakarta EE, Eclipse MicroProfile, Kubernetes and Istio and how to deploy these applications to Kubernetes, Minikube, OpenShift and Minishift.

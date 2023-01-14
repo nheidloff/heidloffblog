@@ -26,13 +26,13 @@ Jonas Jacobi in his keynote about developer advocacy and IBM’s emphasize on op
 
 ![image](/assets/img/2018/05/wearedevs3.jpg)
 
-I gave a session [When to use Serverless? When to use Kubernetes?](http://heidloff.net/article/when-to-use-serverless-kubernetes). I’m very happy that so many people (800+) attended it. It was a lot of fun and I had great discussions with attendees after it.
+I gave a session [When to use Serverless? When to use Kubernetes?]({{ "/article/when-to-use-serverless-kubernetes" | relative_url }}). I’m very happy that so many people (800+) attended it. It was a lot of fun and I had great discussions with attendees after it.
 
 ![image](/assets/img/2018/05/wearedevs1.jpg)
 
 ![image](/assets/img/2018/05/wearedevs1b.jpg)
 
-Hannes Hoettinger explaining how the [Anki Cozmo robot can recognize toys](http://heidloff.net/article/visual-recognition-for-cozmo-with-tensorflow) via TensorFlow, Kubernetes and OpenWhisk:
+Hannes Hoettinger explaining how the [Anki Cozmo robot can recognize toys]({{ "/article/visual-recognition-for-cozmo-with-tensorflow" | relative_url }}) via TensorFlow, Kubernetes and OpenWhisk:
 
 ![image](/assets/img/2018/05/wearedevs5.jpg)
 

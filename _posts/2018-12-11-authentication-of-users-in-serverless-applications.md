@@ -34,7 +34,7 @@ App ID also comes with [authentication pages](https://console.bluemix.net/docs/s
 
 App ID can easily be used in server side code. In this case the client ID and client secret are stored on the server. For serverless applications, these credentials must not be stored in the client for security reasons. That’s why I’ve implemented OpenWhisk [login functions](https://github.com/nheidloff/serverless-web-application-ibm-cloud/tree/master/function-login) which authenticate users via OAuth.
 
-These two functions and the sequence are generic and can easily be used in other web applications hosted on the IBM Cloud. Read my previous [article](http://heidloff.net/article/serverless-web-applications-oauth) to understand how these functions and the sample Angular app invoke and execute the OAuth dance. When I wrote that article, the App ID cloud directory didn’t exist which is why I choose Google as identity provider.
+These two functions and the sequence are generic and can easily be used in other web applications hosted on the IBM Cloud. Read my previous [article]({{ "/article/serverless-web-applications-oauth" | relative_url }}) to understand how these functions and the sample Angular app invoke and execute the OAuth dance. When I wrote that article, the App ID cloud directory didn’t exist which is why I choose Google as identity provider.
 
 ![image](/assets/img/2018/12/serverless-app-id-functions.png)
 
@@ -42,8 +42,8 @@ If you want to try this functionality yourself, create an [IBM Cloud lite accoun
 
 This article is part of a mini series. Check out the other articles and documentation:
 
-- [Developing Serverless Web Applications on the IBM Cloud](http://heidloff.net/article/serverless-web-applications-ibm)
-- [Hosting Resources for Web Applications on the IBM Cloud](http://heidloff.net/article/hosting-static-web-resources-ibm-cloud)
-- [User Authorization in Serverless Web Applications](http://heidloff.net/article/user-authorization-serverless-web-applications-openwhisk)
+- [Developing Serverless Web Applications on the IBM Cloud]({{ "/article/serverless-web-applications-ibm" | relative_url }})
+- [Hosting Resources for Web Applications on the IBM Cloud]({{ "/article/hosting-static-web-resources-ibm-cloud" | relative_url }})
+- [User Authorization in Serverless Web Applications]({{ "/article/user-authorization-serverless-web-applications-openwhisk" | relative_url }})
 - [Setup Instructions](https://github.com/nheidloff/serverless-web-application-ibm-cloud/blob/master/README.md)
 - [Screenshots](https://github.com/nheidloff/serverless-web-application-ibm-cloud/blob/master/documentation/serverless-web-apps.pdf)

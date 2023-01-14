@@ -18,7 +18,7 @@ categories:
     - Articles
 ---
 
-**Update 03/02/16:** See the newer article [Samples to get started with Cognitive Watson Services](http://heidloff.net/article/ibm-watson-samples-get-started).
+**Update 03/02/16:** See the newer article [Samples to get started with Cognitive Watson Services]({{ "/article/ibm-watson-samples-get-started" | relative_url }}).
 
  I’ve started to try some of the Watson services on Bluemix. Really impressive. Below are some samples that give some ideas what the services do and how to use them.
 

@@ -22,12 +22,12 @@ The code is available as open source in the [text-classification-watson-nlp](htt
 
 Here are all parts of the series:
 
-- [Introduction: Text Classification Sample for IBM Watson NLP](http://heidloff.net/article/text-classification-sample-for-ibm-watson-nlp/)
-- [Step 1: Converting XML Feeds into CSVs with Sentences](http://heidloff.net/article/converting-xml-feeds-into-csvs-with-sentences/)
-- [Step 2: Labelling Sentences for Text Classifications](http://heidloff.net/article/labelling-sentences-for-text-classifications/)
-- [Step 3: Training Text Classification Models with Watson NLP](http://heidloff.net/article/training-text-classification-models-with-watson-nlp/)
-- [Step 4: Running Predictions against custom Watson NLP Models](http://heidloff.net/article/running-predictions-against-custom-watson-nlp-models/)
-- [Step 5: Deploying custom Watson NLP Text Classification Models](http://heidloff.net/article/deploying-custom-watson-nlp-text-classification-models)
+- [Introduction: Text Classification Sample for IBM Watson NLP]({{ "/article/text-classification-sample-for-ibm-watson-nlp/" | relative_url }})
+- [Step 1: Converting XML Feeds into CSVs with Sentences]({{ "/article/converting-xml-feeds-into-csvs-with-sentences/" | relative_url }})
+- [Step 2: Labelling Sentences for Text Classifications]({{ "/article/labelling-sentences-for-text-classifications/" | relative_url }})
+- [Step 3: Training Text Classification Models with Watson NLP]({{ "/article/training-text-classification-models-with-watson-nlp/" | relative_url }})
+- [Step 4: Running Predictions against custom Watson NLP Models]({{ "/article/running-predictions-against-custom-watson-nlp-models/" | relative_url }})
+- [Step 5: Deploying custom Watson NLP Text Classification Models]({{ "/article/deploying-custom-watson-nlp-text-classification-models" | relative_url }})
 
 **Scenario**
 
@@ -91,4 +91,4 @@ For example IBM provides Watson Machine Learning [http://heidloff.net/article/wa
 
 **What’s next?**
 
-Check out my blog for more posts related to this sample or get the [code](https://github.com/nheidloff/text-classification-watson-nlp) from GitHub. To learn more about IBM Watson NLP and Embeddable AI, check out these [resources](http://heidloff.net/article/the-ultimate-guide-to-ibm-watson-libraries/).
+Check out my blog for more posts related to this sample or get the [code](https://github.com/nheidloff/text-classification-watson-nlp) from GitHub. To learn more about IBM Watson NLP and Embeddable AI, check out these [resources]({{ "/article/the-ultimate-guide-to-ibm-watson-libraries/" | relative_url }}).

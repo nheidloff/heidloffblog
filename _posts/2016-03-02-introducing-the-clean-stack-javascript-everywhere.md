@@ -32,7 +32,7 @@ CLEAN stands for [Cloudant NoSQL DB](https://console.ng.bluemix.net/docs/service
 
 With the importance of the API economy I looked for a mechanism to easily build and document APIs. LoopBack has a lot to offer along those lines and last week even more exciting [announcements](https://strongloop.com/strongblog/introducing-ibm-api-connect/) were made around API management.
 
-Also a lot of applications require access control to certain information on both application and object level. I evaluated briefly other ways to do [authorization](http://heidloff.net/article/authorization-nodejs-applications-bluemix) in Node.js applications, but for me the built in functionality in LoopBack was much easier to use.
+Also a lot of applications require access control to certain information on both application and object level. I evaluated briefly other ways to do [authorization]({{ "/article/authorization-nodejs-applications-bluemix" | relative_url }}) in Node.js applications, but for me the built in functionality in LoopBack was much easier to use.
 
 **2) Cloudant NoSQL Database**
 
@@ -63,11 +63,11 @@ Check out the [slides](http://www.slideshare.net/niklasheidloff/collaborative-li
 
 Documentation:
 
-- [Creating Business Objects and REST APIs with LoopBack](http://heidloff.net/article/creating-rest-apis-loopback)
-- [Usage of Cloudant in LoopBack Applications](http://heidloff.net/article/cloudant-loopback-nodejs)
-- [Authentication in LoopBack Applications against Bluemix](http://heidloff.net/article/authentication-loopback-bluemix)
-- [Customization of REST APIs in LoopBack Applications](http://heidloff.net/article/customization-rest-apis-loopback-bluemix)
-- [Authorization in LoopBack Applications on Bluemix](http://heidloff.net/article/authorization-loopback-bluemix)
-- [How to write AngularJS Frontends for LoopBack Applications](http://heidloff.net/article/how-to-write-angularjs-loopback-applications)
-- [How to write Mobile Apps for LoopBack Applications](http://heidloff.net/article/how-to-write-mobile-apps-loopback)
-- [How to consume Bluemix Services in LoopBack Applications](http://heidloff.net/article/how-to-consume-bluemix-services-loopback)
+- [Creating Business Objects and REST APIs with LoopBack]({{ "/article/creating-rest-apis-loopback" | relative_url }})
+- [Usage of Cloudant in LoopBack Applications]({{ "/article/cloudant-loopback-nodejs" | relative_url }})
+- [Authentication in LoopBack Applications against Bluemix]({{ "/article/authentication-loopback-bluemix" | relative_url }})
+- [Customization of REST APIs in LoopBack Applications]({{ "/article/customization-rest-apis-loopback-bluemix" | relative_url }})
+- [Authorization in LoopBack Applications on Bluemix]({{ "/article/authorization-loopback-bluemix" | relative_url }})
+- [How to write AngularJS Frontends for LoopBack Applications]({{ "/article/how-to-write-angularjs-loopback-applications" | relative_url }})
+- [How to write Mobile Apps for LoopBack Applications]({{ "/article/how-to-write-mobile-apps-loopback" | relative_url }})
+- [How to consume Bluemix Services in LoopBack Applications]({{ "/article/how-to-consume-bluemix-services-loopback" | relative_url }})

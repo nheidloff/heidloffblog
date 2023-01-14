@@ -16,7 +16,7 @@ categories:
 
 *With the TechZone Accelerator Toolkit IBM software, open source projects and custom applications can easily be deployed to various clouds. This article explains how to ensure that the right versions of modules are deployed.*
 
-In an earlier blog I introduced the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code](http://heidloff.net/article/introducing-ibms-toolkit-to-handle-everything-as-code/). The toolkit leverages Terrafrom and GitOps and is based on best practices based on IBM experiences in partner and clients projects.
+In an earlier blog I introduced the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code]({{ "/article/introducing-ibms-toolkit-to-handle-everything-as-code/" | relative_url }}). The toolkit leverages Terrafrom and GitOps and is based on best practices based on IBM experiences in partner and clients projects.
 
 Solutions are defined via bill of materials (BOM) which contain lists of [modules](https://modules.cloudnativetoolkit.dev/). In the following [example](https://github.com/IBM/watson-automation/blob/main/roks-new-nlp/bom.yaml) an OpenShift cluster is created in the IBM Cloud which comes with Argo CD, a GitOps repo, Watson NLP and a sample application based on ubi.
 

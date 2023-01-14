@@ -14,7 +14,7 @@ categories:
     - Articles
 ---
 
-The [strangler pattern](http://heidloff.net/article/strangler-pattern-example/) is a common methodology to break down monoliths in microservices. However caution needs to be taken to prevent building [distributed monoliths](http://heidloff.net/article/do-not-build-distributed-monoliths/). This article describes how to use event driven architectures for loosely coupled microservices.
+The [strangler pattern]({{ "/article/strangler-pattern-example/" | relative_url }}) is a common methodology to break down monoliths in microservices. However caution needs to be taken to prevent building [distributed monoliths]({{ "/article/do-not-build-distributed-monoliths/" | relative_url }}). This article describes how to use event driven architectures for loosely coupled microservices.
 
 Distributed systems have several advantages, for example resiliency and horizontal scalability. At the same time they introduce new challenges compared to classic monolithic systems related to the networking overhead between services. When breaking down monoliths into microservices, the goal is to minimize the dependencies between the services.
 
@@ -32,7 +32,7 @@ This article is part of a series of articles that documents how to [modernize a 
 
 The sample application is a simple e-commerce application. The original application and the source code of all subsequent modernization steps is available as [open source](https://github.com/nheidloff/application-modernization-javaee-quarkus) on GitHub.
 
-In a previous [article](http://heidloff.net/article/strangler-pattern-example/) I explained how you can identify which part of the monolith application should be put in a separate service. I decided to move the catalog functionality into a separate service. Most users of e-commerce sites probably navigate through different offers while only few users actually log in, add something to their shopping carts and order something. So the advantage of splitting the catalog functionality from the monolith is that this part of the application can be scaled independently from the rest of the application. Economically this means you need less resources like CPU and memory which leads to less costs.
+In a previous [article]({{ "/article/strangler-pattern-example/" | relative_url }}) I explained how you can identify which part of the monolith application should be put in a separate service. I decided to move the catalog functionality into a separate service. Most users of e-commerce sites probably navigate through different offers while only few users actually log in, add something to their shopping carts and order something. So the advantage of splitting the catalog functionality from the monolith is that this part of the application can be scaled independently from the rest of the application. Economically this means you need less resources like CPU and memory which leads to less costs.
 
 The catalog functionality is pretty separate from the functionality of the remaining monolith, for example account information and orders. However there still are some dependencies. Let’s say users added products from the catalog to their shopping carts. When the prices (or titles, ratings, descriptions, etc.) of these products change, there should be some indications in the shopping cart user interface.
 

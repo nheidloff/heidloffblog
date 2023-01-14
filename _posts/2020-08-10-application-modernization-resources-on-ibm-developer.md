@@ -17,7 +17,7 @@ categories:
 
 In this short blog I list resources IBM provides around the topic ‘Application Modernization’ which is a topic that gets more and more important for companies as part of their journey to the cloud and their digital transformation strategy.
 
-In my other article [10 Reasons why Enterprises should modernize Applications](http://heidloff.net/article/ten-reasons-why-enterprises-should-modernize-applications/) I describe why you want to use the following resources.
+In my other article [10 Reasons why Enterprises should modernize Applications]({{ "/article/ten-reasons-why-enterprises-should-modernize-applications/" | relative_url }}) I describe why you want to use the following resources.
 
 **Landing Page**
 
@@ -35,7 +35,7 @@ Transformation Advisor is a tool that helps you access, analyse and modernize mi
 - [IBM Cloud Transformation Advisor](https://www.ibm.com/garage/method/practices/learn/ibm-transformation-advisor)
 - [Demo showing how to modernize WebSphere app with Open Liberty](https://www.ibm.com/cloud/architecture/architectures/runtime-modernization-solution)
 - [Demo showing how to move a WebSphere application to the cloud without code changes](https://www.ibm.com/cloud/architecture/architectures/op-modernization-solution)
-- [Article describing how to get started with the Transformation Advisor](http://heidloff.net/article/modernizing-java-applications-with-ibms-transformation-advisor/)
+- [Article describing how to get started with the Transformation Advisor]({{ "/article/modernizing-java-applications-with-ibms-transformation-advisor/" | relative_url }})
 - [IBM Cloud Pak for Applications](https://developer.ibm.com/components/cloud-pak-for-applications/)
 
 **WebSphere Application Server Migration Tools**

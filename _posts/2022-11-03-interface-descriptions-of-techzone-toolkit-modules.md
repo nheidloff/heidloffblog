@@ -16,7 +16,7 @@ categories:
 
 *With the TechZone Accelerator Toolkit IBM software, open source projects and custom applications can easily be deployed to various clouds. This article explains how input and output variables of modules are defined.*
 
-Check out my earlier blog that introduces the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code](http://heidloff.net/article/introducing-ibms-toolkit-to-handle-everything-as-code/). The toolkit leverages Terrafrom and GitOps and is based on best practices from IBM projects with partners and clients.
+Check out my earlier blog that introduces the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code]({{ "/article/introducing-ibms-toolkit-to-handle-everything-as-code/" | relative_url }}). The toolkit leverages Terrafrom and GitOps and is based on best practices from IBM projects with partners and clients.
 
 Solutions are defined via bill of materials (BOMs) which contain lists of [modules](https://modules.cloudnativetoolkit.dev/). In the following [example](https://github.com/IBM/watson-automation/blob/main/roks-new-nlp/bom.yaml) an OpenShift cluster is created in the IBM Cloud which comes with Argo CD, a GitOps repo, Watson NLP and a sample application based on ubi.
 
@@ -34,7 +34,7 @@ spec:
     - name: terraform-gitops-watson-nlp
 ```
 
-Modules have input and output variables. Read my blog [Configuring the TechZone Accelerator Toolkit](http://heidloff.net/article/configuring-the-techzone-accelerator-toolkit/) how to use input variables to configure BOMs for different scenarios.
+Modules have input and output variables. Read my blog [Configuring the TechZone Accelerator Toolkit]({{ "/article/configuring-the-techzone-accelerator-toolkit/" | relative_url }}) how to use input variables to configure BOMs for different scenarios.
 
 The input variables are defined by convention in the [variables.tf](https://github.com/cloud-native-toolkit/terraform-gitops-watson-nlp/blob/main/variables.tf) files of modules via Terraform and HCL.
 

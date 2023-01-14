@@ -22,7 +22,7 @@ The goal of our organization is to make IBM partners successful. To scale our wo
 
 [Automation for Watson NLP Deployments](https://github.com/ibm/watson-automation) – #Terraform #GitOps #ArgoCD #DevOps #EverythingAsCode #AI
 
-[Watson NLP and Watson Speech](http://heidloff.net/article/the-ultimate-guide-to-ibm-watson-libraries/) – #AI #WatsonStudio #DataScience #Containers #MLOps
+[Watson NLP and Watson Speech]({{ "/article/the-ultimate-guide-to-ibm-watson-libraries/" | relative_url }}) – #AI #WatsonStudio #DataScience #Containers #MLOps
 
 [SaaS Reference Architecture](https://github.com/IBM/multi-tenancy) – #DevOps #DevSecOps #MultiCloud #HybridCloud #Serverless #OpenShift
 

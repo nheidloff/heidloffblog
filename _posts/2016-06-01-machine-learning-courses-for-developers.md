@@ -20,7 +20,7 @@ To learn more, I’ve started to watch the first hours of the awesome courses be
 
 The courses are free courses provided by [Udacity](https://www.udacity.com). The speakers are phenomenal, the content is very interesting and easy to understand.
 
-To run the exercises in the courses via [Scikit Learn](http://scikit-learn.org/) on [Bluemix](https://bluemix.net) you can follow the documentation in this [article](http://heidloff.net/article/how-to-get-started-machine-learning-bluemix).
+To run the exercises in the courses via [Scikit Learn](http://scikit-learn.org/) on [Bluemix](https://bluemix.net) you can follow the documentation in this [article]({{ "/article/how-to-get-started-machine-learning-bluemix" | relative_url }}).
 
 [Intro to Machine Learning: Pattern Recognition for Fun and Profit](https://www.udacity.com/course/intro-to-machine-learning--ud120)
 

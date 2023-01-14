@@ -16,9 +16,9 @@ categories:
     - Articles
 ---
 
-As the [Node-RED](http://nodered.org/) website says “Node-RED is a tool for wiring together hardware devices, APIs and online services in new and interesting ways”. It has been possible to use Node-RED for [Internet of Things](http://heidloff.net/article/21.01.2015081841NHEAL8.htm) scenarios on [Bluemix](https://bluemix.net) for quite some time. With the new [Connect and Compose](https://www.ng.bluemix.net/docs/services/ConnectandCompose/index.html) (beta) service you can now also use Node-RED to compose complex APIs via flow editor and JavaScript.
+As the [Node-RED](http://nodered.org/) website says “Node-RED is a tool for wiring together hardware devices, APIs and online services in new and interesting ways”. It has been possible to use Node-RED for [Internet of Things]({{ "/article/21.01.2015081841NHEAL8.htm" | relative_url }}) scenarios on [Bluemix](https://bluemix.net) for quite some time. With the new [Connect and Compose](https://www.ng.bluemix.net/docs/services/ConnectandCompose/index.html) (beta) service you can now also use Node-RED to compose complex APIs via flow editor and JavaScript.
 
-Below is a simple example which is the [same scenario](http://heidloff.net/article/assembling-rest-apis-with-the-api-management-service-on-bluemix) that I implemented with the [API Management](https://www.ng.bluemix.net/docs/services/APIManagement/index.html) service. In order to reduce the number of requests from (mobile) clients two HTTP requests are invoked before the results are returned to the client.
+Below is a simple example which is the [same scenario]({{ "/article/assembling-rest-apis-with-the-api-management-service-on-bluemix" | relative_url }}) that I implemented with the [API Management](https://www.ng.bluemix.net/docs/services/APIManagement/index.html) service. In order to reduce the number of requests from (mobile) clients two HTTP requests are invoked before the results are returned to the client.
 
 After you’ve created a service instance on Bluemix you can choose to compose new APIs. In the Node-RED editor the first thing you need is an Http In node where you define the request type and url. The Http In node is linked to a Swagger-Doc node where the input and output parameters are defined. To open the Swagger-Doc editor click on “Edit” in the HTTP In node.
 

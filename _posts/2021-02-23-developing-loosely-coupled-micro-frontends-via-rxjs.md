@@ -14,13 +14,13 @@ categories:
     - Articles
 ---
 
-My last article [Developing Micro Frontends with Single-Spa](http://heidloff.net/article/developing-micro-frontends-single-spa/) explained how to break down monolithic web applications in micro frontends using [single-spa](https://single-spa.js.org/). In order to ensure loosely coupling between the micro frontends, I’ve used RxJS in my sample application.
+My last article [Developing Micro Frontends with Single-Spa]({{ "/article/developing-micro-frontends-single-spa/" | relative_url }}) explained how to break down monolithic web applications in micro frontends using [single-spa](https://single-spa.js.org/). In order to ensure loosely coupling between the micro frontends, I’ve used RxJS in my sample application.
 
 This article is part of a series of articles that documents how to [modernize a sample Java EE application](https://github.com/nheidloff/application-modernization-javaee-quarkus#documentation) from 2010 with modern technologies. The sample application is a simple e-commerce application. The original application and the source code of all subsequent modernization steps is available as [open source](https://github.com/nheidloff/application-modernization-javaee-quarkus) on GitHub.
 
-When breaking down backend monoliths in microservices or monolithic web applications in micro frontends, the amount of dependencies between components should be minimized. [Event driven architectures](http://heidloff.net/article/do-not-build-distributed-monoliths/) provide several ways to do this.
+When breaking down backend monoliths in microservices or monolithic web applications in micro frontends, the amount of dependencies between components should be minimized. [Event driven architectures]({{ "/article/do-not-build-distributed-monoliths/" | relative_url }}) provide several ways to do this.
 
-For example, in my [e-commerce application](http://heidloff.net/article/event-driven-architectures-loosely-coupled-microservices/) I use Apache Kafka as message broker together with Eclipse MicroProfile to communicate between Java backend services. The microservices which communicate with each other still need to understand which events occur and their data formats, but there is no blocking.
+For example, in my [e-commerce application]({{ "/article/event-driven-architectures-loosely-coupled-microservices/" | relative_url }}) I use Apache Kafka as message broker together with Eclipse MicroProfile to communicate between Java backend services. The microservices which communicate with each other still need to understand which events occur and their data formats, but there is no blocking.
 
 **RxJS – Reactive Extensions For JavaScript**
 

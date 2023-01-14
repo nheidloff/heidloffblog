@@ -18,11 +18,11 @@ categories:
 
 This article is part of a mini series. Read the previous articles to understand the benefits of the DevSecOps reference implementation and how to use the CI/CD pipelines from a consumer perspective. In those articles I explain the DevSecOps reference implementation via a concrete sample scenario which is a [SaaS reference architecture](https://github.com/IBM/multi-tenancy) that shows how our clients and partners can build software as a service.
 
-- [DevSecOps for SaaS Reference Architecture on OpenShift](http://heidloff.net/article/devsecops-saas-reference-architecture-openshift/)
-- [Shift-Left Continuous Integration with DevSecOps Pipelines](http://heidloff.net/article/shift-left-continuous-integration-devsecops-pipelines/)
-- [Change, Evidence and Issue Management with DevSecOps](http://heidloff.net/article/change-evidence-issue-management-devsecops/)
-- [Continuous Delivery with DevSecOps Reference Architecture](http://heidloff.net/article/continuous-delivery-ibm-devsecops-reference-architecture/)
-- This article: [Tekton without Tekton in DevSecOps Pipelines](http://heidloff.net/article/tekton-without-tekton-devsecops-pipelines/)
+- [DevSecOps for SaaS Reference Architecture on OpenShift]({{ "/article/devsecops-saas-reference-architecture-openshift/" | relative_url }})
+- [Shift-Left Continuous Integration with DevSecOps Pipelines]({{ "/article/shift-left-continuous-integration-devsecops-pipelines/" | relative_url }})
+- [Change, Evidence and Issue Management with DevSecOps]({{ "/article/change-evidence-issue-management-devsecops/" | relative_url }})
+- [Continuous Delivery with DevSecOps Reference Architecture]({{ "/article/continuous-delivery-ibm-devsecops-reference-architecture/" | relative_url }})
+- This article: [Tekton without Tekton in DevSecOps Pipelines]({{ "/article/tekton-without-tekton-devsecops-pipelines/" | relative_url }})
 
 The DevSecOps reference implementation uses internally [Tekton](https://tekton.dev/) which is a Kubernetes-native CI/CD technology with several benefits like the big community, lots of reusable tasks, multi-cloud support and more. One challenge I’ve experienced with Tekton is that it is sometimes not as easy and convenient as I had hoped. A good example is how parameters are passed around. To support clean encapsulations and allow reuse of assets, Tekton assets provide interfaces which describe exactly the input and output of assets like tasks. While this concept makes a lot of sense, it can add complexity (some people might say unnecessary work) when developing pipelines. For example to pass a property to a task it might involve multiple stages: from initial definition to pipeline to pipeline run to task and then to task run. In my case this often caused issues since I forgot steps and the debugging was time consuming.
 

@@ -18,11 +18,11 @@ categories:
 
 In this article I describe how to authorize users in serverless web applications on the IBM Cloud.
 
-I’ve [open sourced a sample Angular application](https://github.com/nheidloff/serverless-web-application-ibm-cloud) which authenticates users via OAuth and [IBM App ID](https://console.bluemix.net/docs/services/appid/index.html#gettingstarted) as described in my previous article ‘[Authentication of Users in Serverless Applications](http://heidloff.net/article/user-authentication-serverless-openwhisk)‘. Once users are authenticated, the Angular application stores the access tokens of the users.
+I’ve [open sourced a sample Angular application](https://github.com/nheidloff/serverless-web-application-ibm-cloud) which authenticates users via OAuth and [IBM App ID](https://console.bluemix.net/docs/services/appid/index.html#gettingstarted) as described in my previous article ‘[Authentication of Users in Serverless Applications]({{ "/article/user-authentication-serverless-openwhisk" | relative_url }})‘. Once users are authenticated, the Angular application stores the access tokens of the users.
 
 API Management can be used on the IBM Cloud to control access to OpenWhisk functions. These APIs can be protected, for example by ensuring that users are authenticated against App ID.
 
-Note that this setting checks whether users have valid access tokens. It does not help you to get access tokens for users. That’s why users need to be authenticated first as described in my [article](http://heidloff.net/article/user-authentication-serverless-openwhisk).
+Note that this setting checks whether users have valid access tokens. It does not help you to get access tokens for users. That’s why users need to be authenticated first as described in my [article]({{ "/article/user-authentication-serverless-openwhisk" | relative_url }}).
 
 ![image](/assets/img/2018/12/protected-api-2.png)
 
@@ -72,8 +72,8 @@ If you want to try this functionality yourself, create an [IBM Cloud lite accoun
 
 This article is part of a mini series. Check out the other articles and documentation:
 
-- [Developing Serverless Web Applications on the IBM Cloud](http://heidloff.net/article/serverless-web-applications-ibm)
-- [Hosting Resources for Web Applications on the IBM Cloud](http://heidloff.net/article/hosting-static-web-resources-ibm-cloud)
-- [Authentication of Users in Serverless Applications](http://heidloff.net/article/user-authentication-serverless-openwhisk)
+- [Developing Serverless Web Applications on the IBM Cloud]({{ "/article/serverless-web-applications-ibm" | relative_url }})
+- [Hosting Resources for Web Applications on the IBM Cloud]({{ "/article/hosting-static-web-resources-ibm-cloud" | relative_url }})
+- [Authentication of Users in Serverless Applications]({{ "/article/user-authentication-serverless-openwhisk" | relative_url }})
 - [Setup Instructions](https://github.com/nheidloff/serverless-web-application-ibm-cloud/blob/master/README.md)
 - [Screenshots](https://github.com/nheidloff/serverless-web-application-ibm-cloud/blob/master/documentation/serverless-web-apps.pdf)

@@ -20,13 +20,13 @@ For software development there are many methodologies, patterns and techniques t
 
 For data science there is a lot of information how machine and deep learning models can be built. The operational aspects seem to still be evolving. I’m currently trying to understand better how to deploy models in the cloud and how to use them efficiently in applications. Below are some of my findings so far.
 
-In the simplest case [models provided by data scientists](http://heidloff.net/article/open-source-ai-models-zoo-exchange-onnx) and models extended by developers can be wrapped in Docker containers and accessed via REST APIs. The Docker containers can be run, for example, on [Kubernetes](http://heidloff.net/article/model-asset-exchange-dl-kubernetes-tensorflow) or on serverless platforms like [OpenWhisk](http://heidloff.net/article/visual-recognition-tensorflow). When building Flask based web applications, the models could even be packaged and run in the same container.
+In the simplest case [models provided by data scientists]({{ "/article/open-source-ai-models-zoo-exchange-onnx" | relative_url }}) and models extended by developers can be wrapped in Docker containers and accessed via REST APIs. The Docker containers can be run, for example, on [Kubernetes]({{ "/article/model-asset-exchange-dl-kubernetes-tensorflow" | relative_url }}) or on serverless platforms like [OpenWhisk]({{ "/article/visual-recognition-tensorflow" | relative_url }}). When building Flask based web applications, the models could even be packaged and run in the same container.
 
 While this works for prototypes and quick evaluations, there are several other aspects you need to take into account when deploying models to production environments.
 
 **Versioning**
 
-As for other services and APIs multiple versions need to be handled. At a minimum it should be possible to roll out new models via blue-green deployments. Furthermore traffic management functionality like canary deployments and [A/B testing](http://heidloff.net/article/ab-testing-kubernetes-istio) is often required for sophisticated production applications.
+As for other services and APIs multiple versions need to be handled. At a minimum it should be possible to roll out new models via blue-green deployments. Furthermore traffic management functionality like canary deployments and [A/B testing]({{ "/article/ab-testing-kubernetes-istio" | relative_url }}) is often required for sophisticated production applications.
 
 **Inference Pipelines**
 
@@ -38,7 +38,7 @@ So rather than deploying only the core model, inference pipelines should be depl
 
 **Inference Model Optimizations**
 
-I blogged about how to deploy models to edge devices via [TensorFlow Lite](http://heidloff.net/article/tensorflow-lite-ibm-watson-ios) and [TensorFlow.js](http://heidloff.net/article/tensorflowjs-ibm-watson-web-browsers-dl). In both cases models need to be optimized in terms of model size, memory usage, battery usage, etc. To achieve this, one method is to remove dropouts from the graph. Dropouts are used during training to prevent overfitting models. At runtime, when running predictions, they are not needed.
+I blogged about how to deploy models to edge devices via [TensorFlow Lite]({{ "/article/tensorflow-lite-ibm-watson-ios" | relative_url }}) and [TensorFlow.js]({{ "/article/tensorflowjs-ibm-watson-web-browsers-dl" | relative_url }}). In both cases models need to be optimized in terms of model size, memory usage, battery usage, etc. To achieve this, one method is to remove dropouts from the graph. Dropouts are used during training to prevent overfitting models. At runtime, when running predictions, they are not needed.
 
 Another method to optimize models is quantization. Weights in graphs are often defined via floats. When using integers instead however, the sizes of the models are reduced significantly while the accuracy is only affected minimally or not at all.
 
@@ -46,7 +46,7 @@ Similarly to optimizations for mobile devices, optimizations are done before dep
 
 **Standard Requirements for Services**
 
-As for other services authentication and authorization need to be handled. In order to make models accessible to multiple applications and developers, [API Management](http://heidloff.net/article/machine-learning-models-rest-apis) is desirable.
+As for other services authentication and authorization need to be handled. In order to make models accessible to multiple applications and developers, [API Management]({{ "/article/machine-learning-models-rest-apis" | relative_url }}) is desirable.
 
 REST APIs are not the only way to expose models. Maybe other protocols like gRPC or messaging based systems are better options for specific scenarios.
 
@@ -60,11 +60,11 @@ There are several frameworks to deploy models in the cloud. In the best case a f
 
 ![image](/assets/img/2018/08/watson-studio-deployment-1024x435.png)
 
-The models from the [IBM Model Asset Exchange](https://developer.ibm.com/code/exchanges/models/) can be deployed easily to [Kubernetes](http://heidloff.net/article/model-asset-exchange-dl-kubernetes-tensorflow). Istio on top of Kubernetes supports traffic management, for example to do canary rollouts.
+The models from the [IBM Model Asset Exchange](https://developer.ibm.com/code/exchanges/models/) can be deployed easily to [Kubernetes]({{ "/article/model-asset-exchange-dl-kubernetes-tensorflow" | relative_url }}). Istio on top of Kubernetes supports traffic management, for example to do canary rollouts.
 
 [Seldon](https://github.com/SeldonIO/seldon-core) is an open source platform for deploying machine learning models on Kubernetes. It supports libraries like TensorFlow and Sklearn and REST and gRPC APIs. It can be used well together with the [Fabric for Deep Learning](https://developer.ibm.com/code/2018/06/12/serve-it-hot-deploy-your-ffdl-trained-models-using-seldon/). I like especially the capability to do what I call [Inference Pipelines](https://github.com/SeldonIO/seldon-core/blob/master/docs/crd/readme.md#creating-your-resource-definition) above.
 
-[TensorFlow Serving](https://www.tensorflow.org/serving/) is a flexible, high-performance serving system for machine learning models with built-in support for TensorFlow models. It seems to be pretty powerful but when I [tried](http://heidloff.net/article/tensorflow-serving-inception-ibm-cloud-kubernetes) it last year, it wasn’t that easy. I’m sure it has improved a lot since then. For example since recently TensorFlow Serving also supports [REST](https://www.tensorflow.org/serving/api_rest) and not only gRPC.
+[TensorFlow Serving](https://www.tensorflow.org/serving/) is a flexible, high-performance serving system for machine learning models with built-in support for TensorFlow models. It seems to be pretty powerful but when I [tried]({{ "/article/tensorflow-serving-inception-ibm-cloud-kubernetes" | relative_url }}) it last year, it wasn’t that easy. I’m sure it has improved a lot since then. For example since recently TensorFlow Serving also supports [REST](https://www.tensorflow.org/serving/api_rest) and not only gRPC.
 
 [PipelineAI](https://github.com/PipelineAI/pipeline) is a real-time enterprise AI platform and looks very promising. I’ve watched some of the great [videos](https://www.youtube.com/channel/UCvlZKtekcKkBUuz8f9dhobw/videos) which describe not only PipelineAI, but also deployment strategies and concepts in general. Models are packaged in Docker containers and can be run on Kubernetes. While that part is open source, I’m not sure yet about other PipelineAI components which do the model optimizations and visualization.
 

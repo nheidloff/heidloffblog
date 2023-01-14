@@ -50,7 +50,7 @@ In order to run Microclimate you need Docker since everything is containerized: 
 
 ![image](/assets/img/2019/02/microclimate-6.png)
 
-For Eclipse and Visual Studio Code there are plugins to connect to Microclimate. This allows running and debugging your application code directly from the development environments. This is very similar to what I blogged about [IBM Cloud Functions](http://heidloff.net/article/debug-apache-openwhisk-functions-vscode). The following screenshot shows the debugger in Visual Studio Code accessing the running code in a container.
+For Eclipse and Visual Studio Code there are plugins to connect to Microclimate. This allows running and debugging your application code directly from the development environments. This is very similar to what I blogged about [IBM Cloud Functions]({{ "/article/debug-apache-openwhisk-functions-vscode" | relative_url }}). The following screenshot shows the debugger in Visual Studio Code accessing the running code in a container.
 
 ![image](/assets/img/2019/02/microclimate-7.png)
 

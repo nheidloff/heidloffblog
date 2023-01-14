@@ -48,7 +48,7 @@ Here is a screenshot of the sample application:
 
 Ansgar Schmidt and I have blogged about this project in more detail.
 
-- [Visual Recognition with TensorFlow and OpenWhisk](http://heidloff.net/article/visual-recognition-tensorflow-openwhisk)
+- [Visual Recognition with TensorFlow and OpenWhisk]({{ "/article/visual-recognition-tensorflow-openwhisk" | relative_url }})
 - [Accessing IBM Object Storage from Python](https://ansi.23-5.eu/2017/11/accessing-ibm-object-store-python/)
 - [Image Recognition with Tensorflow training on Kubernetes](https://ansi.23-5.eu/2017/11/image-recognition-with-tensorflow-training-on-kubernetes/)
 - [Image Recognition with Tensorflow classification on OpenWhisk](https://ansi.23-5.eu/2017/11/image-recognition-tensorflow-classification-openwhisk/)

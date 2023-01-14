@@ -38,29 +38,29 @@ categories:
 
 *Development*
 
-- [Running and Deploying IBM Watson NLP Containers](http://heidloff.net/article/running-and-deploying-ibm-watson-nlp-containers/)
-- [Running IBM Watson NLP locally in Containers](http://heidloff.net/article/running-ibm-watson-nlp-locally-in-containers/)
-- [Running IBM Watson NLP in Minikube](http://heidloff.net/article/running-ibm-watson-nlp-in-minikube/)
-- [Understanding IBM Watson Containers](http://heidloff.net/article/understanding-ibm-watson-containers/)
-- [Deploying Watson NLP to IBM Code Engine](http://heidloff.net/article/deploying-watson-nlp-to-ibm-code-engine/)
+- [Running and Deploying IBM Watson NLP Containers]({{ "/article/running-and-deploying-ibm-watson-nlp-containers/" | relative_url }})
+- [Running IBM Watson NLP locally in Containers]({{ "/article/running-ibm-watson-nlp-locally-in-containers/" | relative_url }})
+- [Running IBM Watson NLP in Minikube]({{ "/article/running-ibm-watson-nlp-in-minikube/" | relative_url }})
+- [Understanding IBM Watson Containers]({{ "/article/understanding-ibm-watson-containers/" | relative_url }})
+- [Deploying Watson NLP to IBM Code Engine]({{ "/article/deploying-watson-nlp-to-ibm-code-engine/" | relative_url }})
 - [Watson Embedded AI Runtime Client Libraries](https://github.com/IBM/ibm-watson-embed-clients)
 - [Embed Model Builder (init Containers)](https://github.com/IBM/ibm-watson-embed-model-builder)
 - [Watson NLP Python Client](https://github.com/ibm-build-lab/Watson-NLP/blob/main/MLOps/Dash-App-gRPC-Client/readme.md)
 
 *Operations*
 
-- [Building custom IBM Watson NLP Images](http://heidloff.net/article/building-custom-ibm-watson-nlp-images-models/)
-- [Automation for embedded IBM Watson Deployments](http://heidloff.net/article/automation-for-ibm-watson-deployments/)
-- [Setting up OpenShift and Applications in one Hour](http://heidloff.net/article/setting-up-openshift-and-applications-in-one-hour/)
+- [Building custom IBM Watson NLP Images]({{ "/article/building-custom-ibm-watson-nlp-images-models/" | relative_url }})
+- [Automation for embedded IBM Watson Deployments]({{ "/article/automation-for-ibm-watson-deployments/" | relative_url }})
+- [Setting up OpenShift and Applications in one Hour]({{ "/article/setting-up-openshift-and-applications-in-one-hour/" | relative_url }})
 - [Repo: Automation for Watson NLP Deployments](https://github.com/IBM/watson-automation)
-- [Deploying TechZone Toolkit Modules on existing Clusters](http://heidloff.net/article/deploying-techzone-toolkit-modules-on-existing-clusters/)
-- [Serving Watson NLP on Kubernetes with KServe ModelMesh](http://heidloff.net/article/serving-watson-nlp-on-kubernetes-with-kserve-modelmesh/)
+- [Deploying TechZone Toolkit Modules on existing Clusters]({{ "/article/deploying-techzone-toolkit-modules-on-existing-clusters/" | relative_url }})
+- [Serving Watson NLP on Kubernetes with KServe ModelMesh]({{ "/article/serving-watson-nlp-on-kubernetes-with-kserve-modelmesh/" | relative_url }})
 - [Repo: Samples](https://github.com/ibm-build-lab/Watson-NLP/tree/main/MLOps)
 - [Serve Models on Amazon ECS with AWS Fargate](https://github.com/ibm-build-lab/Watson-NLP/blob/main/MLOps/Deploy-to-AWS-Fargate/README.md)
 
 *Training*
 
-- [Training IBM Watson NLP Models](http://heidloff.net/article/training-ibm-watson-nlp-models/)
+- [Training IBM Watson NLP Models]({{ "/article/training-ibm-watson-nlp-models/" | relative_url }})
 - [Watson Studio Environment for IBMers and Partners](https://developer.ibm.com/tutorials/set-up-your-ibm-watson-libraries-environment/)
 - [Text Classification](https://techzone.ibm.com/collection/watson-nlp-text-classification)
 - [Repo: Samples](https://github.com/ibm-build-lab/Watson-NLP/tree/main/ML)
@@ -73,8 +73,8 @@ categories:
 - [IBM Watson Speech Libraries for Embed](https://www.ibm.com/products/watson-speech-embed-libraries)
 - [Trial](https://www.ibm.com/account/reg/us-en/signup?formid=urx-51754)
 - [Entitlement Key](https://www.ibm.com/account/reg/us-en/subscribe?formid=urx-51726)
-- [Running IBM Watson Speech to Text in Containers](http://heidloff.net/article/running-ibm-watson-speech-to-text-in-containers/)
-- [Running IBM Watson Text To Speech in Minikube](http://heidloff.net/article/running-ibm-watson-text-to-speech-in-minikube/)
+- [Running IBM Watson Speech to Text in Containers]({{ "/article/running-ibm-watson-speech-to-text-in-containers/" | relative_url }})
+- [Running IBM Watson Text To Speech in Minikube]({{ "/article/running-ibm-watson-text-to-speech-in-minikube/" | relative_url }})
 - [Documentation](https://www.ibm.com/docs/en/watson-libraries?topic=watson-speech-text-library-embed-home)
 - [Model Catalog](https://www.ibm.com/docs/en/watson-libraries?topic=home-models-catalog)
 - [(SaaS) API Documentation](https://cloud.ibm.com/apidocs/speech-to-text)
@@ -88,8 +88,8 @@ categories:
 - [IBM Watson Speech Libraries for Embed](https://www.ibm.com/products/watson-speech-embed-libraries)
 - [Trial](https://www.ibm.com/account/reg/signup?formid=urx-51758)
 - [Entitlement Key](https://www.ibm.com/account/reg/us-en/subscribe?formid=urx-51726)
-- [Running IBM Watson Text to Speech in Containers](http://heidloff.net/article/running-ibm-watson-text-to-speech-in-containers/)
-- [Running IBM Watson Text To Speech in Minikube](http://heidloff.net/article/running-ibm-watson-text-to-speech-in-minikube/)
+- [Running IBM Watson Text to Speech in Containers]({{ "/article/running-ibm-watson-text-to-speech-in-containers/" | relative_url }})
+- [Running IBM Watson Text To Speech in Minikube]({{ "/article/running-ibm-watson-text-to-speech-in-minikube/" | relative_url }})
 - [Documentation](https://www.ibm.com/docs/en/watson-libraries?topic=watson-text-speech-library-embed-home")
 - [Model Catalog](https://www.ibm.com/docs/en/watson-libraries?topic=wtsleh-models-catalog)
 - [(SaaS) API Documentation](https://cloud.ibm.com/apidocs/text-to-speech)

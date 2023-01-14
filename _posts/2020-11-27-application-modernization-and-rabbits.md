@@ -37,7 +37,7 @@ The hutches are similar to loosely coupled microservices. You can use them indep
 
 ![image](/assets/img/2020/11/app-mod-rabbits4.png)
 
-I explained the [Reasons why Enterprises should modernize Applications](http://heidloff.net/article/ten-reasons-why-enterprises-should-modernize-applications/) in an earlier blog. Essentially it boils down to three points:
+I explained the [Reasons why Enterprises should modernize Applications]({{ "/article/ten-reasons-why-enterprises-should-modernize-applications/" | relative_url }}) in an earlier blog. Essentially it boils down to three points:
 
 1. More Agility
 2. Better Experience

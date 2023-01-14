@@ -42,11 +42,11 @@ There are five services in the application. The services, except of the managed 
 
 ![image](/assets/img/2019/04/blog-authorization-istio-1.png)
 
-Check out my previous article [Authenticating Web Users with OpenID and JWT](http://heidloff.net/article/authenticating-web-users-openid-connect-jwt/) that explains how the tokens are retrieved and how they are stored in the web application.
+Check out my previous article [Authenticating Web Users with OpenID and JWT]({{ "/article/authenticating-web-users-openid-connect-jwt/" | relative_url }}) that explains how the tokens are retrieved and how they are stored in the web application.
 
 **Authorization via Istio Policies**
 
-Istio provides [end-user authentication](https://istio.io/docs/tasks/security/authn-policy/#end-user-authentication) via OpenID and JWT. However, in order to use this functionality you need valid user tokens first (see my previous [article](http://heidloff.net/article/authenticating-web-users-openid-connect-jwt/)).
+Istio provides [end-user authentication](https://istio.io/docs/tasks/security/authn-policy/#end-user-authentication) via OpenID and JWT. However, in order to use this functionality you need valid user tokens first (see my previous [article]({{ "/article/authenticating-web-users-openid-connect-jwt/" | relative_url }})).
 
 Via yaml files [policies](https://github.com/nheidloff/cloud-native-starter/blob/master/istio/protect-web-api.yaml.template) can be defined. In the sample the endpoint ‘/web-api/v1/create’ is protected, so that only authenticated users can access it.
 

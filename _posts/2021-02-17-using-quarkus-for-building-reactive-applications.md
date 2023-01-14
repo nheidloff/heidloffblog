@@ -32,8 +32,8 @@ My earlier [article](https://github.com/IBM/cloud-native-starter/blob/master/rea
 
 In order to use the reactive capabilities in Quarkus, I’ve converted my 10 years old Java EE applications in multiple steps. Check out my previous articles:
 
-- [Moving from WebSphere Liberty to Open Source](http://heidloff.net/article/modernizing-websphere-liberty-applications-with-open-liberty/)
-- [Increasing Productivity for legacy Liberty Applications](http://heidloff.net/article/increasing-developer-productivity-for-legacy-liberty-applications/)
+- [Moving from WebSphere Liberty to Open Source]({{ "/article/modernizing-websphere-liberty-applications-with-open-liberty/" | relative_url }})
+- [Increasing Productivity for legacy Liberty Applications]({{ "/article/increasing-developer-productivity-for-legacy-liberty-applications/" | relative_url }})
 
 As next step I had to actually swap the Java runtime. One of my colleagues wrote an article [Learn how to run your standard JAX-RS microservice on Quarkus](https://medium.com/cloud-engagement-hub/using-quarkus-the-kubernetes-native-java-stack-to-run-your-jax-rs-microservice-79142bed3846) which describes the key concepts.
 

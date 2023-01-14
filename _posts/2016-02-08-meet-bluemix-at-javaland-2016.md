@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-Next month on March 8th and March 9th [JavaLand](http://www.javaland.eu/en/javaland-2016/) will take place in the theme park Phantasialand in Cologne, Germany. After our [positive experience](http://heidloff.net/article/03262015110541AMNHEDUL.htm) last year, IBM sponsors JavaLand again this year. My colleagues David Barnes and James Thomas and I will present IBM [Bluemix](https://bluemix.net) at our booth and in sessions.
+Next month on March 8th and March 9th [JavaLand](http://www.javaland.eu/en/javaland-2016/) will take place in the theme park Phantasialand in Cologne, Germany. After our [positive experience]({{ "/article/03262015110541AMNHEDUL.htm" | relative_url }}) last year, IBM sponsors JavaLand again this year. My colleagues David Barnes and James Thomas and I will present IBM [Bluemix](https://bluemix.net) at our booth and in sessions.
 
 At our booth you can not only learn about Bluemix, but we will also have two lotteries on Tuesday and Wednesday where people can win two GoPro Hero Black 4 cameras: 4:50 PM on March 8th and 3:50 PM on March 9th.
 

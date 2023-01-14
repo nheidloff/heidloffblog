@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-This week David Barnes, James Thomas and I attended [JavaLand](http://www.javaland.eu/en/javaland-2016/) and presented [IBM Bluemix](https://bluemix.net/). As [last year](http://heidloff.net/article/03262015110541AMNHEDUL.htm) it was a very good conference with high quality sessions and we had a lot of great discussions with developers. Below are some pictures.
+This week David Barnes, James Thomas and I attended [JavaLand](http://www.javaland.eu/en/javaland-2016/) and presented [IBM Bluemix](https://bluemix.net/). As [last year]({{ "/article/03262015110541AMNHEDUL.htm" | relative_url }}) it was a very good conference with high quality sessions and we had a lot of great discussions with developers. Below are some pictures.
 
 Our Bluemix booth:
 

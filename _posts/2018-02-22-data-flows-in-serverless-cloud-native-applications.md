@@ -20,7 +20,7 @@ Serverless platforms like [Apache OpenWhisk](https://openwhisk.apache.org/) are 
 
 The challenge when building serverless cloud-native applications is how to orchestrate the different functions and how to manage the data flows between the functions. Especially if you want loosely-coupled functions without dependencies between each other, you need a good strategy how to handle the data flows.
 
-IBM open sourced [Composer](https://github.com/ibm-functions/composer) which is an extension to Apache OpenWhisk. With Composer applications can be defined which contain multiple functions. While the functions are stateless, the applications manage the state between the different function invocations. Read my previous [article](http://heidloff.net/article/serverless-apps-cloud-functions-composition-flows) for a short Composer introduction.
+IBM open sourced [Composer](https://github.com/ibm-functions/composer) which is an extension to Apache OpenWhisk. With Composer applications can be defined which contain multiple functions. While the functions are stateless, the applications manage the state between the different function invocations. Read my previous [article]({{ "/article/serverless-apps-cloud-functions-composition-flows" | relative_url }}) for a short Composer introduction.
 
 With Composer applications can be defined either declaratively via JSON or programmatically via JavaScript. Below I describe a pattern how to handle the data flows in applications programmatically.
 
@@ -124,6 +124,6 @@ This is the visualization of the sample application in the fsh shell:
 
 [Get the code from GitHub.](https://github.com/nheidloff/openwhisk-data-flows)
 
-In a future article [Transforming JSON Data in Serverless Applications](http://heidloff.net/article/transforming-json-serverless) I will extend this sample to demonstrate how to handle more complex scenarios and and how to do conversions between JSON via a nice open source project that supports ‘JSON schemas’.
+In a future article [Transforming JSON Data in Serverless Applications]({{ "/article/transforming-json-serverless" | relative_url }}) I will extend this sample to demonstrate how to handle more complex scenarios and and how to do conversions between JSON via a nice open source project that supports ‘JSON schemas’.
 
 If you want to try out OpenWhisk in the cloud, you can get an account on the [IBM Cloud](http://ibm.biz/nheidloff).

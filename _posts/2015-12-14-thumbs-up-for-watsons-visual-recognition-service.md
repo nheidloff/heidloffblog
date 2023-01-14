@@ -16,11 +16,11 @@ categories:
     - Articles
 ---
 
-**Update 06/06/16**: Check out this article for [new functionality in the Watson Visual Recognition Service](http://heidloff.net/article/text-image-recognition-watson-visual).
+**Update 06/06/16**: Check out this article for [new functionality in the Watson Visual Recognition Service]({{ "/article/text-image-recognition-watson-visual" | relative_url }}).
 
 Watson’s [Visual Recognition](https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/visual-recognition.html) (beta) service on [Bluemix](https://bluemix.net) understands the contents of images. Since the beginning of this month you can [train](https://developer.ibm.com/watson/blog/2015/12/02/enabling-ibm-watson-to-see/) this service with your own classifications. Below is a simple sample how to train Watson to recognize the thumbs up gesture.
 
-This functionality could be used for example in the [selfie drone](http://heidloff.net/article/16.07.2015100036NHEBEF.htm) scenario to steer drones using gestures and not only via web user interfaces and speech recognition. There are many more scenarios where this service could be valuable, for example damage recognition of buildings and vehicles, tourist guides or tagging of photos.
+This functionality could be used for example in the [selfie drone]({{ "/article/16.07.2015100036NHEBEF.htm" | relative_url }}) scenario to steer drones using gestures and not only via web user interfaces and speech recognition. There are many more scenarios where this service could be valuable, for example damage recognition of buildings and vehicles, tourist guides or tagging of photos.
 
 In order to [train](https://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/visual-recognition/customizing.shtml) the service you need to provide at least 50 images which are positive examples and 50 images which are negative examples. You can try the service [online](http://visual-recognition-demo.mybluemix.net/) and use predefined sets of images or upload your own images, in my case 100 images with hands.
 

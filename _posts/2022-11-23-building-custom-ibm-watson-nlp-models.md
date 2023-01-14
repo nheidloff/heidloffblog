@@ -22,7 +22,7 @@ To try it, a [trial](https://www.ibm.com/account/reg/us-en/signup?formid=urx-517
 
 **Downloading trained Models**
 
-My post [Training IBM Watson NLP Models](http://heidloff.net/article/training-ibm-watson-nlp-models/) explains how to train Watson NLP based models with notebooks in Watson Studio. After the training models can be saved as file asset in the Watson Studio project and they can be downloaded.
+My post [Training IBM Watson NLP Models]({{ "/article/training-ibm-watson-nlp-models/" | relative_url }}) explains how to train Watson NLP based models with notebooks in Watson Studio. After the training models can be saved as file asset in the Watson Studio project and they can be downloaded.
 
 ```
 project.save_data('ensemble_model', data=ensemble_model.as_file_like_object(), overwrite=True)
@@ -109,5 +109,5 @@ To find out more about Watson NLP and Watson for Embed in general, check out the
 - [IBM Watson NLP Trial](https://www.ibm.com/account/reg/us-en/signup?formid=urx-51726)
 - [IBM Watson NLP Entitlement Key](https://www.ibm.com/account/reg/us-en/subscribe?formid=urx-51726)
 - [Automation for Watson NLP Deployments](https://github.com/IBM/watson-automation)
-- [Running IBM Watson NLP locally in Containers](http://heidloff.net/article/running-ibm-watson-nlp-locally-in-containers/)
-- [Running IBM Watson NLP in Minikube](http://heidloff.net/article/running-ibm-watson-nlp-in-minikube/)
+- [Running IBM Watson NLP locally in Containers]({{ "/article/running-ibm-watson-nlp-locally-in-containers/" | relative_url }})
+- [Running IBM Watson NLP in Minikube]({{ "/article/running-ibm-watson-nlp-in-minikube/" | relative_url }})

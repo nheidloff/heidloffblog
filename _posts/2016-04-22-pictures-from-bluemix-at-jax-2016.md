@@ -14,7 +14,7 @@ categories:
     - Articles
 ---
 
-This week my colleagues David Barnes, Ryan Baxter, James Thomas, Thomas Bück, Timo Roeseler and I attended [JAX](http://heidloff.net/article/bluemix-jax-2016) in Mainz/Germany which was attended by 2000 people, mostly Java developers. There was a lot of interest in Bluemix and we enjoyed the discussions with developers. Below are some pictures from our booth, our sessions and prize draws.
+This week my colleagues David Barnes, Ryan Baxter, James Thomas, Thomas Bück, Timo Roeseler and I attended [JAX]({{ "/article/bluemix-jax-2016" | relative_url }}) in Mainz/Germany which was attended by 2000 people, mostly Java developers. There was a lot of interest in Bluemix and we enjoyed the discussions with developers. Below are some pictures from our booth, our sessions and prize draws.
 
 The team from left to right: Ryan, James, David, Thomas, Niklas
 
@@ -28,7 +28,7 @@ One of our three prize draws where we gave out Apple watches:
 
 ![image](/assets/img/2016/04/jax-16-6.jpg)
 
-We demonstrated [Anki Overdrive cars connected to Bluemix](http://heidloff.net/article/driving-cars-autonomously-ibm-bluemix) which can be steered via gestures:
+We demonstrated [Anki Overdrive cars connected to Bluemix]({{ "/article/driving-cars-autonomously-ibm-bluemix" | relative_url }}) which can be steered via gestures:
 
 ![image](/assets/img/2016/04/jax-16-5.jpg)
 

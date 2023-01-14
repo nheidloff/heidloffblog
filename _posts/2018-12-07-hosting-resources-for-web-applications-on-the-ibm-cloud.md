@@ -68,9 +68,9 @@ If you want to try this functionality yourself, create an [IBM Cloud lite accoun
 
 This article is part of a mini series. Check out the other articles and documentation:
 
-- [Developing Serverless Web Applications on the IBM Cloud](http://heidloff.net/article/serverless-web-applications-ibm)
-- [Authentication of Users in Serverless Applications](http://heidloff.net/article/user-authentication-serverless-openwhisk)
-- [User Authorization in Serverless Web Applications](http://heidloff.net/article/user-authorization-serverless-web-applications-openwhisk)
+- [Developing Serverless Web Applications on the IBM Cloud]({{ "/article/serverless-web-applications-ibm" | relative_url }})
+- [Authentication of Users in Serverless Applications]({{ "/article/user-authentication-serverless-openwhisk" | relative_url }})
+- [User Authorization in Serverless Web Applications]({{ "/article/user-authorization-serverless-web-applications-openwhisk" | relative_url }})
 - [Setup Instructions](https://github.com/nheidloff/serverless-web-application-ibm-cloud/blob/master/README.md)
 - [Screenshots](https://github.com/nheidloff/serverless-web-application-ibm-cloud/blob/master/documentation/serverless-web-apps.pdf)
 

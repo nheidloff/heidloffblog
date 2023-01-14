@@ -20,7 +20,7 @@ While it has been possible to deploy TensorFlow models to mobile and embedded de
 
 This article and my code on [GitHub](https://github.com/nheidloff/watson-deep-learning-tensorflow-lite) describes how to train models via [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio) in the cloud or locally. After the training the models are optimized so that they can be deployed to various devices, for example iOS and Android based systems.
 
-As example I picked a Visual Recognition scenario similar to my earlier blog entry where I described how to use [TensorFlow.js](http://heidloff.net/article/tensorflowjs-ibm-watson-web-browsers-dl) in browsers. In order to train the model I’ve taken pictures from seven items: plug, soccer ball, mouse, hat, truck, banana and headphones.
+As example I picked a Visual Recognition scenario similar to my earlier blog entry where I described how to use [TensorFlow.js]({{ "/article/tensorflowjs-ibm-watson-web-browsers-dl" | relative_url }}) in browsers. In order to train the model I’ve taken pictures from seven items: plug, soccer ball, mouse, hat, truck, banana and headphones.
 
 Check out the [video](https://youtu.be/avMQ5VSFb3A) for a quick demo how these items can be recognized in iOS and Android apps. This is an iPhone screenshot where a banana is recognized.
 

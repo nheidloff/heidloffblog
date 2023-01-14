@@ -34,7 +34,7 @@ Fernando’s keynote [The Art of Coding Disasters and Failures](https://jax.de/b
 
 ![image](/assets/img/2018/04/jax2018-1.jpg)
 
-At the booth we demonstrated collision prevention with Anki Overdrive cars which I [open sourced](http://heidloff.net/article/ibm-bluemix-anki-overdrive-cars) two years ago. Very similar demonstrations were given by two other companies. As it turned out they used my Node.js API as well. The power of open source. So cool!
+At the booth we demonstrated collision prevention with Anki Overdrive cars which I [open sourced]({{ "/article/ibm-bluemix-anki-overdrive-cars" | relative_url }}) two years ago. Very similar demonstrations were given by two other companies. As it turned out they used my Node.js API as well. The power of open source. So cool!
 
 At our booth visitors could steer the cars via Kinect:
 

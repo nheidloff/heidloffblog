@@ -16,7 +16,7 @@ categories:
 
 This article describes how to set up LogDNA for OpenShift on the IBM Cloud.
 
-There are multiple ways to do logging with OpenShift. In my article [OpenShift Logging Quick Start](http://heidloff.net/article/openshift-logging-quick-start/) I described how to set up logging components in OpenShift clusters.
+There are multiple ways to do logging with OpenShift. In my article [OpenShift Logging Quick Start]({{ "/article/openshift-logging-quick-start/" | relative_url }}) I described how to set up logging components in OpenShift clusters.
 
 Alternatively there are also several managed services. Especially for logging I like using external services since running logging within your own clusters can be quite resource intensive.
 

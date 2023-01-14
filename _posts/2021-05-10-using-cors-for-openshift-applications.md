@@ -59,7 +59,7 @@ public class CorsFilter implements ContainerResponseFilter {
 
 **Nginx**
 
-Web applications can be hosted via Nginx. Check out my previous article [Deploying Nginx on OpenShift](http://heidloff.net/article/deploying-nginx-on-openshift/).
+Web applications can be hosted via Nginx. Check out my previous article [Deploying Nginx on OpenShift]({{ "/article/deploying-nginx-on-openshift/" | relative_url }}).
 
 In order to enable CORS, you need to define rules in [nginx.conf](https://github.com/IBM/application-modernization-javaee-quarkus/blob/master/frontend-single-spa/navigator/nginx-os4.conf).
 

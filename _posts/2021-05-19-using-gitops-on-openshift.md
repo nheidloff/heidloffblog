@@ -16,7 +16,7 @@ categories:
 
 This article demonstrates a typical scenario how to deploy a microservice on OpenShift using the GitOps capabilities of ArgoCD.
 
-In a previous article I described how to [install and configure ArgoCD on OpenShift](http://heidloff.net/article/deploying-argocd-on-openshift/). Let’s now look at a sample pipeline which deploys a microservice from my [application modernization example](https://github.com/IBM/application-modernization-javaee-quarkus).
+In a previous article I described how to [install and configure ArgoCD on OpenShift]({{ "/article/deploying-argocd-on-openshift/" | relative_url }}). Let’s now look at a sample pipeline which deploys a microservice from my [application modernization example](https://github.com/IBM/application-modernization-javaee-quarkus).
 
 The microservice is deployed to three different projects: dev, test and prod. For simplification reasons they belong to the same cluster. For each environment there is an ArgoCD application: dev, test, prod.
 

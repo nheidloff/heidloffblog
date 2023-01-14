@@ -61,13 +61,13 @@ Fortunately this is one of the main advantages of Kubernetes since you can run w
 
 The project [demonstrates](https://github.com/nheidloff/cloud-native-starter#demos) the following functionality:
 
-- [Dockerizing Java MicroProfile services](http://heidloff.net/article/dockerizing-container-java-microprofile)
+- [Dockerizing Java MicroProfile services]({{ "/article/dockerizing-container-java-microprofile" | relative_url }})
 - [Traffic management](https://github.com/nheidloff/cloud-native-starter/blob/master/documentation/DemoTrafficRouting.md)
-- [Authentication and authorization](http://heidloff.net/article/authentication-authorization-openid-connect-istio)
+- [Authentication and authorization]({{ "/article/authentication-authorization-openid-connect-istio" | relative_url }})
 - [Resiliency](https://github.com/nheidloff/cloud-native-starter/blob/master/documentation/DemoResiliency.md)
-- [REST APIs implementations including documentation](http://heidloff.net/article/rest-apis-microprofile-javaee-jaxrs)
+- [REST APIs implementations including documentation]({{ "/article/rest-apis-microprofile-javaee-jaxrs" | relative_url }})
 - [REST API invocations](http://heidloff.net/invoke-rest-apis-java-microprofile-microservice)
-- [Monitoring and metrics](http://heidloff.net/article/prometheus-metrics-microprofile-microservices-istio/)
+- [Monitoring and metrics]({{ "/article/prometheus-metrics-microprofile-microservices-istio/" | relative_url }})
 - [Distributed logging and monitoring](https://github.com/nheidloff/cloud-native-starter/blob/master/documentation/DemoDistributedLoggingMonitoring.md)
 
 This diagram shows the services and components:

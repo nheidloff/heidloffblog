@@ -52,4 +52,4 @@ On developerWorks there is a tutorial describing how to determine the top drop o
 
 Last week I posted an article describing how to run the movie recommendations sample that comes with Spark on Bluemix. To predict ratrings it uses the Collaborative Filtering technique.
 
-[Open Article](http://heidloff.net/article/machine-learning-movie-recommendations)
+[Open Article]({{ "/article/machine-learning-movie-recommendations" | relative_url }})

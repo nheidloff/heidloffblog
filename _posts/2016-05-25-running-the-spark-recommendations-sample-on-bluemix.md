@@ -84,6 +84,6 @@ recommendationsUser.map(rating => (rating.product, rating.rating)).foreach(print
 
 The following screenshot shows the output of the code above. The results are actually not that good for the synthetic dataset but according to the Berkeley tutorial better for real data.
 
-I’ve run the code in a Scala IDE. Check out my previous [article](http://heidloff.net/article/getting-started-spark-machine-learning-bluemix) to learn how to set the IDE up and how to deploy the code to Spark on [Bluemix](https://bluemix.net).
+I’ve run the code in a Scala IDE. Check out my previous [article]({{ "/article/getting-started-spark-machine-learning-bluemix" | relative_url }}) to learn how to set the IDE up and how to deploy the code to Spark on [Bluemix](https://bluemix.net).
 
 ![image](/assets/img/2016/05/movierec.jpg)

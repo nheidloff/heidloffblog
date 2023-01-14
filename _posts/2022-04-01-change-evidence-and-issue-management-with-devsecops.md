@@ -18,11 +18,11 @@ categories:
 
 This article is part of a mini series:
 
-- [DevSecOps for SaaS Reference Architecture on OpenShift](http://heidloff.net/article/devsecops-saas-reference-architecture-openshift/)
-- [Shift-Left Continuous Integration with DevSecOps Pipelines](http://heidloff.net/article/shift-left-continuous-integration-devsecops-pipelines/)
-- This article: [Change, Evidence and Issue Management with DevSecOps](http://heidloff.net/article/change-evidence-issue-management-devsecops/)
-- [Continuous Delivery with DevSecOps Reference Architecture](http://heidloff.net/article/continuous-delivery-ibm-devsecops-reference-architecture/)
-- [Tekton without Tekton in DevSecOps Pipelines](http://heidloff.net/article/tekton-without-tekton-devsecops-pipelines/)
+- [DevSecOps for SaaS Reference Architecture on OpenShift]({{ "/article/devsecops-saas-reference-architecture-openshift/" | relative_url }})
+- [Shift-Left Continuous Integration with DevSecOps Pipelines]({{ "/article/shift-left-continuous-integration-devsecops-pipelines/" | relative_url }})
+- This article: [Change, Evidence and Issue Management with DevSecOps]({{ "/article/change-evidence-issue-management-devsecops/" | relative_url }})
+- [Continuous Delivery with DevSecOps Reference Architecture]({{ "/article/continuous-delivery-ibm-devsecops-reference-architecture/" | relative_url }})
+- [Tekton without Tekton in DevSecOps Pipelines]({{ "/article/tekton-without-tekton-devsecops-pipelines/" | relative_url }})
 
 The CI pipeline template that is part of IBM’s DevSecOps reference implementation builds and pushes images and runs various security and code tests. Only if all checks pass, the application can be deployed to production via the CD pipelines. This assures that new versions can be deployed at any time based on business (not technical) decisions.
 
@@ -36,7 +36,7 @@ Functionality of the (second) CI pipeline:
 
 I’ve [documented](https://github.com/IBM/multi-tenancy-documentation/blob/main/documentation/kubernetes-via-ibm-kubernetes-service-and-ibm-openshift/ci-pipeline.md) all steps of the pipeline on GitHub. Let’s take a look at the most important steps.
 
-The CI pipeline is triggered automatically after the pull request has been merged ([see previous article](http://heidloff.net/article/shift-left-continuous-integration-devsecops-pipelines/)).
+The CI pipeline is triggered automatically after the pull request has been merged ([see previous article]({{ "/article/shift-left-continuous-integration-devsecops-pipelines/" | relative_url }})).
 
 ![image](/assets/img/2022/03/devsecops-ci2-002.png)
 

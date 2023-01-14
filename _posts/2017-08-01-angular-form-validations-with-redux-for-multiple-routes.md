@@ -25,7 +25,7 @@ Initially I thought that my requirements would be pretty straight forward and co
 
 Angular supports two types of forms handling – [template driven forms](https://angular.io/guide/forms) and [reactive forms](https://angular.io/guide/reactive-forms). Since the reactive forms provide more flexibility I started to use them. My hope was to somehow utilize the router to load all pages without showing them to trigger the out of the box form validations. Unfortunately I didn’t get this to work without a lot of flickering and weird behavior in the user interface.
 
-A separate issue I had was refreshing of components. Read my older blog entry [My Advice: Don’t use Angular 2+ without Redux](http://heidloff.net/article/angular-2-redux) for details. Because of the refresh issues and the form validation issues I decided to do a bigger refactoring of my code to use [Redux](http://redux.js.org/).
+A separate issue I had was refreshing of components. Read my older blog entry [My Advice: Don’t use Angular 2+ without Redux]({{ "/article/angular-2-redux" | relative_url }}) for details. Because of the refresh issues and the form validation issues I decided to do a bigger refactoring of my code to use [Redux](http://redux.js.org/).
 
 I have [open sourced](https://github.com/nheidloff/conversation-inspector-for-ibm-watson) an application which demonstrates how Redux helps to validate data for forms before forms have been loaded. The following screenshot shows an validation error of the password field and in the right column the Redux Chrome extension which displays state information.
 

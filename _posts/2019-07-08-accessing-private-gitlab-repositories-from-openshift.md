@@ -22,7 +22,7 @@ IBM provides a managed [Red Hat OpenShift offering on the IBM Cloud](https://clo
 
 IBM Cloud provides [toolchains](https://cloud.ibm.com/docs/services/ContinuousDelivery?topic=ContinuousDelivery-getting-started) with various tools to provide continues deliveries. One of these tools is [Git Repos and Issue Tracking](https://cloud.ibm.com/docs/services/ContinuousDelivery?topic=ContinuousDelivery-git_working). To try this feature, get a free [IBM Lite account](https://ibm.biz/nheidloff), [create an toolchain](https://cloud.ibm.com/devops/toolchains) based on the empty template and add the Git tool to it.
 
-In order to try this integration, I’ve used a simple [hello world microservice](http://heidloff.net/article/how-to-develop-open-liberty-microservices-openshift/) and added the [code](https://github.com/IBM/cloud-native-starter/tree/master/authors-java-jee) to my repo. This is the GitLab user interface in the IBM Cloud.
+In order to try this integration, I’ve used a simple [hello world microservice]({{ "/article/how-to-develop-open-liberty-microservices-openshift/" | relative_url }}) and added the [code](https://github.com/IBM/cloud-native-starter/tree/master/authors-java-jee) to my repo. This is the GitLab user interface in the IBM Cloud.
 
 ![image](/assets/img/2019/07/ibm-gitlab-openshift1.png)
 

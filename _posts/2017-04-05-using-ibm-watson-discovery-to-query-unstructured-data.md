@@ -14,7 +14,7 @@ categories:
     - Articles
 ---
 
-In my previous [blog entry](http://heidloff.net/article/understanding-natural-language-text) I described how to use Watson Knowledge Studio to create models to identify information in unstructured data. These models can be used by the Watson services and offerings Watson Discovery, Watson Explorer and Watson Natural Language Understanding. Below is a quick intro how to use Watson Discovery to query unstructured data.
+In my previous [blog entry]({{ "/article/understanding-natural-language-text" | relative_url }}) I described how to use Watson Knowledge Studio to create models to identify information in unstructured data. These models can be used by the Watson services and offerings Watson Discovery, Watson Explorer and Watson Natural Language Understanding. Below is a quick intro how to use Watson Discovery to query unstructured data.
 
 [Watson Discovery](https://www.ibm.com/watson/developercloud/discovery.html) is a service to extract value from unstructured data by converting, normalizing and enriching it. In order to use it you first need to [upload your own content](https://www.ibm.com/watson/developercloud/doc/discovery/adding-content.html). In the next step you need to deploy your model created by Knowledge Studio into the service. This deployment process has two steps. First the model is [deployed from Knowledge Studio](https://www.ibm.com/watson/developercloud/doc/wks/wks_mapublish.shtml) into a specific Discovery service instance. Next [Discovery service is configured](https://www.ibm.com/watson/developercloud/doc/discovery/integrate-wks.html) to actually use it.
 

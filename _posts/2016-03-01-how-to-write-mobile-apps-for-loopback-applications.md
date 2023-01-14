@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-With the [Node.js](https://nodejs.org/en/) API framework [LoopBack](http://loopback.io/) you can easily provide REST APIs for your applications. In order to build client applications LoopBack provides an [AngularJS JavaScript SDK](https://docs.strongloop.com/display/public/LB/AngularJS+JavaScript+SDK). The same SDK can be used to build [web frontends](http://heidloff.net/article/how-to-write-angularjs-loopback-applications) and mobile apps. Below is an example how to develop mobile apps via [AngularJS](https://angularjs.org/), [Ionic](http://ionicframework.com/) and [Cordova](https://cordova.apache.org/).
+With the [Node.js](https://nodejs.org/en/) API framework [LoopBack](http://loopback.io/) you can easily provide REST APIs for your applications. In order to build client applications LoopBack provides an [AngularJS JavaScript SDK](https://docs.strongloop.com/display/public/LB/AngularJS+JavaScript+SDK). The same SDK can be used to build [web frontends]({{ "/article/how-to-write-angularjs-loopback-applications" | relative_url }}) and mobile apps. Below is an example how to develop mobile apps via [AngularJS](https://angularjs.org/), [Ionic](http://ionicframework.com/) and [Cordova](https://cordova.apache.org/).
 
 [Download the sample application from GitHub.](https://github.com/IBM-Bluemix/collaboration)
 

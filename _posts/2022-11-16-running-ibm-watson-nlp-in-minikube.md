@@ -22,7 +22,7 @@ To try it, a [trial](https://www.ibm.com/account/reg/us-en/signup?formid=urx-517
 
 **How to run NLP locally in Minikube**
 
-My post [Running IBM Watson NLP locally in Containers](http://heidloff.net/article/running-ibm-watson-nlp-locally-in-containers/) explained how to run Watson NLP locally in Docker. The instructions below describe how to deploy Watson NLP locally to Minikube via the [Watson NLP Helm chart](https://github.com/IBM/watson-automation/blob/90e61e05a5d0eacd268c97fc3c8b67e285c99241/documentation/NLPHelmChart.md).
+My post [Running IBM Watson NLP locally in Containers]({{ "/article/running-ibm-watson-nlp-locally-in-containers/" | relative_url }}) explained how to run Watson NLP locally in Docker. The instructions below describe how to deploy Watson NLP locally to Minikube via the [Watson NLP Helm chart](https://github.com/IBM/watson-automation/blob/90e61e05a5d0eacd268c97fc3c8b67e285c99241/documentation/NLPHelmChart.md).
 
 First you need to install Minikube, for example via brew on MacOS. Next Minikube needs to be started with more memory and disk size than the Minikube defaults. I’ve used the settings below which is more than required, but I wanted to leave space for other applications. Note that you also need to give your container runtime more resources. For example if you use Docker Desktop, go to Preferences-Resources and define your settings.
 
@@ -114,6 +114,6 @@ To find out more about Watson NLP, check out these resources:
 - [Trial](https://www.ibm.com/products/ibm-watson-natural-language-processing)
 - [Entitlement key](https://www.ibm.com/account/reg/us-en/subscribe?formid=urx-51726)
 - [Automation for Watson NLP Deployments](https://github.com/IBM/watson-automation)
-- [Running IBM Watson NLP locally in Containers](http://heidloff.net/article/running-ibm-watson-nlp-locally-in-containers/)
-- [Running IBM Watson Speech to Text in Containers](http://heidloff.net/article/running-ibm-watson-speech-to-text-in-containers/)
-- [Running IBM Watson Text to Speech in Containers](http://heidloff.net/article/running-ibm-watson-text-to-speech-in-containers/)
+- [Running IBM Watson NLP locally in Containers]({{ "/article/running-ibm-watson-nlp-locally-in-containers/" | relative_url }})
+- [Running IBM Watson Speech to Text in Containers]({{ "/article/running-ibm-watson-speech-to-text-in-containers/" | relative_url }})
+- [Running IBM Watson Text to Speech in Containers]({{ "/article/running-ibm-watson-text-to-speech-in-containers/" | relative_url }})

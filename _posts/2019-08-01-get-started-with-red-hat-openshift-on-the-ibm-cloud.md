@@ -32,20 +32,20 @@ My colleague Harald Uebele and I have developed and open sourced an end-to-end [
 
 The repo describes how to build cloud-native applications with Java, MicroProfile, Kubernetes and Istio. It demonstrates how to develop resilient applications, how to do traffic management, how to invoke microservices and much more. Check out these instructions for how to run the application on Minishift and OpenShift:
 
-- [Minishift](http://heidloff.net/article/setup-cloud-native-sample-app-minishift/)
+- [Minishift]({{ "/article/setup-cloud-native-sample-app-minishift/" | relative_url }})
 - [OpenShift on IBM Cloud](https://haralduebele.blog/2019/07/10/deploying-the-cloud-native-starter-example-on-red-hat-openshift-on-the-ibm-cloud/)
 
 **Developing and deploying Microservices**
 
 There are various options to deploy microservices to OpenShift. Some of these options require Dockerfiles, some don’t. Some use standard Kubernetes tooling (kubectl), some additional OpenShift functionality. I’ve tried some of these options and blogged about them.
 
-- [How to develop Open Liberty Microservices on OpenShift](http://heidloff.net/article/how-to-develop-open-liberty-microservices-openshift/)
-- [Source to Image Builder for Open Liberty Apps on OpenShift](http://heidloff.net/article/source-to-image-builder-open-liberty-openshift/)
-- [Deploying Open Liberty Microservices to OpenShift](http://heidloff.net/article/deploying-open-liberty-microservices-openshift/)
+- [How to develop Open Liberty Microservices on OpenShift]({{ "/article/how-to-develop-open-liberty-microservices-openshift/" | relative_url }})
+- [Source to Image Builder for Open Liberty Apps on OpenShift]({{ "/article/source-to-image-builder-open-liberty-openshift/" | relative_url }})
+- [Deploying Open Liberty Microservices to OpenShift]({{ "/article/deploying-open-liberty-microservices-openshift/" | relative_url }})
 
 **More useful Resources**
 
-When running OpenShift on the IBM Cloud, it might also make sense for certain scenarios to leverage other IBM Cloud services. For example, as far as I know, OpenShift doesn’t come with a source control system. I’ve written an article [Accessing private GitLab Repositories from OpenShift](http://heidloff.net/article/accessing-private-gitlab-repositories-from-openshift/) that explains how to access Git repos on the IBM Cloud from OpenShift.
+When running OpenShift on the IBM Cloud, it might also make sense for certain scenarios to leverage other IBM Cloud services. For example, as far as I know, OpenShift doesn’t come with a source control system. I’ve written an article [Accessing private GitLab Repositories from OpenShift]({{ "/article/accessing-private-gitlab-repositories-from-openshift/" | relative_url }}) that explains how to access Git repos on the IBM Cloud from OpenShift.
 
 My colleagues have also created a new [landing page](https://developer.ibm.com/collections/openshift-on-ibm/) on [IBM Developer](https://developer.ibm.com/) with lot’s of great samples, tutorials and articles. Check it out.
 

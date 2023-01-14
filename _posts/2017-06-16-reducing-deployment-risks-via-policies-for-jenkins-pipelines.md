@@ -18,7 +18,7 @@ categories:
 
 Earlier this year IBM [introduced](https://www.ibm.com/blogs/bluemix/2017/03/announcing-devops-insights-beta/) a new service [DevOps Insights](https://console.ng.bluemix.net/docs/services/DevOpsInsights/index.html#gettingstarted) (beta) which helps among other things to reduce deployment risks. Policies can be defined to ensure that unit tests, functional tests and other tests pass before new versions of applications are deployed.
 
-As I [blogged](http://heidloff.net/article/reduce-deployment-risk-devops-bluemix) earlier this functionality can be used for IBM DevOps Delivery Pipelines. Additionally it can also be used for Jenkins projects since [data can be sent from Jenkins to other tools](http://heidloff.net/article/jenkins-devops-toolchains-bluemix) like IBM DevOps Insights that are in the same [toolchain](https://www.ibm.com/devops/method/category/tools/).
+As I [blogged]({{ "/article/reduce-deployment-risk-devops-bluemix" | relative_url }}) earlier this functionality can be used for IBM DevOps Delivery Pipelines. Additionally it can also be used for Jenkins projects since [data can be sent from Jenkins to other tools]({{ "/article/jenkins-devops-toolchains-bluemix" | relative_url }}) like IBM DevOps Insights that are in the same [toolchain](https://www.ibm.com/devops/method/category/tools/).
 
 In the following example a [gate](https://console.ng.bluemix.net/docs/services/DevOpsInsights/risk_cd.html#integrating-with-continuous-delivery-pipeline) has been defined with a policy to enforce that all unit tests pass before the application can be deployed into production.
 

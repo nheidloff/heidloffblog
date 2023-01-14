@@ -39,7 +39,7 @@ The polyglot ‘send notification’ application sends either emails or text mes
 
 ![image](/assets/img/2018/03/flow-polyglot.png)
 
-The sample uses [IBM Cloud Functions](https://www.ibm.com/cloud/functions) which is based on [Apache OpenWhisk](http://openwhisk.org/). While the functions are stateless, applications defined with [OpenWhisk Composer ](https://github.com/ibm-functions/composer)manage the state and are responsible for how the data flows between functions. Read my previous [article](http://heidloff.net/article/serverless-data-flows) to learn more about the data flows and function schemas.
+The sample uses [IBM Cloud Functions](https://www.ibm.com/cloud/functions) which is based on [Apache OpenWhisk](http://openwhisk.org/). While the functions are stateless, applications defined with [OpenWhisk Composer ](https://github.com/ibm-functions/composer)manage the state and are responsible for how the data flows between functions. Read my previous [article]({{ "/article/serverless-data-flows" | relative_url }}) to learn more about the data flows and function schemas.
 
 OpenWhisk supports several different programming languages out of the box: JavaScript, Java, Python and [more](https://console.bluemix.net/docs/openwhisk/openwhisk_actions.html#openwhisk_actions). You can also use Docker to implement functions, which is what I’m using in this sample.
 

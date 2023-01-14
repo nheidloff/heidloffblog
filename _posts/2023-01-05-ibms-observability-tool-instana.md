@@ -18,8 +18,8 @@ categories:
 
 To find out more about Instana, read my other posts:
 
-- [Observing Java Cloud Native Applications with Instana](http://heidloff.net/article/observing-java-cloud-native-applications-with-instana/)
-- [Getting Alerts from IBM’s Observability Tool Instana](http://heidloff.net/article/getting-alerts-from-ibm-observability-tool-instana/)
+- [Observing Java Cloud Native Applications with Instana]({{ "/article/observing-java-cloud-native-applications-with-instana/" | relative_url }})
+- [Getting Alerts from IBM’s Observability Tool Instana]({{ "/article/getting-alerts-from-ibm-observability-tool-instana/" | relative_url }})
 
 [What is IBM Instana Observability?](https://www.ibm.com/products/instana)
 

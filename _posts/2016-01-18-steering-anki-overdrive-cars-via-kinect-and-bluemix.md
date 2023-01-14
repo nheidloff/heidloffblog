@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-I’ve open sourced a sample showing how to steer Anki Overdrive cars via Kinect and [IBM Bluemix](https://bluemix.net). The sample requires the [Node.js controller and MQTT interface](http://heidloff.net/article/collision-prevention-anki-overdrive-cars-bluemix) that I had open sourced previously. The sample is another alternative showing how to send commands to the cars in addition to [Watson speech recognition](http://heidloff.net/article/steering-anki-overdrive-cars-speech-recognition-bluemix-watson).
+I’ve open sourced a sample showing how to steer Anki Overdrive cars via Kinect and [IBM Bluemix](https://bluemix.net). The sample requires the [Node.js controller and MQTT interface]({{ "/article/collision-prevention-anki-overdrive-cars-bluemix" | relative_url }}) that I had open sourced previously. The sample is another alternative showing how to send commands to the cars in addition to [Watson speech recognition]({{ "/article/steering-anki-overdrive-cars-speech-recognition-bluemix-watson" | relative_url }}).
 
 [Check out the project on GitHub.](https://github.com/IBM-Bluemix/controller-kinect-bluemix)
 
@@ -36,8 +36,8 @@ Here is a picture of me driving the cars via Kinect.
 
 Here is the series of blog articles about the Anki Overdrive with Bluemix demos.
 
-- [Anki Overdrive Cars with Bluemix Demo – Slides and Architecture](http://heidloff.net/article/ibm-bluemix-anki-overdrive-cars)
-- [Collision Prevention for Anki Overdrive Cars with Bluemix](http://heidloff.net/article/collision-prevention-anki-overdrive-cars-bluemix)
-- [Steering Anki Overdrive Cars via Speech Recognition on Bluemix](http://heidloff.net/article/steering-anki-overdrive-cars-speech-recognition-bluemix-watson)
-- [Steering Anki Overdrive Cars via Kinect and Bluemix](http://heidloff.net/article/anki-overdrive-cars-kinect-bluemix)
-- [Steering Anki Overdrive Cars via Leap Motion Gestures and Bluemix](http://heidloff.net/article/steering-anki-overdrive-cars-leap-motion-gestures-bluemix)
+- [Anki Overdrive Cars with Bluemix Demo – Slides and Architecture]({{ "/article/ibm-bluemix-anki-overdrive-cars" | relative_url }})
+- [Collision Prevention for Anki Overdrive Cars with Bluemix]({{ "/article/collision-prevention-anki-overdrive-cars-bluemix" | relative_url }})
+- [Steering Anki Overdrive Cars via Speech Recognition on Bluemix]({{ "/article/steering-anki-overdrive-cars-speech-recognition-bluemix-watson" | relative_url }})
+- [Steering Anki Overdrive Cars via Kinect and Bluemix]({{ "/article/anki-overdrive-cars-kinect-bluemix" | relative_url }})
+- [Steering Anki Overdrive Cars via Leap Motion Gestures and Bluemix]({{ "/article/steering-anki-overdrive-cars-leap-motion-gestures-bluemix" | relative_url }})

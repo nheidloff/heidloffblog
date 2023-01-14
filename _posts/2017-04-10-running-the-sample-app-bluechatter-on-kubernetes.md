@@ -18,7 +18,7 @@ Since last month Bluemix supports [Kubernetes](https://kubernetes.io/) (beta) wh
 
 Essentially the docker-compose file needs to be converted to a Kubernetes yaml file. As example I use the chat application [BlueChatter](https://github.com/IBM-Bluemix/bluechatter). The sample is a Node.js application that leverages Redis to store session data. The file [docker-compose.yml](https://github.com/IBM-Bluemix/bluechatter/blob/master/docker-compose.yml) defines the two containers, the ports and links.
 
-In order to create the Kubernetes configuration file I’ve tried an open source project ‘[Kompose (Kubernetes + Compose)](https://github.com/kubernetes-incubator/kompose)‘. When you run it, four files are created, two for the deployments and two for the services. For a quick introduction to these terms watch this [video](http://heidloff.net/article/kubernetes-docker-bluemix). I’ve merged everything into one file.
+In order to create the Kubernetes configuration file I’ve tried an open source project ‘[Kompose (Kubernetes + Compose)](https://github.com/kubernetes-incubator/kompose)‘. When you run it, four files are created, two for the deployments and two for the services. For a quick introduction to these terms watch this [video]({{ "/article/kubernetes-docker-bluemix" | relative_url }}). I’ve merged everything into one file.
 
 There were only two things I had to change in the file manually.  
 1\) I had to enter the name of my Docker image, e.g. ‘registry.ng.bluemix.net/nheidloff/bluechatter\_web’  

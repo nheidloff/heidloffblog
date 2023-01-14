@@ -83,7 +83,7 @@ The documentation mentions another reason when you should use the Vert.x event b
 
 **Sending Kafka messages via Kafka API**
 
-Next the API layer of the ‘web-api’ service needs to send the message to Kafka. In order to set up Kafka in Kubernetes, follow the instructions from my previous article [Accessing Apache Kafka from Quarkus](http://heidloff.net/article/accessing-apache-kafka-from-quarkus/).
+Next the API layer of the ‘web-api’ service needs to send the message to Kafka. In order to set up Kafka in Kubernetes, follow the instructions from my previous article [Accessing Apache Kafka from Quarkus]({{ "/article/accessing-apache-kafka-from-quarkus/" | relative_url }}).
 
 Eclipse MicroProfile Reactive Messaging provides the same @Outgoing annotation to do this, but I couldn’t get it to work since I have to trigger this functionality manually. I want to find out the reason for this as well.
 
@@ -183,9 +183,9 @@ If you want to learn more about reactive programming and reactive messaging, try
 Read the other articles of this series:
 
 - [Development of Reactive Applications with Quarkus](http://heidloff.net/article-development-reactive-applications-quarkus/)
-- [Accessing Apache Kafka from Quarkus](http://heidloff.net/article/accessing-apache-kafka-from-quarkus/)
-- [Accessing PostgreSQL in Kubernetes from Quarkus](http://heidloff.net/article/accessing-postgresql-from-quarkus/)
-- [Reactive Messaging Examples for Quarkus](http://heidloff.net/article/reactive-messaging-examples-quarkus/)
-- [Developing reactive REST APIs with Quarkus](http://heidloff.net/article/developing-reactive-rest-apis-with-quarkus/)
-- [Invoking REST APIs asynchronously with Quarkus](http://heidloff.net/article/invoking-rest-apis-asynchronously-with-quarkus/)
-- [Comparing synchronous and asynchronous Access to Postgres](http://heidloff.net/article/comparing-synchronous-asynchronous-access-postgresql/)
+- [Accessing Apache Kafka from Quarkus]({{ "/article/accessing-apache-kafka-from-quarkus/" | relative_url }})
+- [Accessing PostgreSQL in Kubernetes from Quarkus]({{ "/article/accessing-postgresql-from-quarkus/" | relative_url }})
+- [Reactive Messaging Examples for Quarkus]({{ "/article/reactive-messaging-examples-quarkus/" | relative_url }})
+- [Developing reactive REST APIs with Quarkus]({{ "/article/developing-reactive-rest-apis-with-quarkus/" | relative_url }})
+- [Invoking REST APIs asynchronously with Quarkus]({{ "/article/invoking-rest-apis-asynchronously-with-quarkus/" | relative_url }})
+- [Comparing synchronous and asynchronous Access to Postgres]({{ "/article/comparing-synchronous-asynchronous-access-postgresql/" | relative_url }})

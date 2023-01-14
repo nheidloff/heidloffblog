@@ -16,14 +16,14 @@ categories:
 
 *With the TechZone Accelerator Toolkit IBM software, open source projects and custom applications can easily be deployed to various clouds. This article provides an overview how to develop your own GitOps modules to deploy resources to Kubernetes via Helm.*
 
-Check out my earlier blog that introduces the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code](http://heidloff.net/article/introducing-ibms-toolkit-to-handle-everything-as-code/). The toolkit leverages Terrafrom and GitOps and is based on best practices from IBM projects with partners and clients. With the toolkit both infrastructure like Kubernetes clusters as well as Kubernetes resources within clusters can be deployed. Infrastructure resources are deployed via Terraform, resources within clusters via Argo CD.
+Check out my earlier blog that introduces the toolkit: [Introducing IBM’s Toolkit to handle Everything as Code]({{ "/article/introducing-ibms-toolkit-to-handle-everything-as-code/" | relative_url }}). The toolkit leverages Terrafrom and GitOps and is based on best practices from IBM projects with partners and clients. With the toolkit both infrastructure like Kubernetes clusters as well as Kubernetes resources within clusters can be deployed. Infrastructure resources are deployed via Terraform, resources within clusters via Argo CD.
 
 This article explains how [Helm](https://helm.sh/) can be used in the TechZone Toolkit to deploy resources to Kubernetes or OpenShift clusters with Argo CD. Helm is a popular package manager for Kubernetes. In the context of the toolkit Helm is the preferred option to deploy Kubernetes resources. Alternatively you could deploy Kubernetes resources directly via yaml files. However, the advantage of Helm is that it can easily be configured for different environments via its built-in templating mechanism. Another advantage of Helm in this context is that Terraform variables can easily be mapped to Helm values which is described below.
 
 To understand the following content, I suggest to read these documents that give some background:
 
-- Blog: [Deploying Kubernetes Resources via GitOps](http://heidloff.net/article/deploying-kubernetes-resources-via-gitops/)
-- Blog: [Understanding TechZone Toolkit GitOps Modules](http://heidloff.net/article/understanding-techzone-toolkit-gitops-modules/)
+- Blog: [Deploying Kubernetes Resources via GitOps]({{ "/article/deploying-kubernetes-resources-via-gitops/" | relative_url }})
+- Blog: [Understanding TechZone Toolkit GitOps Modules]({{ "/article/understanding-techzone-toolkit-gitops-modules/" | relative_url }})
 - Red Hat blog: [Continuous Delivery with Helm and Argo CD](https://cloud.redhat.com/blog/continuous-delivery-with-helm-and-argo-cd)
 - Argo CD documentation: [Helm](https://argo-cd.readthedocs.io/en/stable/user-guide/helm/)
 - Toolkit documentation: [Develop an own GitOps module](https://github.com/cloud-native-toolkit/site-operator-guide/blob/bed61cb15079cc998ec49a15454de4d671c6ad42/docs/learn/iascable/lab4/index.md)

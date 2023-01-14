@@ -48,4 +48,4 @@ docker tag parente/ipython-notebook registry.ng.bluemix.net/nheidloff/scikit
 docker push registry.ng.bluemix.net/nheidloff/scikit
 ```
 
-After the image is available on Bluemix you can use the Bluemix UI to run the container, as done in this [sample](http://heidloff.net/article/Deploying-Spring-Boot-Applications-to-Bluemix-as-Docker-Containers).
+After the image is available on Bluemix you can use the Bluemix UI to run the container, as done in this [sample]({{ "/article/Deploying-Spring-Boot-Applications-to-Bluemix-as-Docker-Containers" | relative_url }}).

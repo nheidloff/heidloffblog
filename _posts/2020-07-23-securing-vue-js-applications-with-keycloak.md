@@ -22,7 +22,7 @@ My sample contains a web application which invokes an API microservice and that 
 
 ![image](/assets/img/2020/07/keycloak-diagram.png)
 
-The Keycloak [documentation](https://www.keycloak.org/getting-started/getting-started-operator-openshift) describes pretty well how to install Keycloak in OpenShift. The difficult part was the creation of the realm which I’ve documented in my previous article [Setting up Keycloak in OpenShift](http://heidloff.net/article/setting-up-keycloak-openshift/).
+The Keycloak [documentation](https://www.keycloak.org/getting-started/getting-started-operator-openshift) describes pretty well how to install Keycloak in OpenShift. The difficult part was the creation of the realm which I’ve documented in my previous article [Setting up Keycloak in OpenShift]({{ "/article/setting-up-keycloak-openshift/" | relative_url }}).
 
 There are several ways to use Keycloak from web applications. I’ve found the easiest option is to use the official Keycloak [JavaScript client library](https://www.keycloak.org/docs/latest/securing_apps/index.html#_javascript_adapter) which I defined as dependency in [package.json](https://github.com/IBM/cloud-native-starter/blob/e49348d2849205736067dc447d9adc92cdb39b0d/security/web-app/package.json#L12).
 
@@ -65,13 +65,13 @@ keycloak.init({ onLoad: initOptions.onLoad }).then((auth) => {
   }
 ```
 
-In order to use the Keycloak API, three pieces of information are required. The Keycloak URL, the realm and the client id. In my previous [article](http://heidloff.net/article/setting-up-keycloak-openshift/) I describe how to get this information.
+In order to use the Keycloak API, three pieces of information are required. The Keycloak URL, the realm and the client id. In my previous [article]({{ "/article/setting-up-keycloak-openshift/" | relative_url }}) I describe how to get this information.
 
 As you can see in the code I’m using Vuex to store the access token, id token and user name. When the tokens expire, new tokens are requested via the refresh token und the Vuex store is updated.
 
 ![image](/assets/img/2020/07/keycloak-vue.png)
 
-Once authenticated, the Keycloak API can return the subject id, but not the actual user name. That’s why I’ve implemented an [endpoint](https://github.com/IBM/cloud-native-starter/blob/e49348d2849205736067dc447d9adc92cdb39b0d/security/web-api-secure/src/main/java/com/ibm/webapi/UserResource.java) in the Web-API service to read it. I’ve implemented this part with Quarkus. To learn more about this, check out my article [Securing Quarkus Applications with Keycloak](http://heidloff.net/article/security-quarkus-applications-keycloak/).
+Once authenticated, the Keycloak API can return the subject id, but not the actual user name. That’s why I’ve implemented an [endpoint](https://github.com/IBM/cloud-native-starter/blob/e49348d2849205736067dc447d9adc92cdb39b0d/security/web-api-secure/src/main/java/com/ibm/webapi/UserResource.java) in the Web-API service to read it. I’ve implemented this part with Quarkus. To learn more about this, check out my article [Securing Quarkus Applications with Keycloak]({{ "/article/security-quarkus-applications-keycloak/" | relative_url }}).
 
 ```
 @Inject

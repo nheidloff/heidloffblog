@@ -5,13 +5,13 @@ date: '2009-05-11T00:00:00+00:00'
 author: 'Niklas Heidloff'
 layout: post
 guid: 'http://heidloff.eu/article/dnug-announcement-the-new-openntf-alliance/'
-permalink: /article/pictures-from-dnug-keynote/
+permalink: /article/new-openntf-alliance/
 URL_before_HTML_Import:
     - 'http://heidloff.net/nh/home.nsf/article.xsp?id=/8.html'
 accesspresslite_sidebar_layout:
     - right-sidebar
 custom_permalink:
-    - article/pictures-from-dnug-keynote/
+    - article/new-openntf-alliance/
 dsq_thread_id:
     - '4316496953'
 categories:

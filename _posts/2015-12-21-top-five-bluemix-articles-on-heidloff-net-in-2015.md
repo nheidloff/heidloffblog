@@ -25,54 +25,54 @@ Below are three Top Five lists with the most popular articles on my blog, with m
 **Deploying APIs built via Node.js to IBM Bluemix**  
 In this article I demonstrate how to deploy a Node.js API to Bluemix via Docker and how to use the API Management service to enforce client ids and secrets when invoking the APIs so that API owners can monitor the usage of their APIs.
 
-[Open Article](http://heidloff.net/article/deploying-apis-built-via-nodejs-to-ibm-bluemix)
+[Open Article]({{ "/article/deploying-apis-built-via-nodejs-to-ibm-bluemix" | relative_url }})
 
 **Developer Perspective on Cloud Foundry vs Docker on Bluemix**  
 IBM Bluemix supports different ways to package applications and to deploy and run them in the cloud (“compute options”). Developers can choose between Cloud Foundry and Docker. The two models have certainly similarities, but there are also significant differences. In this article I describe some of these differences as well as pros and cons from a consumer point of view.
 
-[Open Article](http://heidloff.net/article/developer-perspective-on-cloud-foundry-vs-docker-on-bluemix)
+[Open Article]({{ "/article/developer-perspective-on-cloud-foundry-vs-docker-on-bluemix" | relative_url }})
 
 **Deploying a Spring Boot Application to Bluemix in 20 Minutes via Docker**  
 In this article I describe how to deploy a simple Java Spring Boot application to Bluemix via Docker.
 
-[Open Article](http://heidloff.net/article/17.09.2015103506NHEC42.htm)
+[Open Article]({{ "/article/17.09.2015103506NHEC42.htm" | relative_url }})
 
 **Cheatsheet for Docker and IBM Bluemix Containers Beginners**  
 As a developer I prefer graphical tools since I often cannot remember all the different commands for various CLIs (command line interfaces). In cases where I have to use CLIs I write down my own little cheatsheets with the commands I use most often.
 
-[Open Article](http://heidloff.net/article/17.08.2015084655NHE9YE.htm)
+[Open Article]({{ "/article/17.08.2015084655NHE9YE.htm" | relative_url }})
 
 **What is Node-RED? How Can It Be Used for the Internet of Things?**  
 When I recently started to work on Bluemix, I was honestly a little confused about what Node-RED is, how it relates to the Node.js Bluemix runtime and how it relates to the Internet of Things service. Since some of my readers might be in the same situation, let me quickly try to explain.
 
-[Open Article](http://heidloff.net/article/21.01.2015081841NHEAL8.htm)
+[Open Article]({{ "/article/21.01.2015081841NHEAL8.htm" | relative_url }})
 
 ### My Top Five Favorite Articles
 
 **Having Fun with the Bluemix Selfie Drone**  
 Recently I had some time to build another IBM Bluemix demonstration which showcases the Internet of Things functionality and cognitive Watson services. With the “Bluemix Selfie Drone” application you can take selfies via a Parrot AR Drone 2.0 drone and tweet the portraits on the pictures.
 
-[Open Article](http://heidloff.net/article/07142015101816AMNHEBRH.htm)
+[Open Article]({{ "/article/07142015101816AMNHEBRH.htm" | relative_url }})
 
 **Hear the Buzz – iOS App using Twitter and Watson Services from IBM Bluemix**  
 “Hear the Buzz” is a sample iPhone app which finds tweets with positive or negative sentiments for topics which users enter manually or via iOS speech recognition. The discovered list of tweets can be read or users can listen to them.
 
-[Open Article](http://heidloff.net/article/08.09.2015085603NHEA64.htm)
+[Open Article]({{ "/article/08.09.2015085603NHEA64.htm" | relative_url }})
 
 **Steering a driving Android Phone over the Web via Speech Recognition in IBM Bluemix**  
 My colleagues Bryan Boyd and Mark VanderWiele have created a nice demo where you can drive smartphones using Sphero balls. I’ve modified the sample slightly so that it also works for Android phones. Watch the video to see how to steer a driving smartphone via IBM Bluemix, the Internet of Things and cognitive services from IBM Watson.
 
-[Open Article](http://heidloff.net/article/02.03.2015083022NHEATJ.htm)
+[Open Article]({{ "/article/02.03.2015083022NHEATJ.htm" | relative_url }})
 
 **IBM Bluemix to track and visualize Data from Lego Mindstorms EV3 Robots**  
 During my vacation my son and I played with a new toy – a Lego Mindstorms EV3 robot. As far as I can tell after a week it’s a great way for children to start learning programming and a lot of fun. I wrote some code to listen to sensor data and push it to Bluemix using the Internet of Things service and the Internet of Things boilerplate.
 
-[Open Article](http://heidloff.net/article/05.01.2015174120NHEMKW.htm)
+[Open Article]({{ "/article/05.01.2015174120NHEMKW.htm" | relative_url }})
 
 **10 Minutes Bluemix Pitch from Dev to Dev**  
 As a developer advocate for Bluemix, I regularly talk with other developers about the capabilities and benefits of IBM Bluemix. In these conversations, I often use a pitch similar to the one in this video.
 
-[Open Article](http://heidloff.net/article/09212015062955PMNHEMCS.htm)
+[Open Article]({{ "/article/09212015062955PMNHEMCS.htm" | relative_url }})
 
 ### Top Five Most Viewed Articles On DZone
 

@@ -16,7 +16,7 @@ categories:
 
 My colleague Harald Uebele and I have developed an end-to-end sample application to help developers to get started with developing microservices and deploying them to Kubernetes. We have documented how to run this application on Minikube and the IBM Cloud Kubernetes service. This week we added documentation and scripts how to deploy the same application to Minishift in less than an hour.
 
-The application is available as [open source](https://github.com/IBM/cloud-native-starter). My previous article [Example Java App running in the Cloud via Kubernetes](http://heidloff.net/article/example-java-app-cloud-kubernetes) explains this project and the design principles.
+The application is available as [open source](https://github.com/IBM/cloud-native-starter). My previous article [Example Java App running in the Cloud via Kubernetes]({{ "/article/example-java-app-cloud-kubernetes" | relative_url }}) explains this project and the design principles.
 
 The sample showcases various [cloud-native functionality](https://github.com/IBM/cloud-native-starter#demos): REST APIs, traffic management, resiliency, distributed logging and more. There is also documentation how to do authentication, authorization, persistence and other observability functionality. The application comes with a simple web frontend which displays links to articles.
 

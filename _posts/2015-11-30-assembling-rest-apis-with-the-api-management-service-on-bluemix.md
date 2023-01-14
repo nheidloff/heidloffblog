@@ -23,11 +23,11 @@ This functionality is useful in different scenarios. For example you can assembl
 Below I extend the samples from the previous articles where I showed how to develop APIs with Spring Boot and Node.js and how to deploy them to Bluemix as Docker containers. Rather than calling the two hello world REST APIs built via Java and Node, an API client only calls one new API provided by the API Management service.
 
 To learn how to build the hello world APIs check out these articles.  
-[Usage of Swagger 2.0 in Spring Boot Applications to document APIs](http://heidloff.net/article/usage-of-swagger-2-0-in-spring-boot-applications-to-document-apis/)  
-[Deploying Spring Boot Applications to Bluemix as Docker Containers](http://heidloff.net/article/Deploying-Spring-Boot-Applications-to-Bluemix-as-Docker-Containers)  
-[Management of APIs with IBM Bluemix](http://heidloff.net/article/management-of-apis-with-ibm-bluemix)  
-[Usage of Swagger in Node.js Applications to document APIs](http://heidloff.net/article/usage-of-swagger-in-nodejs-applications-to-document-apis)  
-[Deploying APIs built via Node.js to IBM Bluemix](http://heidloff.net/article/deploying-apis-built-via-nodejs-to-ibm-bluemix)
+[Usage of Swagger 2.0 in Spring Boot Applications to document APIs]({{ "/article/usage-of-swagger-2-0-in-spring-boot-applications-to-document-apis/" | relative_url }})  
+[Deploying Spring Boot Applications to Bluemix as Docker Containers]({{ "/article/Deploying-Spring-Boot-Applications-to-Bluemix-as-Docker-Containers" | relative_url }})  
+[Management of APIs with IBM Bluemix]({{ "/article/management-of-apis-with-ibm-bluemix" | relative_url }})  
+[Usage of Swagger in Node.js Applications to document APIs]({{ "/article/usage-of-swagger-in-nodejs-applications-to-document-apis" | relative_url }})  
+[Deploying APIs built via Node.js to IBM Bluemix]({{ "/article/deploying-apis-built-via-nodejs-to-ibm-bluemix" | relative_url }})
 
 After you’ve defined the API metadata like names, paths and authentication you can choose “Assemble” as the implementation option. In the left column the first two entries define the get requests that are invoked.
 

@@ -20,7 +20,7 @@ This article is part of a series of articles that documents how to [modernize a 
 
 The sample application is a simple e-commerce application. The original application and the source code of all subsequent modernization steps is available as [open source](https://github.com/nheidloff/application-modernization-javaee-quarkus) on GitHub.
 
-The first part of this series explained how to [run WebSphere Traditional applications in containers](http://heidloff.net/article/improving-operational-efficiency-through-application-modernization/). This part continues the journey and documents how to use a modern WebSphere Liberty runtime optimized for containers.
+The first part of this series explained how to [run WebSphere Traditional applications in containers]({{ "/article/improving-operational-efficiency-through-application-modernization/" | relative_url }}). This part continues the journey and documents how to use a modern WebSphere Liberty runtime optimized for containers.
 
 [WebSphere Liberty](https://www.ibm.com/cloud/websphere-liberty) is a comprehensive, flexible and secure Java EE and MicroProfile application server for modernizing and building the next era of applications and cloud-native services.
 
@@ -143,7 +143,7 @@ The third change are the EJB lookups (which might not be necessary anymore with 
 
 **Transformation Advisor**
 
-In addition to the Eclipse Migration Toolkit Transformation Advisor also displays some of these results. Check out my previous [article](http://heidloff.net/article/step-by-step-instructions-ibm-transformation-advisor/) how to run this tool.
+In addition to the Eclipse Migration Toolkit Transformation Advisor also displays some of these results. Check out my previous [article]({{ "/article/step-by-step-instructions-ibm-transformation-advisor/" | relative_url }}) how to run this tool.
 
 Here are the results of Transformation Advisor:
 

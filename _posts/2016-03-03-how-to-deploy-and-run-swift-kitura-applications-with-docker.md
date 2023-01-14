@@ -48,6 +48,6 @@ docker build -t swift-todos .
 docker run --name swift-todos -p 8090:8090 -d -t swift-todos
 ```
 
-After this the REST APIs can be invoked via ‘http://dockerhost:8090’. To deploy it to Bluemix follow the [documentation](http://heidloff.net/article/17.08.2015084655NHE9YE.htm).
+After this the REST APIs can be invoked via ‘http://dockerhost:8090’. To deploy it to Bluemix follow the [documentation]({{ "/article/17.08.2015084655NHE9YE.htm" | relative_url }}).
 
 ![image](/assets/img/2016/03/kitura-small.png)

@@ -143,5 +143,5 @@ To find out more about Watson NLP and Watson for Embed in general, check out the
 - [IBM Watson NLP Documentation](https://www.ibm.com/docs/en/watson-libraries?topic=watson-natural-language-processing-library-embed-home)
 - [IBM Watson NLP Trial](https://www.ibm.com/account/reg/us-en/signup?formid=urx-51726)
 - [Automation for Watson NLP Deployments](https://github.com/IBM/watson-automation)
-- [Running IBM Watson NLP locally in Containers](http://heidloff.net/article/running-ibm-watson-nlp-locally-in-containers/)
-- [Running IBM Watson NLP in Minikube](http://heidloff.net/article/running-ibm-watson-nlp-in-minikube/)
+- [Running IBM Watson NLP locally in Containers]({{ "/article/running-ibm-watson-nlp-locally-in-containers/" | relative_url }})
+- [Running IBM Watson NLP in Minikube]({{ "/article/running-ibm-watson-nlp-in-minikube/" | relative_url }})

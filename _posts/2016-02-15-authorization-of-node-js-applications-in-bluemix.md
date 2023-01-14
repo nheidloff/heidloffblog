@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-As for [authentication](http://heidloff.net/article/authentication-node-js-bluemix) there are various ways to handle authorization in Node.js applications on [Bluemix](https://bluemix.net). Below is an example how to use the Node module [acl](https://github.com/optimalbits/node_acl). With this module you can use roles for authorization, both on application and even document level.
+As for [authentication]({{ "/article/authentication-node-js-bluemix" | relative_url }}) there are various ways to handle authorization in Node.js applications on [Bluemix](https://bluemix.net). Below is an example how to use the Node module [acl](https://github.com/optimalbits/node_acl). With this module you can use roles for authorization, both on application and even document level.
 
 You can download the [source code](https://github.com/IBM-Bluemix/collaboration/tree/initialversion) from GitHub and try the demo yourself. Follow the steps in the [README](https://github.com/IBM-Bluemix/collaboration/blob/initialversion/README.md) and check out the [screenshots](https://github.com/IBM-Bluemix/collaboration/tree/initialversion/screenshots).
 

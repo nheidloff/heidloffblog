@@ -18,7 +18,7 @@ categories:
 
 The [AlchemyAPI](https://console.ng.bluemix.net/catalog/services/alchemyapi/) service on [Bluemix](https://bluemix.net/) provides an API to access news and blog content from the last 60 days enriched with meta information like sentiments and entities identified through natural language processing. This allows, for example, to build applications focussed on trend analysis for certain topics, companies or people.
 
-The [AlchemyData News API](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/alchemy-data-news.html) indexes 250k to 300k English language news and blog articles every day and stores the last two months. The News API uses internally several of the [AlchemyLanguage APIs](http://heidloff.net/article/text-analysis-alchemyapi-entities-sentiments) to analyze text and to perform more than just simple keyword based searches.
+The [AlchemyData News API](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/alchemy-data-news.html) indexes 250k to 300k English language news and blog articles every day and stores the last two months. The News API uses internally several of the [AlchemyLanguage APIs]({{ "/article/text-analysis-alchemyapi-entities-sentiments" | relative_url }}) to analyze text and to perform more than just simple keyword based searches.
 
 Here is a quick sample. With the following command you can invoke a query for positive news about IBM in the last two days. Since currently the IBM Connect conference is going on, news about this event is found.
 

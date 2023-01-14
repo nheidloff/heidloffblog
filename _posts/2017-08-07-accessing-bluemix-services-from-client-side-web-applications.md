@@ -18,7 +18,7 @@ categories:
 
 [Bluemix](https://bluemix.net) is IBM’s cloud platform to build and host applications which can leverage more than 100 services, for example databases and cognitive services. The services provide APIs which require credentials. Applications which are hosted on Bluemix as Cloud Foundry apps or Docker containers can access these credentials from environment variables. This article describes how to invoke Bluemix services from client-side web applications.
 
-Recently I [described](http://heidloff.net/article/angular-2-bluemix-docker-nginx) how to deploy Angular and other client-side web applications (for example React or Vue.js) to Bluemix via Docker and [nginx](http://nginx.org/en/). In order to allow web applications to invoke REST APIs, nginx acts as a proxy which can be configured in the nginx.conf file.
+Recently I [described]({{ "/article/angular-2-bluemix-docker-nginx" | relative_url }}) how to deploy Angular and other client-side web applications (for example React or Vue.js) to Bluemix via Docker and [nginx](http://nginx.org/en/). In order to allow web applications to invoke REST APIs, nginx acts as a proxy which can be configured in the nginx.conf file.
 
 I couldn’t figure out how to configure/extend the nginx proxy to access the credentials from environment variables. That’s why I replaced nginx with a web server built with Node.js and the Express framework.
 

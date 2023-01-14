@@ -18,7 +18,7 @@ categories:
 
 Some people have asked why I haven’t blogged since June. Here is why …
 
-Almost two years ago I [started to work for IBM Emerging Technologies](http://heidloff.net/article/27.10.2014163031NHEL7N.htm). I wanted to work in this group for multiple reasons. One reason was because some of the people in that group worked as developer evangelists for Bluemix which is what I wanted to do as well. I really enjoyed this role since I could learn a lot, since I could blog and open source samples, since I could attend developer conferences and more. As you might imagine by now we don’t do outreach for Bluemix anymore in the Emerging Technologies group. Read the [blog](http://blog.ibmjstart.net/2016/06/30/et-developer-advocates-look-back/) from David and Spence for more details.
+Almost two years ago I [started to work for IBM Emerging Technologies]({{ "/article/27.10.2014163031NHEL7N.htm" | relative_url }}). I wanted to work in this group for multiple reasons. One reason was because some of the people in that group worked as developer evangelists for Bluemix which is what I wanted to do as well. I really enjoyed this role since I could learn a lot, since I could blog and open source samples, since I could attend developer conferences and more. As you might imagine by now we don’t do outreach for Bluemix anymore in the Emerging Technologies group. Read the [blog](http://blog.ibmjstart.net/2016/06/30/et-developer-advocates-look-back/) from David and Spence for more details.
 
 ![image](/assets/img/2016/09/nh-conf.jpg)
 

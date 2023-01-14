@@ -26,7 +26,7 @@ Ansgar’s and my session: [When to use Serverless? When to use Kubernetes?](htt
 
 ![image](/assets/img/2018/02/oop2.jpg)
 
-Demo at our booth: [Visual Recognition for Anki Cozmo with TensorFlow](http://heidloff.net/article/visual-recognition-for-cozmo-with-tensorflow)
+Demo at our booth: [Visual Recognition for Anki Cozmo with TensorFlow]({{ "/article/visual-recognition-for-cozmo-with-tensorflow" | relative_url }})
 
 ![image](/assets/img/2018/02/oop3.jpg)
 
@@ -42,6 +42,6 @@ Fernando talking with a developer.
 
 ![image](/assets/img/2018/02/oop6.jpg)
 
-One thing I really liked was a demo another company gave at their booth. They connected Anki Overdrive cars to an IoT platform to demonstrate how to prevent collisions. As it turned out they actually used my code which I [open sourced](http://heidloff.net/article/ibm-bluemix-anki-overdrive-cars) two years ago.
+One thing I really liked was a demo another company gave at their booth. They connected Anki Overdrive cars to an IoT platform to demonstrate how to prevent collisions. As it turned out they actually used my code which I [open sourced]({{ "/article/ibm-bluemix-anki-overdrive-cars" | relative_url }}) two years ago.
 
 ![image](/assets/img/2018/02/oop7.jpg)

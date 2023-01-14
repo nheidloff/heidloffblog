@@ -40,5 +40,5 @@ To learn more about [Instana](https://www.ibm.com/products/instana), check out t
 
 I’ve also written two more posts about Instana:
 
-- [IBM’s Observability Tool Instana](http://heidloff.net/article/ibm-observability-tool-instana/)
-- [Getting Alerts from IBM’s Observability Tool Instana](http://heidloff.net/article/getting-alerts-from-ibm-observability-tool-instana/)
+- [IBM’s Observability Tool Instana]({{ "/article/ibm-observability-tool-instana/" | relative_url }})
+- [Getting Alerts from IBM’s Observability Tool Instana]({{ "/article/getting-alerts-from-ibm-observability-tool-instana/" | relative_url }})

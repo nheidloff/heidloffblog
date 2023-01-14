@@ -14,9 +14,9 @@ categories:
     - Articles
 ---
 
-In my previous article [Strangler Pattern Example](http://heidloff.net/article/strangler-pattern-example/) I explained why it might make sense to modernize monoliths and start using microservices. In my sample application breaking down the monolith in separate microservices adds value, since the different services can be scaled separately.
+In my previous article [Strangler Pattern Example]({{ "/article/strangler-pattern-example/" | relative_url }}) I explained why it might make sense to modernize monoliths and start using microservices. In my sample application breaking down the monolith in separate microservices adds value, since the different services can be scaled separately.
 
-The key question is how to break down the monolith in microservices! You don’t want to create [distributed monoliths](http://heidloff.net/article/do-not-build-distributed-monoliths/).
+The key question is how to break down the monolith in microservices! You don’t want to create [distributed monoliths]({{ "/article/do-not-build-distributed-monoliths/" | relative_url }}).
 
 **Mono2Micro**
 

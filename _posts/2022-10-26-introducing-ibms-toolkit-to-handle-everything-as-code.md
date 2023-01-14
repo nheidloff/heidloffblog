@@ -28,8 +28,8 @@ To run applications, you need more than just your application code:
 
 To be able to deploy and operate applications efficiently, you need automation for the complete stack.
 
-1. [Terraform for infrastructure like Kubernetes](http://heidloff.net/article/setting-up-ibm-software-with-terraform/)
-2. [Argo CD for everything within Kubernetes clusters](http://heidloff.net/article/deploying-kubernetes-resources-via-gitops/)
+1. [Terraform for infrastructure like Kubernetes]({{ "/article/setting-up-ibm-software-with-terraform/" | relative_url }})
+2. [Argo CD for everything within Kubernetes clusters]({{ "/article/deploying-kubernetes-resources-via-gitops/" | relative_url }})
 
 ![image](/assets/img/2022/10/Screenshot-2022-10-26-at-13.26.08.png)
 

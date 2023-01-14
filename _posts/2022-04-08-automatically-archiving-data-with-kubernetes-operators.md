@@ -16,7 +16,7 @@ categories:
 
 *Kubernetes operators allow the automation of day 2 operational tasks. A good example is the automatic archiving of data. This article describes how data from a simple database can be archived automatically in S3 buckets using CronJobs, Jobs and custom resources.*
 
-The complete source code from this article is available in the [ibm/operator-sample-go](https://github.com/IBM/operator-sample-go/tree/43ec9d7e16f97b11ce4aa5b64d2e9a9ce0a9fde9/database-service) repo. The repo comes with a simple implementation of a database system which can be deployed on Kubernetes. Data is persisted in JSON files as outlined in the previous article [Building Databases on Kubernetes with Quarkus](http://heidloff.net/article/building-databases-kubernetes-quarkus/).
+The complete source code from this article is available in the [ibm/operator-sample-go](https://github.com/IBM/operator-sample-go/tree/43ec9d7e16f97b11ce4aa5b64d2e9a9ce0a9fde9/database-service) repo. The repo comes with a simple implementation of a database system which can be deployed on Kubernetes. Data is persisted in JSON files as outlined in the previous article [Building Databases on Kubernetes with Quarkus]({{ "/article/building-databases-kubernetes-quarkus/" | relative_url }}).
 
 To allow operators to backup data automatically, you need a custom resource definition first which defines when to do backups and where to store the data. We’ve created a custom resource ‘[DatabaseBackup](https://github.com/IBM/operator-sample-go/blob/8ce338d65d2cc9f8db437e3aa635f94a45156922/operator-database/config/samples/database.sample_v1alpha1_databasebackup.yaml)‘ with this information. We use buckets from IBM Cloud Object Storage.
 

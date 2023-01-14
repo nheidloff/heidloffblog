@@ -22,7 +22,7 @@ Read the article [Why Quarkus](http://in.relation.to/2019/03/08/why-quarkus/) to
 
 I did some first quick tests to check how difficult it is to use Quarkus for my [cloud-native starter](https://github.com/nheidloff/cloud-native-starter) sample. One of my microservices uses JavaEE and Eclipse MicroProfile. As documented on the [MicroProfile blog](https://microprofile.io/2019/03/07/next-generation-kubernetes-native-java-framework-implements-eclipse-microprofile/), MicroProfile can be used together with Quarkus.
 
-My [sample service](https://github.com/nheidloff/cloud-native-starter) is pretty simple and basically provides only a REST API. It uses a ‘classic’ JavaEE stack. Read my article [Dockerizing Java MicroProfile Applications](http://heidloff.net/article/dockerizing-container-java-microprofile) for details about the exact stack I’m using.
+My [sample service](https://github.com/nheidloff/cloud-native-starter) is pretty simple and basically provides only a REST API. It uses a ‘classic’ JavaEE stack. Read my article [Dockerizing Java MicroProfile Applications]({{ "/article/dockerizing-container-java-microprofile" | relative_url }}) for details about the exact stack I’m using.
 
 What I like most about Quarkus is that I can run my existing MicroProfile application with little changes only!
 

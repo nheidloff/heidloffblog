@@ -25,7 +25,7 @@ Let’s take a look at a simple sample. Quarkus provides a [Start Coding](https:
 
 Dockerfiles are generated for the different ways to run Quarkus, for example in the JVM or binary modes. Unfortunately these Dockerfiles assume that the code is built previously with Maven which wouldn’t work when deploying Java applications to serverless platforms like Code Engine.
 
-Instead the Maven build step needs to be added to the Dockerfile. Check out my article [Multistage Dockerfiles for Quarkus](http://heidloff.net/article/multistage-dockerfiles-for-quarkus/) for details.
+Instead the Maven build step needs to be added to the Dockerfile. Check out my article [Multistage Dockerfiles for Quarkus]({{ "/article/multistage-dockerfiles-for-quarkus/" | relative_url }}) for details.
 
 Once you have defined your image, you can navigate to the [dashboard of Code Engine](https://cloud.ibm.com/codeengine/overview). From the landing page pick ‘Run your source code’.
 

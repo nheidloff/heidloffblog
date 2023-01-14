@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-In order to learn more about microservices, container orchestration and service meshes, I’ve set up a [local development environment](http://heidloff.net/article/setup-local-development-kubernetes-istio) with Minikube, Istio and tools like Kiali and created a [sample application](https://github.com/nheidloff/cloud-native-starter). In this article I describe how to debug these services locally.
+In order to learn more about microservices, container orchestration and service meshes, I’ve set up a [local development environment]({{ "/article/setup-local-development-kubernetes-istio" | relative_url }}) with Minikube, Istio and tools like Kiali and created a [sample application](https://github.com/nheidloff/cloud-native-starter). In this article I describe how to debug these services locally.
 
 Microservices can be developed in various languages and with multiple frameworks. For the different implementation types there are specialized and established IDEs (integrated development environments) and tools to debug the single services.
 
@@ -98,4 +98,4 @@ Fortunately Telepresense comes with a [mechanism](https://www.telepresence.io/tu
 
 I haven’t tried the two-way communication yet, but the functionality sounds very promising and would fulfill the requirements above!
 
-If you want to give it a try, use the [sample application](https://github.com/nheidloff/cloud-native-starter), set up a [local development environment](http://heidloff.net/article/setup-local-development-kubernetes-istio) and follow the instructions above.
+If you want to give it a try, use the [sample application](https://github.com/nheidloff/cloud-native-starter), set up a [local development environment]({{ "/article/setup-local-development-kubernetes-istio" | relative_url }}) and follow the instructions above.

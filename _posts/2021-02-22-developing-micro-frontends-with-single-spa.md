@@ -16,7 +16,7 @@ categories:
 
 In the process of building new or modernizing older applications, backend functionality is often broken down in multiple microservices. Without modular frontends though, applications often don’t gain the benefits of modern cloud native architectures like continuous deliveries and the abilities to update components separately from each other.
 
-In my previous article [Using Micro Frontends in Microservices based Architectures](http://heidloff.net/article/using-micro-frontends-microservices/) I explained how to modularize a sample e-commerce web application. This allows, for example, to add rating functionality to the catalog user experience without impacting other parts of the user interface.
+In my previous article [Using Micro Frontends in Microservices based Architectures]({{ "/article/using-micro-frontends-microservices/" | relative_url }}) I explained how to modularize a sample e-commerce web application. This allows, for example, to add rating functionality to the catalog user experience without impacting other parts of the user interface.
 
 The web application contains four user interface components (implemented with Vue.js) and two non-visible components.
 

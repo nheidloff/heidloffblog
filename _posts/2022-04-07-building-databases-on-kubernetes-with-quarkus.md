@@ -18,7 +18,7 @@ categories:
 
 The complete code of this article can be found in the [ibm/operator-sample-go](https://github.com/IBM/operator-sample-go/tree/8ce338d65d2cc9f8db437e3aa635f94a45156922/database-service) repo.
 
-My previous article [How to build your own Database on Kubernetes](http://heidloff.net/article/how-to-build-your-own-database-on-kubernetes/) explains the concepts how stateful workloads can be run on Kubernetes. Before reading on, make sure you understand StatefulSets. To recap, here are the main components.
+My previous article [How to build your own Database on Kubernetes]({{ "/article/how-to-build-your-own-database-on-kubernetes/" | relative_url }}) explains the concepts how stateful workloads can be run on Kubernetes. Before reading on, make sure you understand StatefulSets. To recap, here are the main components.
 
 ![image](/assets/img/2022/04/statefulsets1.png)
 

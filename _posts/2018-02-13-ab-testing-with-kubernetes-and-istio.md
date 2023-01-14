@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-Last week I gave a presentation “[When to use Serverless? When to use Kubernetes?](http://heidloff.net/article/when-to-use-serverless-kubernetes)” One of the weaknesses of Serverless platforms is that you currently cannot do things like A/B testing well since there is no notion of versions.
+Last week I gave a presentation “[When to use Serverless? When to use Kubernetes?]({{ "/article/when-to-use-serverless-kubernetes" | relative_url }})” One of the weaknesses of Serverless platforms is that you currently cannot do things like A/B testing well since there is no notion of versions.
 
 [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) allows running multiple variants of functionality in parallel, so that through analytics of user behavior the better variant can be determined. Similarly with ‘dark launches’ new features can be made available to only certain users to test features in production environments before these features will be released to the masses.
 

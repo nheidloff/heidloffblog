@@ -14,7 +14,7 @@ categories:
     - Articles
 ---
 
-In a previous blog [Improving operational Efficiency through Application Modernization](http://heidloff.net/article/improving-operational-efficiency-through-application-modernization/) I described how to containerize a Java application from 2010 via [IBM’s Cloud Transformation Advisor tool](http://heidloff.net/article/improving-operational-efficiency-through-application-modernization/). Transformation Advisor generates Dockerfiles and scripts so that the same applications can be run in containers without changing any code! This article describes how to gather the data for Transformation Advisor.
+In a previous blog [Improving operational Efficiency through Application Modernization]({{ "/article/improving-operational-efficiency-through-application-modernization/" | relative_url }}) I described how to containerize a Java application from 2010 via [IBM’s Cloud Transformation Advisor tool]({{ "/article/improving-operational-efficiency-through-application-modernization/" | relative_url }}). Transformation Advisor generates Dockerfiles and scripts so that the same applications can be run in containers without changing any code! This article describes how to gather the data for Transformation Advisor.
 
 Here is the description of [Transformation Advisor](https://www.ibm.com/garage/method/practices/learn/ibm-transformation-advisor/) from the home page:
 

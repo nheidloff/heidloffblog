@@ -30,7 +30,7 @@ There is a lot of literature about how to use continues integration, continues d
 
 Pipelines usually start by pulling code from source repositories. After this I’ve added a check whether the three infrastructure components are running.
 
-Next some of the configuration is overwritten which is specific to the OpenShift environment, for example the image will be used from the OpenShift internal registry. Read my article [Exernalizing Configurations for OpenShift Deployments](http://heidloff.net/article/externalizing-configurations-for-openshift-deployments/) for more details.
+Next some of the configuration is overwritten which is specific to the OpenShift environment, for example the image will be used from the OpenShift internal registry. Read my article [Exernalizing Configurations for OpenShift Deployments]({{ "/article/externalizing-configurations-for-openshift-deployments/" | relative_url }}) for more details.
 
 In the next step usually static code analysis is run followed by Java builds and unit tests. In order to build the image, buildah is used.
 

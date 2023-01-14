@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-In addition to [Patterns](http://heidloff.net/article/ibm-journeys-developers) and [How-Tos](http://heidloff.net/article/watson-conversation-inspector-rest) there is another good resource for developers to learn how to use the IBM Cloud. The [Solution Tutorials](https://console.bluemix.net/docs/tutorials/index.html#tutorials) provide step-by-step instructions on how to implement common patterns based on best practices and proven technologies.
+In addition to [Patterns]({{ "/article/ibm-journeys-developers" | relative_url }}) and [How-Tos]({{ "/article/watson-conversation-inspector-rest" | relative_url }}) there is another good resource for developers to learn how to use the IBM Cloud. The [Solution Tutorials](https://console.bluemix.net/docs/tutorials/index.html#tutorials) provide step-by-step instructions on how to implement common patterns based on best practices and proven technologies.
 
 I like these tutorials for several reasons:
 

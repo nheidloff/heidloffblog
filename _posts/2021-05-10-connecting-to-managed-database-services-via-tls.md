@@ -16,7 +16,7 @@ categories:
 
 This article describes how to use a managed PostgreSQL database in a Quarkus microservice and how to handle TLS certificates.
 
-In my [application modernization](https://github.com/IBM/application-modernization-javaee-quarkus) example I have used Postgres as datastore of a strangled microservice. My article [Deploying Postgres on OpenShift](http://heidloff.net/article/deploying-postgres-on-openshift/) explained how to deploy Postgres in Kubernetes clusters. This is particularly useful for development in early project stages. However, for applications in production managed database services have several advantages, for example high availability and data backups.
+In my [application modernization](https://github.com/IBM/application-modernization-javaee-quarkus) example I have used Postgres as datastore of a strangled microservice. My article [Deploying Postgres on OpenShift]({{ "/article/deploying-postgres-on-openshift/" | relative_url }}) explained how to deploy Postgres in Kubernetes clusters. This is particularly useful for development in early project stages. However, for applications in production managed database services have several advantages, for example high availability and data backups.
 
 Accessing managed databases rather than databases running in the same cluster doesn’t make much difference. Source code does not have to be changed usually. The biggest difference often is to use TLS which requires only changes to the configuration.
 

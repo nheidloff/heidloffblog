@@ -18,8 +18,8 @@ categories:
 
 To get more context about Instana, read my previous posts:
 
-- [IBM’s Observability Tool Instana](http://heidloff.net/article/ibm-observability-tool-instana/)
-- [Observing Java Cloud Native Applications with Instana](http://heidloff.net/article/observing-java-cloud-native-applications-with-instana/)
+- [IBM’s Observability Tool Instana]({{ "/article/ibm-observability-tool-instana/" | relative_url }})
+- [Observing Java Cloud Native Applications with Instana]({{ "/article/observing-java-cloud-native-applications-with-instana/" | relative_url }})
 
 Let’s take a look at a simple sample alert to get email notifications for issues in the sample robot application running in my OpenShift cluster.
 

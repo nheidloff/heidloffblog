@@ -20,9 +20,9 @@ To set some context, check out the landing page [IBM Watson NLP Library for Embe
 
 There are multiple options how to run and deploy Watson NLP:
 
-- [Locally via container engines like Docker or Podman](http://heidloff.net/article/running-ibm-watson-nlp-locally-in-containers/)
-- [Deployments to Kubernetes (or OpenShift and Minikube) via Helm chart](http://heidloff.net/article/running-ibm-watson-nlp-in-minikube/)
-- [Deployments to Kubernetes/OpenShift via TechZone Deployer (Terraform and ArgoCD)](http://heidloff.net/article/setting-up-openshift-and-applications-in-one-hour/)
+- [Locally via container engines like Docker or Podman]({{ "/article/running-ibm-watson-nlp-locally-in-containers/" | relative_url }})
+- [Deployments to Kubernetes (or OpenShift and Minikube) via Helm chart]({{ "/article/running-ibm-watson-nlp-in-minikube/" | relative_url }})
+- [Deployments to Kubernetes/OpenShift via TechZone Deployer (Terraform and ArgoCD)]({{ "/article/setting-up-openshift-and-applications-in-one-hour/" | relative_url }})
 - Deployments to Kubernetes via kubectl and yaml files (focus of this post)
 - [Deployments to Kubernetes and KServe ModelMesh Serving](https://www.ibm.com/docs/en/watson-libraries?topic=containers-run-kubernetes-kserve-modelmesh-serving)
 
@@ -31,7 +31,7 @@ To run Watson NLP two components are needed:
 - Watson NLP runtime: Executes the core functionality and provides REST and gRPC interfaces.
 - Models: Predefined or custom models are stored in a directory/volume that the runtime can access. The models can be copied there manually, init containers can be used or they can be downloaded from cloud object storage.
 
-There are different ways to package these two components up in containers. Read the post [Building custom IBM Watson NLP Images](http://heidloff.net/article/building-custom-ibm-watson-nlp-images-models/) for details.
+There are different ways to package these two components up in containers. Read the post [Building custom IBM Watson NLP Images]({{ "/article/building-custom-ibm-watson-nlp-images-models/" | relative_url }}) for details.
 
 **Deployments to Kubernetes via kubectl and yaml files**
 
@@ -97,5 +97,5 @@ To find out more about Watson NLP and Watson for Embed in general, check out the
 - [IBM Watson NLP Documentation](https://www.ibm.com/docs/en/watson-libraries?topic=watson-natural-language-processing-library-embed-home)
 - [IBM Watson NLP Trial](https://www.ibm.com/account/reg/us-en/signup?formid=urx-51726)
 - [Automation for Watson NLP Deployments](https://github.com/IBM/watson-automation)
-- [Running IBM Watson NLP locally in Containers](http://heidloff.net/article/running-ibm-watson-nlp-locally-in-containers/)
-- [Running IBM Watson NLP in Minikube](http://heidloff.net/article/running-ibm-watson-nlp-in-minikube/)
+- [Running IBM Watson NLP locally in Containers]({{ "/article/running-ibm-watson-nlp-locally-in-containers/" | relative_url }})
+- [Running IBM Watson NLP in Minikube]({{ "/article/running-ibm-watson-nlp-in-minikube/" | relative_url }})

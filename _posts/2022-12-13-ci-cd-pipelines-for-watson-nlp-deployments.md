@@ -26,7 +26,7 @@ There are different options to package the Watson NLP runtime and models:
 
 (1) is for simpler deployments with one or few models, (3) for highly scalable workloads and lots of models. The focus of this post is (2) in which case every model is stored in one init container.
 
-The post [Building custom IBM Watson NLP Images](http://heidloff.net/article/building-custom-ibm-watson-nlp-images-models/) describes how to use the [watson-embed-model-packager](https://github.com/IBM/ibm-watson-embed-model-builder) Python tool to create images for models. However, this tool might not be what you want to use in CI/CD pipelines. At this point the tool also requires Docker.
+The post [Building custom IBM Watson NLP Images]({{ "/article/building-custom-ibm-watson-nlp-images-models/" | relative_url }}) describes how to use the [watson-embed-model-packager](https://github.com/IBM/ibm-watson-embed-model-builder) Python tool to create images for models. However, this tool might not be what you want to use in CI/CD pipelines. At this point the tool also requires Docker.
 
 The repo of the tool also shows how to simply use a Dockerfile instead so that other container technologies can be used and so that images can be built in the more usual scripted way.
 
@@ -92,4 +92,4 @@ $ ls -la models
 
 Note that this post only shows how to build the model images. Additionally you need a strategy how to handle versions of images in general, how to map between image versions and model versions, how the model files can be accessed and more.
 
-To find out more about Watson NLP, Watson Speech To Text, Watson Text To Speech and Watson for Embed in general, check out the resources in my post Guide to [IBM Watson Libraries](http://heidloff.net/article/the-ultimate-guide-to-ibm-watson-libraries/).
+To find out more about Watson NLP, Watson Speech To Text, Watson Text To Speech and Watson for Embed in general, check out the resources in my post Guide to [IBM Watson Libraries]({{ "/article/the-ultimate-guide-to-ibm-watson-libraries/" | relative_url }}).

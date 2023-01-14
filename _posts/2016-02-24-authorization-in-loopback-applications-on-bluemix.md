@@ -20,7 +20,7 @@ The Node.js framework [LoopBack](http://loopback.io/) supports authorization for
 
 [Download the sample application from GitHub.](https://github.com/IBM-Bluemix/collaboration)
 
-The sample uses test users defined in a Cloudant database by default, but you can change it easily to authenticate against the [Single Sign On](http://heidloff.net/article/authentication-loopback-bluemix) service in [Bluemix](https://bluemix.net).
+The sample uses test users defined in a Cloudant database by default, but you can change it easily to authenticate against the [Single Sign On]({{ "/article/authentication-loopback-bluemix" | relative_url }}) service in [Bluemix](https://bluemix.net).
 
 In LoopBack applications ACLs (access control lists) are defined as part of the model definitions declaratively. In my sample I’m using an ApprovalRequest model which has a requester and potential approvers which are people with the role ‘Manager’. Only the specific requester of a request, the managers and the admins have write access to the request. Here is how this is defined in the model ([approval-request.json](https://github.com/IBM-Bluemix/collaboration/blob/master/server/common/models/approval-request.json#L39)).
 

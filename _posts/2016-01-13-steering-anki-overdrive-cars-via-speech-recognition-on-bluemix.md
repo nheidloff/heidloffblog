@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-I’ve extended the [Anki Overdrive demo](http://heidloff.net/article/collision-prevention-anki-overdrive-cars-bluemix) so that you can steer the cars via voice. I’ve used a combination of the Watson [Speech to Text](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/speech-to-text.html) service and the Watson [Natural Language Classifier](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/nl-classifier.html) service on [Bluemix](https://bluemix.net) to implement this. All of this is available as [open source](https://github.com/IBM-Bluemix/node-mqtt-for-anki-overdrive).
+I’ve extended the [Anki Overdrive demo]({{ "/article/collision-prevention-anki-overdrive-cars-bluemix" | relative_url }}) so that you can steer the cars via voice. I’ve used a combination of the Watson [Speech to Text](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/speech-to-text.html) service and the Watson [Natural Language Classifier](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/nl-classifier.html) service on [Bluemix](https://bluemix.net) to implement this. All of this is available as [open source](https://github.com/IBM-Bluemix/node-mqtt-for-anki-overdrive).
 
 To convert speech to text an extended version of the Watson [Speech to Text sample](https://github.com/watson-developer-cloud/speech-to-text-nodejs) is used so that received text (which is marked as ‘final’) can be sent via MQTT to the [Internet of Things foundation](https://console.ng.bluemix.net/catalog/services/internet-of-things-foundation/).
 
@@ -32,8 +32,8 @@ There is a new version of the Node-RED flow which includes the speech recognitio
 
 Here is the series of blog articles about the Anki Overdrive with Bluemix demos.
 
-- [Anki Overdrive Cars with Bluemix Demo – Slides and Architecture](http://heidloff.net/article/ibm-bluemix-anki-overdrive-cars)
-- [Collision Prevention for Anki Overdrive Cars with Bluemix](http://heidloff.net/article/collision-prevention-anki-overdrive-cars-bluemix)
-- [Steering Anki Overdrive Cars via Speech Recognition on Bluemix](http://heidloff.net/article/steering-anki-overdrive-cars-speech-recognition-bluemix-watson)
-- [Steering Anki Overdrive Cars via Kinect and Bluemix](http://heidloff.net/article/anki-overdrive-cars-kinect-bluemix)
-- [Steering Anki Overdrive Cars via Leap Motion Gestures and Bluemix](http://heidloff.net/article/steering-anki-overdrive-cars-leap-motion-gestures-bluemix)
+- [Anki Overdrive Cars with Bluemix Demo – Slides and Architecture]({{ "/article/ibm-bluemix-anki-overdrive-cars" | relative_url }})
+- [Collision Prevention for Anki Overdrive Cars with Bluemix]({{ "/article/collision-prevention-anki-overdrive-cars-bluemix" | relative_url }})
+- [Steering Anki Overdrive Cars via Speech Recognition on Bluemix]({{ "/article/steering-anki-overdrive-cars-speech-recognition-bluemix-watson" | relative_url }})
+- [Steering Anki Overdrive Cars via Kinect and Bluemix]({{ "/article/anki-overdrive-cars-kinect-bluemix" | relative_url }})
+- [Steering Anki Overdrive Cars via Leap Motion Gestures and Bluemix]({{ "/article/steering-anki-overdrive-cars-leap-motion-gestures-bluemix" | relative_url }})

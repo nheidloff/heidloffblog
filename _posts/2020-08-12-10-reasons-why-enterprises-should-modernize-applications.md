@@ -68,4 +68,4 @@ Sometimes legacy applications become very expensive. For example after the offic
 
 This is not really a good reason, but something that I’ve heard from developers. For certain applications it doesn’t make sense to modernize them. However for developers this means being able to learn new skills and don’t we all like this?
 
-To learn more, check out my blog what IBM offers for [application modernization](http://heidloff.net/article/application-modernization-resources-on-ibm-developer/).
+To learn more, check out my blog what IBM offers for [application modernization]({{ "/article/application-modernization-resources-on-ibm-developer/" | relative_url }}).

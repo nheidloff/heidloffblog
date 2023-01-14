@@ -59,6 +59,6 @@ As a result the Watson service provides now a better translation (or in this cas
 
 To find out more read the [documentation](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/doc/language-translation/customizing.shtml) and the article “[Customization and languages expand in Watson Language Translation](https://developer.ibm.com/watson/blog/2015/11/10/customization-and-languages-expand-in-watson-language-translation-and-speech-services/)” or watch the video “[Getting started: IBM Watson Language Translation customization](https://www.youtube.com/watch?v=a3vj_XJPtOM)“.
 
-The Watson translation service is also used by the [Globalization Pipeline](https://console.ng.bluemix.net/catalog/services/globalization-pipeline/) service so that you can [globalize your Bluemix Applications without recompiling them](http://heidloff.net/article/23.06.2015112704NHED4H.htm).
+The Watson translation service is also used by the [Globalization Pipeline](https://console.ng.bluemix.net/catalog/services/globalization-pipeline/) service so that you can [globalize your Bluemix Applications without recompiling them]({{ "/article/23.06.2015112704NHED4H.htm" | relative_url }}).
 
 </body>

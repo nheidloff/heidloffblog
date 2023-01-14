@@ -16,7 +16,7 @@ categories:
 
 *The real power or Kubernetes operators are not day 1 tasks like the initial deployments, but the automation of day 2 operations. This article describes a sample operator that scales up an application automatically based on the number of API requests.*
 
-The complete source code from this article is available in the [ibm/operator-sample-go repo](https://github.com/IBM/operator-sample-go). The repo includes operator samples that demonstrate patterns and best practises. It also includes another day 2 sample scenario: [Automatically Archiving Data with Kubernetes Operators](http://heidloff.net/article/automatically-archiving-data-kubernetes-operators/).
+The complete source code from this article is available in the [ibm/operator-sample-go repo](https://github.com/IBM/operator-sample-go). The repo includes operator samples that demonstrate patterns and best practises. It also includes another day 2 sample scenario: [Automatically Archiving Data with Kubernetes Operators]({{ "/article/automatically-archiving-data-kubernetes-operators/" | relative_url }}).
 
 The sample contains the following components:
 
@@ -25,7 +25,7 @@ The sample contains the following components:
 - Application operator (core): Deploys the microservice
 - Application operator’s CronJob: Separate container which scales up the number of pod instances based on the amount of /hello invocations
 
-To set up and configure Prometheus, check our my previous article [Exporting Metrics from Kubernetes Apps for Prometheus](http://heidloff.net/article/exporting-metrics-kubernetes-applications-prometheus/). Below I focus on the implementation of the auto-scaler.
+To set up and configure Prometheus, check our my previous article [Exporting Metrics from Kubernetes Apps for Prometheus]({{ "/article/exporting-metrics-kubernetes-applications-prometheus/" | relative_url }}). Below I focus on the implementation of the auto-scaler.
 
 The microservice has been implemented with Quarkus. It uses Eclipse MicroProfile to track the number of invocations (see [code](https://github.com/IBM/operator-sample-go/blob/f130dc768df6d9178f6395690f508f0840e0b5ef/simple-microservice/src/main/java/net/heidloff/GreetingResource.java)).
 

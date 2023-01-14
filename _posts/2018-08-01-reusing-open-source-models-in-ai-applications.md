@@ -24,7 +24,7 @@ In order to find models, there isn’t the one place to go to. In my experience 
 
 **IBM Model Asset Exchange**
 
-The [IBM Model Asset Exchange](https://developer.ibm.com/code/exchanges/models/) doesn’t contain too many models yet, but I like the consumability for developers. As I [blogged](http://heidloff.net/article/model-asset-exchange-dl-kubernetes-tensorflow) about, the models are put in Docker containers and predictions can be done via REST APIs. The models are published under open source licenses and the IP has been vetted. Some of the models can be re-trained easily with custom data.
+The [IBM Model Asset Exchange](https://developer.ibm.com/code/exchanges/models/) doesn’t contain too many models yet, but I like the consumability for developers. As I [blogged]({{ "/article/model-asset-exchange-dl-kubernetes-tensorflow" | relative_url }}) about, the models are put in Docker containers and predictions can be done via REST APIs. The models are published under open source licenses and the IP has been vetted. Some of the models can be re-trained easily with custom data.
 
 **TensorFlow Models**
 

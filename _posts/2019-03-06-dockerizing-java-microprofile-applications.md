@@ -80,7 +80,7 @@ COPY --from=BUILD /usr/src/app/target/articles.war /config/dropins/
 
 **Sample Application**
 
-If you want to try MicroProfile on Istio, use the [sample application](https://github.com/nheidloff/cloud-native-starter), set up a [local development environment](http://heidloff.net/article/setup-local-development-kubernetes-istio), make sure you have installed all necessary [prerequisites](https://github.com/nheidloff/cloud-native-starter/blob/master/scripts/check-prerequisites.sh#L13-L21) and run these commands:
+If you want to try MicroProfile on Istio, use the [sample application](https://github.com/nheidloff/cloud-native-starter), set up a [local development environment]({{ "/article/setup-local-development-kubernetes-istio" | relative_url }}), make sure you have installed all necessary [prerequisites](https://github.com/nheidloff/cloud-native-starter/blob/master/scripts/check-prerequisites.sh#L13-L21) and run these commands:
 
 ```
 $ git clone https://github.com/nheidloff/cloud-native-starter.git

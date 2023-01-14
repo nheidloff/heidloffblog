@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-Previously I blogged about how to [implement and document REST APIs in JavaEE](http://heidloff.net/article/rest-apis-microprofile-javaee-jaxrs) applications with [Eclipse MicroProfile](https://microprofile.io/). In this article I describe the inverse scenario how services can invoke other services via REST APIs over HTTP.
+Previously I blogged about how to [implement and document REST APIs in JavaEE]({{ "/article/rest-apis-microprofile-javaee-jaxrs" | relative_url }}) applications with [Eclipse MicroProfile](https://microprofile.io/). In this article I describe the inverse scenario how services can invoke other services via REST APIs over HTTP.
 
 MicroProfile comes with a [REST Client](https://github.com/eclipse/microprofile-rest-client) which defines a type safe client programming model. The REST Client makes it easier to convert between the JSON data and Java objects in both directions.
 

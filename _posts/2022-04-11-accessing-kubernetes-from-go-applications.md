@@ -18,7 +18,7 @@ categories:
 
 The complete source code from this article is available in the [ibm/operator-sample-go](https://github.com/IBM/operator-sample-go/tree/main/operator-database-backup) repo.
 
-My previous article [Automatically Archiving Data with Kubernetes Operators](http://heidloff.net/article/automatically-archiving-data-kubernetes-operators/) describes an auto pilot sample scenario to back up data on a scheduled basis. The [code](https://github.com/IBM/operator-sample-go/blob/0b46e5ee18b892293ce2ff2eb565ea9500de298b/operator-database-backup/backup/backup.go) of the backup job is pretty straight forward. I’ve implemented a Go image with the following functionality.
+My previous article [Automatically Archiving Data with Kubernetes Operators]({{ "/article/automatically-archiving-data-kubernetes-operators/" | relative_url }}) describes an auto pilot sample scenario to back up data on a scheduled basis. The [code](https://github.com/IBM/operator-sample-go/blob/0b46e5ee18b892293ce2ff2eb565ea9500de298b/operator-database-backup/backup/backup.go) of the backup job is pretty straight forward. I’ve implemented a Go image with the following functionality.
 
 - Get the database backup resource from Kubernetes
 - Validate input environment variables
@@ -98,6 +98,6 @@ func getBackupResource() error {
 
 To get an instance of the controller-runtime client, a rest.Config object is needed. When running in clusters, this config can be read via the API rest.InClusterConfig(). When running locally, the config can be read from the local file $Home/.kube/config.
 
-If you want to access resource definitions defined by a controller (other image and other Go package), you can [import](http://heidloff.net/article/importing-go-modules-kubernetes-operators/) them. In the example above the custom resource definition ‘DatabaseBackup’ from the ‘operator-database’ project is used to access database backup resources.
+If you want to access resource definitions defined by a controller (other image and other Go package), you can [import]({{ "/article/importing-go-modules-kubernetes-operators/" | relative_url }}) them. In the example above the custom resource definition ‘DatabaseBackup’ from the ‘operator-database’ project is used to access database backup resources.
 
 To learn more about operator patterns and best practices, check out the repo [operator-sample-go](https://github.com/IBM/operator-sample-go).

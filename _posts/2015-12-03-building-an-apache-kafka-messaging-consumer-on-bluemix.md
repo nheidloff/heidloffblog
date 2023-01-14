@@ -16,7 +16,7 @@ categories:
     - Articles
 ---
 
-The [Message Hub](https://www.ng.bluemix.net/docs/services/MessageHub/index.html) service on [Bluemix](https://bluemix.net) is based on [Apache Kafka](http://kafka.apache.org/), which is a fast, scalable, and durable real-time messaging engine. For developers there are Java, Node and REST APIs to leverage Kafka. Yesterday I blogged about how to write a simple [Kafka producer](http://heidloff.net/article/Apache-Kafka-Messaging-Producer-on-Bluemix) in Node.js. This article covers the counterpart – a Kafka consumer.
+The [Message Hub](https://www.ng.bluemix.net/docs/services/MessageHub/index.html) service on [Bluemix](https://bluemix.net) is based on [Apache Kafka](http://kafka.apache.org/), which is a fast, scalable, and durable real-time messaging engine. For developers there are Java, Node and REST APIs to leverage Kafka. Yesterday I blogged about how to write a simple [Kafka producer]({{ "/article/Apache-Kafka-Messaging-Producer-on-Bluemix" | relative_url }}) in Node.js. This article covers the counterpart – a Kafka consumer.
 
 To understand how consumers work in Kafka I recommend reading the [Kafka documentation](http://kafka.apache.org/documentation.html#intro_consumers). Essentially you define consumer groups with potentially multiple consumer instances. Only one instance per group receives one particular message. In order to scale you can simply increase the number of consumer instances. In Kafka each container instance has it’s own partition from which it receives messages for a certain topic (in the right order). However since the Message Hub only supports one partition in the current beta status, you cannot use this functionality yet.
 
@@ -38,7 +38,7 @@ npm install
 node app.js <message_hub_rest_endpoint> <message_hub_api_key>
 ```
 
-In order to test the consumer you need to also run the producer as explained in the previous [article](http://heidloff.net/article/Apache-Kafka-Messaging-Producer-on-Bluemix). Both need to use the same Message Hub instance. Here is a screenshot of the producer and consumer running locally.
+In order to test the consumer you need to also run the producer as explained in the previous [article]({{ "/article/Apache-Kafka-Messaging-Producer-on-Bluemix" | relative_url }}). Both need to use the same Message Hub instance. Here is a screenshot of the producer and consumer running locally.
 
 ![image](/assets/img/2015/12/kafkanodesample2.jpg)
 

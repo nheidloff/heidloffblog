@@ -165,4 +165,4 @@ $ grpcurl -plaintext -proto common-service.proto -d '{
 }
 ```
 
-To find out more about Watson NLP, Watson Speech To Text, Watson Text To Speech and Watson for Embed in general, check out the resources in my post Guide to [IBM Watson Libraries](http://heidloff.net/article/the-ultimate-guide-to-ibm-watson-libraries/).
+To find out more about Watson NLP, Watson Speech To Text, Watson Text To Speech and Watson for Embed in general, check out the resources in my post Guide to [IBM Watson Libraries]({{ "/article/the-ultimate-guide-to-ibm-watson-libraries/" | relative_url }}).

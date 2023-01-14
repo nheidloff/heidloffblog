@@ -22,7 +22,7 @@ Get the [cloud-native-starter](https://github.com/nheidloff/cloud-native-starter
 
 **Java Persistence API**
 
-In the example I use a full open source Java stack with OpenJ9, OpenJDK, Open Liberty and MicroProfile. In order to deploy the microservices to Kubernetes, I’ve created an image. Read my article [Dockerizing Java MicroProfile Applications](http://heidloff.net/article/dockerizing-container-java-microprofile) for details.
+In the example I use a full open source Java stack with OpenJ9, OpenJDK, Open Liberty and MicroProfile. In order to deploy the microservices to Kubernetes, I’ve created an image. Read my article [Dockerizing Java MicroProfile Applications]({{ "/article/dockerizing-container-java-microprofile" | relative_url }}) for details.
 
 Open Liberty provides some pretty good guides. One guide is specifically about JPA: [Accessing and persisting data in microservices](https://openliberty.io/guides/jpa-intro.html). I don’t want to repeat everything here, but only highlight the changes I had to do to run this functionality in a container, rather than via a local Open Liberty installation.
 

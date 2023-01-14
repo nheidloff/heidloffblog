@@ -16,7 +16,7 @@ categories:
 
 In this blog I explain briefly how to ‘debug’ Tekton tasks.
 
-In my previous article [Sample Tekton Pipelines for Microservices](http://heidloff.net/article/sample-tekton-pipelines-for-microservices/) I described how to deploy microservices to OpenShift using Tekton. Running pipelines can take quite some time, since tasks run in different containers and data needs to be passed between them. So it is often desirable to run only specific tasks and steps and to pass in context.
+In my previous article [Sample Tekton Pipelines for Microservices]({{ "/article/sample-tekton-pipelines-for-microservices/" | relative_url }}) I described how to deploy microservices to OpenShift using Tekton. Running pipelines can take quite some time, since tasks run in different containers and data needs to be passed between them. So it is often desirable to run only specific tasks and steps and to pass in context.
 
 Sebastian Daschner has created a great [video](https://www.youtube.com/watch?v=AZ9z7hIasO4) about a mechanism to run basically only a specific task. The challenge though is how to pass in the right context. For example for most tasks at a minimum you need to clone the repo first.
 

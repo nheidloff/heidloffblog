@@ -20,7 +20,7 @@ For a Bluemix DevOps workshop I’ve prepared a [deck](https://www.slideshare.ne
 
 In the first part I describe why Continuous Delivery is important, what the differences are between Continuous Delivery, Continuous Integration, Continuous Deployment and DevOps as well as key concepts like automation and delivery pipelines. If you haven’t done much with Continuous Delivery yet, I suggest to watch this great [introduction](https://www.youtube.com/watch?v=aoMfbgF2D_4) from Martin Fowler.
 
-One of the things I like about Bluemix Continuous Delivery is the concept of [Open Toolchains](https://console.bluemix.net/docs/services/ContinuousDelivery/toolchains_working.html#toolchains_getting_started). While IBM used to have it’s own tools for basically everything, with toolchains you can integrate third party tools as well as open source tools. Tools in the toolchain can communicate between each other, for example after a successful Jenkins build fixed issues in GitHub can be [annotated](http://heidloff.net/article/jenkins-devops-toolchains-bluemix) automatically with deployment information.
+One of the things I like about Bluemix Continuous Delivery is the concept of [Open Toolchains](https://console.bluemix.net/docs/services/ContinuousDelivery/toolchains_working.html#toolchains_getting_started). While IBM used to have it’s own tools for basically everything, with toolchains you can integrate third party tools as well as open source tools. Tools in the toolchain can communicate between each other, for example after a successful Jenkins build fixed issues in GitHub can be [annotated]({{ "/article/jenkins-devops-toolchains-bluemix" | relative_url }}) automatically with deployment information.
 
 The screenshot shows the tools that can be used in toolchains.
 

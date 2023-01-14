@@ -20,7 +20,7 @@ I’ve been working on an example that demonstrates how to get started with clou
 
 Get the code of the example application [cloud-native-starter](https://github.com/nheidloff/cloud-native-starter) from GitHub.
 
-Previously I [blogged](http://heidloff.net/article/authentication-authorization-openid-connect-istio) about how to do authorization with [Istio](https://istio.io/). In general as [much as possible of the functionality of the Kubernetes and Istio platforms](http://heidloff.net/article/how-to-develop-your-first-cloud-native-applications-with-java/) should be leveraged when building microservices. However, some functionality needs to be implemented in the business logic of the application. One such scenario is fine grained authorization that only the application can determine. For example in a project management application only the application knows the owners of specific tasks.
+Previously I [blogged]({{ "/article/authentication-authorization-openid-connect-istio" | relative_url }}) about how to do authorization with [Istio](https://istio.io/). In general as [much as possible of the functionality of the Kubernetes and Istio platforms]({{ "/article/how-to-develop-your-first-cloud-native-applications-with-java/" | relative_url }}) should be leveraged when building microservices. However, some functionality needs to be implemented in the business logic of the application. One such scenario is fine grained authorization that only the application can determine. For example in a project management application only the application knows the owners of specific tasks.
 
 **OpenID Connect and JWT**
 
@@ -42,7 +42,7 @@ There are five services in the application. The services, except of the managed 
 
 ![image](/assets/img/2019/04/blog-authorization-istio-1.png)
 
-Check out my other article [Authenticating Web Users with OpenID and JWT](http://heidloff.net/article/authenticating-web-users-openid-connect-jwt/) that explains how the tokens are retrieved and how they are stored in the web application.
+Check out my other article [Authenticating Web Users with OpenID and JWT]({{ "/article/authenticating-web-users-openid-connect-jwt/" | relative_url }}) that explains how the tokens are retrieved and how they are stored in the web application.
 
 **Authorization via MicroProfile**
 

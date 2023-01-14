@@ -18,7 +18,7 @@ categories:
     - Articles
 ---
 
-**Update 11/23/15:** [See here for an updated version of this article.](http://heidloff.net/article/developer-perspective-on-cloud-foundry-vs-docker-on-bluemix)
+**Update 11/23/15:** [See here for an updated version of this article.]({{ "/article/developer-perspective-on-cloud-foundry-vs-docker-on-bluemix" | relative_url }})
 
  [IBM Bluemix](http://bluemix.net/) is based on [Cloud Foundry](http://www.cloudfoundry.org/about/index.html), an open PaaS (platform as a service) to provide customers a choice of clouds. This PaaS model allows developers to focus almost exclusively on writing code since all infrastructure including the application servers are provided. This enables developers to build applications rapidly in local IDEs and push the applications to the cloud. This ease of use however comes at the expense of having less control over the infrastructure (obviously) which is desirable in certain scenarios.
 
