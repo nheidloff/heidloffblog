@@ -71,6 +71,6 @@ public class GetArticles {
 
 The nice thing about MicroProfile and the open source JavaEE application server [OpenLiberty](https://openliberty.io/) is that it comes with the built-in OpenAPI web application to read the documentation and to invoke the APIs.
 
-[![blog-openapi-microprofile](http://heidloff.net/wp-content/uploads/2019/03/blog-openapi-microprofile.png)](http://heidloff.net/wp-content/uploads/2019/03/blog-openapi-microprofile.png)
+![image](/assets/img/2019/03/blog-openapi-microprofile.png)
 
 To learn more about MicroProfile OpenAPI, check out the [cloud-native starter](https://github.com/nheidloff/cloud-native-starter) repo and the [documentation](https://github.com/eclipse/microprofile-open-api/blob/master/spec/src/main/asciidoc/microprofile-openapi-spec.adoc).

@@ -84,11 +84,11 @@ After you have installed [Telepresense](https://www.telepresence.io/reference/in
 telepresence --method inject-tcp --swap-deployment articles --expose 9080:9080
 ```
 
-[![debugging-istio-1](http://heidloff.net/wp-content/uploads/2019/03/debugging-istio-1.png)](http://heidloff.net/wp-content/uploads/2019/03/debugging-istio-1.png)
+![image](/assets/img/2019/03/debugging-istio-1.png)
 
 Once the Kubernetes remote port 9080 has been mapped to the local port 9080, the locally running service can be invoked from the ‘web-api’ service running in Kubernetes. The best part is you can also use the Eclipse debugger as if everything would run locally.
 
-[![debugging-istio-4](http://heidloff.net/wp-content/uploads/2019/03/debugging-istio-4.png)](http://heidloff.net/wp-content/uploads/2019/03/debugging-istio-4.png)
+![image](/assets/img/2019/03/debugging-istio-4.png)
 
 **Calling from local Services to Kubernetes**
 

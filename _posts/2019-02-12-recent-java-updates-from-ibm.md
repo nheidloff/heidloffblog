@@ -20,7 +20,7 @@ In preparation for a Java conference, I’ve spent some time to catch up on the 
 
 Oracle has changed the licensing for commercial use. Fortunately IBM open sourced OpenJ9 which is available together with the OpenJDK at no cost from [AdoptOpenJDK](https://adoptopenjdk.net/), even for commercial use.
 
-[![java-ibm](http://heidloff.net/wp-content/uploads/2019/02/java-ibm.png)](http://heidloff.net/wp-content/uploads/2019/02/java-ibm.png)
+![image](/assets/img/2019/02/java-ibm.png)
 
 More about licensing:
 

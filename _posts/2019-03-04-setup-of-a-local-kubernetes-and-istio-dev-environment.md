@@ -83,7 +83,7 @@ $ kubectl get pod -n istio-system
 
 This screenshot shows all Istio pods running or completed (ignore the Kiali one for now).
 
-[![setup-loca-id-kubernetes-1](http://heidloff.net/wp-content/uploads/2019/03/setup-loca-id-kubernetes-1.png)](http://heidloff.net/wp-content/uploads/2019/03/setup-loca-id-kubernetes-1.png)
+![image](/assets/img/2019/03/setup-loca-id-kubernetes-1.png)
 
 In the last step enable automatic sidecar injection:
 
@@ -163,6 +163,6 @@ $ scripts/deploy-web-api-java-jee.sh
 
 The following screenshot shows a BFF (backend for frontend) ‘web-api’ microservice invoking another ‘articles’ webservice:
 
-[![setup-loca-id-kubernetes-2](http://heidloff.net/wp-content/uploads/2019/03/setup-loca-id-kubernetes-2.png)](http://heidloff.net/wp-content/uploads/2019/03/setup-loca-id-kubernetes-2.png)
+![image](/assets/img/2019/03/setup-loca-id-kubernetes-2.png)
 
 Most of the information in this article I got from [Harald Uebele](https://haralduebele.blog/2019/02/22/install-istio-and-kiali-on-ibm-cloud-or-minikube/). Thanks Harald. I just added some details that I had to do differently.

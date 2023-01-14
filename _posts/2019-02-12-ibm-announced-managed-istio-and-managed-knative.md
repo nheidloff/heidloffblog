@@ -28,27 +28,27 @@ Knative aims to make it simpler for developers to deploy and run code. While I a
 
 The two new add-ons can be activated in the dashboard of the Kubernetes service:
 
-[![blog-istio-addons](http://heidloff.net/wp-content/uploads/2019/02/blog-istio-addons.png)](http://heidloff.net/wp-content/uploads/2019/02/blog-istio-addons.png)
+![image](/assets/img/2019/02/blog-istio-addons.png)
 
 > [Istio](https://istio.io/) is a service mesh for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data. The Istio add-on simplifies the installation and maintenance of your Istio control plane so you can focus on managing your microservices.
 
 The Managed Istio add-on (beta) comes with Istio 1.0.5, the BookInfo sample application and several tools.
 
-[![blog-istio-istio](http://heidloff.net/wp-content/uploads/2019/02/blog-istio-istio.png)](http://heidloff.net/wp-content/uploads/2019/02/blog-istio-istio.png)
+![image](/assets/img/2019/02/blog-istio-istio.png)
 
 The next screenshot shows the invocation hierarchies of microservices from the BookInfo application displayed in [Kiali](https://www.kiali.io/), a monitoring tool for service meshes.
 
-[![blog-istio-kiali](http://heidloff.net/wp-content/uploads/2019/02/blog-istio-kiali.png)](http://heidloff.net/wp-content/uploads/2019/02/blog-istio-kiali.png)
+![image](/assets/img/2019/02/blog-istio-kiali.png)
 
 > [Knative](https://cloud.google.com/knative/) is an open source platform to extend the capabilities of Kubernetes to help you create modern, source-centric containerized and serverless apps on top of your cluster.
 
 The Knative add-on provides Knative 0.3.0 and requires Istio.
 
-[![blog-istio-knative](http://heidloff.net/wp-content/uploads/2019/02/blog-istio-knative.png)](http://heidloff.net/wp-content/uploads/2019/02/blog-istio-knative.png)
+![image](/assets/img/2019/02/blog-istio-knative.png)
 
 Once the add-ons have been installed, you’ll see additional pods in the Istio and Knative namespaces.
 
-[![blog-istio-pods](http://heidloff.net/wp-content/uploads/2019/02/blog-istio-pods.png)](http://heidloff.net/wp-content/uploads/2019/02/blog-istio-pods.png)
+![image](/assets/img/2019/02/blog-istio-pods.png)
 
 To find out more about the new add-ons, read the documentation:
 

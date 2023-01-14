@@ -22,7 +22,7 @@ MicroProfile comes with a [REST Client](https://github.com/eclipse/microprofile-
 
 There is pretty good [documentation](https://github.com/OpenLiberty/guide-microprofile-rest-client) about the REST Client available (see below). In this article I describe how I’ve used the client in my sample application. The application has a Web API service which implements the BFF (backend for frontend pattern). The Web API service uses the REST Client to invoke another ‘Authors’ service.
 
-[![blog-resiliency-resiliency-diagram](http://heidloff.net/wp-content/uploads/2019/03/blog-resiliency-resiliency-diagram.png)](http://heidloff.net/wp-content/uploads/2019/03/blog-resiliency-resiliency-diagram.png)
+![image](/assets/img/2019/03/blog-resiliency-resiliency-diagram.png)
 
 Get the code of the [cloud native starter](https://github.com/nheidloff/cloud-native-starter) application.
 
