@@ -37,6 +37,6 @@ categories:
 
  Last but not least the [community](https://ibmdw.net/social/community/) page describes other websites and communities that are used by Social Business Toolkit developers. For example we encourage developers to use StackOverflow for questions, the SDK and samples are available as open source on OpenNTF and GitHub and news can be read on Collaboration Today. There is also a new [YouTube channel](http://www.youtube.com/ibmsbt) with Social Busines Toolkit related videos and in order to find out about latest activities follow us on [Twitter](http://twitter.com/ibmsbt).
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/VkMjxyXxKqU" width="640"></iframe>
+{% include embed/youtube.html id='VkMjxyXxKqU' %}
 
 A big thank you goes to my colleague [Steve Kuan](http://twitter.com/stevekuan) for creating the design and to several colleagues from the IBM developerWorks team for providing the new infrastructure for this site.

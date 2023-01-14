@@ -24,11 +24,11 @@ To run the exercises in the courses via [Scikit Learn](http://scikit-learn.org/)
 
 [Intro to Machine Learning: Pattern Recognition for Fun and Profit](https://www.udacity.com/course/intro-to-machine-learning--ud120)
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/ICKBWIkfeJ8?list=PLAwxTw4SYaPkQXg8TkVdIvYv4HfLG7SiH" width="560"></iframe>
+{% include embed/youtube.html id='ICKBWIkfeJ8' %}
 
 [Machine Learning: Supervised, Unsupervised &amp; Reinforcement](https://www.udacity.com/course/machine-learning--ud262)
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/videoseries?list=PLAwxTw4SYaPl0N6-e1GvyLp5-MUMUjOKo" width="560"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="250" src="https://www.youtube.com/embed/videoseries?list=PLAwxTw4SYaPl0N6-e1GvyLp5-MUMUjOKo" width="400"></iframe>
 
 Machine Learning Courses:
 

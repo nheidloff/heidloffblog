@@ -22,24 +22,24 @@ categories:
 
 [Social Enabler](http://www.openntf.org/blogs/openntf.nsf/d6plinks/NHEF-8M5CNA)
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/UAmgqP20Okw" width="560"></iframe>
+{% include embed/youtube.html id='UAmgqP20Okw' %}
 
 [Mobile Controls](http://www.openntf.org/blogs/openntf.nsf/d6plinks/NHEF-8MHA78)
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/0G6hZOocfi8" width="560"></iframe>
+{% include embed/youtube.html id='0G6hZOocfi8' %}
 
 [Relational Database Support](http://www.openntf.org/blogs/openntf.nsf/d6plinks/NHEF-8JYMXE)
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/p6oRCsTsVqc" width="560"></iframe>
+{% include embed/youtube.html id='p6oRCsTsVqc' %}
 
 [REST APIs](http://www.openntf.org/blogs/openntf.nsf/d6plinks/NHEF-8JGGPE)
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/5RlN042M4YU" width="560"></iframe>
+{% include embed/youtube.html id='5RlN042M4YU' %}
 
 I’ve also created another [video](http://www.openntf.org/blogs/openntf.nsf/d6plinks/NHEF-8JB9DN) demonstrating how to develop a servlet and how to debug it.
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/J84dAECKots" width="560"></iframe>
+{% include embed/youtube.html id='J84dAECKots' %}
 
 For the [OpenNTF XPages Development Contest](http://xpages.info/contest) I’ve created a video showing all submitted controls in action. This video was primarily done for the judges and has no tone.
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/mwDlhketjY0" width="560"></iframe>
+{% include embed/youtube.html id='mwDlhketjY0' %}

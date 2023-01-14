@@ -29,4 +29,4 @@ categories:
 
  Here are some impressions from last year.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/858s1qhDhac" width="853"></iframe>
+{% include embed/youtube.html id='858s1qhDhac' %}

@@ -20,7 +20,7 @@ categories:
 
 The video below shows one of the two samples that Henning and I will demonstrate at IBM Connect 2014. If you want to know how this sample has been built, attend our session AD206 on Wed, 29/Jan 05:30 PM — 06:30 PM.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="http://www.youtube.com/embed/Wl5hasivtPQ?rel=0" width="853"></iframe>
+{% include embed/youtube.html id='Wl5hasivtPQ' %}
 
 AD206 : Build Apps Rapidly by Leveraging Services from IBM Collaboration Solutions  
 Henning Schmidt, hedersoft GmbH; Niklas Heidloff, IBM  

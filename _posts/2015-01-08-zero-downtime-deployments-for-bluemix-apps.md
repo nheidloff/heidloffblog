@@ -27,6 +27,6 @@ There is a technique called [Blue-Green Deployments](https://www.ng.bluemix.net/
 
 Read the [Bluemix documentation](https://www.ng.bluemix.net/docs/#manageapps/index-gentopic3.html#d2e1) for details. There is also a [script](https://hub.jazz.net/project/wascloud/Buildpack_Utilities/overview) to invoke the three steps. My colleague James Thomas has created a short video demonstrating this functionality.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/yfLi2hLfgSU" width="853"></iframe>
+{% include embed/youtube.html id='yfLi2hLfgSU' %}
 
 You can also leverage this technique when using IBM DevOps. Check out this [article](http://www.ibm.com/developerworks/cloud/library/cl-bluemix-rollingpipeline/).

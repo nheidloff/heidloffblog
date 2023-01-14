@@ -20,6 +20,6 @@ categories:
 
 With the public beta of IBM Notes and Domino 9 you can use OpenSocial gadgets as (Notes) widgets in Notes and iNotes. Watch the video below to see how gadgets can contribute actions to Notes and iNotes and how XPages can be triggered from these actions to show data in context.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/lFRQtcJYiNk?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='lFRQtcJYiNk' %}
 
 If you want to know how we’ve built this sample come to the session “AD206: IBM Domino XPages: Embrace, Extend, Integrate” that my colleague Padraic Edwards and I will give.

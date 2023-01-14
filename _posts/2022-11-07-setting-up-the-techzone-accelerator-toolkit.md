@@ -47,7 +47,7 @@ $ ./apply.sh
 
 Watch this [short video starting at 2:53 min](https://youtu.be/8lbVRAvJgy4?t=173) for a demo:
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/8lbVRAvJgy4?t=173" width="853"></iframe>
+{% include embed/youtube.html id='8lbVRAvJgy4' %}
 
 The toolkit provides two alternatives to run the image:
 

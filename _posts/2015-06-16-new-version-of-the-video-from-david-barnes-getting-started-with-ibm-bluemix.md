@@ -20,7 +20,7 @@ categories:
 
 14 months ago my colleague David Barnes created the most viewed [Bluemix video](https://www.youtube.com/watch?v=ZR_jDitw0Sc) (47k views). At that time BlueMix was still in beta, there was no Docker support yet and many other services were missing. Yesterday David published a new version of this video covering also some of the new capabilities.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/MtBdbaCQV8A" width="853"></iframe>
+{% include embed/youtube.html id='MtBdbaCQV8A' %}
 
 The video also comes with subtitles which is helpful since we often play the video at conferences at our booths. Here is a picture from David at JavaLand this year that I posted already earlier. Notice the same shirt and gesture 🙂
 

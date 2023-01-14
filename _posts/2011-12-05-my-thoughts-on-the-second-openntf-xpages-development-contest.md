@@ -32,6 +32,6 @@ categories:
 
  All submissions, short descriptions, screenshots and mini videos have been posted on <http://xpages.info/contest>. Additionally I’ve uploaded the videos to YouTube. 35 minutes XPages goodness.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/lGOjzKAeMBE" width="640"></iframe>
+{% include embed/youtube.html id='lGOjzKAeMBE' %}
 
  Now off to the judging – it’s gonna be really difficult. But there is one winner already – the XPages community.

@@ -20,7 +20,7 @@ The [Anki Cozmo](https://www.anki.com/cozmo) robot can recognize [faces](http://
 
 Watch the [video](https://www.youtube.com/watch?v=YhxItqxtfpU) and check out the [slides](https://www.slideshare.net/niklasheidloff/visual-recognition-with-anki-cozmo-and-tensorflow-84050740) to see how Cozmo can recognize three different toys:
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/YhxItqxtfpU" width="853"></iframe>
+{% include embed/youtube.html id='YhxItqxtfpU' %}
 
 [Get the source code from GitHub.](https://github.com/nheidloff/visual-recognition-for-cozmo-with-tensorflow)
 

@@ -22,8 +22,8 @@ I’ve the pleasure to work in a team of awesome people in [IBM’s Emerging Tec
 
 In the following video David demonstrates how to quickly deploy a chat application to Bluemix and how to connect to a [Sphero](http://www.gosphero.com/) ball based on content in the chat. He gave this demo at the [NY Tech Meetup](https://nytm.org/).
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/-EIGKFwqNCU" width="853"></iframe>
+{% include embed/youtube.html id='-EIGKFwqNCU' %}
 
 In the next video Mark demonstrates how to communicate to the same Sphero ball via speech recognition in the keynote of the [O’Reilly Software Architecture Conference](https://www.youtube.com/playlist?list=PL055Epbe6d5aFJdvWNtTeg_UEHZEHdInE).
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/CKIO-_7_XMg" width="853"></iframe>
+{% include embed/youtube.html id='CKIO-_7_XMg' %}

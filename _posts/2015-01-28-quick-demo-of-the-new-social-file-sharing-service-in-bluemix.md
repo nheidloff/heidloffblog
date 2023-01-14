@@ -22,7 +22,7 @@ At IBM ConnectED 2015 IBM announced and previewed a new service for IBM Bluemix,
 
 Watch the video for a quick overview.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/gHGs6O-UcFo" width="853"></iframe>
+{% include embed/youtube.html id='gHGs6O-UcFo' %}
 
 The social file sharing service utilizes [IBM Connections Social Cloud](http://www-03.ibm.com/software/products/en/ibm-connections-social-cloud) which is an innovative set of collaborative and social services. When the file sharing service is created and bound to a Bluemix application, developers get their own Connections organization provisioned where they can create their own users and data.
 

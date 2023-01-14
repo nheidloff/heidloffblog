@@ -64,4 +64,4 @@ After the production I felt pretty relieved.
 
 Here is the video:
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/pEbRbrN3wAU" width="853"></iframe>
+{% include embed/youtube.html id='pEbRbrN3wAU' %}

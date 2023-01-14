@@ -32,16 +32,16 @@ If you want to see more of those videos, leave a comment below with descriptions
 [Create IBM Connections Community Updates Widgets in less than 100 Seconds](http://www.youtube.com/watch?v=bqZFWKAX5Fo)  
 [Add Links to the Navigator in IBM Connections in less than 100 Seconds](http://www.youtube.com/watch?v=Yi135ExaxpI)
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/vqEVtDb0PF4" width="640"></iframe>
+{% include embed/youtube.html id='vqEVtDb0PF4' %}
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/2OWsj5zqRPI" width="640"></iframe>
+{% include embed/youtube.html id='2OWsj5zqRPI' %}
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/OnqO06bBKmo" width="640"></iframe>
+{% include embed/youtube.html id='OnqO06bBKmo' %}
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/vM-CE8aaId8" width="640"></iframe>
+{% include embed/youtube.html id='vM-CE8aaId8' %}
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/8UJZM1PnGPU" width="640"></iframe>
+{% include embed/youtube.html id='8UJZM1PnGPU' %}
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/bqZFWKAX5Fo" width="640"></iframe>
+{% include embed/youtube.html id='bqZFWKAX5Fo' %}
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/Yi135ExaxpI" width="640"></iframe>
+{% include embed/youtube.html id='Yi135ExaxpI' %}

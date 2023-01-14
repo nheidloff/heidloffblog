@@ -24,4 +24,4 @@ The IBM business partner [Highland Solutions](http://highlandsolutions.com/compa
 
 Watch the [video](http://www.youtube.com/watch?v=ZJmTWO40GNw#t=03m38s) (3m 38s) to see the functionality in action. The SugarCRM web interface has been extended to display search results from IBM Connections files, profiles and communities. The searches are invoked when filling out opportunity forms so that sales people can find easily context related information stored in IBM Connections.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/ZJmTWO40GNw#t=03m38s" width="640"></iframe>
+{% include embed/youtube.html id='ZJmTWO40GNw' %}

@@ -26,4 +26,4 @@ In order to make it as easy as possible for developers to get started with Conne
 
 If you want to use this image please contact me or DM @openntf and I will give you access. I’ve created a short video describing how to use the image and I also want to host an e-meeting later this month where I describe more details and where people can ask questions.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/fAg6Md5OLW4?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='fAg6Md5OLW4' %}

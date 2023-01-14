@@ -22,7 +22,7 @@ categories:
 
  You can find my [slides](http://www.slideshare.net/niklasheidloff/rapid-application-development-in-the-cloud-and-onpremises-with-docker) on Slideshare and other session recordings on the [code.talks YouTube channel](https://www.youtube.com/channel/UCfuj1MM5p37CRzWYPv_PsWA/videos).
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/PMzOZwjWpk0" width="853"></iframe>
+{% include embed/youtube.html id='PMzOZwjWpk0' %}
 
 ![image](/assets/img/2015/11/codetalks4.jpg)
 

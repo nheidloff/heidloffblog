@@ -24,4 +24,4 @@ categories:
 
  So here is the video. Again, please note that this is not a supported configuration at this point and I don’t have answers regarding licensing yet.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/WEemeTytHKI?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='WEemeTytHKI' %}

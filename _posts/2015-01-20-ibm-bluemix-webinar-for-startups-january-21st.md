@@ -24,4 +24,4 @@ After this I’ll demonstrate how to create, deploy, modify and re-deploy a simp
 
 [Register for the webinar](http://www.eventbrite.com/e/ibm-bluemix-webinar-tickets-15177270625), it’s open and free for everyone and organized by [Hamburg-Startups](http://www.hamburg-startups.net/ueber-uns/). To my knowledge it will be in English even though the [interview](http://www.hamburg-startups.net/ibm-bluemix-webinar-fuer-startups/) was in German.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/vxur_6t0hdg" width="853"></iframe>
+{% include embed/youtube.html id='vxur_6t0hdg' %}

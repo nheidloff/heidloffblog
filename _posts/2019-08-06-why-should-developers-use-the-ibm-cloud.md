@@ -16,7 +16,7 @@ categories:
 
 I created a short [video](https://www.youtube.com/watch?v=afJzaFmd1GQ&list=PLzpeuWUENMK36VWsQD-96N8A6Pc7OBHgr) (4 mins) where I describe why the [IBM Cloud](https://cloud.ibm.com/) is a great cloud platform for application developers.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/afJzaFmd1GQ" width="853"></iframe>
+{% include embed/youtube.html id='afJzaFmd1GQ' %}
 
 *Transcript*
 

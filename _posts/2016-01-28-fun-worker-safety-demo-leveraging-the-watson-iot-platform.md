@@ -20,6 +20,6 @@ Here is a nice demo of the [IBM Watson Internet of Things](http://www.ibm.com/in
 
 The worker Bob, the builder, wears an intelligent helmet with an accelerometer and temperature, sound and oxygen sensors. The data is sent to the IBM IoT cloud and analyzed to observe the health of workers. Watch the one minute video for a demo.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="https://www.youtube.com/embed/mv_nRuzs5nk?rel=0&controls=0" width="853"></iframe>
+{% include embed/youtube.html id='mv_nRuzs5nk' %}
 
 You can you find other cools demos from John on his [website](http://johncohn.org/base/geek-stuff-2/nerd-cred/). I like especially the video “[Innovation through Play](https://www.youtube.com/watch?v=AnjFgSvj3vU&)” and his TED talk “[The importance of play](https://www.youtube.com/watch?v=I-NT1-BdOvI)“.

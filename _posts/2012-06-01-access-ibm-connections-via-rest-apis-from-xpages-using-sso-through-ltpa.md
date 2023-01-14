@@ -24,6 +24,6 @@ categories:
 
  I’ve extended the social enabler now to also use the LTPA tokens in the backend so that users only have to log in once and credentials don’t have to be stored separately. Watch the video for details.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/J0At6tO_n4E?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='J0At6tO_n4E' %}
 
  I hope we can add this soon to the extension library.

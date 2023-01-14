@@ -24,4 +24,4 @@ Several people have asked me to also publish the slides and screenshots. So here
 
 <iframe allowfullscreen="" frameborder="0" height="486" marginheight="0" marginwidth="0" scrolling="no" src="http://www.slideshare.net/slideshow/embed_code/27522878?rel=0" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" width="597"> </iframe>
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/94N9FuicS-g?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='94N9FuicS-g' %}

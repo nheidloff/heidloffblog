@@ -26,4 +26,4 @@ There are some more videos on [DeveloperWorks](https://www.ibm.com/developerwork
 
 Another question people ask me is why IBM invests into [PhoneGap](http://phonegap.com/). My colleague Bryce Curtis explains this and the IBM engagement in PhoneGap in this video (starting at 12:10 min). PhoneGap allows building hybrid mobile apps using the web application development model. As opposed to other mobile frameworks it supports all standard techniques (HTML, JavaScript, CSS, etc.) and not only JavaScript APIs paired with proprietary UI models.
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/S9VgkI0o3kY?rel=0" width="560"></iframe>
+{% include embed/youtube.html id='S9VgkI0o3kY' %}

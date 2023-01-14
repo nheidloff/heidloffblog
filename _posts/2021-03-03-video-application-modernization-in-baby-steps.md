@@ -19,7 +19,7 @@ categories:
 
 Are you curious to learn how to modernize 10 years old Java applications to gain benefits from the cloud? Do you want to try this yourself following step by step instructions? Then you should check out my [repo](https://github.com/IBM/application-modernization-javaee-quarkus) which I’m going to describe in this article and the embedded [video](https://youtu.be/lw95LLqa37g).
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/lw95LLqa37g" width="853"></iframe>
+{% include embed/youtube.html id='lw95LLqa37g' %}
 
 **Application Modernization Strategies**
 

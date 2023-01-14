@@ -20,7 +20,7 @@ categories:
 
 Yesterday we hosted our first IBM Social Business Toolkit webinar. [Mark Wallace](https://twitter.com/mewallace), the technical lead of the SDK, gave a one hour session with many live demos showing how to access IBM Connections and IBM SmartCloud for Social Business from JavaScript.
 
-<iframe allowfullscreen="" frameborder="0" height="337" src="http://www.youtube.com/embed/L0pN1oJtigg" width="599"></iframe>
+{% include embed/youtube.html id='L0pN1oJtigg' %}
 
 <iframe allowfullscreen="" frameborder="0" height="486" marginheight="0" marginwidth="0" mozallowfullscreen="" scrolling="no" src="http://www.slideshare.net/slideshow/embed_code/22862232" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" webkitallowfullscreen="" width="597"> </iframe>
 

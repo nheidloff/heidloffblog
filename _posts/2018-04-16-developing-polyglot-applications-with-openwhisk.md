@@ -26,7 +26,7 @@ OpenWhisk supports several programming languages out of the box. In the sample I
 
 For a demo check out the video starting at [2:18 min](https://youtu.be/N0T8jkfkuEg?t=2m18s).
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/N0T8jkfkuEg?start=138" width="853"></iframe>
+{% include embed/youtube.html id='N0T8jkfkuEg' %}
 
 This is the screenshot of the sample application in the IBM Cloud Shell.
 

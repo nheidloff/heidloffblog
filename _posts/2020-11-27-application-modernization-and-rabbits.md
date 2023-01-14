@@ -59,6 +59,6 @@ My children promised me to help more with the rabbits, if we can keep all of the
 
 For visual learners, here is a video with the same story:
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/pEbRbrN3wAU" width="853"></iframe>
+{% include embed/youtube.html id='pEbRbrN3wAU' %}
 
 To find out more about what IBM offers to modernize your applications, check out our [app modernization landing page](https://www.ibm.com/cloud/architecture/architectures/application-modernization/).

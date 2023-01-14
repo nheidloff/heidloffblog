@@ -28,7 +28,7 @@ In order to use the gateway you need to set up some software on-premises. Right 
 
 Once done you can expose on-premises URLs to the cloud. The gateway protects these URLs so that only your app(s) can access them. Watch the video to learn how to configure the service.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/VVjSx1iuvk4" width="853"></iframe>
+{% include embed/youtube.html id='VVjSx1iuvk4' %}
 
 Here is a screenshot of a quick test:
 

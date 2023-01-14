@@ -31,4 +31,4 @@ Ryan and I will do an extended version of our Bluemix Java session on Wednesday 
 
 If you come to our booth you’ll also get a chance to win one of two GoPro HERO4 black cameras that we give out in lotteries on Wednesday and Thursday.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/nOpA7j6DizU" width="853"></iframe>
+{% include embed/youtube.html id='nOpA7j6DizU' %}

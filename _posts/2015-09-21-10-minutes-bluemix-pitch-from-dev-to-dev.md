@@ -20,7 +20,7 @@ categories:
 
 As a developer advocate for Bluemix, I regularly talk with other developers about the capabilities and benefits of IBM Bluemix. In these conversations, I often use a pitch similar to the one in this video.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/U7zS1_6TZD8" width="853"></iframe>
+{% include embed/youtube.html id='U7zS1_6TZD8' %}
 
 The slides and the script are on [SlideShare](http://www.slideshare.net/niklasheidloff/ten-minutes-bluemix-pitch-from-dev-to-dev).
 

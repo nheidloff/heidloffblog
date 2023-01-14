@@ -20,7 +20,7 @@ In this session I used the [cloud-native-starter](https://github.com/ibm/cloud-n
 
 The recording is now available on [YouTube](https://www.youtube.com/watch?v=oabKnZO2mUA).
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/oabKnZO2mUA" width="853"></iframe>
+{% include embed/youtube.html id='oabKnZO2mUA' %}
 
 Here is a picture from the session:
 

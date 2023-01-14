@@ -24,7 +24,7 @@ Because of that reason developers often use the local Liberty server which is in
 
 As an alternative you can configure Eclipse to run your applications from the workspace on a remote Liberty server which can run in the Docker container. My colleague Kavitha Suresh Kumar has created a video which describes how to use this mechanism.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/HnXDGDD5ngQ" width="853"></iframe>
+{% include embed/youtube.html id='HnXDGDD5ngQ' %}
 
 So in addition to the local Liberty server I can also run my application now directly on Docker and see code changes immediately.
 
@@ -34,4 +34,4 @@ Unfortunately I haven’t figured out yet how to do remote debugging. There is a
 
 My colleague Soloman Barghouthi describes in the next video yet another alternative to see application changes in Docker containers immediately. He uses an approach to map a drive with the server configuration and web application and make it accessible to Docker.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/ebuS9teyYRk" width="853"></iframe>
+{% include embed/youtube.html id='ebuS9teyYRk' %}

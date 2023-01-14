@@ -27,4 +27,4 @@ Check out the [announcement](https://www.ibmdw.net/rapidapps/2014/04/25/announci
 – With 20% of the function with simple, intuitive, visual tools and app platforms,  
 – By 10X the number of developers developing the apps 10X faster”
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/nDpEYkMDnsg?rel=0" width="853"></iframe>
+{% include embed/youtube.html id='nDpEYkMDnsg?rel=0' %}

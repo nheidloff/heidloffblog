@@ -18,6 +18,6 @@ My colleague [Upkar Lidder](https://twitter.com/lidderupk) and I have discussed 
 
 The podcast is basically about my article [10 Reasons why Enterprises should modernize Applications]({{ "/article/ten-reasons-why-enterprises-should-modernize-applications/" | relative_url }}).
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/juCjyc98J5M" width="853"></iframe>
+{% include embed/youtube.html id='juCjyc98J5M' %}
 
 Thanks a lot, Upkar, for inviting me and giving me the chance to talk about this topic!

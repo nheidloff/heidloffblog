@@ -20,4 +20,4 @@ categories:
 
  This video shows how you can create mobile apps for IBM Lotus Domino applications within minutes using XPages and mobilecontrols.openntf.org.
 
-<iframe allowfullscreen="" frameborder="0" height="390" src="http://www.youtube.com/embed/n7e-48JuHos" title="YouTube video player" width="640"></iframe>
+{% include embed/youtube.html id='n7e-48JuHos' %}

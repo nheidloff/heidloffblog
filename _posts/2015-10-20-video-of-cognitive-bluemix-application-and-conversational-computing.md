@@ -22,4 +22,4 @@ Earlier this month Ginni Rometty spoke about the importance of cognitive computi
 
 Last week at the [O’Reilly Velocity Conference in New York](https://www.youtube.com/watch?v=sS53WFY_k3E) my manager [David Boloker](https://www.linkedin.com/pub/david-boloker/0/1b/706) gave a keynote where he demonstrated a really cool cognitive application. David is the CTO of IBM’s Emerging Internet Technology group and leads among many other things our team of Bluemix developer advocates. The application “Day in a Life” uses conversational computing to find all sorts of personal and business relevant information. Technically [IBM Bluemix](https://bluemix.net) is used and various services like speech recognition, sentiment analysis, text to speech, Internet of Things and more.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/sS53WFY_k3E" width="853"></iframe>
+{% include embed/youtube.html id='sS53WFY_k3E' %}

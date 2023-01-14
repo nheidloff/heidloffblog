@@ -37,7 +37,7 @@ I demonstrated key cloud-native functionality:
 
 Here is the [recording](https://youtu.be/kp6tm8gdjTc?t=77).
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/kp6tm8gdjTc?start=77" width="853"></iframe>
+{% include embed/youtube.html id='kp6tm8gdjTc?start=77' %}
 
 The slides are on [SlideShare](https://www.slideshare.net/niklasheidloff/jakarta-tech-talk-how-to-develop-your-first-cloudnative-application-with-java).
 

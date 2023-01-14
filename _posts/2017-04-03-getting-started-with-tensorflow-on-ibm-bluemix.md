@@ -18,7 +18,7 @@ In order to learn Deep Learning I’ve taken an [Udacity course](https://www.uda
 
 Below is the [YouTube playlist](https://www.youtube.com/playlist?list=PLAwxTw4SYaPn_OWPFT9ulXLuQrImzHfOV) of the course. The [assignments](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/udacity) can be run locally via Docker.
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/iF8dRePlPUo" width="560"></iframe>
+{% include embed/youtube.html id='iF8dRePlPUo' %}
 
 Another good starting point to learn Tensorflow is the video “[Tensorflow and deep learning – without a PhD by Martin Görner](https://www.youtube.com/watch?v=vq2nnJ4g6N0)“.
 

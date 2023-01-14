@@ -20,7 +20,7 @@ categories:
 
 The video outlines how to set up the Eclipse IDE and configure a simple hello world sample to work against IBM SmartCloud for Social Business.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/2xH6Ib6a0LU?rel=0" width="853"></iframe>
+{% include embed/youtube.html id='2xH6Ib6a0LU' %}
 
 Below are some links and snippets you need for the setup.
 

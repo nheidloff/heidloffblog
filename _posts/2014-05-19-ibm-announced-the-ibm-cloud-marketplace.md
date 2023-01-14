@@ -22,7 +22,7 @@ At IBM Impact 2014 IBM announced the [IBM Cloud marketplace](http://www.ibm.com/
 
 Watch the video for the announcement in the keynote.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/RSSJxsNWo00?rel=0&start=1257" width="853"></iframe>
+{% include embed/youtube.html id='RSSJxsNWo00' %}
 
 IBM business partners can add their cloud based services. Read the [FAQ](https://marketplace.ibmcloud.com/help?1475681251#!/faqTab2) for details.
 

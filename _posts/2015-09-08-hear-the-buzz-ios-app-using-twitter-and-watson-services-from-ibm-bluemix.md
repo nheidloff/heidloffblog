@@ -29,7 +29,7 @@ categories:
 
 ![image](/assets/img/2015/09/hear-the-buzz.png)
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/QctwylG31XA" width="853"></iframe>
+{% include embed/youtube.html id='QctwylG31XA' %}
 
  The application is available as [open source](https://github.com/IBM-Bluemix/hear-the-buzz). I’ll blog separately about some of the key techniques that I’ve used to develop the sample.
 

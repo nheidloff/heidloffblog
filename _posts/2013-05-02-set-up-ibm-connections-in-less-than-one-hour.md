@@ -30,7 +30,7 @@ The image can be used by developers to quickly build social apps. It comes with 
 
 Watch this movie (13 mins) to see how to set up your own development environment in less than one hour.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/wSU_mDEhez8?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='wSU_mDEhez8' %}
 
 In the video I used the default configuration with 8 GB Ram which costs $0.48 per hour. You can find out more about costs using the [estimator](http://www-935.ibm.com/services/us/en/cloud-enterprise/tab-pricing-licensing.html).
 

@@ -23,6 +23,6 @@ I am very proud that our team has produced two reference architectures to accomp
 
 This short video gives you more context.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/WDBn-kgkct4" width="853"></iframe>
+{% include embed/youtube.html id='WDBn-kgkct4' %}
 
 If you are interested in working with us, reach us to me on Twitter or via the GitHub repos.

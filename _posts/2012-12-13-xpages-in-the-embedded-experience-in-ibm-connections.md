@@ -24,4 +24,4 @@ I’ve implemented this sample scenario via the XPages social enabler and the [A
 
 In order to display the XPages app in the embedded experience I actually did not implement my own open social gadget. Instead I use the same ‘generic built in URL gadget’ I used for the previous [sample](http://heidloff.net/home.nsf/dx/20.11.2012100922NHECRE.htm) showing XPages in the embedded experience in Connections mail. While you cannot access the open social container APIs using the generic gadget, the beauty is that it works for all URLs/web pages. In order to run this sample you need Connections CR2.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/o7iGnJRmoak?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='o7iGnJRmoak' %}

@@ -28,4 +28,4 @@ Technically the solution demonstrates a couple of interesting capabilities:
 – Extension of the SmartCloud apps navigator (video at 6m25s)  
 – Store shared files in Connections communities (video at 8m55s)
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="//www.youtube.com/embed/2B4lSnq7D0k" width="640"></iframe>
+{% include embed/youtube.html id='2B4lSnq7D0k' %}

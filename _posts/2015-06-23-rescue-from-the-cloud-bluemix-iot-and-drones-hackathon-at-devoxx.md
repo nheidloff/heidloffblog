@@ -28,7 +28,7 @@ categories:
 
 ![image](/assets/img/2015/06/devoxxwinners.jpg)
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/ReS2GvMOPpM" width="853"></iframe>
+{% include embed/youtube.html id='ReS2GvMOPpM' %}
 
  The second winning team (Samael Bate, Daniel Watford, Giuseppe Persiani, Kevin Potgieter and Samir Pipalia) was working on a game where the drones were controlled by TI boards.
 

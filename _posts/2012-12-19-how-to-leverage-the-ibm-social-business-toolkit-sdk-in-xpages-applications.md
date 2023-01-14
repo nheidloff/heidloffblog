@@ -22,4 +22,4 @@ In a previous blog post I demonstrated how to use the [XPages social enabler](ht
 
 In the video I describe how you can use the social SDK in XPages applications. In the last part of the video I explain the advantages of the two approaches as they exist today.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/3ZRHOmvtXi4?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='3ZRHOmvtXi4' %}

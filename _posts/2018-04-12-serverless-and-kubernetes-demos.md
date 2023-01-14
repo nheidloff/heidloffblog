@@ -40,7 +40,7 @@ Demo 4c – [12:47 min](https://www.youtube.com/watch?v=Wqy2AHvhDGs&t=767s)
 
 Demo 5 – [14:18 min](https://www.youtube.com/watch?v=Wqy2AHvhDGs&t=858s)  
 **Monitoring Kubernetes applications via Kubernetes Dashboard and Istio Dashboard**   
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/Wqy2AHvhDGs" width="853"></iframe>
+{% include embed/youtube.html id='Wqy2AHvhDGs' %}
 
 Here is the summary slide of the session:
 

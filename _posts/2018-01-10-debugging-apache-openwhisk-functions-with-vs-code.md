@@ -28,6 +28,6 @@ The following screenshot shows how functions that run in Docker can be debugged 
 
 Watch the [video](https://www.youtube.com/watch?v=P9hpcOqQ3hw) to see how to debug OpenWhisk functions with Visual Studio Code.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/P9hpcOqQ3hw" width="853"></iframe>
+{% include embed/youtube.html id='P9hpcOqQ3hw' %}
 
 If you want to try out OpenWhisk in the cloud, you can get a free account on the [IBM Cloud](http://ibm.biz/nheidloff).

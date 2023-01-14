@@ -20,7 +20,7 @@ categories:
 
  My colleagues [Bryan Boyd](https://twitter.com/bryanboyd) and [Mark VanderWiele](https://twitter.com/MarkVanderwiele) have created a nice demo where you can drive smartphones using [Sphero](http://www.gosphero.com/sphero/) balls. I’ve modified the sample slightly so that it also works for Android phones. Watch the video to see how to steer a driving smartphone via [IBM Bluemix](http://bluemix.net/), the [Internet of Things](https://internetofthings.ibmcloud.com/) and cognitive services from [IBM Watson](http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/).
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/EmR9rdkkagQ" width="853"></iframe>
+{% include embed/youtube.html id='EmR9rdkkagQ' %}
 
  Here are the details:
 

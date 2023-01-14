@@ -18,7 +18,7 @@ categories:
 
 Watch the [short video](https://www.ibm.com/partnerworld/program/embeddableai) on the Embeddable AI home page for an introduction or this interview with Rob Thomas.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/V8oGXnqVZEs" width="853"></iframe>
+{% include embed/youtube.html id='V8oGXnqVZEs' %}
 
 > Why embeddable AI?  
 > For years, IBM Research has invested in developing AI capabilities which are embedded in IBM software offerings. We are now making the same capabilities available to our partners, providing them a simpler path to create AI-powered solutions.

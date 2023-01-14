@@ -32,4 +32,4 @@ categories:
 
  Check out this video to see some of this in action.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/CPh5NehsuBU" width="853"></iframe>
+{% include embed/youtube.html id='CPh5NehsuBU' %}

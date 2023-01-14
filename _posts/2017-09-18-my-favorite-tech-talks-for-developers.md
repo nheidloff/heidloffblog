@@ -20,4 +20,4 @@ During my workouts I enjoy watching tech talks to learn about new technologies a
 
 The videos in the playlist are awesome sessions from great speakers like Martin Fowler, Brian Will, Erik Dörnenburg, Kevlin Henney and Jonas Bonér. The sessions cover topics like cloud-native, microservices, functional programming, reactive programming, engineering culture, coding best practises and more.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="https://www.youtube.com/embed/videoseries?list=PLxE7fvzRQPboggFwQDlExZ0o8QsTUmSOT" width="853"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="250" src="https://www.youtube.com/embed/videoseries?list=PLxE7fvzRQPboggFwQDlExZ0o8QsTUmSOT" width="400"></iframe>

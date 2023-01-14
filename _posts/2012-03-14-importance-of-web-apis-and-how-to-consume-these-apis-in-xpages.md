@@ -32,4 +32,4 @@ I started to read two blogs where you can find a lot of more details about this 
 
 In order to consume these web APIs in XPages you can use the Social Enabler which comes with the [extension library](http://extlib.openntf.org/). There is a video showing the social enabler in action.
 
-<iframe allowfullscreen="" frameborder="0" height="315" src="http://www.youtube.com/embed/UAmgqP20Okw?rel=0" width="560"></iframe>
+{% include embed/youtube.html id='UAmgqP20Okw' %}

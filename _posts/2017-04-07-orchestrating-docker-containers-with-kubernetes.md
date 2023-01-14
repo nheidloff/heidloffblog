@@ -18,7 +18,7 @@ Last month IBM [announced](https://www.ibm.com/blogs/bluemix/2017/03/kubernetes-
 
 In a nutshell Kubernetes allows running and managing cloud native apps that consist of multiple containers. To get started you need to know some terminology. For example a ‘Deployment’ contains ‘Pods’ that can contain multiple Docker containers (but typically contain one container). ‘Deployments’ are run in ‘Worker nodes’ that are part of a ‘Cluster’. ‘Services’ define how deployments can be accessed. I like the following video which explains this terminology well.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/4ht22ReBjno" width="853"></iframe>
+{% include embed/youtube.html id='4ht22ReBjno' %}
 
 To start using Kubernetes on Bluemix you should follow this three parts [tutorial](https://console.ng.bluemix.net/docs/containers/cs_tutorials.html#cs_tutorials).
 

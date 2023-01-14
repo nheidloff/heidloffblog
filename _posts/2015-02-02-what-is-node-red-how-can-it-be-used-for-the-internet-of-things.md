@@ -30,7 +30,7 @@ categories:
 
  There are also several good demos and videos. One demo I especially like is this one from Rodric Yates:
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/f5o4tIz2Zzc" width="853"></iframe>
+{% include embed/youtube.html id='f5o4tIz2Zzc' %}
 
  For a better description what Node-RED is and some of the history check out the article [How IBM’s Node-RED is hacking together the internet of things](http://www.techrepublic.com/article/node-red/) from Nick Heath.
 

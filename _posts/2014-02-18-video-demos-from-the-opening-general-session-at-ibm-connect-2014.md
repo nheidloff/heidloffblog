@@ -20,4 +20,4 @@ categories:
 
 Check out the great demos IBM showed in the Opening General Session at IBM Connect 2014. I like especially the parts where IBM Connections services are used in different scenarios without using the default IBM Connections user interface.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/UczwwcXSkJU?rel=0" width="853"></iframe>
+{% include embed/youtube.html id='UczwwcXSkJU' %}

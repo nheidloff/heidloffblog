@@ -47,4 +47,4 @@ categories:
 
  Here is an appetizer video.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/BLy7kigKr6c" width="853"></iframe>
+{% include embed/youtube.html id='BLy7kigKr6c' %}

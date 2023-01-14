@@ -24,4 +24,4 @@ The video below shows how e-mails can be sent from XPages applications that cont
 
 Here is a [screenshot](http://heidloff.net/home.nsf/dx/URLEE.png/$file/URLEE.png) showing the latest news from Collaboration Today which fit nicely in the embedded experience since the site has a responsive design.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/oVlvpgdf9J0?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='oVlvpgdf9J0' %}

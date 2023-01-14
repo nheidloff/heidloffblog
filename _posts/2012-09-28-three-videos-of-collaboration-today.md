@@ -22,12 +22,12 @@ David Leedy posted three videos about [Collaboration Today](http://collaboration
 
 The first video describes the Collaboration Today functionality, both from a reader’s point of view and a moderator’s point of view.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/zaUna5o1ZMg" width="640"></iframe>
+{% include embed/youtube.html id='zaUna5o1ZMg' %}
 
 In the second video I talk about how we’ve implemented the caching so that the site performs well.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/7B4tM91H3rw" width="640"></iframe>
+{% include embed/youtube.html id='7B4tM91H3rw' %}
 
 The third video is about how we’ve developed the click counter needed for the ‘popular’ view.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/Ibee3JqkAxY" width="640"></iframe>
+{% include embed/youtube.html id='Ibee3JqkAxY' %}

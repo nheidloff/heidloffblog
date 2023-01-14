@@ -31,7 +31,7 @@ We demonstrated key cloud-native functionality:
 
 Here is the [video](https://youtu.be/Z0yQ5XowDI4).
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/Z0yQ5XowDI4" width="853"></iframe>
+{% include embed/youtube.html id='Z0yQ5XowDI4' %}
 
 The slides are on SlideShare. There is also another deck for a [one hour presentation](https://github.com/IBM/cloud-native-starter/blob/master/documentation/FirstCloudNativeApplicationsJava.pdf) with more details.
 

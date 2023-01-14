@@ -22,4 +22,4 @@ Last October at [Pioneers Festival](http://pioneers.io/festival) my colleague [D
 
 David also created the famous [first Bluemix video](https://www.youtube.com/watch?v=ZR_jDitw0Sc) which has been viewed more than 30.000 times.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/kwDgkAxbn4I" width="853"></iframe>
+{% include embed/youtube.html id='kwDgkAxbn4I' %}

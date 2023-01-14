@@ -20,4 +20,4 @@ categories:
 
 Last month in Mainz, Germany, at [JAX](http://heidloff.net/nh/home.nsf/article.xsp?id=24.04.2015085153NHEA3G.htm) David Barnes was interviewed about cloud application development. Check out the video below where David talks about [Bluemix](http://bluemix.net), the innovation platform.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/p66LPcQNjHg" width="853"></iframe>
+{% include embed/youtube.html id='p66LPcQNjHg' %}

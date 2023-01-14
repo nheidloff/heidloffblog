@@ -26,4 +26,4 @@ I’ve used reactive programming in an Angular app over the last year and really
 
 I’m keen to learn more about reactive programming for back-end services. If you want to find out more about reactive microservices and the Lightbend platform you can attend this [webinar](https://info.lightbend.com/webinar-why-ibm-lightbend-announcement-register.html) and [try](http://developer.lightbend.com/start/) their technologies.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/9gLrCPVrXo4" width="853"></iframe>
+{% include embed/youtube.html id='9gLrCPVrXo4' %}

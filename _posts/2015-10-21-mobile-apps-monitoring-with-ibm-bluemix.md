@@ -30,4 +30,4 @@ I use the logging functionality in the sample app [Hear the Buzz](https://github
 
 To learn more read the [documentation](https://www.ng.bluemix.net/docs/services/mobileaccess/appmonitoring/index.html) and watch the video from Andrew Trice.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/-kMRR-SoEXk" width="853"></iframe>
+{% include embed/youtube.html id='-kMRR-SoEXk' %}

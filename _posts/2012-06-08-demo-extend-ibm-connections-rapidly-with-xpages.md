@@ -24,6 +24,6 @@ categories:
 
  Technically I had to write some code to make this work. I’ll blog about this over the next days or weeks separately and I want to open source these utilities. With these utilities it is a matter of a few hours to build an extension as the one in the video.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/PYTn70QuiMs?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='PYTn70QuiMs' %}
 
  I’ll continue to work on Connections XPages integration scenarios. If you have requirements please let me know.

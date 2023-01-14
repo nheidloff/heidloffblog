@@ -20,4 +20,4 @@ categories:
 
 Last week IBM launched the new IBM Watson Group. In the video I like especially the impressive stories how healthcare can be improved via Watson technology and IBM’s big investment in the new Watson ecosystem.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="http://www.youtube.com/embed/rB7VkrUYCAg?rel=0" width="853"></iframe>
+{% include embed/youtube.html id='rB7VkrUYCAg' %}

@@ -34,4 +34,4 @@ categories:
 
  For a quick demo check out this video.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/ZKP86MkDmSg" width="853"></iframe>
+{% include embed/youtube.html id='ZKP86MkDmSg' %}

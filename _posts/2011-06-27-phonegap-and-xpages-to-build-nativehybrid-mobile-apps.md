@@ -34,4 +34,4 @@ categories:
 
  Brian talks also a little about legal aspects and I really had to laugh when he admitted they didn’t know until recently what contributor license agreements are and why they are important (video 25:08). This reminded me of the discussions we’ve had over the last two years for OpenNTF.
 
-<iframe allowfullscreen="" frameborder="0" height="510" src="http://www.youtube.com/embed/RtmO34fD-PY?rel=0" title="YouTube video player" width="640"></iframe>
+{% include embed/youtube.html id='RtmO34fD-PY' %}

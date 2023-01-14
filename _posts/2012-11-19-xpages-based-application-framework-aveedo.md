@@ -24,4 +24,5 @@ Stefan Sucker from [We4IT](http://www.we4it.com/en/) presented the application f
 
 <iframe allowfullscreen="" frameborder="0" height="486" marginheight="0" marginwidth="0" mozallowfullscreen="" scrolling="no" src="http://de.slideshare.net/slideshow/embed_code/15170441?rel=0&startSlide=2" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" webkitallowfullscreen="" width="597"> </iframe>
 
-<div style="margin-bottom:5px"> </div><iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/fLHc4ci43cI?rel=0" width="640"></iframe>
+<div style="margin-bottom:5px"> 
+{% include embed/youtube.html id='fLHc4ci43cI' %}

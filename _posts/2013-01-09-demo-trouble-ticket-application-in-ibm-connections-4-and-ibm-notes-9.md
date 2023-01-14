@@ -20,7 +20,7 @@ categories:
 
 Here is a demo of a custom trouble ticket application which is integrated in IBM Connections 4, IBM Notes 9 and IBM iNotes 9.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/kNv5VYGgljw?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='kNv5VYGgljw' %}
 
 If you want to know how we’ve built this sample come to the session “AD206: IBM Domino XPages: Embrace, Extend, Integrate” that my colleague Padraic Edwards and I will give.
 

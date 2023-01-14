@@ -20,7 +20,7 @@ categories:
 
 I’m happy that IBM will sponsor [JavaLand](http://www.javaland.eu/en/javaland-2015.html) which will take place from March 24th to March 26th. Not only are there great [sessions](https://www.doag.org/konferenz/konferenzplaner/b.php?id=483801&locS=1), but the event also sounds like a lot of fun. It will occur in the theme park [Phantasialand](http://www.phantasialand.de/en/home) in Cologne.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/BLy7kigKr6c" width="853"></iframe>
+{% include embed/youtube.html id='BLy7kigKr6c' %}
 
 IBM will have a booth in the showcase where we’ll demonstrate IBM Bluemix and we’ll have several sessions. Ryan Baxter and I will attend the conference together with other colleagues.
 

@@ -20,4 +20,4 @@ categories:
 
 As I [wrote](http://heidloff.net/home.nsf/article.xsp?id=30.04.2014081048NHE99U.htm) IBM announced BlueMix RapidApps, a runtime and service to allow business developers to build apps rapidly. Yesterday in the day 3 keynote Jerry Cuomo gave an impressive RapidApps demo.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/z7EGJZoQUv4?rel=0&start=2426" width="853"></iframe>
+{% include embed/youtube.html id='z7EGJZoQUv4' %}

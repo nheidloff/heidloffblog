@@ -20,7 +20,7 @@ Last week there was a webinar [Create Alexa skills with Watson Conversation](htt
 
 You can watch the [recording](https://www.youtube.com/watch?v=SJK-7srI1FU), read the [pattern](https://developer.ibm.com/code/patterns/create-an-alexa-skill-with-serverless-and-a-conversation/) documentation and read the [slides](https://www.slideshare.net/niklasheidloff/create-alexa-skills-using-ibm-watson-conversation-and-apache-openwhisk).
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/SJK-7srI1FU" width="853"></iframe>
+{% include embed/youtube.html id='SJK-7srI1FU' %}
 
 Here are some speaker notes for the slides and the demos.
 

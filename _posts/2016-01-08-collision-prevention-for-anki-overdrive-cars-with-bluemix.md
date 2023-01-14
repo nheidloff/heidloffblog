@@ -24,7 +24,7 @@ I’ve open sourced the demo on [GitHub](https://github.com/IBM-Bluemix/node-mqt
 
 Check out the video to watch a short demo.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="https://www.youtube.com/embed/Wo4zeQxxOOI?rel=0&controls=0" width="853"></iframe>
+{% include embed/youtube.html id='Wo4zeQxxOOI' %}
 
 On Bluemix the [Internet of Things Foundation](https://console.ng.bluemix.net/catalog/services/internet-of-things-foundation/) service is used and a simple Node-RED flow.
 

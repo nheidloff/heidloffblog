@@ -20,7 +20,7 @@ categories:
 
 I’ve created a short video to show how to play the game and to describe the main technologies that were used to implement it.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/jkDWoHjMAig" width="853"></iframe>
+{% include embed/youtube.html id='jkDWoHjMAig' %}
 
 You can play the game [online](https://blue-cloud-mirror.mybluemix.net/emotions). All you need is a webcam and a Chrome browser.
 

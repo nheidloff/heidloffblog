@@ -26,7 +26,7 @@ However I had some requirements to extend the community with further functionali
 
 Check out this short video.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/-vv2ds8XByI?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='-vv2ds8XByI' %}
 
 I hope I can open source this widget soon on OpenNTF.
 

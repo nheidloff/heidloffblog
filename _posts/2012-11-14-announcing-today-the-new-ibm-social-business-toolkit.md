@@ -20,6 +20,6 @@ categories:
 
 At DNUG we announced today the new IBM Social Business Toolkit which allows web and Java developers to easily access IBM Connections and IBM SmartCloud for Social Business. I’ll blog more about it, but here is the presentation and a short demo.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/3vxvYxrRXgg?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='3vxvYxrRXgg' %}
 
 Slides are on [SlideShare](http://www.slideshare.net/niklasheidloff/dnug-2012-keynote-social-business-with-ibm-connections).

@@ -22,7 +22,7 @@ This week we hosted our second IBM Social Business Toolkit webinar. [Bhavesh Sha
 
 Watch the [video](http://www.youtube.com/watch?v=MsHxrccnO28) and read the [slides](http://www.slideshare.net/IBMSBT/sbt-webinar130626).
 
-<iframe allowfullscreen="" frameborder="0" height="337" src="//www.youtube.com/embed/MsHxrccnO28" width="599"></iframe>
+{% include embed/youtube.html id='MsHxrccnO28' %}
 
 <iframe allowfullscreen="" frameborder="0" height="486" marginheight="0" marginwidth="0" mozallowfullscreen="" scrolling="no" src="http://www.slideshare.net/slideshow/embed_code/23504167" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" webkitallowfullscreen="" width="597"> </iframe>
 

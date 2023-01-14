@@ -30,6 +30,6 @@ categories:
 
  Watch the video for more details.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/zHRfGatcKPM" width="853"></iframe>
+{% include embed/youtube.html id='zHRfGatcKPM' %}
 
  There is another video that talks more about [sentiment analysis](https://www.youtube.com/watch?v=uhkqb8BIn6k) which helps developers to track feedback from ratings in app stores to improve their apps.

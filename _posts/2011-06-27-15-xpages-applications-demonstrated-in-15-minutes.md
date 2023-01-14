@@ -20,4 +20,4 @@ categories:
 
  This video shows 15 open source XPages applications in action. Download the applications from xpages.info/downloads or openntf.org.
 
-<iframe allowfullscreen="" frameborder="0" height="390" src="http://www.youtube.com/embed/ZyL1IZp2UBM" title="YouTube video player" width="640"></iframe>
+{% include embed/youtube.html id='ZyL1IZp2UBM' %}

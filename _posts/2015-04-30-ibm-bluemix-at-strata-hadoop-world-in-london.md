@@ -28,4 +28,4 @@ The key technologies used to implement this vision are [Apache Spark](https://sp
 
 While IPhython notebooks are primarily tools for data scientists the demo in the video below takes it one step further to allow even line of business users to do data analytics, to collaborate easily with data scientists and to integrate the results in solutions.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/TD1J7MzYcFo" width="853"></iframe>
+{% include embed/youtube.html id='TD1J7MzYcFo' %}

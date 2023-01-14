@@ -18,7 +18,7 @@ categories:
 
 I’ve created a short [video](https://youtu.be/8lbVRAvJgy4) that describes how complete solutions can be deployed and how automation via Terraform and Argo CD can be used.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/8lbVRAvJgy4" width="853"></iframe>
+{% include embed/youtube.html id='8lbVRAvJgy4' %}
 
 To find out more about these capabilities, check out these resources:
 

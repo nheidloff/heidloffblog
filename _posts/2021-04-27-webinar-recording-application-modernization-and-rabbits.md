@@ -24,7 +24,7 @@ The [talk](https://vimeo.com/wearedevelopers/download/528262363/171975e79d) can 
 
 Alternatively you can watch the full first conference day on [YouTube](https://youtu.be/kgl1ZfpXYzE?t=368). My talk was the first one that day starting at 6:00 mins.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/kgl1ZfpXYzE" width="853"></iframe>
+{% include embed/youtube.html id='kgl1ZfpXYzE' %}
 
 The demos are available as open source: [Application Modernization – From Java EE in 2010 to Cloud-Native in 2021](https://github.com/IBM/application-modernization-javaee-quarkus)
 

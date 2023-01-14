@@ -32,7 +32,7 @@ The game utilizes various key IBM Cloud technologies to demonstrate the value of
 
 **Video**
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/Z4wU03JnEcU" width="853"></iframe>
+{% include embed/youtube.html id='Z4wU03JnEcU' %}
 
 To find out more about Blue Cloud Mirror, follow these links:
 

@@ -20,7 +20,7 @@ At JavaLand we presented how to steer [Anki Overdrive](https://anki.com/) cars w
 
 The demo is available as [open source](https://github.com/IBM-Bluemix/node-mqtt-for-anki-overdrive) and I documented it in a series of blog entries (see below). My colleague David Barnes interviewed me and created the video [Driving Cars autonomously with IBM Bluemix](https://youtu.be/6s0Jh9tl0Eg). Thanks a lot, David!
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/6s0Jh9tl0Eg" width="853"></iframe>
+{% include embed/youtube.html id='6s0Jh9tl0Eg' %}
 
 Here is the high level architecture with the main components IBM Bluemix, the Internet of Things platform and MQTT.
 

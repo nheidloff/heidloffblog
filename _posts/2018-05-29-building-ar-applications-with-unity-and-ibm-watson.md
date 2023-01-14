@@ -29,7 +29,7 @@ The [picture](https://raw.githubusercontent.com/nheidloff/unity-watson-ar-sample
 
 Check out the [video](https://www.youtube.com/watch?v=u8c0fPQOqMU) for a short demo.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/u8c0fPQOqMU" width="853"></iframe>
+{% include embed/youtube.html id='u8c0fPQOqMU' %}
 
 [Get the code from GitHub.](https://github.com/nheidloff/unity-watson-ar-sample)
 

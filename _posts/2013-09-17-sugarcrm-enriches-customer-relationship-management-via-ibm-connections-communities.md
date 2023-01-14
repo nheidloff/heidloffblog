@@ -30,4 +30,4 @@ There are several interesting integration points. IBM Connections is used to enr
 
 Technically the connector uses the Connections REST APIs from [PHP](https://github.com/sugarcrm/ibm_connections/tree/master/SugarModules/connectors/connections).
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/5LgnKRsT6Hk" width="640"></iframe>
+{% include embed/youtube.html id='5LgnKRsT6Hk' %}

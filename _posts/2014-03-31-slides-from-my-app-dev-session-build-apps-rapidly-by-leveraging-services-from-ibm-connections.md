@@ -24,7 +24,7 @@ Here are the slides from the session AD206 – Build Apps Rapidly by Leveraging 
 
 The video contains the first demo “Partner Community”.
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="http://www.youtube.com/embed/Wl5hasivtPQ?rel=0" width="853"></iframe>
+{% include embed/youtube.html id='Wl5hasivtPQ' %}
 
 The code is available on [OpenNTF](http://www.openntf.org/main.nsf/project.xsp?r=project/Partner%20Community).
 

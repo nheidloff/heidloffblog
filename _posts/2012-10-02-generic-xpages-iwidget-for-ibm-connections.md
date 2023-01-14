@@ -28,7 +28,7 @@ With the new generic XPages iWidget only the generic widget has to be deployed o
 
 Watch this video to see the widget in action.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/Lnc5qhO04q0?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='Lnc5qhO04q0' %}
 
 Later I’d like to extend the widget. As for the HTML widget I want to be able to switch into edit mode from the menu rather than a link in the view mode. I’m also not happy with the automatic resizing of the iframes in which the XPages are run. Right now developers need to do some configuration in the widgets’ edit modes and they need to use a custom control in the XPages. I hope this can be avoided but so far I haven’t found a good solution (cross domain iframe communication and different browsers challenges).
 

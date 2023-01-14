@@ -22,4 +22,4 @@ We [announced](http://heidloff.net/home.nsf/dx/08.11.2012135412NHEH5Y.htm) recen
 
 I’ve extended this particular service so that it can be used now in XPages. The service provides methods to read from the activity streams in IBM Connections and to post new entries to the streams. The implementation of this service uses the XPages social enabler and leverages the ltpa endpoint for authentication. I’d like to open source it soon on OpenNTF.
 
-<iframe allowfullscreen="" frameborder="0" height="360" src="http://www.youtube.com/embed/pWRMpJq6XqE?rel=0" width="640"></iframe>
+{% include embed/youtube.html id='pWRMpJq6XqE' %}

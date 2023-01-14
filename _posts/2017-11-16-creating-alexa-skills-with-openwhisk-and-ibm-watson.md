@@ -22,7 +22,7 @@ The pattern describes how to build Alexa skills with [OpenWhisk](https://www.ibm
 
 My colleague Mark Sturdevant improved the documentation and created a [video](https://www.youtube.com/watch?v=4cTSkX0wSV8). Check out the [pattern](https://developer.ibm.com/code/patterns/create-an-alexa-skill-with-serverless-and-a-conversation/) and get the code from [GitHub](https://github.com/IBM/alexa-skill-watson-conversation).
 
-<iframe allowfullscreen="" frameborder="0" height="480" src="//www.youtube.com/embed/4cTSkX0wSV8" width="853"></iframe>
+{% include embed/youtube.html id='4cTSkX0wSV8' %}
 
 Here is a diagram showing the involved components.
 
