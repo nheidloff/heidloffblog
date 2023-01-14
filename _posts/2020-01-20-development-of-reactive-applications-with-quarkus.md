@@ -28,7 +28,7 @@ Rather than reinventing the wheel, I reused the scenario from the [cloud-native-
 
 The [sample](https://github.com/IBM/cloud-native-starter/tree/master/reactive) comes with a web application which displays links to articles with author information in a simple web application. The web application invokes the web-api service which implements a backend-for-frontend pattern and invokes the articles and authors service. The articles service stores data in a Postgres database. Messages are sent between the microservices via Kafka. This diagram describes the high level architecture:
 
-![](../../wp-content/uploads/2020/01/cns-reactive-architecture.png)
+![image](/assets/img/2020/01/cns-reactive-architecture.png)
 
 **Technologies and Functionality**
 
@@ -56,11 +56,11 @@ One benefit of reactive models is the ability to update web applications by send
 
 Articles can be created via REST API. The web application receives a notification and adds the new article to the page.
 
-![](../../wp-content/uploads/2020/01/cns-reactive-demo-1-video-small.gif)
+![image](/assets/img/2020/01/cns-reactive-demo-1-video-small.gif)
 
 This diagram explains the flow:
 
-![](../../wp-content/uploads/2020/01/cns-reactive-demo-1.png)
+![image](/assets/img/2020/01/cns-reactive-demo-1.png)
 
 **Scenario 2 – Reactive REST Endpoints for higher Efficiency**
 
@@ -74,15 +74,15 @@ Read the [documentation](https://github.com/IBM/cloud-native-starter/blob/master
 
 This diagram explains the flow:
 
-![](../../wp-content/uploads/2020/01/cns-reactive-demo-2.png)
+![image](/assets/img/2020/01/cns-reactive-demo-2.png)
 
 This is the result of the imperative version after 30000 invocations:
 
-![](../../wp-content/uploads/2020/01/cns-reactive-load-100x300-v1-summary.png)
+![image](/assets/img/2020/01/cns-reactive-load-100x300-v1-summary.png)
 
 This is the result of the reactive version after 30000 invocations:
 
-![](../../wp-content/uploads/2020/01/cns-reactive-load-100x30-v2-summary.png)
+![image](/assets/img/2020/01/cns-reactive-load-100x30-v2-summary.png)
 
 **Supported Kubernetes Environments**
 

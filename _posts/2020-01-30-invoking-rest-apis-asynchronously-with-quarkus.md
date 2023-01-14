@@ -31,7 +31,7 @@ The question is when to use which option. Rather than trying to answer this myse
 
 You can use both options in the same application which is what I’ve done in the sample application that is included in the [cloud-native-starter](https://github.com/IBM/cloud-native-starter/tree/master/reactive) project. The sample application uses several microservices. The web-api service invokes the articles service which I’ll describe below.
 
-![](../../wp-content/uploads/2020/01/reactive-micoprofile-client.png)
+![image](/assets/img/2020/01/reactive-micoprofile-client.png)
 
 **Eclipse Vert.x Axle Web Client**
 

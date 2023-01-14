@@ -39,14 +39,14 @@ I have used the Application Modernization workshop. These are the main steps:
 
 In order to launch Transformation Advisor, open the OpenShift Web Console. In the drop down menu a new entry has been added to launch the Cloud Pak Console which displays a link to launch different tools.
 
-![](../../wp-content/uploads/2020/07/transformationadvisor1.png)
+![image](/assets/img/2020/07/transformationadvisor1.png)
 
 After you have imported the test data, the results are displayed for the separate components.
 
-![](../../wp-content/uploads/2020/07/transformationadvisor2.png)
+![image](/assets/img/2020/07/transformationadvisor2.png)
 
 In this case the application is supposed to be transferred from WebSphere Liberty to Open Liberty.
 
-![](../../wp-content/uploads/2020/07/transformationadvisor3.png)
+![image](/assets/img/2020/07/transformationadvisor3.png)
 
 In order to find out more about the Transformation Advisor watch the webinar [App Modernization for your Enterprise](https://www.youtube.com/watch?v=XMh2zhMUQ4w).

@@ -46,7 +46,7 @@ My colleague Harald Uebele describes in his [documentation](https://github.com/I
 
 This screenshot shows where you can initiate the deployment from the OpenShift web console.
 
-![](../../wp-content/uploads/2020/01/operatorhub-postgres.png)
+![image](/assets/img/2020/01/operatorhub-postgres.png)
 
 **Postgres Deployment Option 2: Kubernetes with persistent Volume**
 

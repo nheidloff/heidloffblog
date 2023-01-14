@@ -20,7 +20,7 @@ Get the [code](https://github.com/IBM/cloud-native-starter/tree/master/security)
 
 My sample contains a web application which invokes an API microservice and that one invokes a second microservice. To see the results in the web application, users need to be authenticated and they need to have the role ‘user’. Here is the architecture.
 
-![](../../wp-content/uploads/2020/07/keycloak-diagram.png)
+![image](/assets/img/2020/07/keycloak-diagram.png)
 
 The Keycloak [documentation](https://www.keycloak.org/getting-started/getting-started-operator-openshift) describes pretty well how to install Keycloak in OpenShift. The difficult part was the creation of the realm which I’ve documented in my previous article [Setting up Keycloak in OpenShift](http://heidloff.net/article/setting-up-keycloak-openshift/).
 
@@ -69,7 +69,7 @@ In order to use the Keycloak API, three pieces of information are required. The 
 
 As you can see in the code I’m using Vuex to store the access token, id token and user name. When the tokens expire, new tokens are requested via the refresh token und the Vuex store is updated.
 
-![](../../wp-content/uploads/2020/07/keycloak-vue.png)
+![image](/assets/img/2020/07/keycloak-vue.png)
 
 Once authenticated, the Keycloak API can return the subject id, but not the actual user name. That’s why I’ve implemented an [endpoint](https://github.com/IBM/cloud-native-starter/blob/e49348d2849205736067dc447d9adc92cdb39b0d/security/web-api-secure/src/main/java/com/ibm/webapi/UserResource.java) in the Web-API service to read it. I’ve implemented this part with Quarkus. To learn more about this, check out my article [Securing Quarkus Applications with Keycloak](http://heidloff.net/article/security-quarkus-applications-keycloak/).
 

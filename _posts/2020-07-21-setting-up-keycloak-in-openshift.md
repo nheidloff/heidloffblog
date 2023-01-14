@@ -20,7 +20,7 @@ Get the [code](https://github.com/IBM/cloud-native-starter/tree/master/security)
 
 My sample contains a web application which invokes an API microservice and then one invokes a second microservice. To see the results in the web application users need to be authenticated and they need to have the role ‘user’. Here is the architecture.
 
-![](../../wp-content/uploads/2020/07/keycloak-diagram.png)
+![image](/assets/img/2020/07/keycloak-diagram.png)
 
 The Keycloak [documentation](https://www.keycloak.org/getting-started/getting-started-operator-openshift) describes pretty well how to install Keycloak in OpenShift. The difficult part was the creation of the realm.
 
@@ -31,7 +31,7 @@ Quarkus comes with two great quides that describe how to use Keycloak in web app
 
 The client frontend is used by the web application, the client backend-service for the two Quarkus microservices. Additionally a test user is created with the role ‘user’.
 
-![](../../wp-content/uploads/2020/07/keycloak-clients.png)
+![image](/assets/img/2020/07/keycloak-clients.png)
 
 The documentation also contains commands that you can run the get the Keycloak URLs and the credentials of the admin, so that you can log in.
 

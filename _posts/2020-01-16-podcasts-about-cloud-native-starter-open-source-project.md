@@ -35,7 +35,7 @@ Check out the new [Cloud Native Starter](https://cloud-native-starter.mybluemix.
 
 The page describes the project, the technologies and functionality and points to blogs, talks and workshops.
 
-![](../../wp-content/uploads/2020/01/csn-landingpage.png)
+![image](/assets/img/2020/01/csn-landingpage.png)
 
 My colleague Miriam Oglesby also blogged about the podcasts. Read her blog [Conversations with Adam Bien](https://developer.ibm.com/blogs/conversations-with-adam-bien-cloud-native-starter/) on IBM Developer to find out more about Adam and the podcasts.
 

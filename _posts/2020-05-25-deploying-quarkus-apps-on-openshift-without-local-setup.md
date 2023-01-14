@@ -24,7 +24,7 @@ That’s why I’m very interested in CodeReady Workspaces which give you an IDE
 
 Let’s take a look how Quarkus applications can be developed in the browser and deployed to OpenShift.
 
-![](../../wp-content/uploads/2020/05/crw-q-os-01.png)
+![image](/assets/img/2020/05/crw-q-os-01.png)
 
 Once you have CodeReady Workspaces installed, you can create a new workspace based on the ‘Quarkus Tools’ template. This template comes with the CLIs and runtimes you need, for example Maven, Java, the oc CLI etc.
 
@@ -32,40 +32,40 @@ Additionally every template contains the [Eclipse Theia](https://theia-ide.org/)
 
 The ‘Quarkus Tools’ workspace can be created with a Quarkus quick start sample. You can launch the application via the Maven terminal.
 
-![](../../wp-content/uploads/2020/05/crw-q-os-02.png)
+![image](/assets/img/2020/05/crw-q-os-02.png)
 
 Run the command ‘./mvnw compile quarkus:dev’.
 
-![](../../wp-content/uploads/2020/05/crw-q-os-03.png)
+![image](/assets/img/2020/05/crw-q-os-03.png)
 
 In order to access the application via URL an external route is generated. ‘localhost’ would obviously not work.
 
-![](../../wp-content/uploads/2020/05/crw-q-os-04.png)
+![image](/assets/img/2020/05/crw-q-os-04.png)
 
 In order to deploy applications to Kubernetes and OpenShift, check out the Quarkus guides [DEPLOYING ON OPENSHIFT](https://quarkus.io/guides/deploying-to-openshift) and [KUBERNETES EXTENSION](https://quarkus.io/guides/kubernetes). In this article the OpenShift extension is used which you can install via command line or from the web editor.
 
-![](../../wp-content/uploads/2020/05/crw-q-os-05.png)
+![image](/assets/img/2020/05/crw-q-os-05.png)
 
-![](../../wp-content/uploads/2020/05/crw-q-os-06.png)
+![image](/assets/img/2020/05/crw-q-os-06.png)
 
 With the OpenShift extension all yaml files are generated automatically. The command ‘/mvnw clean package -Dquarkus.kubernetes.deploy=true’ triggers a container image build and will apply the generated OpenShift resources, right after. The generated resources are using OpenShift’s DeploymentConfig that is configured to automatically trigger a redeployment when a change in the ImageStream is noticed. In other words, any container image build after the initial deployment will automatically trigger redeployment, without the need to delete, update or re-apply the generated resources.
 
-![](../../wp-content/uploads/2020/05/crw-q-os-07.png)
+![image](/assets/img/2020/05/crw-q-os-07.png)
 
 You can check in the user interface for the build status.
 
-![](../../wp-content/uploads/2020/05/crw-q-os-08.png)
+![image](/assets/img/2020/05/crw-q-os-08.png)
 
 As result your image stream shows up in addition to the s2i-java image stream which is used to build your image.
 
-![](../../wp-content/uploads/2020/05/crw-q-os-09.png)
+![image](/assets/img/2020/05/crw-q-os-09.png)
 
 The pod with your container will be started automatically. The second pod in the screenshot is the pod with the web IDE which consists of five containers.
 
-![](../../wp-content/uploads/2020/05/crw-q-os-10.png)
+![image](/assets/img/2020/05/crw-q-os-10.png)
 
 To access the application you can create a route via the Maven command above, you can define it the application properties file in Quarkus or do it in the OpenShift web console.
 
-![](../../wp-content/uploads/2020/05/crw-q-os-11.png)
+![image](/assets/img/2020/05/crw-q-os-11.png)
 
 To find out more about Quarkus, OpenShift and reactive programming, check out the open source project [Cloud Native Starter](https://github.com/IBM/cloud-native-starter/tree/master/reactive).

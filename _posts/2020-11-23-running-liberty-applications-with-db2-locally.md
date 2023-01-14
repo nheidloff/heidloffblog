@@ -74,4 +74,4 @@ $ docker network connect myNetwork customerorderservices-local
 
 Access the application in a browser using https://127.0.0.1:9443/CustomerOrderServicesWeb. Login using ‘rbarcia’ and ‘bl0wfish’.
 
-![](../../wp-content/uploads/2020/11/app-modernization-sample-web-png.png)
+![image](/assets/img/2020/11/app-modernization-sample-web-png.png)

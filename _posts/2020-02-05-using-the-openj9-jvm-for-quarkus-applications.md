@@ -24,7 +24,7 @@ I’ve used OpenJ9 from [AdoptOpenJDK](https://adoptopenjdk.net/) where you can 
 
 Here are the results of my little test. The diagram is from the Quarkus website. Everything that is in orange is what I’ve added for OpenJ9.
 
-![](../../wp-content/uploads/2020/02/quarkus-openj9.png)
+![image](/assets/img/2020/02/quarkus-openj9.png)
 
 I’ve run the same service which accesses a database with OpenJ9 and HotSpot. I’ve deployed the two versions of the service from scratch and warmed them up by invoking their REST APIs. After this I invoked “docker stats | grep articles-reactive”. Hotspot showed 149.8MiB and OpenJ9 59.77MiB.
 

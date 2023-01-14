@@ -28,39 +28,39 @@ Next we had a remote session where I showed my location. I had preferred to do t
 
 Since I wasn’t able to show the real hutches and rabbits, my colleagues came up with the idea to build a model. Again, we had several cycles. My wife and I came up quickly with prototypes.
 
-![](../../wp-content/uploads/2020/11/bts1.jpg)
+![image](/assets/img/2020/11/bts1.jpg)
 
-![](../../wp-content/uploads/2020/11/bts2.jpg)
+![image](/assets/img/2020/11/bts2.jpg)
 
 To make it look better, my colleagues gave me instructions how to build a better one with walls and connections between them. It had been a long time that I handcrafted something like this.
 
-![](../../wp-content/uploads/2020/11/bts3.jpg)
+![image](/assets/img/2020/11/bts3.jpg)
 
 My colleagues also 3-d printed some rabbits and we added a green floor.
 
-![](../../wp-content/uploads/2020/11/bts4.jpg)
+![image](/assets/img/2020/11/bts4.jpg)
 
 Because of Corona everything had to be done remotely and it worked pretty well. The complete equipment was sent to me.
 
-![](../../wp-content/uploads/2020/11/bts5.jpg)
+![image](/assets/img/2020/11/bts5.jpg)
 
 During the production day three cameras were streaming me in high quality. As cameras an iPhone 11 and an iPhone 11 Max were used.
 
-![](../../wp-content/uploads/2020/11/bts6.jpg)
+![image](/assets/img/2020/11/bts6.jpg)
 
 Again, thanks a lot to the team!
 
 Everything was so professional. I like especially the bunny explosion that we did via stop motion. It’s only two seconds in the video, but it took us more than two hours only to take the shots. Once in 16×9 and one more time in 1×1 for Instagram. And I’m sure it took them a long time to actually create the video with me standing behind it.
 
-![](../../wp-content/uploads/2020/11/bts-rabbits-explosion.png)
+![image](/assets/img/2020/11/bts-rabbits-explosion.png)
 
 There is so much love for details in the video. For example my daughter wears IBM socks in the same color as the textbox explaining the scene.
 
-![](../../wp-content/uploads/2020/11/bts-rabbits-new.jpg)
+![image](/assets/img/2020/11/bts-rabbits-new.jpg)
 
 After the production I felt pretty relieved.
 
-![](../../wp-content/uploads/2020/11/bts7.jpg)
+![image](/assets/img/2020/11/bts7.jpg)
 
 Here is the video:
 

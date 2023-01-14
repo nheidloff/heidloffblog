@@ -18,7 +18,7 @@ categories:
 
 I’ve created a sample application that comes with the [cloud-native-starter](https://github.com/ibm/cloud-native-starter) project. The ‘articles’ microservice accesses the database running in Kubernetes. To keep the scenario simple, only one REST API is tested which reads articles from Postgres.
 
-![](../../wp-content/uploads/2020/02/comparison-synch-asynch.png)
+![image](/assets/img/2020/02/comparison-synch-asynch.png)
 
 There are two implementations of the articles service:
 

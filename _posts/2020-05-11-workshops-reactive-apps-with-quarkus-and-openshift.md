@@ -25,7 +25,7 @@ In order to demonstrate benefits of reactive applications, I’ve developed a sa
 
 The animation shows how articles can be created via curl commands in the terminal at the bottom. The web application receives a notification and adds the new article to the page.
 
-![](../../wp-content/uploads/2020/01/cns-reactive-demo-1-video-small.gif)
+![image](/assets/img/2020/01/cns-reactive-demo-1-video-small.gif)
 
 Another benefit of reactive systems and reactive REST endpoints is efficiency. This scenario describes how to use reactive systems and reactive programming to achieve faster response times. Especially in public clouds where costs depend on CPU, RAM and compute durations this model saves money.
 

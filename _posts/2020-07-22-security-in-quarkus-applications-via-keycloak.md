@@ -20,7 +20,7 @@ Get the [code](https://github.com/IBM/cloud-native-starter/tree/master/security)
 
 My sample contains a web application which invokes an API microservice and that one invokes a second microservice. To see the results in the web application, users need to be authenticated and they need to have the role ‘user’. Here is the architecture:
 
-![](../../wp-content/uploads/2020/07/keycloak-diagram.png)
+![image](/assets/img/2020/07/keycloak-diagram.png)
 
 The Keycloak [documentation](https://www.keycloak.org/getting-started/getting-started-operator-openshift) describes pretty well how to install Keycloak in OpenShift. The difficult part was the creation of the realm which I’ve documented in my previous article [Setting up Keycloak in OpenShift](http://heidloff.net/article/setting-up-keycloak-openshift/).
 
@@ -59,7 +59,7 @@ public Set<Article> getArticles() {
 
 This allows my test user Alice to invoke this endpoint, since she has the role ‘user’.
 
-![](../../wp-content/uploads/2020/07/keycloak-user.png)
+![image](/assets/img/2020/07/keycloak-user.png)
 
 **Invoking protected Endpoints**
 

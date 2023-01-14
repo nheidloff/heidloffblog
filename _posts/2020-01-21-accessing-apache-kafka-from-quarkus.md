@@ -40,7 +40,7 @@ $ sh scripts/show-urls.sh
 
 The output of the last command prints out the URL of the Kafka bootstrap server which you’ll need in the next step. You can find all resources in the ‘kafka’ namespace.
 
-![](../../wp-content/uploads/2020/01/kafka-in-kubernetes.png)
+![image](/assets/img/2020/01/kafka-in-kubernetes.png)
 
 In order to access Kafka from Quarkus, the Kafka connector has to be [configured](https://quarkus.io/guides/kafka#configuring-the-kafka-connector). When running the Quarkus application in the same Kubernetes cluster as Kafka, use the following configuration in ‘application.properties’. ‘my-cluster-kafka-external-bootstrap’ is the service name, ‘kafka’ the namespace and ‘9094’ the port.
 

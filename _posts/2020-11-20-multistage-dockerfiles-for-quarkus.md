@@ -19,7 +19,7 @@ New [Quarkus](https://quarkus.io/) applications can be created in several ways, 
 
 An easy way to create the Quarkus applications is to use the Start Coding page:
 
-![](../../wp-content/uploads/2020/11/Screenshot-2020-11-20-at-07.40.22.png)
+![image](/assets/img/2020/11/Screenshot-2020-11-20-at-07.40.22.png)
 
 Executing the Maven build process in a container has several advantages. For example when developing locally, you don’t need to install specific Maven versions locally and all developers of your team are using the exact same build process.
 

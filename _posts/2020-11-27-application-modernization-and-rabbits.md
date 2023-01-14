@@ -23,19 +23,19 @@ Earlier this year I got my children two rabbits. I never wanted to have pets, bu
 
 The two rabbits were supposed to be females, but as it turned out they were not. All of the sudden we had seven additional baby rabbits.
 
-![](../../wp-content/uploads/2020/11/app-mod-rabbits2.jpg)
+![image](/assets/img/2020/11/app-mod-rabbits2.jpg)
 
 The original cage became too small.
 
-![](../../wp-content/uploads/2020/11/app-mod-rabbits1.jpg)
+![image](/assets/img/2020/11/app-mod-rabbits1.jpg)
 
 So we had to build a new set of hutches. In order to be flexible, we connected several hutches with pathways. The pathways can be closed so that, for example, male rabbits can be separated from female rabbits.
 
-![](../../wp-content/uploads/2020/11/app-mod-rabbits3.jpg)
+![image](/assets/img/2020/11/app-mod-rabbits3.jpg)
 
 The hutches are similar to loosely coupled microservices. You can use them independently from other hutches. The pathways are like network traffic which can be controlled via Kubernetes and Istio. In the next picture the microservices are marked in red and the pathways are blue.
 
-![](../../wp-content/uploads/2020/11/app-mod-rabbits4.png)
+![image](/assets/img/2020/11/app-mod-rabbits4.png)
 
 I explained the [Reasons why Enterprises should modernize Applications](http://heidloff.net/article/ten-reasons-why-enterprises-should-modernize-applications/) in an earlier blog. Essentially it boils down to three points:
 
@@ -51,7 +51,7 @@ With the new structure we can be more agile and adopt faster to new situations. 
 
 My ‘end users’ are having a much better and faster experience with this modernized structure. There’s a petting zoo, which means they can play with the rabbits at the same time without having to wait for their turn. Similarly, your end users will appreciate better experiences built via modern web or mobile technologies, since it makes them more productive.
 
-![](../../wp-content/uploads/2020/11/app5mod-rabbits2.jpg)
+![image](/assets/img/2020/11/app5mod-rabbits2.jpg)
 
 **Reduced Costs**
 

@@ -20,7 +20,7 @@ There are several examples showing how to modernize WebSphere applications. The 
 
 The application is an older Java EE application using a three tier architecture, Java EJBs, Dojo for the web frontend and DB2 databases. Check out the [description](https://ibm-cloud-architecture.github.io/modernization-playbook/applications/was90/README#application-overview) for more details. This is the web application:
 
-![](../../wp-content/uploads/2020/11/app-modernization-sample-web-png.png)
+![image](/assets/img/2020/11/app-modernization-sample-web-png.png)
 
 The workshop describes how to modernize a WebSphere traditional 8.5 application in two steps:
 

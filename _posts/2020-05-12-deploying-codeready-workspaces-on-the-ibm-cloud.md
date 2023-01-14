@@ -24,56 +24,56 @@ To get started, create an [IBM Cloud account](http://ibm.biz/nheidloff) and crea
 
 Once your cluster has been provisioned, open the OpenShift Web Console and create a new project.
 
-![](../../wp-content/uploads/2020/05/crw01.png)
+![image](/assets/img/2020/05/crw01.png)
 
 Give your project a name, for example ‘codereadyworkspaces’.
 
-![](../../wp-content/uploads/2020/05/crw02.png)
+![image](/assets/img/2020/05/crw02.png)
 
 On the operator hub page find the operator ‘Red Hat CodeReady Workspaces’.
 
-![](../../wp-content/uploads/2020/05/crw03.png)
+![image](/assets/img/2020/05/crw03.png)
 
 Click ‘Install’.
 
-![](../../wp-content/uploads/2020/05/crw04.png)
+![image](/assets/img/2020/05/crw04.png)
 
 Make sure your project is selected and click ‘Subscribe’.
 
-![](../../wp-content/uploads/2020/05/crw05.png)
+![image](/assets/img/2020/05/crw05.png)
 
 Wait until the status is ‘Succeeded’, then open the operator. This shouldn’t take longer than 1-2 minutes.
 
-![](../../wp-content/uploads/2020/05/crw06.png)
+![image](/assets/img/2020/05/crw06.png)
 
 On the ‘CodeReady Workspaces Cluster’ tab click on ‘Create CheCluster’.
 
-![](../../wp-content/uploads/2020/05/crw07.png)
+![image](/assets/img/2020/05/crw07.png)
 
 Keep all defaults and click ‘Create’.
 
-![](../../wp-content/uploads/2020/05/crw08.png)
+![image](/assets/img/2020/05/crw08.png)
 
 The creation of the cluster takes some time. In my case on the IBM Cloud roughly five minutes. For some reason the status on the page below stayed ‘Unknown’ even long after five minutes. Simply ignore it and open the cluster.
 
-![](../../wp-content/uploads/2020/05/crw09.png)
+![image](/assets/img/2020/05/crw09.png)
 
 Instead check for the status on the next page. Once the cluster will be ready, you’ll see the URL in the right column.
 
-![](../../wp-content/uploads/2020/05/crw10.png)
+![image](/assets/img/2020/05/crw10.png)
 
 When you open the Workspaces URL for the first time, you need to grant permisssions.
 
-![](../../wp-content/uploads/2020/05/crw11.png)
+![image](/assets/img/2020/05/crw11.png)
 
 The next dialog is the confusing part. DO NOT simply use the default name of your user. It contains special characters which will lead to issues later. This name will be used as Kubernetes namespace name which does not accept special characters.
 
-![](../../wp-content/uploads/2020/05/crw12.png)
+![image](/assets/img/2020/05/crw12.png)
 
 Instead use plain text for your user name.
 
-![](../../wp-content/uploads/2020/05/crw13.png)
+![image](/assets/img/2020/05/crw13.png)
 
 That’s it! You’ve successfully installed CodeReady Workspaces. Have fun.
 
-![](../../wp-content/uploads/2020/05/crw14.png)
+![image](/assets/img/2020/05/crw14.png)

@@ -196,4 +196,4 @@ All samples of this article are included in the open source project [cloud-nativ
 
 The project comes not only with the articles service, but with a complete cloud native application with multiple microservices, Postgres and Kafka:
 
-![](../../wp-content/uploads/2020/01/cns-reactive-demo-2.png)
+![image](/assets/img/2020/01/cns-reactive-demo-2.png)

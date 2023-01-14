@@ -22,17 +22,17 @@ There a several easy to follow Quarkus guides about the topic ‘reactive messag
 
 The sample comes with a web application which displays links to articles with author information in a simple web application. The web application invokes the web-api service which implements a backend-for-frontend pattern and invokes the articles and authors microservices. The articles service stores data in a Postgres database. Messages are sent between the microservices via Kafka. This diagram describes the high level architecture:
 
-![](../../wp-content/uploads/2020/01/reactive-messaging-architecture.png)
+![image](/assets/img/2020/01/reactive-messaging-architecture.png)
 
 One benefit of reactive models is the ability to update web applications by sending messages, rather than pulling for updates. This is more efficient and improves the user experience.
 
 The following video shows how articles can be created via REST API. The web application receives notifications and adds the new articles to the page.
 
-![](../../wp-content/uploads/2020/01/reactive-messaging-demo-1-video.gif)
+![image](/assets/img/2020/01/reactive-messaging-demo-1-video.gif)
 
 The next diagram explains the flow which I’ll go through in more detail in this article.
 
-![](../../wp-content/uploads/2020/01/reactive-messaging-demo-1.png)
+![image](/assets/img/2020/01/reactive-messaging-demo-1.png)
 
 1. The ‘submission’ API client invokes a REST endpoint of the ‘articles’ service to create a new article.
 2. After the article has been created, a message is sent to Kafka.
