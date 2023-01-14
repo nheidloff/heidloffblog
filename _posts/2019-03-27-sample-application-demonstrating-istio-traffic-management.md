@@ -20,7 +20,7 @@ categories:
 
 My colleague Harald Uebele and I have implemented a sample which is very easy to set up that demonstrates this capability. The Istio [Bookinfo](https://istio.io/docs/examples/bookinfo/) shows similar functionality, but there is one significant difference: The Bookinfo application routes traffic to services that are not accessed from Istio Ingress. Our sample demonstrates how to route traffic from Istio Ingress to different versions of the “Web API” service (which implements the backend for frontend pattern). The API is invoked from a web application.
 
-[![istio-traffic-architecture](http://heidloff.net/wp-content/uploads/2019/03/istio-traffic-architecture.png)](http://heidloff.net/wp-content/uploads/2019/03/istio-traffic-architecture.png)
+[![image](/assets/img/2019/03/istio-traffic-architecture.png)](/assets/img/2019/03/istio-traffic-architecture.png)
 
 Get the [code](https://github.com/nheidloff/cloud-native-starter) from GitHub.
 
@@ -72,11 +72,11 @@ spec:
 
 In order to demonstrate this feature, I’ve implemented a Vue.js application. When refreshed it shows either five articles (version 1) or ten articles (version 2):
 
-[![istio-traffic-management](http://heidloff.net/wp-content/uploads/2019/03/istio-traffic-management.gif)](http://heidloff.net/wp-content/uploads/2019/03/istio-traffic-management.gif)
+[![image](/assets/img/2019/03/istio-traffic-management.gif)](/assets/img/2019/03/istio-traffic-management.gif)
 
 The [Kiali](https://www.kiali.io/) dashboard displays how the traffic is routed:
 
-[![istio-traffic-management-2](http://heidloff.net/wp-content/uploads/2019/03/istio-traffic-management-2.png)](http://heidloff.net/wp-content/uploads/2019/03/istio-traffic-management-2.png)
+[![image](/assets/img/2019/03/istio-traffic-management-2.png)](/assets/img/2019/03/istio-traffic-management-2.png)
 
 In order to try this out yourself on Minikube, install the necessary [prerequisites](https://github.com/nheidloff/cloud-native-starter#deployment) and run these commands:
 

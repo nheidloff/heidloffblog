@@ -30,7 +30,7 @@ Thomas, Harald and I have planned to write more articles about the different par
 
 The first diagram gives an overview of the key components.
 
-[![diagram-overview](http://heidloff.net/wp-content/uploads/2019/01/diagram-overview1.png)](http://heidloff.net/wp-content/uploads/2019/01/diagram-overview1.png)
+[![image](/assets/img/2019/01/diagram-overview1.png)](/assets/img/2019/01/diagram-overview1.png)
 
 Note that there are two [different versions](https://github.com/IBM/blue-cloud-mirror/tree/master/images) per diagram. One version describes what we use in the GitHub project. That version uses Minikube for the users service and Cloud Foundry Public Applications for the scores service so that even IBM Cloud users with a free Lite account can run it. The other version uses the enterprise technologies IBM Cloud Private and Cloud Foundry Enterprise Environment.
 
@@ -38,15 +38,15 @@ The next diagrams add more details about the three main parts.
 
 The **core game** is a serverless application hosted on the IBM Cloud via Cloud Object Storage and IBM Cloud Functions. The users, scores and Twitter APIs are invoked via Lite API Management. With Lite API Management and App ID [user authentication and authorization](https://github.com/nheidloff/serverless-web-application-ibm-cloud) can be implemented.
 
-[![diagram-serverless](http://heidloff.net/wp-content/uploads/2019/01/diagram-serverless.png)](http://heidloff.net/wp-content/uploads/2019/01/diagram-serverless.png)
+[![image](/assets/img/2019/01/diagram-serverless.png)](/assets/img/2019/01/diagram-serverless.png)
 
 The **scores service** has been implemented via the Cloud Foundry Node.js buildpack. A second buildpack is used to host the web resources of the web application which displays the highscore list.
 
-[![diagram-scores](http://heidloff.net/wp-content/uploads/2019/01/diagram-scores.png)](http://heidloff.net/wp-content/uploads/2019/01/diagram-scores.png)
+[![image](/assets/img/2019/01/diagram-scores.png)](/assets/img/2019/01/diagram-scores.png)
 
 The **users service** has been implemented via Node.js running in Kubernetes. The data is stored in Apache CouchDB. Via Secure Gateway the service can be invoked from the public cloud.
 
-[![diagram-users](http://heidloff.net/wp-content/uploads/2019/01/diagram-users.png)](http://heidloff.net/wp-content/uploads/2019/01/diagram-users.png)
+[![image](/assets/img/2019/01/diagram-users.png)](/assets/img/2019/01/diagram-users.png)
 
 To find out more about the different services and offerings, follow these links:
 

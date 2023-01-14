@@ -56,7 +56,7 @@ Additionally I download and copy a file needed for [Zipkin tracing](https://isti
 
 This screenshot shows the [Jaeger](https://www.jaegertracing.io/) dashboard. The BFF (backend for frontend) ‘web-api’ microservice invokes another ‘articles’ service:
 
-[![jaeger-starter](http://heidloff.net/wp-content/uploads/2019/03/jaeger-starter-1024x509.png)](http://heidloff.net/wp-content/uploads/2019/03/jaeger-starter.png)
+[![image](/assets/img/2019/03/jaeger-starter-1024x509.png)](/assets/img/2019/03/jaeger-starter-1024x509.png)
 
 **Variations of the Dockerfile**
 

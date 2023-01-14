@@ -28,7 +28,7 @@ The Istio functionality for resilient cloud-native applications is generic and i
 
 I have open sourced a [simple sample](https://github.com/nheidloff/cloud-native-starter) that demonstrates this functionality. The application uses a Vue.js frontend that displays articles. The service ‘web-api’ implements the BFF (backend for frontend) pattern. The web application accesses the ‘web-api’ service which invokes both the ‘articles’ and ‘authors’ services.
 
-[![blog-resiliency-resiliency-diagram](http://heidloff.net/wp-content/uploads/2019/03/blog-resiliency-resiliency-diagram-1024x714.png)](http://heidloff.net/wp-content/uploads/2019/03/blog-resiliency-resiliency-diagram.png)
+[![image](/assets/img/2019/03/blog-resiliency-resiliency-diagram-1024x714.png)](/assets/img/2019/03/blog-resiliency-resiliency-diagram-1024x714.png)
 
 If you wan to run this [sample](https://github.com/nheidloff/cloud-native-starter), get the code from GitHub.
 
@@ -46,7 +46,7 @@ $ scripts/show-urls.sh
 
 After running the scripts above, you will get a list of all URLs in the terminal. The web application can be opened via ‘http://your-minikube-ip:31380. The initial page shows the five most recent articles including information about the authors.
 
-[![blog-web-app](http://heidloff.net/wp-content/uploads/2019/03/blog-web-app-1024x388.png)](http://heidloff.net/wp-content/uploads/2019/03/blog-web-app.png)
+[![image](/assets/img/2019/03/blog-web-app-1024x388.png)](/assets/img/2019/03/blog-web-app-1024x388.png)
 
 Now let’s delete the authors service:
 
@@ -56,7 +56,7 @@ $ scripts/delete-authors-nodejs.sh
 
 When you refresh the web application, it will still display five articles, but this time without the information about the authors. While the web application cannot display the complete information anymore, in this simple scenario it still makes sense to display the titles and links of the articles.
 
-[![blog-resiliency-web-app-no-authors](http://heidloff.net/wp-content/uploads/2019/03/blog-resiliency-web-app-no-authors-1024x388.png)](http://heidloff.net/wp-content/uploads/2019/03/blog-resiliency-web-app-no-authors.png)
+[![image](/assets/img/2019/03/blog-resiliency-web-app-no-authors-1024x388.png)](/assets/img/2019/03/blog-resiliency-web-app-no-authors-1024x388.png)
 
 The implementation of this behavior has been done in [Service.java](https://github.com/nheidloff/cloud-native-starter/blob/master/web-api-java-jee/src/main/java/com/ibm/webapi/business/Service.java#L68):
 

@@ -77,4 +77,4 @@ $ yarn run serve
 
 This is a screenshot of the level one of the game where five different emotions need to be shown.
 
-[![game-emotions](http://heidloff.net/wp-content/uploads/2019/01/game-emotions.png)](http://heidloff.net/wp-content/uploads/2019/01/game-emotions.png)
+[![image](/assets/img/2019/01/game-emotions.png)](/assets/img/2019/01/game-emotions.png)
