@@ -23,9 +23,8 @@ categories:
  The application has been implemented using XPages and comes with a nice user interface for tablets.
 
  The screenshot shows the home page of a project with links to todos, activities, etc. The project members are displayed in the upper right corner. The sizes of the circles with the pictures depend on the contributions of the members in the particular project.
-
-[   
-![image](/assets/img/2013/07/xproject650.jpg)  ](../../wp-content/uploads/2013/07/xproject650.jpg)
+ 
+![image](/assets/img/2013/07/xproject650.jpg)
 
 <iframe allowfullscreen="" frameborder="0" height="486" marginheight="0" marginwidth="0" mozallowfullscreen="" scrolling="no" src="http://de.slideshare.net/slideshow/embed_code/24049369?rel=0&startSlide=9" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" webkitallowfullscreen="" width="597"> </iframe>
 
