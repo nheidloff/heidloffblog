@@ -39,4 +39,4 @@ In order to run the tests yourself, follow the steps in the [README](https://git
 
 In order to see the memory usage, I’ve used the ‘docker stats’ command. Here are the results:
 
-[![image](/assets/img/2019/03/docker-stats.png)](/assets/img/2019/03/docker-stats.png)
+[![docker-stats](http://heidloff.net/wp-content/uploads/2019/03/docker-stats.png)](http://heidloff.net/wp-content/uploads/2019/03/docker-stats.png)

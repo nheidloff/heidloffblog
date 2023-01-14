@@ -30,7 +30,7 @@ One of my [main issues with Angular](http://heidloff.net/article/angular-2-redux
 
 With Vue.js I didn’t have any component update issues. Part of the reason is that Vue.js has a [built-in optimization strategy](https://vuejs.org/v2/guide/comparison.html#Runtime-Performance). Another reason is probably that I used [Vuex](https://github.com/vuejs/vuex) from the beginning. It was very easy to learn and works perfectly. This is a screenshot of my app with the state being displayed in the developer console.
 
-[![image](/assets/img/2019/01/myexperiencevuejs.png)](/assets/img/2019/01/myexperiencevuejs.png)
+[![myexperiencevuejs](http://heidloff.net/wp-content/uploads/2019/01/myexperiencevuejs.png)](http://heidloff.net/wp-content/uploads/2019/01/myexperiencevuejs.png)
 
 I also like that [Vue.js uses CSS and HTML](https://vuejs.org/v2/guide/comparison.html#HTML-amp-CSS) with modifiers like ‘v-on’ rather than requiring me to learn techniques like JSX. I prefer to use standard skills and try to avoid highly opinionated frameworks. Obviously opinionated frameworks can have advantages like ‘easy of use’, but since I often need and want to try new technologies, I prefer standards-based technologies.
 

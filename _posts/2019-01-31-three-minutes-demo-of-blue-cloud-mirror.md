@@ -26,4 +26,4 @@ You can play the game [online](https://blue-cloud-mirror.mybluemix.net/emotions)
 
 Here is our Blue Mirror Cloud logo. As you can see, done by developers 🙂
 
-[![image](/assets/img/2019/01/logo-1600x900.jpeg)](/assets/img/2019/01/logo-1600x900.jpeg)
+[![logo-1600x900](http://heidloff.net/wp-content/uploads/2019/01/logo-1600x900.jpeg)](http://heidloff.net/wp-content/uploads/2019/01/logo-1600x900.jpeg)

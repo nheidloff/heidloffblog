@@ -69,17 +69,17 @@ kubectl apply -f deployment/istio-quarkus.yaml
 
 After this I can run the ‘classic’ articles service and the Quarkus based version in the same way.
 
-[![image](/assets/img/2019/03/quarkus-test-2.png)](/assets/img/2019/03/quarkus-test-2.png)
+[![quarkus-test-2](http://heidloff.net/wp-content/uploads/2019/03/quarkus-test-2.png)](http://heidloff.net/wp-content/uploads/2019/03/quarkus-test-2.png)
 
 The results are amazing. The size of the ‘classic’ image is 462 MB, while the Quarkus image is only 128 MB big.
 
 **Note**: I haven’t optimized the ‘classic’ stack at all. For example I included many features I don’t really need. Keep this in mind for the comparison.
 
-[![image](/assets/img/2019/03/quarkus-test-1.png)](/assets/img/2019/03/quarkus-test-1.png)
+[![quarkus-test-1](http://heidloff.net/wp-content/uploads/2019/03/quarkus-test-1.png)](http://heidloff.net/wp-content/uploads/2019/03/quarkus-test-1.png)
 
 In my local Minikube cluster the startup time of the classic container (including SSL certificate creation, OpenAPI explorer, etc.) took 5 seconds, while Quarkus started in 0.003 seconds.
 
-[![image](/assets/img/2019/03/quarkus-test-3.png)](/assets/img/2019/03/quarkus-test-3.png)
+[![quarkus-test-3](http://heidloff.net/wp-content/uploads/2019/03/quarkus-test-3.png)](http://heidloff.net/wp-content/uploads/2019/03/quarkus-test-3.png)
 
 More interesting than the startup time of the containers is the overall duration how long it takes to create a new Kubernetes deployment (‘kubectl apply …yaml’). I haven’t done extensive testing, but here are some interesting numbers. I measured the time how long it takes for Minikube to start both containers (including the Istio proxy) in the pod after the images have been built and pushed. For the ‘classic’ version this takes roughly 46 seconds, for the Quarkus based version it takes about 6 seconds only.
 

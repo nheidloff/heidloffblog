@@ -24,7 +24,7 @@ Blue Cloud Mirror is a game where players need to show five specific emotions an
 
 Here are my results:
 
-[![image](/assets/img/2019/01/game-results.png)](/assets/img/2019/01/game-results.png)
+[![game-results](http://heidloff.net/wp-content/uploads/2019/01/game-results.png)](http://heidloff.net/wp-content/uploads/2019/01/game-results.png)
 
 The game uses key technologies of the [IBM Cloud](https://cloud.ibm.com/) and has three main parts:
 
@@ -34,7 +34,7 @@ The game uses key technologies of the [IBM Cloud](https://cloud.ibm.com/) and ha
 
 The following diagram shows the key components:
 
-[![image](/assets/img/2019/01/diagram-overview.png)](/assets/img/2019/01/diagram-overview.png)
+[![diagram-overview](http://heidloff.net/wp-content/uploads/2019/01/diagram-overview.png)](http://heidloff.net/wp-content/uploads/2019/01/diagram-overview.png)
 
 I’ve built Blue Cloud Mirror together with my colleagues [Thomas Südbröcker](https://twitter.com/tsuedbroecker) and [Harald Uebele](https://twitter.com/harald_u). Over the next days, they will contribute their parts and we will write a series of blog entries about how we’ve built the application.
 

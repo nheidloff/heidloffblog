@@ -24,46 +24,46 @@ Specifically we demonstrated [OpenJ9](https://www.eclipse.org/openj9/), [MicroPr
 
 Below are some pictures. The first one shows the team from left to right: [Miriam Oglesby](https://twitter.com/Jessieevaline), [Thomas Südbröcker](https://twitter.com/tsuedbroecker), [Matthias Hartmann](https://twitter.com/matthiahartmann), [Harald Uebele](https://twitter.com/harald_u) and myself. One person missing on the picture is [Sebastian Daschner](https://twitter.com/DaschnerS) who participated in the panel [Jakarta EE und Micro Profile](https://programm.javaland.eu/2019/#/scheduledEvent/569343).
 
-[![image](/assets/img/2019/03/javaland-2019-9.jpg)](/assets/img/2019/03/javaland-2019-9.jpg)
+[![javaland-2019-9](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-9.jpg)](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-9.jpg)
 
 One of my highlights was the visit of Matthias Hartmann, General Manager of IBM Germany, Austria, Switzerland (DACH), who spoke with developers, influencers and the JavaLand and Java user groups organizers and explained IBM’s commitment to Java, the Java community and open source.
 
 Matthias Hartmann with [Niko Köbler](https://twitter.com/dasniko):
 
-[![image](/assets/img/2019/03/javaland-2019-1.jpg)](/assets/img/2019/03/javaland-2019-1.jpg)
+[![javaland-2019-1](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-1.jpg)](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-1.jpg)
 
 Matthias with [Markus Eisele](https://twitter.com/myfear):
 
-[![image](/assets/img/2019/03/javaland-2019-5.jpg)](/assets/img/2019/03/javaland-2019-5.jpg)
+[![javaland-2019-5](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-5.jpg)](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-5.jpg)
 
 We also demonstrated [Blue Cloud Mirror](https://blue-cloud-mirror.mybluemix.net), a fun game and at the same time a showcase of IBM Cloud technologies.
 
-[![image](/assets/img/2019/03/javaland-2019-2.jpg)](/assets/img/2019/03/javaland-2019-2.jpg)
+[![javaland-2019-2](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-2.jpg)](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-2.jpg)
 
 Diagram of the Blue Cloud Mirror architecture:
 
-[![image](/assets/img/2019/03/javaland-2019-4.jpg)](/assets/img/2019/03/javaland-2019-4.jpg)
+[![javaland-2019-4](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-4.jpg)](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-4.jpg)
 
 Matthias playing Blue Cloud Mirror:
 
-[![image](/assets/img/2019/03/javaland-2019-10.jpg)](/assets/img/2019/03/javaland-2019-10.jpg)
+[![javaland-2019-10](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-10.jpg)](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-10.jpg)
 
 Thomas with the key topics we promoted:
 
-[![image](/assets/img/2019/03/javaland-2019-8.jpg)](/assets/img/2019/03/javaland-2019-8.jpg)
+[![javaland-2019-8](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-8.jpg)](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-8.jpg)
 
 Harald at our booth:
 
-[![image](/assets/img/2019/03/javaland-2019-11.jpg)](/assets/img/2019/03/javaland-2019-11.jpg)
+[![javaland-2019-11](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-11.jpg)](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-11.jpg)
 
 [Miriam](https://twitter.com/Jessieevaline), our digital strategist. Check also out her JavaLand related [tweets](https://twitter.com/Jessieevaline/status/1108351599171252224).
 
-[![image](/assets/img/2019/03/javaland-2019-7.jpg)](/assets/img/2019/03/javaland-2019-7.jpg)
+[![javaland-2019-7](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-7.jpg)](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-7.jpg)
 
 Doing last optimizations for Blue Cloud Mirror:
 
-[![image](/assets/img/2019/03/javaland-2019-6.jpg)](/assets/img/2019/03/javaland-2019-6.jpg)
+[![javaland-2019-6](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-6.jpg)](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-6.jpg)
 
 IBM booth:
 
-[![image](/assets/img/2019/03/javaland-2019-3.jpg)](/assets/img/2019/03/javaland-2019-3.jpg)
+[![javaland-2019-3](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-3.jpg)](http://heidloff.net/wp-content/uploads/2019/03/javaland-2019-3.jpg)

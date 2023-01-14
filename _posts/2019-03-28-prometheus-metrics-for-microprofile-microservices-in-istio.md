@@ -87,7 +87,7 @@ Next in [server.xml](https://github.com/nheidloff/cloud-native-starter/blob/mast
 
 In order to see the metrics, you can trigger endpoints like http://192.168.99.100:31223/metrics/application. Note that you have to replace the IP address with the IP address of your cluster and the port with the port of your service.
 
-[![image](/assets/img/2019/03/istio-prometheus-3.png)](/assets/img/2019/03/istio-prometheus-3.png)
+[![istio-prometheus-3](http://heidloff.net/wp-content/uploads/2019/03/istio-prometheus-3.png)](http://heidloff.net/wp-content/uploads/2019/03/istio-prometheus-3.png)
 
 **Prometheus**
 
@@ -140,10 +140,10 @@ kubectl delete pod $pod -n istio-system
 
 This image shows the Prometheus dashboard displaying the amount of times ‘/getmultiple’ has been invoked.
 
-[![image](/assets/img/2019/03/istio-prometheus-1.png)](/assets/img/2019/03/istio-prometheus-1.png)
+[![istio-prometheus-1](http://heidloff.net/wp-content/uploads/2019/03/istio-prometheus-1.png)](http://heidloff.net/wp-content/uploads/2019/03/istio-prometheus-1.png)
 
 This image shows the rate per second:
 
-[![image](/assets/img/2019/03/istio-prometheus-2.png)](/assets/img/2019/03/istio-prometheus-2.png)
+[![istio-prometheus-2](http://heidloff.net/wp-content/uploads/2019/03/istio-prometheus-2.png)](http://heidloff.net/wp-content/uploads/2019/03/istio-prometheus-2.png)
 
 If you want to try this yourself, follow the [instructions](https://github.com/nheidloff/cloud-native-starter#demo---metrics) in the readme of [cloud-native-starter](https://github.com/nheidloff/cloud-native-starter).

@@ -78,4 +78,4 @@ Additionally I had to change the [relative URLs to images](https://github.com/IB
 
 This is a screenshot of the sample app running on my domain.
 
-[![image](/assets/img/2019/01/custom-domain.png)](/assets/img/2019/01/custom-domain.png)
+[![custom-domain](http://heidloff.net/wp-content/uploads/2019/01/custom-domain.png)](http://heidloff.net/wp-content/uploads/2019/01/custom-domain.png)

@@ -28,31 +28,31 @@ In the easiest case developers can write microservices locally and push code via
 
 Let’s take a closer look how to use Microclimate [locally](https://microclimate-dev2ops.github.io/installlocally#doc). Via the web application developers can create new projects in Java, Node.js, Python, Swift and Go.
 
-[![image](/assets/img/2019/02/microclimate-1.png)](/assets/img/2019/02/microclimate-1.png)
+[![microclimate-1](http://heidloff.net/wp-content/uploads/2019/02/microclimate-1.png)](http://heidloff.net/wp-content/uploads/2019/02/microclimate-1.png)
 
 For Java projects you can choose between MicroProfile/Java EE, Spring and Lagom. In my [example](https://github.com/nheidloff/ibm-cloud-starter-java-microservice-microprofile-javaee) I’ve used [MicroProfile](https://microprofile.io/).
 
-[![image](/assets/img/2019/02/microclimate-2.png)](/assets/img/2019/02/microclimate-2.png)
+[![microclimate-2](http://heidloff.net/wp-content/uploads/2019/02/microclimate-2.png)](http://heidloff.net/wp-content/uploads/2019/02/microclimate-2.png)
 
 The following screenshot shows the overview page of the project. I’ve put the code on [GitHub](https://github.com/nheidloff/ibm-cloud-starter-java-microservice-microprofile-javaee). Whenever the code changes, pipelines can be triggered automatically.
 
-[![image](/assets/img/2019/02/microclimate-3.png)](/assets/img/2019/02/microclimate-3.png)
+[![microclimate-3](http://heidloff.net/wp-content/uploads/2019/02/microclimate-3.png)](http://heidloff.net/wp-content/uploads/2019/02/microclimate-3.png)
 
 For smaller changes Microclimate comes with an integrated text editor in the web application.
 
-[![image](/assets/img/2019/02/microclimate-4.png)](/assets/img/2019/02/microclimate-4.png)
+[![microclimate-4](http://heidloff.net/wp-content/uploads/2019/02/microclimate-4.png)](http://heidloff.net/wp-content/uploads/2019/02/microclimate-4.png)
 
 In addition to the build logs and application logs, application metrics are displayed too (Garbage Collection Time, HTTP Throughput, Heap, HTTP Incoming Requests, CPU):
 
-[![image](/assets/img/2019/02/microclimate-5.png)](/assets/img/2019/02/microclimate-5.png)
+[![microclimate-5](http://heidloff.net/wp-content/uploads/2019/02/microclimate-5.png)](http://heidloff.net/wp-content/uploads/2019/02/microclimate-5.png)
 
 In order to run Microclimate you need Docker since everything is containerized: Microclimate itself as well as the containers running your microservices. I like this concept a lot since it allows working in the same containers locally which are later deployed on Kubernetes. This minimizes the risk to run into issues because of different environments.
 
-[![image](/assets/img/2019/02/microclimate-6.png)](/assets/img/2019/02/microclimate-6.png)
+[![microclimate-6](http://heidloff.net/wp-content/uploads/2019/02/microclimate-6.png)](http://heidloff.net/wp-content/uploads/2019/02/microclimate-6.png)
 
 For Eclipse and Visual Studio Code there are plugins to connect to Microclimate. This allows running and debugging your application code directly from the development environments. This is very similar to what I blogged about [IBM Cloud Functions](http://heidloff.net/article/debug-apache-openwhisk-functions-vscode). The following screenshot shows the debugger in Visual Studio Code accessing the running code in a container.
 
-[![image](/assets/img/2019/02/microclimate-7.png)](/assets/img/2019/02/microclimate-7.png)
+[![microclimate-7](http://heidloff.net/wp-content/uploads/2019/02/microclimate-7.png)](http://heidloff.net/wp-content/uploads/2019/02/microclimate-7.png)
 
 You can also do changes from the IDEs and run the changed code without having to restart containers or application servers manually!
 
