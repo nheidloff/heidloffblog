@@ -22,14 +22,14 @@ The end-to-end API lifecycle solution [API Connect](https://console.ng.bluemix.n
 
 I’ve just tried it for a simple sample where only developers with a key (and optionally secret can invoke APIs). API definitions can be imported via Swagger/OpenAPI definitions. My app exposes some REST APIs for which I enforce a key in a header.
 
-![integratedapi1](http://heidloff.net/wp-content/uploads/2017/06/integratedapi1.png)
+![integratedapi1](/assets/img/2017/06/integratedapi1.png)
 
 In the next step I can expose the managed API which means that it’s not longer possible to invoke it without the key. At the bottom of this screenshot I can create an API key and a get a link to an API explorer.
 
-![integratedapi2](http://heidloff.net/wp-content/uploads/2017/06/integratedapi2.png)
+![integratedapi2](/assets/img/2017/06/integratedapi2.png)
 
 The API explorer allows me to test the APIs and it passes in the key.
 
-![integratedapi3](http://heidloff.net/wp-content/uploads/2017/06/integratedapi3.png)
+![integratedapi3](/assets/img/2017/06/integratedapi3.png)
 
 To find out more you can follow the [getting started tutorial](https://github.com/ibm-apiconnect/getting-started/tree/master/native).

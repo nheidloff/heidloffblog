@@ -44,6 +44,6 @@ Since I’ve had some issues to get the sample running, I’ve submitted a [pull
 
 To run the web application, open the web action URL that you can get from the OpenWhisk dashboard in a browser (without the ‘.json’).
 
-![openwhisk-express](http://heidloff.net/wp-content/uploads/2017/05/openwhisk-express.png)
+![openwhisk-express](/assets/img/2017/05/openwhisk-express.png)
 
 Please note that there are [limitations](https://github.com/openwhisk/openwhisk/blob/master/docs/reference.md#system-limits) as Lionel describes. You shouldn’t host large amounts of static content. However the mechanism above works well for Node applications that use Express to provide REST APIs.

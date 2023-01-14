@@ -20,7 +20,7 @@ Watson Knowledge Studio is not a Bluemix service but an [SaaS offering](https://
 
 To train a machine-learning based model you need to create an annotator. Essentially you define entities, roles, dictionaries etc. and then mark the words in the training dataset accordingly. Here is a screenshot how to define entities. The scenario uses data from car incidents reports which have entities like vehicle and model.
 
-![wks1](http://heidloff.net/wp-content/uploads/2017/04/wks1.png)
+![wks1](/assets/img/2017/04/wks1.png)
 
 Additionally you can define relations between entities. In this scenario a person is an occupant of a vehicle.
 

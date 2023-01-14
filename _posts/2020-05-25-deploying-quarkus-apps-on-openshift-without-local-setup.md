@@ -20,7 +20,7 @@ In times of Corona in our team of developer advocates we do a lot of online work
 
 Because of these reasons it needs to be possible for attendees to get started as quickly as possible and potential issues need to be minimised. The typical first lab where you need to set up prerequisites should be shortened or completely removed.
 
-That’s why I’m very interested in CodeReady Workspaces which give you an IDE integrated in OpenShift. CodeReady Workspaces is based on the open source version [Eclipse Che](https://www.eclipse.org/che/) and can be installed in Kubernetes and OpenShift via operators. Check out my article [Deploying CodeReady Workspaces](http://heidloff.net/articles/deploying-codeready-workspaces-on-openshift-on-ibm-cloud/) to learn how to use Workspaces either locally via CodeReady Containers or in the IBM Cloud.
+That’s why I’m very interested in CodeReady Workspaces which give you an IDE integrated in OpenShift. CodeReady Workspaces is based on the open source version [Eclipse Che](https://www.eclipse.org/che/) and can be installed in Kubernetes and OpenShift via operators. Check out my article [Deploying CodeReady Workspaces]({{ "/article/deploying-codeready-workspaces-on-openshift-on-ibm-cloud/" | relative_url }}) to learn how to use Workspaces either locally via CodeReady Containers or in the IBM Cloud.
 
 Let’s take a look how Quarkus applications can be developed in the browser and deployed to OpenShift.
 

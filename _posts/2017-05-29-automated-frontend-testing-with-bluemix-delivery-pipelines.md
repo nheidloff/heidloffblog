@@ -34,10 +34,10 @@ it("Have correct title", function(done) {
 
 The test results are displayed directly in Bluemix. If tests fail, the next stages in the pipelines are not triggered.
 
-![saucelab1](http://heidloff.net/wp-content/uploads/2017/05/saucelab11.png)
+![saucelab1](/assets/img/2017/05/saucelab11.png)
 
 Another nice feature of Sauce Labs is the ability to run tests on different operating systems, browsers, with different resolutions, etc. easily from within the Sauce Labs dashboard without having to own the hardware. Here is a sample how to test a web application on an iPad.
 
-![saucelab2](http://heidloff.net/wp-content/uploads/2017/05/saucelab2.png)
+![saucelab2](/assets/img/2017/05/saucelab2.png)
 
 In order to try out the Sauce Labs functionality from Bluemix I suggest to follow the [microservices toolchain](https://www.ibm.com/devops/method/content/toolchains/microservices_v2_toolchain) tutorial.

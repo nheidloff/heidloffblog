@@ -44,7 +44,7 @@ categories:
 
  Speaker: Mark Wallace, IBM, Social Business Toolkit Architect, [@mewallace](https://twitter.com/mewallace "@mewallace")
 
-![mark200x200](http://heidloff.net/wp-content/uploads/2013/06/mark200x200.png)
+![mark200x200](/assets/img/2013/06/mark200x200.png)
 
    
 **06/26/13 – 10:00 AM EST: How to use the IBM Social Business Toolkit in Java Applications
@@ -53,7 +53,7 @@ categories:
 
  Speaker: Bhavesh Shah, IBM, Social Business Toolkit Developer, [@bhavesh\_23](https://twitter.com/bhavesh_23 "@bhavesh_23")
 
-![bhavesh](http://heidloff.net/wp-content/uploads/2013/06/bhavesh.png)
+![bhavesh](/assets/img/2013/06/bhavesh.png)
 
  **07/10/13 – 10:00 AM EST: How to use the IBM Social Business Toolkit in XPages
 
@@ -61,8 +61,8 @@ categories:
 
  Speaker: Martin Donnelly – IBM, XPages Architect, [@TweeterDonnelly](https://twitter.com/TweeterDonnelly "@TweeterDonnelly")
 
-![martin](http://heidloff.net/wp-content/uploads/2013/06/martin.png)
+![martin](/assets/img/2013/06/martin.png)
 
  Speaker: Padraic Edwards, IBM, XPages Developer, [@paidi\_ed](https://twitter.com/paidi_ed "@paidi_ed")
 
-![ProfilePhoto200x200](http://heidloff.net/wp-content/uploads/2013/06/Padraic.png)
+![ProfilePhoto200x200](/assets/img/2013/06/Padraic.png)

@@ -20,18 +20,18 @@ Pioneers is a conference primarily for startups and investors. IBM provides a [p
 
 The new team in Germany from left to right: Niklas, Steffi, Marion, Ansgar and Ethan.
 
-![IMG_1821](http://heidloff.net/wp-content/uploads/2017/06/IMG_1821.jpg)
+![IMG_1821](/assets/img/2017/06/IMG_1821.jpg)
 
 The conference was held at the Hofburg Vienna.
 
-![IMG_1822](http://heidloff.net/wp-content/uploads/2017/06/IMG_1822.jpg)
+![IMG_1822](/assets/img/2017/06/IMG_1822.jpg)
 
 Some more pictures from our booth.
 
-![IMG_1829](http://heidloff.net/wp-content/uploads/2017/06/IMG_1829.jpg)
+![IMG_1829](/assets/img/2017/06/IMG_1829.jpg)
 
-![DBTo5mDXoAAnipD](http://heidloff.net/wp-content/uploads/2017/06/DBTo5mDXoAAnipD.jpg)
+![DBTo5mDXoAAnipD](/assets/img/2017/06/DBTo5mDXoAAnipD.jpg)
 
 I also brought my [Anki cars]({{ "/article/ibm-bluemix-anki-overdrive-cars" | relative_url }}) again.
 
-![IMG_1797](http://heidloff.net/wp-content/uploads/2017/06/IMG_1797.jpg)
+![IMG_1797](/assets/img/2017/06/IMG_1797.jpg)

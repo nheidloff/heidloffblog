@@ -30,14 +30,14 @@ The Istio website explains the [concepts](https://istio.io/docs/concepts/index.h
 
 I’ve installed the [BookInfo](https://istio.io/docs/samples/bookinfo.html) sample to try the functionality. It was very easy to set up, both on [Minikube](https://github.com/kubernetes/minikube) and on IBM [Bluemix](https://bluemix.net). I like especially the dashboard (Grafana) which visualizes metrics like request rates, success/failure rates, etc. in a cluster.
 
-![istio1](http://heidloff.net/wp-content/uploads/2017/05/istio1.png)
+![istio1](/assets/img/2017/05/istio1.png)
 
 The ServiceGraph addon provides a graphical visualization of the service interaction graph for the cluster.
 
-![istio3](http://heidloff.net/wp-content/uploads/2017/05/istio3.png)
+![istio3](/assets/img/2017/05/istio3.png)
 
 With the [Zipkin](https://istio.io/docs/tasks/zipkin-tracing.html#accessing-the-zipkin-dashboard) dashboard you can see the invocation chains of microservices.
 
-![istio2](http://heidloff.net/wp-content/uploads/2017/05/istio2.png)
+![istio2](/assets/img/2017/05/istio2.png)
 
 If you want to try out Istio follow these [instructions](https://istio.io/docs/tasks/installing-istio.html) and set up the [sample](https://istio.io/docs/samples/bookinfo.html).

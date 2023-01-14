@@ -20,14 +20,14 @@ As part of the Bluemix [Continues Delivery](https://console.ng.bluemix.net/docs/
 
 With PagerDuty you can receive text and voice messages on your smartphone and configure which teams members should be notified for certain event types.
 
-![pagerduty-slack2](http://heidloff.net/wp-content/uploads/2017/05/pagerduty-slack2.png)
+![pagerduty-slack2](/assets/img/2017/05/pagerduty-slack2.png)
 
 Here is an example screenshot of my smartphone. You can take action via phone without having to log in to the web dashboard.
 
-![pagerduty-slack3](http://heidloff.net/wp-content/uploads/2017/05/pagerduty-slack3-275x300.png)
+![pagerduty-slack3](/assets/img/2017/05/pagerduty-slack3-275x300.png)
 
 In order to get notifications about state changes in the pipeline in Slack, a DevOps bot writes messages into a channel in your team.
 
-![pagerduty-slack1](http://heidloff.net/wp-content/uploads/2017/05/pagerduty-slack1-957x1024.png)
+![pagerduty-slack1](/assets/img/2017/05/pagerduty-slack1-957x1024.png)
 
 In order to try this functionality and to use toolchains navigate to [bluemix.net/devops](https://bluemix.net/devops), click on the “Create a Toolchain” button and pick one of the available templates/samples.

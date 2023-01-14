@@ -90,7 +90,7 @@ TensorFlow Serving supports [gRPC](https://grpc.io/) to access the models. In or
 ```
 $ docker run -it nheidloff/inception_serving
 $ cd serving/
-$ wget http://heidloff.net/wp-content/uploads/2015/11/4Y7B9422-4.jpg
+$ wget http://heidloff.net/wp-content/2015/11/4Y7B9422-4.jpg
 $ bazel-bin/tensorflow_serving/example/inception_client --server=172.21.255.183:30584 --image=./4Y7B9422-4.jpg
 ```
 

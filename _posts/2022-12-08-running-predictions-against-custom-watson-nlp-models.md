@@ -96,7 +96,7 @@ $ node predict.js heidloffblog ../data/heidloffblog/ not-watson-embed-studio.xml
 
 Article IS NOT about WatsonEmbed since the confidence level of no sentence is above 0.8
 The sentence with the highest confidence is:
-For example IBM provides Watson Machine Learning [http://heidloff.net/article/watson-machine-learning-sample] to identify the best algorithm.
+For example IBM provides Watson Machine Learning to identify the best algorithm.
 { className: 'WatsonEmbed', confidence: 0.6762146 }
 ```
 

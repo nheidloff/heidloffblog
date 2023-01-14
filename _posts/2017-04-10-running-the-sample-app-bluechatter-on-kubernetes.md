@@ -26,7 +26,7 @@ There were only two things I had to change in the file manually.
 
 Here is a screenshot of the Kubernetes dashboard.
 
-![kube-bluechatter](http://heidloff.net/wp-content/uploads/2017/04/kube-bluechatter.png)
+![kube-bluechatter](/assets/img/2017/04/kube-bluechatter.png)
 
 Here is the Kubernetes file ‘bluechatter.yaml’.
 

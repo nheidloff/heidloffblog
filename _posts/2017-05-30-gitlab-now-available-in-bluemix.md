@@ -24,4 +24,4 @@ The [article](https://www.ibm.com/blogs/bluemix/2017/05/introducing-git-repos-is
 
 Over the last year I’ve used GitHub Enterprise and really enjoyed it. For everyone who hasn’t access to GitHub Enterprise, GitLab might be an option for non public projects. For lightweight process management I’ve used [ZenHub](https://www.zenhub.com/) as an extension to GitHub and it has helped my team a lot to organize our work. I just saw that GitLab provides some of this functionality as well. Check out the [video](https://about.gitlab.com/features/issueboard/) to see the issue boards in action. Here is a screenshot of a quick test.
 
-![gitlab](http://heidloff.net/wp-content/uploads/2017/05/gitlab.png)
+![gitlab](/assets/img/2017/05/gitlab.png)

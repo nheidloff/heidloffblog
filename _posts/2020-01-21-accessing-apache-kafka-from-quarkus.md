@@ -80,13 +80,13 @@ My colleague Harald Uebele has developed a [script](https://github.com/IBM/cloud
 
 **Next Steps**
 
-The scripts mentioned in this article are part of the cloud-native-starter project which describes how to get develop reactive applications with Quarkus. My previous [article](http://heidloff.net/article-development-reactive-applications-quarkus/) describes the project.
+The scripts mentioned in this article are part of the cloud-native-starter project which describes how to get develop reactive applications with Quarkus. My previous [article]({{ "/article/development-reactive-applications-quarkus/" | relative_url }}) describes the project.
 
 Try out the [code](https://github.com/IBM/cloud-native-starter/tree/master/reactive) yourself.
 
 Read the other articles of this series:
 
-- [Development of Reactive Applications with Quarkus](http://heidloff.net/article-development-reactive-applications-quarkus/)
+- [Development of Reactive Applications with Quarkus]({{ "/article/development-reactive-applications-quarkus/" | relative_url }})
 - [Accessing Apache Kafka from Quarkus]({{ "/article/accessing-apache-kafka-from-quarkus/" | relative_url }})
 - [Accessing PostgreSQL in Kubernetes from Quarkus]({{ "/article/accessing-postgresql-from-quarkus/" | relative_url }})
 - [Reactive Messaging Examples for Quarkus]({{ "/article/reactive-messaging-examples-quarkus/" | relative_url }})

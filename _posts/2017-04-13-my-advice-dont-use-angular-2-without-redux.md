@@ -30,6 +30,6 @@ So rather than manipulating state directly you call reducer functions. In order 
 
 With Redux in place you can leverage incredible tools. For example I like the [Chrome extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en) that displays all state changes and even allows you to travel back in time.
 
-![angular-redux](http://heidloff.net/wp-content/uploads/2017/04/angular-redux.png)
+![angular-redux](/assets/img/2017/04/angular-redux.png)
 
 One of Angular 2’s main criticisms is its steep learning curve. Adding Redux means you have to learn even more. If you only want to build quick prototypes this is probably overkill, but for more sophisticated apps it’s definitely worth doing. So my advice is don’t use Angular 2+ without Redux if you want to build more than prototypes. You’ll save a lot of time figuring out update problems.

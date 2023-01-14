@@ -22,14 +22,14 @@ In traditional web applications users define input values in HTML forms and then
 
 If all of this information is provided by people in their phrase, the conversation is straight forward and looks like this.
 
-![watson-conv-slots2](http://heidloff.net/wp-content/uploads/2017/06/watson-conv-slots2.png)
+![watson-conv-slots2](/assets/img/2017/06/watson-conv-slots2.png)
 
 If however the input parameters are mandatory and have not been provided, the conversation service gathers these slots from users first.
 
-![watson-conv-slots1](http://heidloff.net/wp-content/uploads/2017/06/watson-conv-slots1.png)
+![watson-conv-slots1](/assets/img/2017/06/watson-conv-slots1.png)
 
 While it has been possible to build such scenarios with the Watson Conversation service for quite some time, the tooling provided by the [Conversation](https://console.bluemix.net/catalog/services/conversation) service has now significantly improved. You don’t need any longer different dialog nodes for every single variation of a conversation flow. Instead developers can turn on ‘slots’ per node to enter additional information how to ask users to provide the missing information.
 
-![watson-conv-slots3](http://heidloff.net/wp-content/uploads/2017/06/watson-conv-slots3.png)
+![watson-conv-slots3](/assets/img/2017/06/watson-conv-slots3.png)
 
 In order to find out read the [documentation](https://www.ibm.com/watson/developercloud/doc/conversation/index.html) or watch this [video](https://www.youtube.com/watch?v=wrAZTODDm4Q).

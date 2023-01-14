@@ -5,11 +5,11 @@ date: '2020-01-20T11:49:41+00:00'
 author: 'Niklas Heidloff'
 layout: post
 guid: 'http://heidloff.net/?p=3892'
-permalink: /article-development-reactive-applications-quarkus/
+permalink: /article/development-reactive-applications-quarkus/
 accesspresslite_sidebar_layout:
     - right-sidebar
 custom_permalink:
-    - article-development-reactive-applications-quarkus/
+    - article/development-reactive-applications-quarkus/
 categories:
     - Articles
 ---
@@ -100,7 +100,7 @@ Try out the [code](https://github.com/IBM/cloud-native-starter/tree/master/react
 
 Read the other articles of this series:
 
-- [Development of Reactive Applications with Quarkus](http://heidloff.net/article-development-reactive-applications-quarkus/)
+- [Development of Reactive Applications with Quarkus]({{ "/article/development-reactive-applications-quarkus/" | relative_url }})
 - [Accessing Apache Kafka from Quarkus]({{ "/article/accessing-apache-kafka-from-quarkus/" | relative_url }})
 - [Accessing PostgreSQL in Kubernetes from Quarkus]({{ "/article/accessing-postgresql-from-quarkus/" | relative_url }})
 - [Reactive Messaging Examples for Quarkus]({{ "/article/reactive-messaging-examples-quarkus/" | relative_url }})

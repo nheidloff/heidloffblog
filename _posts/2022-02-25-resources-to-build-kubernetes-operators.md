@@ -5,11 +5,11 @@ date: '2022-02-25T16:38:24+00:00'
 author: 'Niklas Heidloff'
 layout: post
 guid: 'http://heidloff.net/?p=4689'
-permalink: /articles/resources-to-build-kubernetes-operators/
+permalink: /article/resources-to-build-kubernetes-operators/
 accesspresslite_sidebar_layout:
     - right-sidebar
 custom_permalink:
-    - articles/resources-to-build-kubernetes-operators/
+    - article/resources-to-build-kubernetes-operators/
 categories:
     - Articles
 ---

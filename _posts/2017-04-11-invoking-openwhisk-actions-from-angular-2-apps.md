@@ -22,7 +22,7 @@ In order to avoid cross origin security errors proxy servers need to be used. Fo
 
 I’m using the same simple app again from my last [blog]({{ "/article/angular-2-bluemix-docker-nginx" | relative_url }}) entry with one new button that triggers an OpenWhisk action.
 
-![angular-ow2](http://heidloff.net/wp-content/uploads/2017/04/angular-ow2.png)
+![angular-ow2](/assets/img/2017/04/angular-ow2.png)
 
 The [OpenWhisk](https://console.ng.bluemix.net/openwhisk/editor) action ‘ActionInvokedFromAngular’ basically echos the input:
 

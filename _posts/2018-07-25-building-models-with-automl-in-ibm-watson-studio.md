@@ -52,7 +52,7 @@ There seem to be several promising open source libraries. Unfortunately I couldn
 
 auto-sklearn comes with a [hello world sample](https://automl.github.io/auto-sklearn/stable/). You can use a slightly different version of this sample in a notebook in Watson Studio.
 
-First you need to define a [custom Anaconda-based environment](https://dataplatform.cloud.ibm.com/docs/content/analyze-data/notebook-environments.html?audience=wdp&context=analytics) with auto-sklearn – see [screenshot](http://heidloff.net/wp-content/uploads/2018/07/auto-sklearn11.png).
+First you need to define a [custom Anaconda-based environment](https://dataplatform.cloud.ibm.com/docs/content/analyze-data/notebook-environments.html?audience=wdp&context=analytics) with auto-sklearn.
 
 When I tried to run the unmodified sample, I ran into permission issues when accessing the file system. It turned out that the library uses absolute paths to which the notebooks don’t have access. Fortunately auto-sklearn let me change these directories so that I could use relative directories to which notebooks have full access. Here is the modified code:
 

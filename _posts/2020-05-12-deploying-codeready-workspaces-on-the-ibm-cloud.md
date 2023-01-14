@@ -5,11 +5,11 @@ date: '2020-05-12T09:52:55+00:00'
 author: 'Niklas Heidloff'
 layout: post
 guid: 'http://heidloff.net/?p=4060'
-permalink: /articles/deploying-codeready-workspaces-on-openshift-on-ibm-cloud/
+permalink: /article/deploying-codeready-workspaces-on-openshift-on-ibm-cloud/
 accesspresslite_sidebar_layout:
     - right-sidebar
 custom_permalink:
-    - articles/deploying-codeready-workspaces-on-openshift-on-ibm-cloud/
+    - article/deploying-codeready-workspaces-on-openshift-on-ibm-cloud/
 categories:
     - Articles
 ---

@@ -24,18 +24,18 @@ In order to configure Jenkins, I suggest to follow the [instructions](https://wi
 
 Once everything is configured you can run Jenkins jobs.
 
-![jenkins-devops1](http://heidloff.net/wp-content/uploads/2017/06/jenkins-devops1.png)
+![jenkins-devops1](/assets/img/2017/06/jenkins-devops1.png)
 
 In order to send information to IBM Cloud DevOps different post build actions can be defined.
 
-![jenkins-devops2](http://heidloff.net/wp-content/uploads/2017/06/jenkins-devops2.png)
+![jenkins-devops2](/assets/img/2017/06/jenkins-devops2.png)
 
 Toolchains receive this data from Jenkins and can forward it to other tools like Slack that are in the same toolchains.
 
-![jenkins-devops3](http://heidloff.net/wp-content/uploads/2017/06/jenkins-devops3.png)
+![jenkins-devops3](/assets/img/2017/06/jenkins-devops3.png)
 
 I also like that deployment information is directly added to Git issues, for example links to toolchains and releases as well as labels to mark issues as deployed.
 
-![jenkins-devops4](http://heidloff.net/wp-content/uploads/2017/06/jenkins-devops4.png)
+![jenkins-devops4](/assets/img/2017/06/jenkins-devops4.png)
 
 To find out more read the [blog](https://www.ibm.com/blogs/bluemix/2017/06/integrate-jenkins-to-your-toolchain/) from Eric, read the [documentation](https://console.ng.bluemix.net/docs/services/DevOpsInsights/risk_jenkins.html#integrating-with-freeform-jenkins-projects) or try the sample toolchain “[Deployment Risk Analytics with GitHub and Jenkins](http://bluemix.net/devops)“.

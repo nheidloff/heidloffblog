@@ -37,11 +37,11 @@ slackController.hears(['.*'], ['direct_message', 'direct_mention', 'mention'], f
 
 In order to provide the best possible user experience my sample shows how to use Slack buttons in messages so that users can, for example, easily pick one of the available options. Additionally the sample demonstrates how to invoke a REST API provided by [Weather Company Data](https://console.bluemix.net/catalog/services/weather-company-data). Here is a simple sample conversation.
 
-![slack](http://heidloff.net/wp-content/uploads/2017/06/slack.png)
+![slack](/assets/img/2017/06/slack.png)
 
 Slack provides a [Message Builder](https://api.slack.com/docs/messages/builder) to define sophisticated JSON messages that include elements like buttons. Watson Conversation is a general purpose tool and doesn’t support messaging client specific functionality. In order to include the Slack message I’ve put the JSON into a context attribute in a dialog node.
 
-![workspace1](http://heidloff.net/wp-content/uploads/2017/06/workspace1.png)
+![workspace1](/assets/img/2017/06/workspace1.png)
 
 This is the complete JSON:
 

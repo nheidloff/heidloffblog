@@ -22,11 +22,11 @@ As I [blogged]({{ "/article/reduce-deployment-risk-devops-bluemix" | relative_ur
 
 In the following example a [gate](https://console.ng.bluemix.net/docs/services/DevOpsInsights/risk_cd.html#integrating-with-continuous-delivery-pipeline) has been defined with a policy to enforce that all unit tests pass before the application can be deployed into production.
 
-![jenkins-risk3](http://heidloff.net/wp-content/uploads/2017/06/jenkins-risk3.png)
+![jenkins-risk3](/assets/img/2017/06/jenkins-risk3.png)
 
 For demo purposes I broke some unit tests. The following screenshot shows that in this case the gate stage fails.
 
-![jenkins-risk7](http://heidloff.net/wp-content/uploads/2017/06/jenkins-risk7.png)
+![jenkins-risk7](/assets/img/2017/06/jenkins-risk7.png)
 
 Check out the [Jenkinsfile](https://github.com/nheidloff/DemoDRA-1/blob/master/Jenkinsfile#L108-L113) how to leverage the gate.
 
@@ -41,7 +41,7 @@ stage('Gate') {
 
 You can also see the build and deployment status on the Deployment Risk page of the DevOps Insights service.
 
-![jenkins-risk6](http://heidloff.net/wp-content/uploads/2017/06/jenkins-risk6.png)
+![jenkins-risk6](/assets/img/2017/06/jenkins-risk6.png)
 
 In order to try this functionality yourself, you can follow these high level steps:
 

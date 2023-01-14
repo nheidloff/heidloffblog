@@ -24,7 +24,7 @@ To start using Kubernetes on Bluemix you should follow this three parts [tutoria
 
 Part 2 shows how to run multiple replicas of pods and how to scale them up and down. The screenshot shows the Kubernetes web interface that displays the status of the three replicas/pods. The sample also explains how Kubernetes can do [health checks](https://github.com/IBM/container-service-getting-started-wt/blob/master/Stage2/app.js). If Kubernetes detects an issue with a pod it stops it and and creates a new one automatically.
 
-![kub2](http://heidloff.net/wp-content/uploads/2017/04/kub2.png)
+![kub2](/assets/img/2017/04/kub2.png)
 
 Part 3 of the tutorial shows how to use a Bluemix service from a container running in Kubernetes. After you’ve created an instance of a Bluemix service, you can [bind it to the Kubernetes cluster](https://console.ng.bluemix.net/docs/containers/cs_cluster.html#cs_cluster_services). In the configuration yml file the service credentials are [mounted to a volume](https://github.com/IBM/container-service-getting-started-wt/blob/master/Stage3/watson-deployment.yml#L17-L24). Containers can [read](https://github.com/IBM/container-service-getting-started-wt/blob/master/Stage3/watson/app.js#L8-L12) these from there at runtime.
 

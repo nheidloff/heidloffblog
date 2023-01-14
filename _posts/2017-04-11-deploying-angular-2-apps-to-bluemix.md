@@ -79,4 +79,4 @@ bx ic inspect angular-app
 
 This is the file structure of the Angular project.
 
-![angular2bluemix](http://heidloff.net/wp-content/uploads/2017/04/angular2bluemix.png)
+![angular2bluemix](/assets/img/2017/04/angular2bluemix.png)

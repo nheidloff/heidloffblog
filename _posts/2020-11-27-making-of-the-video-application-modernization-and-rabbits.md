@@ -14,7 +14,7 @@ categories:
     - Articles
 ---
 
-Do you want to know what rabbits have to do with app modernization? Check out my previous blog [Application Modernization and Rabbits](http://heidloff.net/articles/application-modernization-and-rabbits/) or watch the [video](https://www.youtube.com/watch?v=pEbRbrN3wAU).
+Do you want to know what rabbits have to do with app modernization? Check out my previous blog [Application Modernization and Rabbits]({{ "/article/application-modernization-and-rabbits/" | relative_url }}) or watch the [video](https://www.youtube.com/watch?v=pEbRbrN3wAU).
 
 The production of the video was a lot of fun!
 

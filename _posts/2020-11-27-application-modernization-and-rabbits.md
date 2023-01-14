@@ -5,11 +5,11 @@ date: '2020-11-27T07:47:28+00:00'
 author: 'Niklas Heidloff'
 layout: post
 guid: 'http://heidloff.net/?p=4247'
-permalink: /articles/application-modernization-and-rabbits/
+permalink: /article/application-modernization-and-rabbits/
 accesspresslite_sidebar_layout:
     - right-sidebar
 custom_permalink:
-    - articles/application-modernization-and-rabbits/
+    - article/application-modernization-and-rabbits/
 categories:
     - Articles
     - Java
