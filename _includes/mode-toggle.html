@@ -73,6 +73,11 @@
     setDark() {
       $('html').attr(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE);
       sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
+      if (document.getElementById('post-list')) {
+        if (document.getElementById("twitter-widget")) {
+          document.getElementById("twitter-widget").remove();
+        }
+      }
     }
 
     setLight() {
@@ -126,4 +131,15 @@
 
   } /* flipMode() */
 
+$( document ).ready(function() {
+  let mode = sessionStorage.getItem("mode")
+  if (mode === "dark") {
+    if (document.getElementById('post-list')) {
+        if (document.getElementById("twitter-widget")) {
+          document.getElementById("twitter-widget").remove();
+          console.log( "removed!" );
+        }
+      }
+  }
+});
 </script>
