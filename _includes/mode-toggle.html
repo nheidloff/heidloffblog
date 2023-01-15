@@ -132,13 +132,12 @@
   } /* flipMode() */
 
 $( document ).ready(function() {
-  let mode = sessionStorage.getItem("mode")
+  let mode = sessionStorage.getItem("mode");
   if (mode === "dark") {
     if (document.getElementById('post-list')) {
-        if (document.getElementById("twitter-widget")) {
-          document.getElementById("twitter-widget").remove();
-          console.log( "removed!" );
-        }
+      if (document.getElementById("twitter-widget")) {
+        document.getElementById("twitter-widget").remove();
+      }
       }
   }
 });
