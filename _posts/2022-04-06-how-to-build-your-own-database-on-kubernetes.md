@@ -20,7 +20,7 @@ The snippets below are part of the [ibm/operator-sample-go](https://github.com/I
 
 The key concept to build stateful applications are StatefulSets. Check out the videos below, especially the first one, that describe this Kubernetes capability.
 
-- [Kubernetes StatefulSet simply explained | Deployment vs StatefulSet](https://youtu.be/pPQKAR1pA9U)
+- [Kubernetes StatefulSet simply explained - Deployment vs StatefulSet](https://youtu.be/pPQKAR1pA9U)
 - [A Kubernetes Operator for etcd](https://youtu.be/nyUe-3zmHRc)
 
 Here is a summary of the first video:
