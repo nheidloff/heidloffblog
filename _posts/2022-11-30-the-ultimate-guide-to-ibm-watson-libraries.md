@@ -12,11 +12,13 @@ custom_permalink:
     - article/the-ultimate-guide-to-ibm-watson-libraries/
 categories:
     - Articles
+pin: true
+image: /assets/img/2022/11/Screenshot-2022-11-22-at-11.12.21.png
 ---
 
 *IBM provides Watson NLP (Natural Language Understand), Watson Speech To Text and Watson Text To Speech as containers which can be embedded in cloud-native applications. This post lists links to relevant information in the context of Embeddable AI from IBM and the three libraries.*
 
-**Overview**
+## Overview
 
 - [IBM’s Embeddable AI](https://www.ibm.com/partnerworld/program/embeddableai)
 - [IBM’s announcement regarding its embeddable AI software portfolio](https://newsroom.ibm.com/2022-10-25-IBM-Helps-Ecosystem-Partners-Accelerate-AI-Adoption-by-Making-it-Easier-to-Embed-and-Scale-AI-Across-Their-Business)
@@ -25,9 +27,9 @@ categories:
 - [TechZone: Embeddable AI](https://techzone.ibm.com/collection/embedded-ai)
 - [IBM Developer: Watson Libraries](https://developer.ibm.com/articles/watson-libraries-embeddable-ai-that-works-for-you/)
 
-**Watson NLP**
+## Natural Language Processing
 
-*Overview and Documentation*
+### Overview and Documentation
 
 - [Landing page](https://www.ibm.com/products/ibm-watson-natural-language-processing)
 - [Trial](https://www.ibm.com/account/reg/us-en/signup?formid=urx-51726)
@@ -36,7 +38,7 @@ categories:
 - [Model Catalog](https://www.ibm.com/docs/en/watson-libraries?topic=models-catalog)
 - [Watson NLP in Cloud Pak for Data](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/watson-nlp.html?audience=wdp)
 
-*Development*
+### Development
 
 - [Running and Deploying IBM Watson NLP Containers]({{ "/article/running-and-deploying-ibm-watson-nlp-containers/" | relative_url }})
 - [Running IBM Watson NLP locally in Containers]({{ "/article/running-ibm-watson-nlp-locally-in-containers/" | relative_url }})
@@ -47,7 +49,7 @@ categories:
 - [Embed Model Builder (init Containers)](https://github.com/IBM/ibm-watson-embed-model-builder)
 - [Watson NLP Python Client](https://github.com/ibm-build-lab/Watson-NLP/blob/main/MLOps/Dash-App-gRPC-Client/readme.md)
 
-*Operations*
+### Operations
 
 - [Building custom IBM Watson NLP Images]({{ "/article/building-custom-ibm-watson-nlp-images-models/" | relative_url }})
 - [Automation for embedded IBM Watson Deployments]({{ "/article/automation-for-ibm-watson-deployments/" | relative_url }})
@@ -58,7 +60,7 @@ categories:
 - [Repo: Samples](https://github.com/ibm-build-lab/Watson-NLP/tree/main/MLOps)
 - [Serve Models on Amazon ECS with AWS Fargate](https://github.com/ibm-build-lab/Watson-NLP/blob/main/MLOps/Deploy-to-AWS-Fargate/README.md)
 
-*Training*
+### Training
 
 - [Training IBM Watson NLP Models]({{ "/article/training-ibm-watson-nlp-models/" | relative_url }})
 - [Watson Studio Environment for IBMers and Partners](https://developer.ibm.com/tutorials/set-up-your-ibm-watson-libraries-environment/)
@@ -68,7 +70,7 @@ categories:
 - [Topic Modeling](https://techzone.ibm.com/collection/watson-nlp-topic-modeling)
 - [Entities and Keywords Extraction](https://techzone.ibm.com/collection/watson-nlp-entities-and-keywords-extraction)
 
-**Speech To Text**
+## Speech To Text
 
 - [IBM Watson Speech Libraries for Embed](https://www.ibm.com/products/watson-speech-embed-libraries)
 - [Trial](https://www.ibm.com/account/reg/us-en/signup?formid=urx-51754)
@@ -83,7 +85,7 @@ categories:
 - [Watson Speech To Text Analysis Notebook](https://github.com/ibm-build-lab/Watson-Speech/blob/main/Speech%20To%20%20Text/Speech%20To%20Text%20Analysis.ipynb)
 - [STT Spring Application](https://github.com/ibm-build-lab/Watson-Speech/tree/main/STTApplication#readme)
 
-**Text To Speech**
+## Text To Speech
 
 - [IBM Watson Speech Libraries for Embed](https://www.ibm.com/products/watson-speech-embed-libraries)
 - [Trial](https://www.ibm.com/account/reg/signup?formid=urx-51758)
@@ -96,5 +98,3 @@ categories:
 - [SaaS Documentation](https://cloud.ibm.com/docs/text-to-speech?topic=text-to-speech-gettingStarted)
 - [Using TTS in a Notebook](https://github.com/ibm-build-lab/Watson-Speech/blob/main/Text%20To%20Speech/Text-to-Speech-Tutorial.md)
 - [Watson Developer Cloud (Client SDKs)](https://github.com/watson-developer-cloud)
-
-![image](/assets/img/2022/11/Screenshot-2022-11-22-at-11.12.21.png)

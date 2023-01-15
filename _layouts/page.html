@@ -41,8 +41,9 @@ layout: default
   
     {% if page.layout != 'home' %}
       <div class="access">
+        {% include pinned-sidebar.html %}
         {% include disclaimer.html %}
-        <!--{% include trending-tags.html %}-->
+        
       </div>
 
       {% for _include in layout.panel_includes %}
