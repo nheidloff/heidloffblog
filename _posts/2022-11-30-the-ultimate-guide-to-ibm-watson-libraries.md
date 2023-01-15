@@ -13,10 +13,10 @@ custom_permalink:
 categories:
     - Articles
 pin: true
-image: /assets/img/2022/11/Screenshot-2022-11-22-at-11.12.21.png
+image: /assets/img/embeddable-ai.png
 ---
 
-*IBM provides Watson NLP (Natural Language Understand), Watson Speech To Text and Watson Text To Speech as containers which can be embedded in cloud-native applications. This post lists links to relevant information in the context of Embeddable AI from IBM and the three libraries.*
+*IBM provides Watson NLP (Natural Language Understanding), Watson Speech To Text and Watson Text To Speech as containers which can be embedded in cloud-native applications. There is quite a bit of information available about these technologies. This post lists links to documentation, tutorials, test environments, and more.*
 
 ## Overview
 

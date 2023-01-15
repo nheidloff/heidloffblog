@@ -1,7 +1,7 @@
 ---
 id: 5113
 title: 'New Era of Software Development: Operations Automation'
-date: '2022-07-04T15:13:14+00:00'
+date: '2022-12-02T15:13:14+00:00'
 author: 'Niklas Heidloff'
 layout: post
 guid: 'http://heidloff.net/?p=5113'

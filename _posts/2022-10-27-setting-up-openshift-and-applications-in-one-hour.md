@@ -1,7 +1,7 @@
 ---
 id: 5177
 title: 'Setting up OpenShift and Applications in one Hour'
-date: '2022-10-27T06:13:31+00:00'
+date: '2022-12-01T06:13:31+00:00'
 author: 'Niklas Heidloff'
 layout: post
 guid: 'http://heidloff.net/?p=5177'
@@ -16,7 +16,7 @@ pin: true
 image: /assets/img/iascable-01.png
 ---
 
-*With IBM TechZone Deployer OpenShift can automatically be set up on multiple clouds including custom applications by using automation via Terraform and Argo CD.*
+*With IBM TechZone Deployer OpenShift can be set up on multiple clouds including custom applications by using automation via Terraform and Argo CD.*
 
 ## ZechZone Deployer Introduction
 
