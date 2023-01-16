@@ -1,46 +1,80 @@
-# Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+# Blog from Niklas Heidloff - heidloff.net
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders `_includes`, `_layout`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file from the theme's gem. If you have ever installed this theme gem, you can use the command `bundle info --path jekyll-theme-chirpy` to locate these files.
+This repo contains the blog from [Niklas Heidloff](https://heidloff.net), both the blog application as well as the blog data.
 
-The Jekyll organization claims that this is to leave the ball in the user’s court, but this also results in users not being able to enjoy the out-of-the-box experience when using feature-rich themes.
+<kbd><img src="assets/img/2023/01/IMG_2075.JPG" /></kbd>
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your Jekyll site. The following is a list of targets:
+The blog is a static website hosted on GitHub Pages. Blog posts are written in Markdown. The following technologies are used:
 
-```shell
-.
-├── _config.yml
-├── _data
-├── _plugins
-├── _tabs
-└── index.html
-```
+* [Jekyll](https://jekyllrb.com/), Liquid and Ruby
+* [GitHub Pages](https://pages.github.com/) and GitHub Actions
+* [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirpy)
 
-In order to save your time, and to prevent you from missing some files when copying, we extract those files/configurations of the latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+The Chirpy Jekyll Theme is available under the MIT license. The biggest addition of this repo is the responsive image at the top of the home page.
 
-## Prerequisites
+
+## Setup your own Blogs
+
+To use this repo for your own blogs, delete `_posts` and `assets/img` and change the configuration, for example in `_config.yaml`. 
+
+Create a brand new repository and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
 
 Follow the instructions in the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installation of `Ruby`, `RubyGems`, `Jekyll` and `Bundler`.
 
-## Installation
-
-[**Use this template**][use-template] to generate a brand new repository and name it `<GH_USERNAME>.github.io`, where `GH_USERNAME` represents your GitHub username.
-
-Then clone it to your local machine and run:
-
-```
-$ bundle
-```
 
 ## Usage
 
-Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+Install dependencies:
+
+```
+bundle install
+```
+
+Run locally:
+
+```
+bundle exec jekyll serve
+or
+bash tools/run
+```
+
+Run locally as container:
+
+```
+docker run -it --rm \
+    --volume="$PWD:/srv/jekyll" \
+    -p 4000:4000 jekyll/jekyll \
+    jekyll serve
+```
+
+Open http://localhost:4000.
+
+Test locally before pushing:
+
+```
+bash tools/test
+```
+
+If you need JavaScript code, run this in the first terminal:
+
+```
+bash tools/run
+```
+
+Run this in the second terminal:
+
+```
+npx gulp dev
+```
+
+To generate the minimized and uglified zip files, run this command:
+
+```
+npx gulp 
+```
+
 
 ## License
 
-This work is published under [MIT][mit] License.
+This work is published under Apache License v2.
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[use-template]: https://github.com/cotes2020/chirpy-starter/generate
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
