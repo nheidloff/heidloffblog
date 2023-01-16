@@ -55,7 +55,7 @@ Test locally before pushing:
 bash tools/test
 ```
 
-If you need JavaScript code, run this in the first terminal:
+If you need to change JavaScript code, run this in the first terminal:
 
 ```
 bash tools/run

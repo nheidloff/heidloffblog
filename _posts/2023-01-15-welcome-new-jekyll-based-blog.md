@@ -1,7 +1,7 @@
 ---
 id: nh-001
 title: 'Welcome to my new Jekyll-based Blog'
-date: 2023-01-15 01:00:00 +0800
+date: 2023-01-15 09:01:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-001'
@@ -12,7 +12,7 @@ image: /assets/img/2023/01/IMG_2075.JPG
 ---
 
 
-*When you read this, you will see that my blog layout has changed. More importantly I've migrated my blog from Wordpress to a static website built with Jekyll and hosted via GitHub Pages. Read on, if you want to know my motive.*
+*When you read this, you see that my blog layout has changed. More importantly I've migrated my blog from Wordpress to a static website built with Jekyll and hosted via GitHub Pages. Read on, if you want to know my motive.*
 
 ## History
 
