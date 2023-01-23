@@ -44,7 +44,7 @@ categories:
 
  – [Resources for developers](http://heidloff.net/nh/home.nsf/dx/18.06.2012102003NHEBSL.htm)  
  – [Deployment of iWidgets](http://heidloff.net/nh/home.nsf/dx/19.06.2012124845NHEEPK.htm)  
- – [REST API documentation and tips](http://heidloff.net/nh/home.nsf/dx/25.06.2012133034NHEFHN.htm)  
+ – [REST API documentation and tips](http://heidloff.net/article/25.06.2012133034NHEFHN.htm)  
  – [Event SPI sample](http://heidloff.net/nh/home.nsf/dx/20.06.2012151813NHEHLY.htm)  
  – [Remote debugging of SPI implementations](http://heidloff.net/nh/home.nsf/dx/20.06.2012151829NHEHM4.htm)  
  – [Customization](http://heidloff.net/nh/home.nsf/dx/19.06.2012124858NHEEPN.htm)  
