@@ -12,7 +12,7 @@ image: /assets/img/2023/01/llm2.png
 ---
 
 
-*As most of my readers will know there is a huge hype around ChatGPT, generative AI, large language models (LLMs) and further related AI technologies. I'm trying to understand these technologies better and have put together below a couple of key concepts I've found out so far.*
+*As most of my readers will know there is a huge hype around ChatGPT, generative AI, large language models (LLMs) also known as foundation models and further related AI technologies. I'm trying to understand these technologies better and have put together below a couple of key concepts I've found out so far.*
 
 *Note:* This post is mainly a quick summary of the articles referenced at the bottom, especially of the posts from my colleague Armand Ruiz.
 
@@ -100,4 +100,8 @@ If you want to learn about large language models, I recommend checking out the f
 * [Large Language Models: A New Moore's Law?](https://huggingface.co/blog/large-language-models)
 * [OpenAI CEO Sam Altman - AI for the Next Era](https://www.youtube.com/watch?v=WHoWGNQRXb0)
 
-Most of the models that I've found are not available as open source. Many of them provide trial plans which might work for you. [Stable Diffusion](https://stablediffusionweb.com/) seems to have a free playground that doesn't require registration and it is available as [open source](https://stability.ai/blog/stable-diffusion-public-release).
+Some of the popular models are not available as open source, but many of them provide trial plans which might work for you. 
+
+[BLOOM](https://bigscience.huggingface.co/blog/bloom) describes itself as the world’s largest open multilingual language model. 
+
+The image generator [Stable Diffusion](https://stablediffusionweb.com/) seems to have a free playground that doesn't require registration and it is available as [open source](https://stability.ai/blog/stable-diffusion-public-release).
