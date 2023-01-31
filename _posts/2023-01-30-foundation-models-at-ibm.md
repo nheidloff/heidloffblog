@@ -11,6 +11,7 @@ custom_permalink:
 image: /assets/img/2023/01/research.png
 ---
 
+
 *Sriram Raghavan, Vice President of IBM Research AI, talks in the [video](https://www.youtube.com/watch?v=_XR08GA9YH0) below about how IBM uses Foundation Models and shares his thoughts and ideas how foundation models will be operationalized.*
 
 I highly recommand to watch the complete video. Below I summarize some of Sriram's key points.
@@ -40,7 +41,7 @@ Similarly, clients might want to create their own foundation models for their do
 
 There are several benefits that foundation models provide. While in the past different models had to be trained for different scenarios, the generic foundation models can be used for different scenarios, even for scenarios which are unknown at training time.
 
-The main concept behind foundation models is to blank out some words and use the blanked out words as labels. This allows self-supervised learning of huge amounts of data. Labeling is in some cases not necessary anymore and in the cases where it is required for fine-tuning, significantly less labeling is needed. Especially in domains with little labeled data this is important.
+The main concept behind foundation models is (in the case of text) to blank out some words, use the sentences with blanked words as input and the complete sentences as labels. This allows self-supervised learning of huge amounts of data. Labeling is in some cases not necessary anymore and in the cases where it is required for fine-tuning, significantly less labeling is needed. Especially in domains with little labeled data this is important.
 
 Foundation models empower data science teams and make them more productive.
 
