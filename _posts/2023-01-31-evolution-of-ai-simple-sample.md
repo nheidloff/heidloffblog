@@ -1,7 +1,7 @@
 ---
 id: nh-005
 title: 'Evolution of AI explained via a simple Sample'
-date: 2023-01-30 09:01:00 +0100
+date: 2023-01-31 09:01:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-005'
