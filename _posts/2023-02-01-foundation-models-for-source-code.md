@@ -61,7 +61,7 @@ At the end of 2021 IBM open sourced the [CodeNet dataset](https://research.ibm.c
 
 The Google company DeepMind used the same dataset to develop AlphaCode.
 
-On top of the CodeNet dataset IBM Research and Red Hat built an extension to Visual Studio Code specifically to generate Ansible playbooks based on natural lanuage. Read the article [Continuing the momentum of AI for Code with Project Wisdom](https://research.ibm.com/blog/ai-for-code-project-wisdom-red-hat) and watch the [demo](https://www.youtube.com/watch?v=9Zvuz9r9bc4) for details. While Ansible isn't a classic programming language, it is very similar because of the declarative approach to provision and operate infrastructure resources (Infrastructure as Code).
+IBM Research and Red Hat built an extension to Visual Studio Code specifically to generate Ansible playbooks based on natural lanuage. Read the article [Continuing the momentum of AI for Code with Project Wisdom](https://research.ibm.com/blog/ai-for-code-project-wisdom-red-hat) and watch the [demo](https://www.youtube.com/watch?v=9Zvuz9r9bc4) for details. While Ansible isn't a classic programming language, it is very similar because of the declarative approach to provision and operate infrastructure resources (Infrastructure as Code).
 
 The following screenshot shows how nginx can be set up. After entering the text 'Install nginx and nodjs 12 Packages on RHEL' a proposal of the code is displayed in gray and can be accepted by pressing the tab key.
 
