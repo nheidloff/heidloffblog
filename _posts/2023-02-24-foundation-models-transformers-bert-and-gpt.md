@@ -64,7 +64,7 @@ The following words should get attention for the following queries:
 
 To determine the attention of words (more exactly tokens) 'queries', 'keys' and 'values' are used by encoders and decoders in transformers. All of them are presented in vectors. Keys are found for certain queries if they are closest to the query vector. Keys are an encoded representation for values, in simple cases they can be the same.
 
-There are different algorithms to implement the attention concept. I think an easy way to understand how this can work is to rank words high that are often used together in sentences. For example, 'where' and 'restaurant' have probably a closer relation than 'restaurant' and 'went'. So, for the query 'where' the word 'restaurant' gets more attention.
+There are different algorithms to implement the attention concept. I think an easy way to understand how this can work is to rank words high that are often used together in sentences. For example, 'where' and 'restaurant' have probably a closer relation than 'restaurant' and 'faith'. So, for the query 'where' the word 'restaurant' gets more attention.
 
 
 ## Encoders and Decoders 
