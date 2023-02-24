@@ -99,6 +99,8 @@ This is converted into:
 * Text: "Sarah went to a restaurant to meet her `MASK` that night."
 * Label: "Sarah went to a restaurant to meet her friend that night."
 
+Note that this is a very simplified description only since there aren't 'real' labels in BERT.
+
 In other words, BERT produces labeled data for originally unlabeled data. This technique is called `Self-Supervised Learning`. It works very well for huge amounts of data.
 
 In masked language models like BERT, each masked word (token) prediction is conditioned on the rest of the tokens in the sentence. These are received in the encoder which is why you don't need a decoder.
