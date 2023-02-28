@@ -1,7 +1,7 @@
 ---
 id: nh-009
 title: 'Foundation Models, Transformers, BERT and GPT'
-date: 2023-02-23 01:01:00 +0100
+date: 2023-02-24 01:01:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-009'
@@ -28,7 +28,7 @@ BERT and GPT are both foundation models. Let's look at the definition and charac
 - Pre-trained on different types of unlabeled datasets (e.g., language and images)
 - Self-supervised learning
 - Generalized data representations which can be used in multiple downstream tasks (e.g., classification and generation)
-- The `Transformer` architecture is mostly used, but no mandatory
+- The `Transformer` architecture is mostly used, but not mandatory
 
 Read my blog [Foundation Models at IBM](https://heidloff.net/article/foundation-models-at-ibm/) to find out more.
 
@@ -116,7 +116,7 @@ After this the decoder uses `Multi-Head Attention` as it's also used in the enco
 
 GPT doesn't use this trick though and only use a decoder. This is possible since these types of models have been trained with massive amounts of data (`Large Language Model`). The knowledge of encoders is encoded in billions of parameters (also called weights). The same knowledge exists in decoders when trained with enough data.
 
-Note that ChatGPT has evolved these techniques. To prevent hate, profanity and hate, humans need to label some data first. Additionally `Reinforcement Learning` is applied to improve the quality of the model (see [ChatGPT: Optimizing Language Models for Dialogue](https://openai.com/blog/chatgpt/)).
+Note that ChatGPT has evolved these techniques. To prevent hate, profanity and abuse, humans need to label some data first. Additionally `Reinforcement Learning` is applied to improve the quality of the model (see [ChatGPT: Optimizing Language Models for Dialogue](https://openai.com/blog/chatgpt/)).
 
 
 ## Resources
@@ -128,3 +128,4 @@ There are many good articles, videos and courses. Here are some of the ones I re
 * Article: [What Is ChatGPT Doing … and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 * Article: [10 Things You Need to Know About BERT and the Transformer Architecture That Are Reshaping the AI Landscape](https://neptune.ai/blog/bert-and-the-transformer-architecture)
 * Article: [Transformer’s Encoder-Decoder: Let’s Understand The Model Architecture](https://kikaben.com/transformers-encoder-decoder/)
+* [NLP - BERT & Transformer](https://jonathan-hui.medium.com/nlp-bert-transformer-7f0ac397f524)
