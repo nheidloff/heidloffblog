@@ -28,13 +28,13 @@ While the names of the three alternatives sound similar, the techniques are quit
 
 In difference to `Fine Tuning` no changes are required in the pretrained model weights (parameters). This makes a huge difference since changing the underlaying model is very expensive. The model is 'frozen'. Additionally, less labeled data is required, when using Prompt Tuning.
 
-In difference to `Prompt Engineering` users don't have to try out different prompts, for example via few shot learning, to find the best possible prompts. Instead, different prompt options are compared and optimized for specific tasks by data scientists and via automation.
+In difference to `Prompt Engineering` users don't have to try out different prompts, for example via few shot learning, to find the best possible prompts. Instead, different prompt options (more concrete: continuous embeddings) are compared and optimized for specific tasks by data scientists and via automation.
 
 The article [What is prompt-tuning?](https://research.ibm.com/blog/what-is-ai-prompt-tuning) explains the advantages:
 
 > Prompt-tuning is an efficient, low-cost way of adapting an AI foundation model to new downstream tasks without retraining the model and updating its weights.
 
-For prompt tuning, the context must be passed in again with every request in conversations since the prompts do not change the model.
+For prompt tuning, the context (more concrete: prompt embeddings) must be passed in again with every request in conversations since the prompts do not change the model.
 
 
 ## Simple Example
@@ -62,7 +62,7 @@ This approach is simple but increases the quality significantly. Different compa
 
 Prompts are a way to find the right entry points in the huge neural networks and to look for answers close to these entry points. I compare this with smart Google searches. To perform efficient searches, I try to provide as much context as possible, for example by defining lots of keywords for the specific topics of interest.
 
-Large language models understand the relationship between meanings of words. The more similar words are, the closer they are in the huge mutit-dimensional neural networks. Via good prompts **context** is provided. For example, when searching information how to write source code, it makes sense to start searching in the cluster of neurons that understand programming as opposed to another cluster of neurons which knows about nature.
+Large language models understand the relationship between meanings of words. The more similar words are, the closer they are in the huge multi-dimensional neural networks. Via good prompts **context** is provided. For example, when searching information how to write source code, it makes sense to start searching in the cluster of neurons that understand programming as opposed to another cluster of neurons which knows about nature.
 
 In the example above the text 'it was' was added to the prompt. Prompt Tuning provides different options to find out what the best words in the prompts are that are appended ('B') and/or prepended ('A'). 
 
@@ -84,5 +84,6 @@ To learn more about Prompt Tuning, check out these resources:
 * [What is prompt-tuning?](https://research.ibm.com/blog/what-is-ai-prompt-tuning)
 * [State-of-the-art Parameter-Efficient Fine-Tuning (PEFT) methods](https://github.com/huggingface/peft)
 * [A Good Prompt Is Worth Millions of Parameters](https://arxiv.org/abs/2110.08484)
+* [Learn Prompting](https://learnprompting.org/docs/trainable/soft_prompting)
 * [Pre-train, Prompt, and Predict](https://arxiv.org/pdf/2107.13586.pdf)
 * [Prompting GPT-3 To Be Reliable](https://arxiv.org/abs/2210.09150)
