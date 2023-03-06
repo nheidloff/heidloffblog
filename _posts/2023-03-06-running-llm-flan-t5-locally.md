@@ -1,6 +1,6 @@
 ---
 id: nh-011
-title: 'Running the Large Language Model Flan-T5 locally'
+title: 'Running the Large Language Model FLAN-T5 locally'
 date: 2023-03-03 01:01:00 +0100
 author: 'Niklas Heidloff'
 layout: post
