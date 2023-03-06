@@ -62,7 +62,7 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 jupyter lab --ip='0.0.0.0' --port=8888 --no-browser --allow-root --notebook-dir=/home
 ```
 
-Open Jupyter in your browser via the link [http://127.0.0.1:8888/lab?token=xxx]([http://127.0.0.1:8888/lab?token=xxx]) which you'll find in the terminal.
+Open Jupyter in your browser via the link which you'll find in the terminal.
 
 After you stop Jupyter and the container, you can restart everything:
 
