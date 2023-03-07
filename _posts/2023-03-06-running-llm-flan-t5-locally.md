@@ -54,7 +54,6 @@ docker run -i -t -p 8888:8888 -v "$PWD":/home --name anaconda3 continuumio/anaco
 From within the container install the dependencies and run Jupyter:
 
 ```bash
-terminal 1 - container:
 pip install transformers
 pip install transformers[torch]
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
