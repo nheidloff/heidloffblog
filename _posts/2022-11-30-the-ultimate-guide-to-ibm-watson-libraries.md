@@ -12,7 +12,6 @@ custom_permalink:
     - article/the-ultimate-guide-to-ibm-watson-libraries/
 categories:
     - Articles
-pin: true
 image: /assets/img/embeddable-ai.png
 ---
 

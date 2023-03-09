@@ -12,7 +12,6 @@ custom_permalink:
     - article/setting-up-openshift-and-applications-in-one-hour/
 categories:
     - Articles
-pin: true
 image: /assets/img/iascable-01.png
 ---
 

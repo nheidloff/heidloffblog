@@ -1,7 +1,7 @@
 ---
 id: 5442
 title: 'Text Classification Sample for IBM Watson NLP'
-date: '2022-12-02T00:37:05+00:00'
+date: '2022-12-03T00:37:05+00:00'
 author: 'Niklas Heidloff'
 layout: post
 guid: 'http://heidloff.net/?p=5442'
@@ -12,6 +12,7 @@ custom_permalink:
     - article/text-classification-sample-for-ibm-watson-nlp/
 categories:
     - Articles
+pin: true
 ---
 
 *This post is the first one of a mini series which describes an AI text classification sample end to end. The sample covers the AI lifecycle, from data preparation, over training to deployment on Kubernetes. Watson NLP (Natural Language Understanding) and Watson Studio are used for the training. At runtime Watson NLP is run as container on Kubernetes.*

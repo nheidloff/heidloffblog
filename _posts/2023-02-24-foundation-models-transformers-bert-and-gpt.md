@@ -9,6 +9,7 @@ permalink: /article/foundation-models-transformers-bert-and-gpt/
 custom_permalink:
     - article/foundation-models-transformers-bert-and-gpt/
 image: /assets/img/2023/02/transformers.png
+pin: true
 ---
 
 

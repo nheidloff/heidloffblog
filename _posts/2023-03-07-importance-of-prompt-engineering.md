@@ -1,7 +1,7 @@
 ---
 id: nh-013
 title: 'The Importance of Prompt Engineering'
-date: 2023-03-07 01:01:00 +0100
+date: 2023-03-06 01:01:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-013'
@@ -114,7 +114,7 @@ There are now 23 - 20 = 3 apples left after lunch. There are now 3 + 6 = 9 apple
 
 Prompt Engineering is a new technique or even a new profession as consequence of the success of Large Language Models like GPT3. Models work for various natural language processing tasks without having to be re-trained which is expensive and time consuming.
 
-To find the best prompts, known techniques and patterns can be used, but in many cases experimentation is required since Prompt Engineering is rather new and works differently for different types of models. For example, some models allow passing in special tokens as separators, line breaks, etc.
+To find the best prompts, known techniques and patterns can be used, but in many cases experimentation is required since Prompt Engineering is rather new and works differently for different types of models. For example, some models allow passing in special tokens like separators, line breaks, etc.
 
 In addition to the text of prompts often parameters can be tuned. The 'temperature' defines whether the model should try to be as precise as possible or whether it should be as creative as possible. Via other parameters the lengths of the outputs can be defined.
 
